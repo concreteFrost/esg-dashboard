@@ -1,0 +1,930 @@
+<!DOCTYPE html>
+<html>
+@@include('./_head.html', {
+  "title": "Dashboard - esg:one",
+  "canonical": "https://app.esg-one.co/dashboard/home",
+  "path": ".",
+  "path_common": ".."
+})
+<body>
+  <!-- Preloader -->
+  @@include('./_preloader.html', {
+    "path": "."
+  })
+  <!-- Tracking code -->
+  @@include('./_tracking-body.html')
+  <!-- Sidenav -->
+  @@include('./_nav-side.html', {
+    "path": ".",
+    "path_common": ".."
+  })
+  <!-- Main content -->
+  <div class="main-content" id="panel">
+    <!-- Topnav -->
+    <nav class="navbar navbar-top navbar-expand navbar-dark bg-esg-five border-bottom shadow-lg">
+        @@include('./_nav-top.html', {
+            "path": "."
+        })
+    </nav>
+    <!-- Header -->
+    <div class="header bg-esg-five pb-6">
+      <div class="container-fluid">
+        <div class="header-body">
+          <div class="row align-items-center py-4">
+            <div class="col-lg-6 col-7">
+              <h6 class="h2 text-white d-inline-block mb-0">FSI Bank</h6>
+              <nav aria-label="breadcrumb" class="d-none d-md-inline-block ml-md-4">
+                <ol class="breadcrumb breadcrumb-links breadcrumb-dark">
+                  <li class="breadcrumb-item"><a href="/dashboard/home"><i class="fas fa-home"></i></a></li>
+                  <li class="breadcrumb-item active" aria-current="page">Dashboard</li>
+                </ol>
+              </nav>
+            </div>
+            <div class="col-lg-6 col-5 text-right">
+              <a href="#" class="btn btn-sm btn-neutral d-inline-block d-md-none">Edit</a>
+              <a href="#" class="btn btn-sm btn-neutral d-none d-md-inline-block">Customise Widgets</a>
+            </div>
+          </div>
+          <!-- Card stats -->
+          <div class="row">
+            <div class="col-xl-3 col-md-6">
+              <div class="card card-stats">
+                <!-- Card body -->
+                <div class="card-body">
+                  <div class="row">
+                    <div class="col">
+                      <h5 class="card-title text-uppercase text-muted mb-0">GHG Emissions</h5>
+                      <h6 class="text-muted">Scopes 1, 2, 3 (location)</h6>
+                      <span class="h2 font-weight-bold mb-0">197,504 <span class="h5">(tCO2e)</span></span>
+                    </div>
+                    <div class="col-auto">
+                      <div class="icon icon-shape bg-esg-two text-white rounded-circle shadow">
+                        <i class="ni ni-delivery-fast"></i>
+                      </div>
+                    </div>
+                  </div>
+                  <p class="mt-3 mb-0 text-sm">
+                    <span class="text-nowrap text-success"><i class="fa fa-arrow-up"></i> 3% above target</span>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-3 col-md-6">
+              <div class="card card-stats">
+                <!-- Card body -->
+                <div class="card-body">
+                  <div class="row">
+                    <div class="col">
+                      <h5 class="card-title text-uppercase text-muted mb-0">Green Finance</h5>
+                      <h6 class="text-muted">Provided in 2020</h6>
+                      <span class="h2 font-weight-bold mb-0">34 billion <span class="h5">(GBP)</span></span>
+                    </div>
+                    <div class="col-auto">
+                      <div class="icon icon-shape bg-esg-three text-white rounded-circle shadow">
+                        <i class="ni ni-money-coins"></i>
+                      </div>
+                    </div>
+                  </div>
+                  <p class="mt-3 mb-0 text-sm">
+                    <span class="text-nowrap text-success"><i class="fa fa-arrow-up"></i> 5% above target</span>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-3 col-md-6">
+              <div class="card card-stats">
+                <!-- Card body -->
+                <div class="card-body">
+                  <div class="row">
+                    <div class="col">
+                      <h5 class="card-title text-uppercase text-muted mb-0">Management</h5>
+                      <h6 class="text-muted">Woman</h6>
+                      <span class="h2 font-weight-bold mb-0">26%</span>
+                    </div>
+                    <div class="col-auto">
+                      <div class="icon icon-shape bg-esg-four text-white rounded-circle shadow">
+                        <i class="ni ni-badge"></i>
+                      </div>
+                    </div>
+                  </div>
+                  <p class="mt-3 mb-0 text-sm">
+                    <span class="text-nowrap text-danger"><i class="fa fa-arrow-down"></i> 10% below target</span>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-3 col-md-6">
+              <div class="card card-stats">
+                <!-- Card body -->
+                <div class="card-body">
+                  <div class="row">
+                    <div class="col">
+                      <h5 class="card-title text-uppercase text-muted mb-0">Carbon-risk</h5>
+                      <h6 class="text-muted">Credit Exposure (%)</h6>
+                      <span class="h2 font-weight-bold mb-0">30.69%</span>
+                    </div>
+                    <div class="col-auto">
+                      <div class="icon icon-shape bg-esg-five text-white rounded-circle shadow">
+                        <i class="ni ni-world"></i>
+                      </div>
+                    </div>
+                  </div>
+                  <p class="mt-3 mb-0 text-sm">
+                    <span class="text-nowrap text-danger"><i class="fa fa-arrow-down"></i> 5% below target</span>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Page content -->
+    <div class="container-fluid mt--6">
+      <div class="row">
+        <!-- ESG Readiness Treemap -->
+        <div class="col-xl-8">
+          <div class="card">
+            <div class="card-header bg-transparent">
+              <div class="row align-items-center">
+                <div class="col">
+                  <h6 class="text-uppercase text-muted ls-1 mb-1">Performance</h6>
+                  <h5 class="h3 mb-0">ESG Readiness</h5>
+                </div>
+                <div class="col text-right">
+                  <!-- <a href="/dashboard/company/esg-readiness.html" class="btn btn-sm btn-primary">View Detail</a> -->
+                  <a href="/dashboard/company/disclosure-reporting.html" class="btn btn-sm btn-primary">Disclosure Report</a>
+                </div>
+              </div>
+            </div>
+            <div id="card" class="card-body p-0">
+              <p id="chart"></p>
+              <div id="domainDrillDown"></div>
+            </div>
+          </div>
+        </div>
+        <!-- ESG Readiness Progress -->
+        <div class="col-xl-4">
+          <div class="card">
+            <div class="card-header">
+              <h6 class="text-uppercase text-muted ls-1 mb-1">ESG Readiness</h6>
+              <h5 class="h3 mb-0">Reporting Progress</h5>
+            </div>
+            <div class="card-body mb--1">
+              <!-- List group -->
+              <ul class="list-group list-group-flush list my--3">
+                <li class="list-group-item px-0">
+                  <div class="row align-items-center">
+                    <div class="col-auto">
+                      <!-- Logo -->
+                      <a href="/dashboard/frameworks/sasb.html" class="avatar rounded-circle">
+                        <img alt="SASB" src="./assets/img/frameworks/sasb.svg">
+                      </a>
+                    </div>
+                    <div class="col">
+                      <h5>SASB <span class="small text-dark">(18%)</span></h5>
+                      <div class="progress progress-xs mb-0">
+                        <div class="progress-bar bg-red" role="progressbar" aria-valuenow="18" aria-valuemin="0" aria-valuemax="100" style="width: 18%;"></div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li class="list-group-item px-0">
+                  <div class="row align-items-center">
+                    <div class="col-auto">
+                      <!-- Logo -->
+                      <a href="#" class="avatar rounded-circle">
+                        <img alt="GRI" class="bg-white" src="./assets/img/frameworks/gri.svg">
+                      </a>
+                    </div>
+                    <div class="col">
+                      <h5>GRI <span class="small text-dark">(100%)</span></h5>
+                      <div class="progress progress-xs mb-0">
+                        <div class="progress-bar bg-green" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%;"></div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li class="list-group-item px-0">
+                  <div class="row align-items-center">
+                    <div class="col-auto">
+                      <!-- Logo -->
+                      <a href="#" class="avatar rounded-circle">
+                        <img alt="EU NFRD" class="bg-white" src="./assets/img/frameworks/eu.png">
+                      </a>
+                    </div>
+                    <div class="col">
+                      <h5>EU NFRD <span class="small text-dark">(72%)</span></h5>
+                      <div class="progress progress-xs mb-0">
+                        <div class="progress-bar bg-orange" role="progressbar" aria-valuenow="72" aria-valuemin="0" aria-valuemax="100" style="width: 72%;"></div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li class="list-group-item px-0">
+                  <div class="row align-items-center">
+                    <div class="col-auto">
+                      <!-- Logo -->
+                      <a href="#" class="avatar rounded-circle">
+                        <img alt="PRI" class="bg-white" src="./assets/img/frameworks/pri.svg">
+                      </a>
+                    </div>
+                    <div class="col">
+                      <h5>PRI <span class="small text-dark">(90%)</span></h5>
+                      <div class="progress progress-xs mb-0">
+                        <div class="progress-bar bg-teal" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%;"></div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li class="list-group-item px-0">
+                  <div class="row align-items-center">
+                    <div class="col-auto">
+                      <!-- Logo -->
+                      <a href="#" class="avatar rounded-circle">
+                        <img alt="CDP" class="bg-white" src="./assets/img/frameworks/cdp.svg">
+                      </a>
+                    </div>
+                    <div class="col">
+                      <h5>CDP <span class="small text-dark">(100%)</span></h5>
+                      <div class="progress progress-xs mb-0">
+                        <div class="progress-bar bg-green" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%;"></div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!-- <div class="card">
+            <div class="card-header bg-transparent">
+              <div class="row align-items-center">
+                <div class="col-8">
+                  <h6 class="text-uppercase text-muted ls-1 mb-1">Green Finance</h6>
+                  <h5 class="h3 mb-0">Carbon-Risk Exposure</h5>
+                </div>
+                <div class="col text-right">
+                  <a href="#" class="btn btn-sm btn-neutral">View Report</a>
+                </div>
+              </div>
+            </div>
+            <div class="card-body">
+              <div class="chart">
+                <canvas id="chart-bars" class="chart-canvas"></canvas>
+              </div>
+            </div>
+          </div> -->
+        </div>
+      </div>
+      <!-- Table & Country Listing -->
+      <div class="row">
+        <!-- Risks Table -->
+        <div class="col-xl-8">
+          <div class="card">
+            <div class="card-header border-0">
+              <div class="row align-items-center">
+                <div class="col">
+                  <h3 class="mb-0">Risks</h3>
+                </div>
+                <div class="col text-right">
+                  <a href="/dashboard/company/risk-overview.html" class="btn btn-sm btn-primary">Risk Overview</a>
+                </div>
+              </div>
+            </div>
+            <div class="table-responsive active mb-3 pb-1" data-toggle="list" data-list-values='["name", "metric", "control", "score", "target", "gap"]'>
+              <table class="table align-items-center table-flush">
+                <thead class="thead-light">
+                  <tr>
+                    <th scope="col" class="sort" data-sort="name">Risk</th>
+                    <th scope="col" class="sort" data-sort="metric">Metric(s)</th>
+                    <th scope="col" class="sort" data-sort="control">Control</th>
+                    <th scope="col">Responsible</th>
+                    <th scope="col" class="sort" data-sort="score">Score</th>
+                    <th scope="col" class="sort" data-sort="target">Target</th>
+                    <th scope="col" class="sort" data-sort="gap">Gap</th>
+                  </tr>
+                </thead>
+                <tbody class="list">
+                  <tr>
+                    <th scope="row">
+                      <div class="media align-items-center">
+                        <a href="#" class="avatar bg-esg-eight rounded-circle mr-3">
+                          <i class="ni ni-bell-55"></i>
+                        </a>
+                        <div class="media-body">
+                          <span class="name mb-0 text-sm">Missed CO2 target</span>
+                        </div>
+                      </div>
+                    </th>
+                    <td class="metric">
+                      GHG emissions
+                    </td>
+                    <td>
+                      <span class="badge badge-lg badge-info">7</span>
+                    </td>
+                    <td>
+                      <div class="avatar-group">
+                        <a href="#" class="avatar avatar-sm rounded-circle" data-toggle="tooltip" data-original-title="Tammy Frey">
+                          <img alt="Image placeholder" src="./assets/img/theme/team-3.jpg">
+                        </a>
+                        <a href="#" class="avatar avatar-sm rounded-circle" data-toggle="tooltip" data-original-title="Steve Hamm">
+                          <img alt="Image placeholder" src="./assets/img/profile/steve.jpg">
+                        </a>
+                      </div>
+                    </td>
+                    <td class="score">12</td>
+                    <td class="target">3</td>
+                    <td class="gap text-danger">-9</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">
+                      <div class="media align-items-center">
+                        <a href="#" class="avatar bg-esg-eight rounded-circle mr-3">
+                          <i class="ni ni-bell-55"></i>
+                        </a>
+                        <div class="media-body">
+                          <span class="name mb-0 text-sm">Anti-competitive <br>legal proceedings</span>
+                        </div>
+                      </div>
+                    </th>
+                    <td class="metric">
+                      Legal actions for anti-competitive <br>behavior, anti-trust, and monopoly <br>practices
+                    </td>
+                    <td>
+                      <span class="badge badge-lg badge-danger">N/A</span>
+                    </td>
+                    <td>
+                      <div class="avatar-group">
+                        <a href="#" class="avatar avatar-sm rounded-circle" data-toggle="tooltip" data-original-title="James Patterson">
+                          <img alt="Image placeholder" src="./assets/img/theme/team-1.jpg">
+                        </a>
+                        <a href="#" class="avatar avatar-sm rounded-circle" data-toggle="tooltip" data-original-title="Lisa Hendricks">
+                          <img alt="Image placeholder" src="./assets/img/theme/team-2.jpg">
+                        </a>
+                        <a href="#" class="avatar avatar-sm rounded-circle" data-toggle="tooltip" data-original-title="Tammy Frey">
+                          <img alt="Image placeholder" src="./assets/img/theme/team-3.jpg">
+                        </a>
+                      </div>
+                    </td>
+                    <td class="score">6</td>
+                    <td class="target">6</td>
+                    <td class="gap text-success">0</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">
+                      <div class="media align-items-center">
+                        <a href="#" class="avatar bg-esg-eight rounded-circle mr-3">
+                          <i class="ni ni-bell-55"></i>
+                        </a>
+                        <div class="media-body">
+                          <span class="name mb-0 text-sm">EU taxonomy for <br>credit portfolio is not <br>delivered in time</span>
+                        </div>
+                      </div>
+                    </th>
+                    <td class="metric">
+                      N/A
+                    </td>
+                    <td>
+                      <span class="badge badge-lg badge-danger">N/A</span>
+                    </td>
+                    <td>
+                      <div class="avatar-group">
+                        <a href="#" class="avatar avatar-sm rounded-circle" data-toggle="tooltip" data-original-title="Tammy Frey">
+                          <img alt="Image placeholder" src="./assets/img/theme/team-3.jpg">
+                        </a>
+                        <a href="#" class="avatar avatar-sm rounded-circle" data-toggle="tooltip" data-original-title="Steve Hamm">
+                          <img alt="Image placeholder" src="./assets/img/profile/steve.jpg">
+                        </a>
+                      </div>
+                    </td>
+                    <td class="score">3</td>
+                    <td class="target">3</td>
+                    <td class="gap text-success">0</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">
+                      <div class="media align-items-center">
+                        <a href="#" class="avatar bg-esg-eight rounded-circle mr-3">
+                          <i class="ni ni-bell-55"></i>
+                        </a>
+                        <div class="media-body">
+                          <span class="name mb-0 text-sm">CO2 target setting <br>not seen as credible</span>
+                        </div>
+                      </div>
+                    </th>
+                    <td class="metric">
+                      GHG emissions<br>
+                      Systemic risk management
+                    </td>
+                    <td>
+                      <span class="badge badge-lg badge-info">7</span> <span class="badge badge-lg badge-primary">4</span>
+                    </td>
+                    <td>
+                      <div class="avatar-group">
+                        <a href="#" class="avatar avatar-sm rounded-circle" data-toggle="tooltip" data-original-title="Lisa Hendricks">
+                          <img alt="Image placeholder" src="./assets/img/theme/team-2.jpg">
+                        </a>
+                        <a href="#" class="avatar avatar-sm rounded-circle" data-toggle="tooltip" data-original-title="Steve Hamm">
+                          <img alt="Image placeholder" src="./assets/img/profile/steve.jpg">
+                        </a>
+                      </div>
+                    </td>
+                    <td class="score">16</td>
+                    <td class="target">4</td>
+                    <td class="gap text-danger">-12</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">
+                      <div class="media align-items-center">
+                        <a href="#" class="avatar bg-esg-eight rounded-circle mr-3">
+                          <i class="ni ni-bell-55"></i>
+                        </a>
+                        <div class="media-body">
+                          <span class="name mb-0 text-sm">Embodied carbon <br>added to footprint</span>
+                        </div>
+                      </div>
+                    </th>
+                    <td class="metric">
+                      GHG emissions
+                    </td>
+                    <td>
+                      <span class="badge badge-lg badge-info">7</span>
+                    </td>
+                    <td>
+                      <div class="avatar-group">
+                        <a href="#" class="avatar avatar-sm rounded-circle" data-toggle="tooltip" data-original-title="James Patterson">
+                          <img alt="Image placeholder" src="./assets/img/theme/team-1.jpg">
+                        </a>
+                        <a href="#" class="avatar avatar-sm rounded-circle" data-toggle="tooltip" data-original-title="Tammy Frey">
+                          <img alt="Image placeholder" src="./assets/img/theme/team-3.jpg">
+                        </a>
+                        <a href="#" class="avatar avatar-sm rounded-circle" data-toggle="tooltip" data-original-title="Steve Hamm">
+                          <img alt="Image placeholder" src="./assets/img/profile/steve.jpg">
+                        </a>
+                      </div>
+                    </td>
+                    <td class="score">16</td>
+                    <td class="target">12</td>
+                    <td class="gap text-success">4</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">
+                      <div class="media align-items-center">
+                        <a href="#" class="avatar bg-esg-eight rounded-circle mr-3">
+                          <i class="ni ni-bell-55"></i>
+                        </a>
+                        <div class="media-body">
+                          <span class="name mb-0 text-sm">Customer privacy breach</span>
+                        </div>
+                      </div>
+                    </th>
+                    <td class="metric">
+                      (1) Number of data breaches<br>
+                      (2) percentage involving personally <br>
+                      identifiable information (PII)<br>
+                      (3) number of account holders affected
+                    </td>
+                    <td>
+                      <span class="badge badge-lg badge-dark">12</span>
+                    </td>
+                    <td>
+                      <div class="avatar-group">
+                        <a href="#" class="avatar avatar-sm rounded-circle" data-toggle="tooltip" data-original-title="Tammy Frey">
+                          <img alt="Image placeholder" src="./assets/img/theme/team-3.jpg">
+                        </a>
+                        <a href="#" class="avatar avatar-sm rounded-circle" data-toggle="tooltip" data-original-title="Steve Hamm">
+                          <img alt="Image placeholder" src="./assets/img/profile/steve.jpg">
+                        </a>
+                      </div>
+                    </td>
+                    <td class="score">16</td>
+                    <td class="target">4</td>
+                    <td class="gap text-danger">-12</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+        <!-- Country Listing Vector Map -->
+        <div class="col-xl-4">
+          <!-- Vector map -->
+          <div class="card widget-calendar">
+            <!-- Card header -->
+            <div class="card-header">
+              <div class="row align-items-center">
+                <div class="col-8">
+                  <!-- Title -->
+                  <h5 class="h3 mb-0">Company Locations</h5>
+                </div>
+                <div class="col-4 text-right">
+                  <a href="#!" class="btn btn-sm btn-neutral">View All</a>
+                </div>
+              </div>
+            </div>
+            <!-- Card body -->
+            <div class="card-body">
+              <!-- Vector map -->
+              <div class="vector-map vector-map-sm" data-toggle="vectormap" data-map="world_mill"></div>
+              <!-- List group -->
+              <ul class="list-group list-group-flush list my--3">
+                <li class="list-group-item px-0">
+                  <div class="row align-items-center">
+                    <div class="col-auto">
+                      <!-- Country flag -->
+                      <img class="flags" src="./assets/img/icons/flags/US.png" alt="United States" />
+                    </div>
+                    <div class="col">
+                      <small>Country</small>
+                      <h5 class="mb-0">United States</h5>
+                    </div>
+                    <div class="col">
+                      <small>Branches</small>
+                      <h5 class="mb-0">200</h5>
+                    </div>
+                    <div class="col">
+                      <small>Perform. vs Mean</small>
+                      <h5 class="mb-0 text-danger">23%</h5>
+                    </div>
+                  </div>
+                </li>
+                <li class="list-group-item px-0">
+                  <div class="row align-items-center">
+                    <div class="col-auto">
+                      <!-- Country flag -->
+                      <img class="flags" src="./assets/img/icons/flags/IN.png" alt="India" />
+                    </div>
+                    <div class="col">
+                      <small>Country</small>
+                      <h5 class="mb-0">India</h5>
+                    </div>
+                    <div class="col">
+                      <small>Branches</small>
+                      <h5 class="mb-0">150</h5>
+                    </div>
+                    <div class="col">
+                      <small>Perform. vs Mean</small>
+                      <h5 class="mb-0 text-success">18%</h5>
+                    </div>
+                  </div>
+                </li>
+                <li class="list-group-item px-0">
+                  <div class="row align-items-center">
+                    <div class="col-auto">
+                      <!-- Country flag -->
+                      <img class="flags" src="./assets/img/icons/flags/GB.png" alt="United Kingdom" />
+                    </div>
+                    <div class="col">
+                      <small>Country</small>
+                      <h5 class="mb-0">United Kingdom</h5>
+                    </div>
+                    <div class="col">
+                      <small>Branches</small>
+                      <h5 class="mb-0">1,600</h5>
+                    </div>
+                    <div class="col">
+                      <small>Perform. vs Mean</small>
+                      <h5 class="mb-0 text-success">3%</h5>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Members & Todos -->
+      <!-- <div class="card-deck flex-column flex-xl-row"> -->
+      <div class="row">
+        <!-- Checklist -->
+        <div class="col-xl-4">
+          <div class="card">
+            <!-- Card header -->
+            <div class="card-header">
+              <!-- Title -->
+              <h5 class="h3 mb-0">Todo List</h5>
+            </div>
+            <!-- Card body -->
+            <div class="card-body p-0">
+              <!-- List group -->
+              <ul class="list-group list-group-flush mb-3" data-toggle="checklist">
+                <li class="checklist-entry list-group-item flex-column align-items-start py-4 px-4">
+                  <div class="checklist-item checklist-item-esg-three">
+                    <div class="checklist-info">
+                      <h5 class="checklist-title mb-0">Prepare new Risk Report for Germany</h5>
+                      <small>SASB</small>
+                    </div>
+                    <div>
+                      <div class="custom-control custom-checkbox custom-checkbox-esg-three">
+                        <input class="custom-control-input" id="chk-todo-task-2" type="checkbox">
+                        <label class="custom-control-label" for="chk-todo-task-2"></label>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li class="checklist-entry list-group-item flex-column align-items-start py-4 px-4">
+                  <div class="checklist-item checklist-item-esg-five">
+                    <div class="checklist-info">
+                      <h5 class="checklist-title mb-0">Complete Risk Assessment #17</h5>
+                      <small>GRI</small>
+                    </div>
+                    <div>
+                      <div class="custom-control custom-checkbox custom-checkbox-esg-five">
+                        <input class="custom-control-input" id="chk-todo-task-3" type="checkbox">
+                        <label class="custom-control-label" for="chk-todo-task-3"></label>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li class="checklist-entry list-group-item flex-column align-items-start py-4 px-4">
+                  <div class="checklist-item checklist-item-esg-five">
+                    <div class="checklist-info">
+                      <h5 class="checklist-title mb-0">Upload Water Usage docs for Risk #19</h5>
+                      <small>GRI</small>
+                    </div>
+                    <div>
+                      <div class="custom-control custom-checkbox custom-checkbox-esg-five">
+                        <input class="custom-control-input" id="chk-todo-task-1" type="checkbox" checked>
+                        <label class="custom-control-label" for="chk-todo-task-1"></label>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li class="checklist-entry list-group-item flex-column align-items-start py-4 px-4">
+                  <div class="checklist-item checklist-item-esg-three">
+                    <div class="checklist-info">
+                      <h5 class="checklist-title mb-0">Upload Anti Competitive reports for 2020</h5>
+                      <small>SASB</small>
+                    </div>
+                    <div>
+                      <div class="custom-control custom-checkbox custom-checkbox-esg-three">
+                        <input class="custom-control-input" id="chk-todo-task-4" type="checkbox" checked>
+                        <label class="custom-control-label" for="chk-todo-task-4"></label>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li class="checklist-entry list-group-item flex-column align-items-start py-4 px-4">
+                  <div class="checklist-item checklist-item-esg-esg-three">
+                    <div class="checklist-info">
+                      <h5 class="checklist-title mb-0">Create Risk Report for GHG Emissions</h5>
+                      <small>SASB</small>
+                    </div>
+                    <div>
+                      <div class="custom-control custom-checkbox custom-checkbox-esg-three">
+                        <input class="custom-control-input" id="chk-todo-task-5" type="checkbox" checked>
+                        <label class="custom-control-label" for="chk-todo-task-5"></label>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!-- Members list group card -->
+        <div class="col-xl-8">
+          <div class="card">
+            <!-- Card header -->
+            <div class="card-header border-0">
+              <h3 class="mb-0">Team Tasks</h3>
+            </div>
+            <!-- Translucent table -->
+            <div class="table-responsive mb-1" data-toggle="list" data-list-values='["name", "type", "status", "completion"]'>
+              <table class="table align-items-center table-flush">
+                <thead class="thead-light">
+                  <tr>
+                    <th scope="col" class="sort" data-sort="name">Task</th>
+                    <th scope="col" class="sort" data-sort="type">Type</th>
+                    <th scope="col">Team</th>
+                    <th scope="col" class="sort" data-sort="status">Status</th>
+                    <th scope="col" class="sort" data-sort="completion">Completion</th>
+                  </tr>
+                </thead>
+                <tbody class="list thome">
+                  <tr>
+                    <th scope="row" class="name">
+                      German <br>employment data
+                    </th>
+                    <td class="type">Data Request</td>
+                    <td>
+                      <div class="avatar-group">
+                        <a href="#" class="avatar avatar-sm rounded-circle" data-toggle="tooltip" data-original-title="Tammy Frey">
+                          <img alt="Image placeholder" src="./assets/img/theme/team-3.jpg">
+                        </a>
+                        <a href="#" class="avatar avatar-sm rounded-circle" data-toggle="tooltip" data-original-title="Steve Hamm">
+                          <img alt="Image placeholder" src="./assets/img/profile/steve.jpg">
+                        </a>
+                      </div>
+                    </td>
+                    <td>
+                      <span class="badge badge-dot mr-4">
+                        <i class="bg-warning"></i>
+                        <span class="status">pending</span>
+                      </span>
+                    </td>
+                    <td>
+                      <div class="d-flex align-items-center">
+                        <span class="completion mr-2">60%</span>
+                        <div>
+                          <div class="progress">
+                            <div class="progress-bar bg-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;"></div>
+                          </div>
+                        </div>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row" class="name">
+                      Automate energy <br>bill ingestion
+                    </th>
+                    <td class="type">Action</td>
+                    <td>
+                      <div class="avatar-group">
+                        <a href="#" class="avatar avatar-sm rounded-circle" data-toggle="tooltip" data-original-title="James Patterson">
+                          <img alt="Image placeholder" src="./assets/img/theme/team-1.jpg">
+                        </a>
+                        <a href="#" class="avatar avatar-sm rounded-circle" data-toggle="tooltip" data-original-title="Lisa Hendricks">
+                          <img alt="Image placeholder" src="./assets/img/theme/team-2.jpg">
+                        </a>
+                        <a href="#" class="avatar avatar-sm rounded-circle" data-toggle="tooltip" data-original-title="Tammy Frey">
+                          <img alt="Image placeholder" src="./assets/img/theme/team-3.jpg">
+                        </a>
+                      </div>
+                    </td>
+                    <td>
+                      <span class="badge badge-dot mr-4">
+                        <i class="bg-success"></i>
+                        <span class="status">completed</span>
+                      </span>
+                    </td>
+                    <td>
+                      <div class="d-flex align-items-center">
+                        <span class="completion mr-2">100%</span>
+                        <div>
+                          <div class="progress">
+                            <div class="progress-bar bg-success" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%;"></div>
+                          </div>
+                        </div>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row" class="name">
+                      SBTI target <br>overhaul
+                    </th>
+                    <td class="type">Action</td>
+                    <td>
+                      <div class="avatar-group">
+                        <a href="#" class="avatar avatar-sm rounded-circle" data-toggle="tooltip" data-original-title="Tammy Frey">
+                          <img alt="Image placeholder" src="./assets/img/theme/team-3.jpg">
+                        </a>
+                        <a href="#" class="avatar avatar-sm rounded-circle" data-toggle="tooltip" data-original-title="Steve Hamm">
+                          <img alt="Image placeholder" src="./assets/img/profile/steve.jpg">
+                        </a>
+                      </div>
+                    </td>
+                    <td>
+                      <span class="badge badge-dot mr-4">
+                        <i class="bg-danger"></i>
+                        <span class="status">delayed</span>
+                      </span>
+                    </td>
+                    <td>
+                      <div class="d-flex align-items-center">
+                        <span class="completion mr-2">72%</span>
+                        <div>
+                          <div class="progress">
+                            <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="72" aria-valuemin="0" aria-valuemax="100" style="width: 72%;"></div>
+                          </div>
+                        </div>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row" class="name">
+                      Review country <br>targets
+                    </th>
+                    <td class="type">Action</td>
+                    <td>
+                      <div class="avatar-group">
+                        <a href="#" class="avatar avatar-sm rounded-circle" data-toggle="tooltip" data-original-title="Lisa Hendricks">
+                          <img alt="Image placeholder" src="./assets/img/theme/team-2.jpg">
+                        </a>
+                        <a href="#" class="avatar avatar-sm rounded-circle" data-toggle="tooltip" data-original-title="Steve Hamm">
+                          <img alt="Image placeholder" src="./assets/img/profile/steve.jpg">
+                        </a>
+                      </div>
+                    </td>
+                    <td>
+                      <span class="badge badge-dot mr-4">
+                        <i class="bg-info"></i>
+                        <span class="status">on schedule</span>
+                      </span>
+                    </td>
+                    <td>
+                      <div class="d-flex align-items-center">
+                        <span class="completion mr-2">90%</span>
+                        <div>
+                          <div class="progress">
+                            <div class="progress-bar bg-info" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%;"></div>
+                          </div>
+                        </div>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row" class="name">
+                      Updated water <br>assessment
+                    </th>
+                    <td class="type">Data Request</td>
+                    <td>
+                      <div class="avatar-group">
+                        <a href="#" class="avatar avatar-sm rounded-circle" data-toggle="tooltip" data-original-title="James Patterson">
+                          <img alt="Image placeholder" src="./assets/img/theme/team-1.jpg">
+                        </a>
+                        <a href="#" class="avatar avatar-sm rounded-circle" data-toggle="tooltip" data-original-title="Lisa Hendricks">
+                          <img alt="Image placeholder" src="./assets/img/theme/team-2.jpg">
+                        </a>
+                        <!-- <a href="#" class="avatar avatar-sm rounded-circle" data-toggle="tooltip" data-original-title="Tammy Frey">
+                          <img alt="Image placeholder" src="./assets/img/theme/team-3.jpg">
+                        </a> -->
+                        <a href="#" class="avatar avatar-sm rounded-circle" data-toggle="tooltip" data-original-title="Steve Hamm">
+                          <img alt="Image placeholder" src="./assets/img/profile/steve.jpg">
+                        </a>
+                      </div>
+                    </td>
+                    <td>
+                      <span class="badge badge-dot mr-4">
+                        <i class="bg-success"></i>
+                        <span class="status">completed</span>
+                      </span>
+                    </td>
+                    <td>
+                      <div class="d-flex align-items-center">
+                        <span class="completion mr-2">100%</span>
+                        <div>
+                          <div class="progress">
+                            <div class="progress-bar bg-success" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%;"></div>
+                          </div>
+                        </div>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row" class="name">
+                      Finalise SASB <br>report
+                    </th>
+                    <td class="type">Action</td>
+                    <td>
+                      <div class="avatar-group">
+                        <a href="#" class="avatar avatar-sm rounded-circle" data-toggle="tooltip" data-original-title="Tammy Frey">
+                          <img alt="Image placeholder" src="./assets/img/theme/team-3.jpg">
+                        </a>
+                        <a href="#" class="avatar avatar-sm rounded-circle" data-toggle="tooltip" data-original-title="Steve Hamm">
+                          <img alt="Image placeholder" src="./assets/img/profile/steve.jpg">
+                        </a>
+                      </div>
+                    </td>
+                    <td>
+                      <span class="badge badge-dot mr-4">
+                        <i class="bg-danger"></i>
+                        <span class="status">delayed</span>
+                      </span>
+                    </td>
+                    <td>
+                      <div class="d-flex align-items-center">
+                        <span class="completion mr-2">58%</span>
+                        <div>
+                          <div class="progress">
+                            <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="58" aria-valuemin="0" aria-valuemax="100" style="width: 58%;"></div>
+                          </div>
+                        </div>
+                      </div>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Footer -->
+      <footer class="footer pt-0">
+        @@include('./_footer.html')
+      </footer>
+    </div>
+  </div>
+  @@include('./_scripts.html', {
+    "path": ".",
+    "path_common": ".."
+  })
+  @@include('./_scripts-d3.html', {
+    "path": ".",
+    "path_common": ".."
+  })
+  <!-- Data for Treemap -->
+  <script src="/dashboard/assets/js/treemap-home.min.js"></script>
+</body>
+
+</html>

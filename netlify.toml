@@ -1,0 +1,76 @@
+# Main build commands.
+[build]
+  base = ""
+
+[context.main]
+  publish = "dist/"
+  command = "gulp build:dist"
+
+[context.dev]
+  publish = "html&css/"
+  command = "gulp build:dev"
+
+# Build processing for CSS, JS, HTML, and Images.
+[build.processing]
+  skip_processing = false
+[build.processing.css]
+  bundle = false
+  minify = false
+[build.processing.js]
+  bundle = false
+  minify = false
+[build.processing.html]
+  pretty_urls = true
+[build.processing.images]
+  compress = true
+
+# Skip all post processing in deploy previews.
+[context.deploy-preview.processing]
+  skip_processing = true
+
+# Skip image compression on dev branch.
+[context.dev.processing.images]
+  compress = false
+
+# Netlify Plugins
+# [[plugins]]
+#   package = "netlify-plugin-js-obfuscator"
+
+# Create some functions with Netlify.
+[functions]
+  directory = ".netlify/functions/"
+
+# Redirect Dashboard index page to login.
+[[redirects]]
+  from = "/dashboard/"
+  to = "/login"
+  status = 302
+  force = true
+
+# Redirect old app domain to primary domain.
+[[redirects]]
+  from = "https://app.esg-one.co/*"
+  to = "https://esg-one.co/:splat"
+  status = 301
+  force = true
+
+# Redirect Frameworks landing page.
+[[redirects]]
+  from = "/dashboard/frameworks/"
+  to = "/dashboard/frameworks/sasb"
+  status = 302
+  force = false
+
+# Redirect Company landing page.
+[[redirects]]
+  from = "/dashboard/company/"
+  to = "/dashboard/company/disclosure-reporting"
+  status = 302
+  force = false
+
+# Redirect Account landing page.
+[[redirects]]
+  from = "/dashboard/account/"
+  to = "/dashboard/account/profile"
+  status = 302
+  force = false

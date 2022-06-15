@@ -1,0 +1,62 @@
+//
+// Montserrat
+//
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700&display=swap');
+
+//
+// All Round Gothic
+//
+/*
+ * The Typekit service used to deliver this font or fonts for use on websites
+ * is provided by Adobe and is subject to these Terms of Use
+ * http://www.adobe.com/products/eulas/tou_typekit. For font license
+ * information, see the list below.
+ *
+ * all-round-gothic:
+ *   - http://typekit.com/eulas/00000000000000007735c472
+ *   - http://typekit.com/eulas/00000000000000007735c479
+ *   - http://typekit.com/eulas/00000000000000007735c47d
+ *   - http://typekit.com/eulas/00000000000000007735c481
+ *
+ * © 2009-2021 Adobe Systems Incorporated. All Rights Reserved.
+ */
+// font-weight 400
+@font-face {
+  font-family: 'all-round-gothic';
+  src: url('../../assets/fonts/all-round-gothic/400.woff2') format('woff2'),
+  url('../../assets/fonts/all-round-gothic/400.woff') format('woff'),
+  url('../../assets/fonts/all-round-gothic/400.otf') format('opentype');
+  font-display: auto;
+  font-style: normal;
+  font-weight: 400;
+}
+// font-weight 500
+@font-face {
+  font-family: 'all-round-gothic';
+  src: url('../../assets/fonts/all-round-gothic/500.woff2') format('woff2'),
+  url('../../assets/fonts/all-round-gothic/500.woff') format('woff'),
+  url('../../assets/fonts/all-round-gothic/500.otf') format('opentype');
+  font-display: auto;
+  font-style: normal;
+  font-weight: 500;
+}
+// font-weight 600
+@font-face {
+  font-family: 'all-round-gothic';
+  src: url('../../assets/fonts/all-round-gothic/600.woff2') format('woff2'),
+  url('../../assets/fonts/all-round-gothic/600.woff') format('woff'),
+  url('../../assets/fonts/all-round-gothic/600.otf') format('opentype');
+  font-display: auto;
+  font-style: normal;
+  font-weight: 600;
+}
+// font-weight 700
+@font-face {
+  font-family: 'all-round-gothic';
+  src: url('../../assets/fonts/all-round-gothic/700.woff2') format('woff2'),
+  url('../../assets/fonts/all-round-gothic/700.woff') format('woff'),
+  url('../../assets/fonts/all-round-gothic/700.otf') format('opentype');
+  font-display: auto;
+  font-style: normal;
+  font-weight: 700;
+}

@@ -1,0 +1,41 @@
+//
+// Datatables
+//
+
+.dataTables_paginate {
+    margin: 1rem 0 0 1rem;
+}
+
+.dataTables_filter {
+    margin-bottom: 0.5rem;
+}
+
+.dt-buttons.btn-group.flex-wrap {
+    margin-top: 1.5rem;
+}
+
+// Datatable Columns
+.dt-button-collection .dropdown-menu {
+    display: block;
+}
+
+.dt-button-collection .dropdown-menu a:hover {
+    background: #fafafa;
+}
+
+//
+// Fake the selected/unselected items from the datatables column dropdown.
+//
+a.dt-button.dropdown-item.buttons-columnVisibility span {
+    padding-left: 1rem;
+    position: relative;
+    top: -6px;
+}
+
+a.dt-button.dropdown-item.buttons-columnVisibility.active::before {
+    content: url('/dashboard/assets/img/icons/forms/check.png');
+}
+
+a.dt-button.dropdown-item.buttons-columnVisibility::before {
+    content: url('/dashboard/assets/img/icons/forms/uncheck.png');
+}

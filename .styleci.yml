@@ -1,0 +1,28 @@
+js:
+  tab-width: 2
+  print-width: 100
+  finder:
+    exclude:
+      - "node_modules"
+      - "scripts"
+      - "vendor"
+    name:
+      - "*.js"
+    not-name:
+      - "*.min.js"
+      - "*.js.map"
+css:
+  print-width: 100
+  double-quotes: false
+  finder:
+    exclude:
+      - "node_modules"
+      - "vendor"
+    name:
+      - "*.css"
+      - "*.scss"
+      - "*.less"
+    not-name:
+      - "_image.scss"
+      - "*.min.css"
+      - "*.css.map"

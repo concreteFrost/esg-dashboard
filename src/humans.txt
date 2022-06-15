@@ -1,0 +1,36 @@
+/* TEAM */
+  Director: Tina Beattie
+  Email: tina@esg-one.co
+
+  Director: Steve Hamm
+  Email: steve@esg-one.co
+
+  Developer: 22 Digital
+  Email: hello@22digital.ltd
+  Web: https://22digital.ltd
+  GitHub: https://github.com/22digital
+
+  Developer: Justin Hartman
+  Email: me@justinhartman.co
+  Web: https://justinhartman.co
+  GitHub: https://github.com/justinhartman
+
+/* SOFTWARE */
+  GitHub: https://github.com/esg-one
+  Bootstrap: https://getbootstrap.com
+  jQuery: https://jquery.com
+  Chart.js: https://www.chartjs.org
+  D3: https://d3js.org
+  DataTables: https://datatables.net
+  List.js: https://listjs.com
+  Papa Parse: https://www.papaparse.com
+  Gulp: https://gulpjs.com
+  Browsersync: https://browsersync.io
+  Fontawesome: https://fontawesome.com
+  Nucleo: https://nucleoapp.com
+
+/* SITE */
+  Last update: 2021/09/21
+  Language: English
+  Doctype: HTML5
+  IDE: Atom, Sketch, iTerm2, GitFox

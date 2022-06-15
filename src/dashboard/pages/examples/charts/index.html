@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+@@include('./_head.html', {
+  "title": "esg:one Charts",
+  "path": "../..",
+  "path_common": "../../.."
+})
+<body>
+  <!-- Preloader -->
+  @@include('./_preloader.html', {
+    "path": "../.."
+  })
+
+  @@include('./_tracking-body.html')
+  <!-- Sidenav -->
+  @@include('./_nav-side.html', {
+      "path": "../..",
+      "path_common": "../../.."
+  })
+  <!-- Main content -->
+  <div class="main-content" id="panel">
+    <!-- Topnav -->
+    <nav class="navbar navbar-top navbar-expand navbar-dark bg-primary border-bottom">
+        @@include('./_nav-top.html', {
+            "path": "../.."
+        })
+    </nav>
+    <!-- Header -->
+    <div class="header bg-primary pb-6">
+      <div class="container-fluid">
+        <div class="header-body">
+          <div class="row align-items-center py-4">
+            <div class="col-lg-6 col-7">
+              <h6 class="h2 text-white d-inline-block mb-0">FSI Bank</h6>
+              <nav aria-label="breadcrumb" class="d-none d-md-inline-block ml-md-4">
+                <ol class="breadcrumb breadcrumb-links breadcrumb-dark">
+                  <li class="breadcrumb-item"><a href="/dashboard/home"><i class="fas fa-home"></i></a></li>
+                  <li class="breadcrumb-item"><a href="/dashboard/charts/">Charts</a></li>
+                  <li class="breadcrumb-item active" aria-current="page">Home</li>
+                </ol>
+              </nav>
+            </div>
+            <div class="col-lg-6 col-5 text-right">
+              <a href="#" class="btn btn-sm btn-neutral">Edit</a>
+              <a href="#" class="btn btn-sm btn-neutral">Filters</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Page content -->
+    <div class="container-fluid mt--6">
+      <div class="row">
+        <div class="col-xl-6">
+          <!--* Card header *-->
+          <!--* Card body *-->
+          <!--* Card init *-->
+          <div class="card">
+            <!-- Card header -->
+            <div class="card-header">
+              <!-- Surtitle -->
+              <h6 class="surtitle">Overview</h6>
+              <!-- Title -->
+              <h5 class="h3 mb-0">Risk Analysis (%)</h5>
+            </div>
+            <!-- Card body -->
+            <div class="card-body">
+              <div class="chart">
+                <!-- Chart wrapper -->
+                <canvas id="chart-sales" class="chart-canvas"></canvas>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-6">
+          <!--* Card header *-->
+          <!--* Card body *-->
+          <!--* Card init *-->
+          <div class="card">
+            <!-- Card header -->
+            <div class="card-header">
+              <!-- Surtitle -->
+              <h6 class="surtitle">Performance</h6>
+              <!-- Title -->
+              <h5 class="h3 mb-0">Raw Score (KT)</h5>
+            </div>
+            <!-- Card body -->
+            <div class="card-body">
+              <div class="chart">
+                <!-- Chart wrapper -->
+                <canvas id="chart-bars" class="chart-canvas"></canvas>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xl-6">
+          <!--* Card header *-->
+          <!--* Card body *-->
+          <!--* Card init *-->
+          <div class="card">
+            <!-- Card header -->
+            <div class="card-header">
+              <!-- Surtitle -->
+              <h6 class="surtitle">Growth</h6>
+              <!-- Title -->
+              <h5 class="h3 mb-0">T / $ Revenue</h5>
+            </div>
+            <!-- Card body -->
+            <div class="card-body">
+              <div class="chart">
+                <!-- Chart wrapper -->
+                <canvas id="chart-points" class="chart-canvas"></canvas>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-6">
+          <!--* Card header *-->
+          <!--* Card body *-->
+          <!--* Card init *-->
+          <div class="card">
+            <!-- Card header -->
+            <div class="card-header">
+              <!-- Surtitle -->
+              <h6 class="surtitle">Staff</h6>
+              <!-- Title -->
+              <h5 class="h3 mb-0">T / Employee</h5>
+            </div>
+            <!-- Card body -->
+            <div class="card-body">
+              <div class="chart">
+                <!-- Chart wrapper -->
+                <canvas id="chart-doughnut" class="chart-canvas"></canvas>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xl-6">
+          <!--* Card header *-->
+          <!--* Card body *-->
+          <!--* Card init *-->
+          <div class="card">
+            <!-- Card header -->
+            <div class="card-header">
+              <!-- Surtitle -->
+              <h6 class="surtitle">Performance</h6>
+              <!-- Title -->
+              <h5 class="h3 mb-0">Sector Percentile</h5>
+            </div>
+            <!-- Card body -->
+            <div class="card-body">
+              <div class="chart">
+                <!-- Chart wrapper -->
+                <canvas id="chart-pie" class="chart-canvas"></canvas>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-6">
+          <!--* Card header *-->
+          <!--* Card body *-->
+          <!--* Card init *-->
+          <div class="card">
+            <!-- Card header -->
+            <div class="card-header">
+              <!-- Surtitle -->
+              <h6 class="surtitle">Performance</h6>
+              <!-- Title -->
+              <h5 class="h3 mb-0">Sector Comparison</h5>
+            </div>
+            <!-- Card body -->
+            <div class="card-body">
+              <div class="chart">
+                <!-- Chart wrapper -->
+                <canvas id="chart-bar-stacked" class="chart-canvas"></canvas>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Footer -->
+      <footer class="footer pt-0">
+        @@include('./_footer.html')
+      </footer>
+    </div>
+  </div>
+  @@include('./_scripts.html', {
+    "path": "../..",
+    "path_common": "../../.."
+  })
+</body>
+
+</html>

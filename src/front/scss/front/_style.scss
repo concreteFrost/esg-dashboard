@@ -1,0 +1,83 @@
+//
+// Custom Homepage changes
+//
+.bg-hero {
+    position: relative;
+    width: 100%;
+    // height: 100vh;
+    background-image: url('../../assets/img/theme/hero.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+}
+
+//
+// ESG Ready
+//
+.features {
+    letter-spacing: $cards-letter-spacing;
+}
+
+
+//
+// Line Heights
+//
+.line-height-3 {
+    line-height: 3rem;
+}
+
+.line-height-2 {
+    line-height: 2rem;
+}
+
+//
+// Background Section Images
+//
+.bg-how-it-works {
+    background-image: url('../../assets/img/theme/how-it-works.jpg');
+    background-position-y: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+}
+
+.bg-solution {
+    background-image: url('../../assets/img/theme/solution.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+}
+
+//
+// Team Contact
+//
+.team-core-photo {
+    max-width: 350px;
+}
+
+//
+// Missing position class to unset postion-absolute (or others for that matter)
+// on mobile resolutions.
+//
+@media screen and (min-width: 426px) {
+    .position-unset {
+        position: unset !important;
+    }
+    .left-5 {
+        left: unset;
+    }
+    .right-6 {
+        right: unset;
+    }
+}
+
+//
+// Hack to get breakpoint-specific width classes
+//
+@each $breakpoint in map-keys($grid-breakpoints) {
+  @each $size, $length in $sizes {
+    @include media-breakpoint-up($breakpoint) {
+      .w-#{$breakpoint}-#{$size} {width: $length !important;}
+    }
+  }
+}

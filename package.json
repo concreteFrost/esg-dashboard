@@ -1,0 +1,100 @@
+{
+  "name": "esg-one-dashboard",
+  "version": "2.1.2",
+  "description": "ESG:ONE Dashboard application.",
+  "keywords": [
+    "dashboard",
+    "esg"
+  ],
+  "homepage": "https://esg-one.co",
+  "bugs": {
+    "email": "hello@22digital.ltd"
+  },
+  "license": "SEE LICENSE IN LICENSE.md",
+  "contributors": [
+    {
+      "name": "Justin Hartman",
+      "email": "code@22digital.ltd",
+      "url": "https://22digital.ltd"
+    },
+    {
+      "name": "Themesberg & Creative Tim",
+      "email": "hello@creative-tim.com",
+      "url": "https://www.creative-tim.com"
+    }
+  ],
+  "main": "gulpfile.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/esg-one/esg-dashboard.git"
+  },
+  "devDependencies": {
+    "browser-sync": "2.27.5",
+    "del": "4.1.1",
+    "gulp": "4.0.2",
+    "gulp-autoprefixer": "6.1.0",
+    "gulp-clean-css": "4.3.0",
+    "gulp-cssbeautify": "1.0.1",
+    "gulp-file-include": "2.3.0",
+    "gulp-header": "2.0.9",
+    "gulp-htmlmin": "5.0.1",
+    "gulp-javascript-obfuscator": "^1.1.6",
+    "gulp-npm-dist": "^1.0.3",
+    "gulp-plumber": "1.2.1",
+    "gulp-rename": "1.4.0",
+    "gulp-sass": "4.0.2",
+    "gulp-sourcemaps": "2.6.5",
+    "gulp-uglify": "3.0.2",
+    "gulp-wait": "0.0.2",
+    "merge-stream": "2.0.0",
+    "papaparse": "^5.3.1"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.11.2",
+    "bootstrap": "4.4.1",
+    "bootstrap-datepicker": "^1.9.0",
+    "bootstrap-notify": "^3.1.3",
+    "bootstrap-tagsinput": "^0.7.1",
+    "chart.js": "^2.9.4",
+    "clipboard": "^2.0.8",
+    "countup.js": "^1.9.3",
+    "d3": "^4.13.0",
+    "datatables.net": "^1.10.25",
+    "datatables.net-bs4": "^1.10.25",
+    "datatables.net-buttons": "^1.6.5",
+    "datatables.net-buttons-bs4": "^1.6.5",
+    "datatables.net-select": "^1.3.3",
+    "dropzone": "^5.7.6",
+    "eonasdan-bootstrap-datetimepicker": "^4.17.49",
+    "fullcalendar": "3.10.2",
+    "headroom.js": "0.10.4",
+    "jarallax": "1.12.7",
+    "jquery": "3.4.1",
+    "jquery-countdown": "2.2.0",
+    "jquery-scroll-lock": "^3.1.3",
+    "jquery-validation": "1.19.3",
+    "jquery.counterup": "2.1.0",
+    "jquery.scrollbar": "^0.2.11",
+    "jszip": "^3.6.0",
+    "jvectormap-next": "^3.1.1",
+    "list.js": "^1.5.0",
+    "moment": "^2.29.1",
+    "nouislider": "^11.0.3",
+    "onscreen": "1.3.4",
+    "owl.carousel": "2.3.4",
+    "pdfmake": "^0.1.72",
+    "popper.js": "1.16.1",
+    "prismjs": "1.17.1",
+    "quill": "^1.3.7",
+    "select2": "^4.0.13",
+    "smooth-scroll": "^16.1.3",
+    "sticky-sidebar": "3.3.1",
+    "sweetalert2": "^9.17.2",
+    "waypoints": "4.0.1"
+  },
+  "private": true,
+  "scripts": {
+    "preversion": "echo \"Creating new version $npm_package_version...\"",
+    "postversion": "git push --follow-tags"
+  }
+}

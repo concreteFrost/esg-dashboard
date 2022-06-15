@@ -1,0 +1,103 @@
+$icons-bullseye: "\ea01";
+$icons-code: "\ea02";
+$icons-contact: "\ea03";
+$icons-dashboard: "\ea04";
+$icons-data-capture: "\ea05";
+$icons-data-performance: "\ea06";
+$icons-data-performance-2: "\ea07";
+$icons-data-reporting: "\ea08";
+$icons-email: "\ea09";
+$icons-identify: "\ea0a";
+$icons-learn: "\ea0b";
+$icons-linkedin: "\ea0c";
+$icons-location: "\ea0d";
+$icons-report: "\ea0e";
+$icons-risk-managment: "\ea0f";
+$icons-score: "\ea10";
+$icons-to-do-list: "\ea11";
+
+@font-face {
+  font-family: "esgone";
+  src: url("../../assets/fonts/esgone/esgone.eot");
+  src: url("../../assets/fonts/esgone/esgone.eot?onptq5#iefix") format("embedded-opentype"), url("../../assets/fonts/esgone/esgone.woff2?onptq5") format("woff2"), url("../../assets/fonts/esgone/esgone.woff?onptq5") format("woff"), url("../../assets/fonts/esgone/esgone.ttf?onptq5") format("truetype"), url("../../assets/fonts/esgone/esgone.svg?onptq5#esgone") format("svg");
+  font-style: normal;
+  font-weight: 400;
+}
+
+%icons {
+  display: inline-block;
+  font-family: "esgone" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  vertical-align: -.125em;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icons {
+  @extend %icons;
+}
+
+.icons-bullseye::before {
+  content: "\ea01";
+}
+.icons-code::before {
+  content: "\ea02";
+}
+.icons-contact::before {
+  content: "\ea03";
+}
+.icons-dashboard::before {
+  content: "\ea04";
+}
+.icons-data-capture::before {
+  content: "\ea05";
+}
+.icons-data-performance::before {
+  content: "\ea06";
+}
+.icons-data-performance-2::before {
+  content: "\ea07";
+}
+.icons-data-reporting::before {
+  content: "\ea08";
+}
+.icons-email::before {
+  content: "\ea09";
+}
+.icons-identify::before {
+  content: "\ea0a";
+}
+.icons-learn::before {
+  content: "\ea0b";
+}
+.icons-linkedin::before {
+  content: "\ea0c";
+}
+.icons-location::before {
+  content: "\ea0d";
+}
+.icons-report::before {
+  content: "\ea0e";
+}
+.icons-risk-managment::before {
+  content: "\ea0f";
+}
+.icons-score::before {
+  content: "\ea10";
+}
+.icons-to-do-list::before {
+  content: "\ea11";
+}
+
+//
+// Our Team
+//
+.icon-contact {
+    font-size: 1.875rem;
+}

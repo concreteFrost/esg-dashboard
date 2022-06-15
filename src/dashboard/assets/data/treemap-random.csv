@@ -1,0 +1,21 @@
+name,parent,value1,value2
+root,,,
+Environment,root,,
+Social,root,,
+Governance,root,,
+GHG Scope 1 Emissions,Environment,67,100
+GHG Scope 1 Emissions,Environment,45,100
+GHG Scope 1 Emissions,Environment,76,100
+GHG Scope 1 Emissions,Environment,89,100
+GHG Scope 1 Emissions,Environment,33,100
+GHG Scope 1 Emissions,Environment,28,100
+GHG Scope 1 Emissions,Environment,52,100
+Social Impactor,Social,57,100
+Social Impactor,Social,49,100
+Social Impactor,Social,72,100
+Social Impactor,Social,34,100
+Governance Impactor,Governance,38,100
+Governance Impactor,Governance,67,100
+Governance Impactor,Governance,80,100
+Governance Impactor,Governance,27,100
+Governance Impactor,Governance,64,100

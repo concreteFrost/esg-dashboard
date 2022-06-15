@@ -1,0 +1,23 @@
+# Project ZIP files/folders.
+/zips/
+*.zip
+
+# Build folders.
+/.temp/
+/dist/*
+!/dist/.gitkeep
+/html&css/
+
+# Node and Yarn packages.
+package-lock.json
+/node_modules/
+
+# Ignore temporarily.
+/src/dashboard/assets/pdf/
+
+# Old source files.
+/src/old/
+
+# Local Netlify folder
+/.netlify/*
+!/.netlify/**/

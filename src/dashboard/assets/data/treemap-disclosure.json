@@ -1,0 +1,447 @@
+{
+  "name": "Disclosure Categories",
+  "shortName": "Disclosure Categories",
+  "children": [
+    {
+      "name": "GHG Emissions",
+      "shortName": "GHG Emissions",
+      "metric": "%",
+      "size": 45,
+      "children": []
+    },
+    {
+      "name": "Air Quality",
+      "shortName": "Air Quality",
+      "metric": "%",
+      "size": 23,
+      "children": []
+    },
+    {
+      "name": "Energy Management",
+      "shortName": "Energy Management",
+      "metric": "%",
+      "size": 19,
+      "children": []
+    },
+    {
+      "name": "Water & Wastewater Management",
+      "shortName": "Water & Wastewater Management",
+      "metric": "%",
+      "size": 54,
+      "children": []
+    },
+    {
+      "name": "Waste & Hazardous Materials Management",
+      "shortName": "Waste & Hazardous Materials Management",
+      "metric": "%",
+      "size": 63,
+      "children": []
+    },
+    {
+      "name": "Biodiversity",
+      "shortName": "Biodiversity",
+      "metric": "%",
+      "size": 22,
+      "children": []
+    },
+    {
+      "name": "Material inputs and impact",
+      "shortName": "Material inputs and impact",
+      "metric": "%",
+      "size": 58,
+      "children": []
+    },
+    {
+      "name": "Real Estate",
+      "shortName": "Real Estate",
+      "metric": "%",
+      "size": 25,
+      "children": []
+    },
+    {
+      "name": "Social Capital",
+      "shortName": "Social Capital",
+      "metric": "%",
+      "size": 44,
+      "children": [
+        {
+          "name": "Human Rights and Community Relations",
+          "shortName": "Human Rights and Community Relations",
+          "metric": "%",
+          "size": 45,
+          "children": [
+            {
+              "name": "Human Rights",
+              "shortName": "Human Rights",
+              "metric": "%",
+              "size": 35,
+              "children": []
+            },
+            {
+              "name": "Community Relations",
+              "shortName": "Community Relations",
+              "metric": "%",
+              "size": 42,
+              "children": []
+            },
+            {
+              "name": "Lobbying and political contributions",
+              "shortName": "Lobbying and political contributions",
+              "metric": "%",
+              "size": 67,
+              "children": []
+            },
+            {
+              "name": "Stakeholder engagement",
+              "shortName": "Stakeholder engagement",
+              "metric": "%",
+              "size": 37,
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "Data and Privacy",
+          "shortName": "Data and Privacy",
+          "metric": "%",
+          "size": 47,
+          "children": [
+            {
+              "name": "Customer Privacy",
+              "shortName": "Customer Privacy",
+              "metric": "%",
+              "size": 61,
+              "children": []
+            },
+            {
+              "name": "Data Security",
+              "shortName": "Data Security",
+              "metric": "%",
+              "size": 33,
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "Product impact",
+          "shortName": "Product impact",
+          "metric": "%",
+          "size": 16,
+          "children": [
+            {
+              "name": "Access & Affordability",
+              "shortName": "Access & Affordability",
+              "metric": "%",
+              "size": 11,
+              "children": []
+            },
+            {
+              "name": "Product Quality & Safety",
+              "shortName": "Product Quality & Safety",
+              "metric": "%",
+              "size": 26,
+              "children": []
+            },
+            {
+              "name": "Customer Welfare",
+              "shortName": "Customer Welfare",
+              "metric": "%",
+              "size": 10,
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "Selling Practices & Product Labelling",
+          "shortName": "Selling Practices & Product Labelling",
+          "metric": "%",
+          "size": 67,
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "Human Capital",
+      "shortName": "Human Capital",
+      "metric": "%",
+      "size": 49,
+      "children": [
+        {
+          "name": "Labor Practices",
+          "shortName": "Labor Practices",
+          "metric": "%",
+          "size": 50,
+          "children": [
+            {
+              "name": "Freedom of Association and Collective Bargaining",
+              "shortName": "Freedom of Association and Collective Bargaining",
+              "metric": "%",
+              "size": 54,
+              "children": []
+            },
+            {
+              "name": "Labor/Management Relations",
+              "shortName": "Labor/Management Relations",
+              "metric": "%",
+              "size": 46,
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "Employee Health & Safety",
+          "shortName": "Employee Health & Safety",
+          "metric": "%",
+          "size": 49,
+          "children": []
+        },
+        {
+          "name": "Employee Engagement, Diversity & Inclusion ",
+          "shortName": "Employee Engagement, Diversity & Inclusion ",
+          "metric": "%",
+          "size": 72,
+          "children": []
+        },
+        {
+          "name": "Benefits",
+          "shortName": "Benefits",
+          "metric": "%",
+          "size": 15,
+          "children": []
+        },
+        {
+          "name": "Employment and job creation",
+          "shortName": "Employment and job creation",
+          "metric": "%",
+          "size": 42,
+          "children": []
+        },
+        {
+          "name": "Training, Education & Workforce Development",
+          "shortName": "Training, Education & Workforce Development",
+          "metric": "%",
+          "size": 67,
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "Leadership & Governance",
+      "shortName": "Leadership & Governance",
+      "metric": "%",
+      "size": 41,
+      "children": [
+        {
+          "name": "Business Ethics",
+          "shortName": "Business Ethics",
+          "metric": "%",
+          "size": 38,
+          "children": [
+            {
+              "name": "Ethics and integrity",
+              "shortName": "Ethics and integrity",
+              "metric": "%",
+              "size": 45,
+              "children": []
+            },
+            {
+              "name": "Anti-corruption",
+              "shortName": "Anti-corruption",
+              "metric": "%",
+              "size": 31,
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "Reporting Practice",
+          "shortName": "Reporting Practice",
+          "metric": "%",
+          "size": 26,
+          "children": []
+        },
+        {
+          "name": "Competitive Behaviour",
+          "shortName": "Competitive Behaviour",
+          "metric": "%",
+          "size": 42,
+          "children": []
+        },
+        {
+          "name": "Management of the Legal & Regulatory Environment",
+          "shortName": "Management of the Legal & Regulatory Environment",
+          "metric": "%",
+          "size": 78,
+          "children": [
+            {
+              "name": "Socioeconomic Compliance",
+              "shortName": "Socioeconomic Compliance",
+              "metric": "%",
+              "size": 78,
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "Remuneration and incentives",
+          "shortName": "Remuneration and incentives",
+          "metric": "%",
+          "size": 70,
+          "children": [
+            {
+              "name": "Policies designed to incentivize responsible behavior",
+              "shortName": "Policies designed to incentivize responsible behavior",
+              "metric": "%",
+              "size": 82,
+              "children": []
+            },
+            {
+              "name": "Employee incentives & Risk Taking",
+              "shortName": "Employee incentives & Risk Taking",
+              "metric": "%",
+              "size": 57,
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "Critical Incident Risk Management",
+          "shortName": "Critical Incident Risk Management",
+          "metric": "%",
+          "size": 57,
+          "children": []
+        },
+        {
+          "name": "Systemic Risk Management",
+          "shortName": "Systemic Risk Management",
+          "metric": "%",
+          "size": 44,
+          "children": [
+            {
+              "name": "Incorporation of Environmental, Social, and Governance Factors",
+              "shortName": "Incorporation of ESG Factors",
+              "metric": "%",
+              "size": 44,
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "Tax",
+          "shortName": "Tax",
+          "metric": "%",
+          "size": 12,
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "Business Model & Innovation",
+      "shortName": "Business Model & Innovation",
+      "metric": "%",
+      "size": 60,
+      "children": [
+        {
+          "name": "Product Design & Lifecycle Management",
+          "shortName": "Product Design & Lifecycle Management",
+          "metric": "%",
+          "size": 71,
+          "children": []
+        },
+        {
+          "name": "Economic impact",
+          "shortName": "Economic impact",
+          "metric": "%",
+          "size": 49,
+          "children": [
+            {
+              "name": "Market Presence",
+              "shortName": "Market Presence",
+              "metric": "%",
+              "size": 35,
+              "children": []
+            },
+            {
+              "name": "Indirect Economic Impacts",
+              "shortName": "Indirect Economic Impacts",
+              "metric": "%",
+              "size": 71,
+              "children": []
+            },
+            {
+              "name": "Economic performance",
+              "shortName": "Economic performance",
+              "metric": "%",
+              "size": 43,
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "Business model resilience",
+          "shortName": "Business model resilience",
+          "metric": "%",
+          "size": 58,
+          "children": []
+        },
+        {
+          "name": "Supply Chain Management",
+          "shortName": "Supply Chain Management",
+          "metric": "%",
+          "size": 51,
+          "children": [
+            {
+              "name": "Child Labor",
+              "shortName": "Child Labor",
+              "metric": "%",
+              "size": 12,
+              "children": []
+            },
+            {
+              "name": "Forced or Compulsory Labor",
+              "shortName": "Forced or Compulsory Labor",
+              "metric": "%",
+              "size": 61,
+              "children": []
+            },
+            {
+              "name": "Security Practices",
+              "shortName": "Security Practices",
+              "metric": "%",
+              "size": 32,
+              "children": []
+            },
+            {
+              "name": "Human Rights Assessment",
+              "shortName": "Human Rights Assessment",
+              "metric": "%",
+              "size": 71,
+              "children": []
+            },
+            {
+              "name": "Supplier Social Assessment",
+              "shortName": "Supplier Social Assessment",
+              "metric": "%",
+              "size": 77,
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "Materials Sourcing & Efficiency",
+          "shortName": "Materials Sourcing & Efficiency",
+          "metric": "%",
+          "size": 62,
+          "children": []
+        },
+        {
+          "name": "Physical Impacts of Climate Change",
+          "shortName": "Physical Impacts of Climate Change",
+          "metric": "%",
+          "size": 70,
+          "children": []
+        }
+      ]
+    }
+  ]
+}
