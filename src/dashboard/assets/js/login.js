@@ -16,7 +16,7 @@ button.addEventListener('click', (e) => {
   e.preventDefault();
   const eml = form.frmeml.value;
   const pwd = form.frmpwd.value;
-  const loc = '/dashboard/home';
+  const loc = '/dashboard/home.html';
   const lem = 'steve@esg-one.co';
   const lpw = 'WNRv~6Wsx=XsNZp';
 
