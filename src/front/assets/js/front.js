@@ -1,15 +1,16 @@
-/* minifyOnSave */
-/**
- * @preserve =========================================================
- * esg:one Dashboard Application
- * =========================================================
- * @license Copyright 2021 Beathamm Ltd (https://esg-one.co)
- * @author  22 Digital Ltd (https://22digital.ltd)
- * @author  Justin Hartman <code@22digital.ltd>
- * @version 2.1.1
- * @date    2021-06-14
- */
+// /* minifyOnSave */
+// /**
+//  * @preserve =========================================================
+//  * esg:one Dashboard Application
+//  * =========================================================
+//  * @license Copyright 2021 Beathamm Ltd (https://esg-one.co)
+//  * @author  22 Digital Ltd (https://22digital.ltd)
+//  * @author  Justin Hartman <code@22digital.ltd>
+//  * @version 2.1.1
+//  * @date    2021-06-14
+//  */
 'use strict';
+
 $(document).ready(function () {
   // options
   var breakpoints = {
@@ -18,7 +19,7 @@ $(document).ready(function () {
     lg: 960,
     xl: 1200,
   };
-
+  
   // password toggle
   var $passwordToggle = $(
     '.form-control[type="password"] + .input-group-append'
