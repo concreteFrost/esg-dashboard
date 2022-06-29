@@ -19,7 +19,9 @@ $(document).ready(function () {
     lg: 960,
     xl: 1200,
   };
+
   
+
   // password toggle
   var $passwordToggle = $(
     '.form-control[type="password"] + .input-group-append'
