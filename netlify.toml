@@ -43,7 +43,7 @@
 # Redirect Dashboard index page to login.
 [[redirects]]
   from = "/dashboard/"
-  to = "/login"
+  to = "/logins"
   status = 302
   force = true
 
