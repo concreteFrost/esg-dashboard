@@ -17,17 +17,30 @@
   @@include('./_nav-side.html', {
     "path": "..",
     "path_common": "../.."
-  })
+  }) 
   <!-- Main content -->
   <div class="main-content" id="panel">
     <!-- Topnav -->
-    
     @@include('./_nav-top.html', {
       "path": ".."
-    })
-    
+    }) 
+    @@include('./_light-head.html')
     <!-- Header -->
-   @@include('../pages/disclosure/_header.html')
+    <div class="container-fluid">
+      <div class="card">
+        <div class="card-header">     
+         <ul class="list-inline">
+          <li class="list-inline-item"><h2>Percentage of new hires that identify as women</h2></li>
+          <li class="list-inline-item float-right"><h2>Head Office</h2></li>
+          </ul>
+        </div>
+        </div>
+        <div class="card-body">
+          
+        </div>
+      </div>
+    </div>
+
    </div>
       <footer class="footer pt-0">
         @@include('./_footer.html')
