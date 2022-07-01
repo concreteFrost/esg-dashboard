@@ -64,10 +64,11 @@
 @import 'custom/treemap';
 
 // Custom overrides
-@import 'custom/fs-bank-title.scss';
-@import 'custom/dashboard-search';
 @import 'custom/overrides';
+@import 'custom/risk-table';
 
+//Additional components styling
+@import 'custom/disclosure-buttons-nav';
 
 // Datatables
 @import 'custom/datatables';
