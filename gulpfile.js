@@ -578,6 +578,7 @@ gulp.task('copy-dashboard:dist:assets', function () {
     .src([
       paths.src.dashboard.assets,
       '!src/dashboard/assets/js/*.js',
+      //Change back if necessary
       paths.src.dashboard.assets + '.min.js',
     ])
     .pipe(gulp.dest(paths.dist.dashboard.assets));
