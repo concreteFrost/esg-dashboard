@@ -107,6 +107,34 @@ const paths = {
   },
 };
 
+// Compile Dashboard HTML
+gulp.task('html-dashboard', function () {
+  return gulp
+    .src([paths.src.dashboard.pages])
+    .pipe(
+      fileinclude({
+        prefix: '@@',
+        basepath: paths.src.dashboard.partials,
+      })
+    )
+    .pipe(gulp.dest(paths.temp.dashboard.base))
+    .pipe(browserSync.stream());
+});
+
+// Compile Base HTML
+gulp.task('html-base', function () {
+  return gulp
+    .src([paths.src.html])
+    .pipe(
+      fileinclude({
+        prefix: '@@',
+        basepath: paths.src.front.partials,
+      })
+    )
+    .pipe(gulp.dest(paths.temp.base))
+    .pipe(browserSync.stream());
+});
+
 // Compile Frontend SCSS
 gulp.task('scss-front', function () {
   return gulp
@@ -163,33 +191,9 @@ gulp.task('html-front', function () {
     .pipe(browserSync.stream());
 });
 
-// Compile Dashboard HTML
-gulp.task('html-dashboard', function () {
-  return gulp
-    .src([paths.src.dashboard.pages])
-    .pipe(
-      fileinclude({
-        prefix: '@@',
-        basepath: paths.src.dashboard.partials,
-      })
-    )
-    .pipe(gulp.dest(paths.temp.dashboard.base))
-    .pipe(browserSync.stream());
-});
 
-// Compile Base HTML
-gulp.task('html-base', function () {
-  return gulp
-    .src([paths.src.html])
-    .pipe(
-      fileinclude({
-        prefix: '@@',
-        basepath: paths.src.front.partials,
-      })
-    )
-    .pipe(gulp.dest(paths.temp.base))
-    .pipe(browserSync.stream());
-});
+
+
 
 gulp.task('html', gulp.series('html-front', 'html-dashboard', 'html-base'));
 

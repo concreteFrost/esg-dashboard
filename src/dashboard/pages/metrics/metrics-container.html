@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
   @@include('./_head.html', {
-    "title": "Disclosure Reporting - FSI Bank - esg:one",
-    "canonical": "https://app.esg-one.co/dashboard/company/disclosure-reporting",
+    "title": "Metrics - FSI Bank - esg:one",
+    "canonical": "https://app.esg-one.co/dashboard/metrics",
     "path": "..",
     "path_common": "../.."
   })
@@ -21,18 +21,13 @@
   <!-- Main content -->
   <div class="main-content" id="panel">
     <!-- Topnav -->
-    <nav class="navbar navbar-top navbar-expand navbar-dark bg-esg-five border-bottom">
+    
     @@include('./_nav-top.html', {
       "path": ".."
     })
-    </nav>
+    
     <!-- Header -->
-   @@include('../pages/company/disclosure-partials/_header.html')
-   <!--Button Nav-->
-   @@include('../pages/company/disclosure-partials/_button-nav.html')
-    @@include('../pages/company/disclosure-partials/_esg-graph.html')
-    @@include('../pages/company/disclosure-partials/_standart-reporting-progress.html')
-    @@include('../pages/company/disclosure-partials/_risk-table.html')
+   @@include('../pages/disclosure/_header.html')
    </div>
       <footer class="footer pt-0">
         @@include('./_footer.html')
