@@ -19,3 +19,24 @@
 .thome .progress {
     width: 50px !important;
 }
+
+//Buttons on nav
+
+.button-nav {
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    background-color: rgb(27, 162, 193);
+    color: white;
+  
+    &:hover {
+      background-color: rgb(24, 140, 166);
+      color: rgb(218, 227, 235);
+    }
+  
+  }
+  
+  .button-nav-active {
+      background-color: rgb(16, 89, 105);
+      color: white;
+  }
+  

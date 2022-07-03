@@ -1,0 +1,64 @@
+.metrics-card .card-header {
+    color: rgb(0, 0, 0);
+    background-color: rgb(218, 218, 218);
+  }
+
+.metrics-card .card-header h3 {
+  color: rgb(0, 0, 0);
+}
+
+.metrics-card p {
+  font-weight: 600;
+}
+
+.metrics-card table {
+  font-weight: bold;
+}
+
+@media screen and (max-width: 768px) {
+  .metrics-card h3 {
+    font-size: 0.8rem;
+  }
+
+  .metrics-card h4 {
+    font-size: 0.8rem;
+    font-weight: bold;
+  }
+
+  .metrics-card p{
+    font-size: 0.7rem;
+  }
+
+  .metrics-card button{
+    font-size: 0.5rem;
+    padding: 7px;
+    
+  }
+}
+
+@media screen and (max-width: 581px) {
+  .metrics-card h3 {
+    font-size: 0.7rem;
+  }
+  .metrics-card h4 {
+    font-size: 0.6rem;
+    font-weight: bold;
+  }
+}
+
+@media screen and (max-width: 588px) {
+  .metrics-card h3 {
+    font-size: 0.6rem;
+  }
+  .metrics-card h4 {
+    font-size: 0.5rem;
+    font-weight: bold;
+  }
+}
+
+@media screen and (max-width: 525px) {
+  .metrics-card table h3 {
+    font-size: 0.4rem;
+    font-weight: bolder;
+  }
+}

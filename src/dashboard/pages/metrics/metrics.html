@@ -1,63 +1,86 @@
 <!DOCTYPE html>
 <html>
-  @@include('./_head.html', {
-    "title": "Metrics - FSI Bank - esg:one",
-    "canonical": "https://app.esg-one.co/dashboard/metrics",
-    "path": "..",
-    "path_common": "../.."
-  })
-<body>
-  <!-- Preloader -->
-  @@include('./_preloader.html', {
+  @@include('./_head.html', { "title": "Metrics - FSI Bank - esg:one",
+  "canonical": "https://app.esg-one.co/dashboard/company/metrics", "path": "..",
+  "path_common": "../.." })
+  <body>
+    <!-- Preloader -->
+    <!-- @@include('./_preloader.html', {
     "path": ".."
-  })
-  <!-- Tracking Code -->
-  @@include('./_tracking-body.html')
-  <!-- Navbar -->
-  @@include('./_nav-side.html', {
-    "path": "..",
-    "path_common": "../.."
-  }) 
-  <!-- Main content -->
-  <div class="main-content" id="panel">
-    <!-- Topnav -->
-    @@include('./_nav-top.html', {
-      "path": ".."
-    }) 
-    @@include('./_light-head.html')
-    <!-- Header -->
-    <div class="container-fluid">
-      <div class="card">
-        <div class="card-header">     
-         <ul class="list-inline">
-          <li class="list-inline-item"><h2>Percentage of new hires that identify as women</h2></li>
-          <li class="list-inline-item float-right"><h2>Head Office</h2></li>
-          </ul>
-        </div>
-        </div>
-        <div class="card-body">
-          
+  }) -->
+    <!-- Tracking Code -->
+    @@include('./_tracking-body.html')
+    <!-- Navbar -->
+    @@include('./_nav-side.html', { "path": "..", "path_common": "../.." })
+    <!-- Main content -->
+    <div class="main-content" id="panel">
+      <!-- Topnav -->
+
+      @@include('./_nav-top.html', { "path": ".." })
+      @@include('./_light-head.html', { "path": ".." })
+
+      <div class="container-fluid position-absolute top-9 metrics-card">
+        <div class="card">
+          <!--Card Header-->
+          <section>
+            <div class="card-header pb-0">
+              <div class="row">
+                <div class="col-9 pr-0">
+                  <h3>Percentage of new hires that identify as women</h3>
+                </div>
+                <div class="col-3"><h3 class="text-right">Head Office</h3></div>
+              </div>
+            </div>
+          </section>
+          <!--Card Body-->
+          <section>
+            <div class="card-body">
+              <table class="table container-fluid">
+                <thead class="thead">
+                  <tr>
+                    <th scope="col"><h3>34%</h3></th>
+                    <th scope="col"><h3>Raw number</h3></th>
+                    <th scope="col"><h3>Vs.2021</h3></th>
+                    <th scope="col"><h3>Vs.Target</h3></th>
+                    <th scope="col"><h3>HR</h3></th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <th scope="row"></th>
+                  <td>205</td>
+                  <td>3%  <i class="fa fa-arrow-up text-success"></i></td>
+                  <td>14% <i class="fa fa-arrow-down text-danger"></i></td>
+                </tbody>
+              </table>
+            </div>
+          </section>
+          <!--ESG Categories-->
+          <section>
+            <header><h3 class="ml-4">ESG Categories</h3></header>
+            <main>
+              <ul class="list-inline ml-4">
+                <li class="list-inline-item"><button class="btn button-nav">Social</button></li>
+                <li class="list-inline-item"><button class="btn button-nav">Human Capital</button></li>
+                <li class="list-inline-item"><button class="btn button-nav">Employee Engagement, Viversity & Inclusion</button></li>
+              </ul>
+            </main>
+          </section>
+          <!--ESG Standards-->
+          <section>
+            <header><h3 class="ml-4 ">ESG Standards</h3></header>
+            <main class="container-fluid">      
+              <img class="avatar rounded-circle bg-white d-inline" alt="GRI" src="../assets/img/frameworks/gri.svg">
+              <p class="d-inline ml-5">GRI 401: Employment 2016 401-1 New employee hires and employee turnover</p>  
+            </main>
+          </section>
         </div>
       </div>
     </div>
-
-   </div>
-      <footer class="footer pt-0">
-        @@include('./_footer.html')
-      </footer>
-    </div>
-  </div>
-  @@include('./_scripts.html', {
-    "path": "..",
-    "path_common": "../.."
-  })
-  @@include('./_scripts-d3.html', {
-    "path": "..",
-    "path_common": "../.."
-  })
-  <!-- Data for Treemap -->
-  <script src="/dashboard/assets/js/treemap-home.min.js"></script>
-  <!-- Datatables -->
-  <script src="/dashboard/assets/js/disclosure.min.js"></script>
-</body>
+    @@include('./_scripts.html', { "path": "..", "path_common": "../.." })
+    @@include('./_scripts-d3.html', { "path": "..", "path_common": "../.." })
+    <!-- Data for Treemap -->
+    <script src="/dashboard/assets/js/treemap-home.min.js"></script>
+    <!-- Datatables -->
+    <script src="/dashboard/assets/js/disclosure.min.js"></script>
+  </body>
 </html>
