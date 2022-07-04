@@ -1,7 +1,7 @@
 .metrics-card .card-header {
-    color: rgb(0, 0, 0);
-    background-color: rgb(218, 218, 218);
-  }
+  color: rgb(0, 0, 0);
+  background-color: rgb(218, 218, 218);
+}
 
 .metrics-card .card-header h3 {
   color: rgb(0, 0, 0);
@@ -15,6 +15,14 @@
   font-weight: bold;
 }
 
+.vertical-text {
+  position: relative;
+  transform-origin:bottom left;
+  top: 110px;
+  left: 50px;
+  transform: rotate(-90deg) translateY(50%);
+}
+
 @media screen and (max-width: 768px) {
   .metrics-card h3 {
     font-size: 0.8rem;
@@ -25,14 +33,13 @@
     font-weight: bold;
   }
 
-  .metrics-card p{
+  .metrics-card p {
     font-size: 0.7rem;
   }
 
-  .metrics-card button{
+  .metrics-card button {
     font-size: 0.5rem;
     padding: 7px;
-    
   }
 }
 
