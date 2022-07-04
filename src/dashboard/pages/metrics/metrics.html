@@ -33,94 +33,115 @@
             </div>
           </section>
           <!--Card Body-->
-          <section>
-            <div class="card-body">
-              <table class="table container-fluid">
+          <section class="container-fluid">
+            <div class="row card-body">
+              <table class="table-responsive d-table">
                 <thead class="thead">
                   <tr>
                     <th scope="col"><h3>34%</h3></th>
                     <th scope="col"><h3>Raw number</h3></th>
                     <th scope="col"><h3>Vs.2021</h3></th>
                     <th scope="col"><h3>Vs.Target</h3></th>
-                    <th scope="col"><h3>HR</h3></th>
+                    <th scope="col"><h3 class="text-right">HR</h3></th>
                   </tr>
                 </thead>
                 <tbody>
                   <th scope="row"></th>
                   <td>205</td>
-                  <td>3%  <i class="fa fa-arrow-up text-success"></i></td>
+                  <td>3% <i class="fa fa-arrow-up text-success"></i></td>
                   <td>14% <i class="fa fa-arrow-down text-danger"></i></td>
                 </tbody>
               </table>
+        
             </div>
-          </section>
-          <!--ESG Categories-->
-          <section>
-            <header><h3 class="ml-4">ESG Categories</h3></header>
-            <main>
-              <ul class="list-inline ml-4">
-                <li class="list-inline-item"><button class="btn button-nav">Social</button></li>
-                <li class="list-inline-item"><button class="btn button-nav">Human Capital</button></li>
-                <li class="list-inline-item"><button class="btn button-nav">Employee Engagement, Viversity & Inclusion</button></li>
+            <!--ESG Categories-->
+
+            <header class="text-center text-md-left"><h3>ESG Categories</h3></header>
+            <main 
+              class="d-flex justify-content-start justify-content-center justify-content-md-start"
+            >
+              <ul class="esg-categories-list pl-0">
+                <li>
+                  <button class="btn button-nav">Social</button>
+                </li>
+                <li>
+                  <button class="btn button-nav">Human Capital</button>
+                </li>
+                <li>
+                  <button class="btn button-nav">
+                    Employee Engagement, Viversity & Inclusion
+                  </button>
+                </li>
               </ul>
             </main>
-          </section>
-          <!--ESG Standards-->
-          <section>
-            <header><h3 class="ml-4 ">ESG Standards</h3></header>
-            <main class="container-fluid">      
-              <img class="avatar rounded-circle bg-white d-inline" alt="GRI" src="../assets/img/frameworks/gri.svg">
-              <p class="d-inline ml-5">GRI 401: Employment 2016 401-1 New employee hires and employee turnover</p>  
+
+            <!--ESG Standards-->
+
+            <header class="text-center text-md-left"><h3>ESG Standards</h3></header>
+            <main class="row">
+              <div class="col-12 col-md-2 text-center text-md-left">
+                <img
+                  class="avatar rounded-circle bg-white"
+                  alt="GRI"
+                  src="../assets/img/frameworks/gri.svg"
+                />
+              </div>
+              <div class="col-12 col-md-10 px-5 text-center text-md-left mt-2">
+                <p>
+                  GRI 401: Employment 2016 401-1 New employee hires and employee
+                  turnover
+                </p>
+              </div>
             </main>
-          </section>
-          <!--Graph-->
-          <section>
-            <div class="row ml-4 mt-3">
-              <div class="col"><canvas id="gri-graph" style="width:100%;max-width:300px"></canvas>
-             
+
+            <!--Graph and Stats-->
+
+            <div class="row mt-3 graph-and-stats">
+              <!--Graph-->
+              <div class="col-lg-4 col-12 mb-3">
+                <canvas
+                  id="gri-graph"
+                  style="width: 100%; max-width: 400px"
+                ></canvas>
               </div>
-              <div class="col">
+              <!--Upper Limit-->
+              <div class="col-lg-4 col-sm-12 col-md-6">
                 <table class="table">
                   <tbody>
-                    <tr>            
+                    <tr>
                       <td>Upper Limit:</td>
-                      <td>0</td>     
+                      <td>0</td>
                     </tr>
-                    <tr>            
+                    <tr>
                       <td>Target:</td>
-                      <td>50</td>     
+                      <td>50</td>
                     </tr>
-                    <tr>            
+                    <tr>
                       <td>Industry Benchmark:</td>
-                      <td>0</td>     
+                      <td>0</td>
                     </tr>
                   </tbody>
                 </table>
-                 
-              
               </div>
-              <div class="col">
+              <!--Lower Limit-->
+              <div class="col-lg-4 col-sm-12 col-md-6">
                 <table class="table">
                   <tbody>
-                    <tr>            
+                    <tr>
                       <td>Lower Limit:</td>
-                      <td>0</td>     
+                      <td>0</td>
                     </tr>
-                    <tr>            
+                    <tr>
                       <td>Current vs Target(%):</td>
-                      <td>-32.00</td>     
+                      <td>-32.00</td>
                     </tr>
-                    <tr>            
+                    <tr>
                       <td>Current vs Industry:</td>
-                      <td></td>     
+                      <td></td>
                     </tr>
                   </tbody>
                 </table>
-                 
-              
               </div>
-              </div>
-           
             </div>
           </section>
         </div>
