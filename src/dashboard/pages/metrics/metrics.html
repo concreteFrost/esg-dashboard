@@ -19,133 +19,16 @@
       @@include('./_nav-top.html', { "path": ".." })
       @@include('./_light-head.html', { "path": ".." })
 
-      <div class="container-fluid position-absolute top-9 metrics-card">
-        <div class="card">
-          <!--Card Header-->
-          <section>
-            <div class="card-header pb-0">
-              <div class="row">
-                <div class="col-9 pr-0">
-                  <h3>Percentage of new hires that identify as women</h3>
-                </div>
-                <div class="col-3"><h3 class="text-right">Head Office</h3></div>
-              </div>
-            </div>
-          </section>
-          <!--Card Body-->
-          <section class="container-fluid">
-            <div class="row card-body">
-              <table class="table-responsive d-table">
-                <thead class="thead">
-                  <tr>
-                    <th scope="col"><h3>34%</h3></th>
-                    <th scope="col"><h3>Raw number</h3></th>
-                    <th scope="col"><h3>Vs.2021</h3></th>
-                    <th scope="col"><h3>Vs.Target</h3></th>
-                    <th scope="col"><h3 class="text-right">HR</h3></th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <th scope="row"></th>
-                  <td>205</td>
-                  <td>3% <i class="fa fa-arrow-up text-success"></i></td>
-                  <td>14% <i class="fa fa-arrow-down text-danger"></i></td>
-                </tbody>
-              </table>
-        
-            </div>
-            <!--ESG Categories-->
-
-            <header class="text-center text-md-left"><h3>ESG Categories</h3></header>
-            <main 
-              class="d-flex justify-content-start justify-content-center justify-content-md-start"
-            >
-              <ul class="esg-categories-list pl-0">
-                <li>
-                  <button class="btn button-nav">Social</button>
-                </li>
-                <li>
-                  <button class="btn button-nav">Human Capital</button>
-                </li>
-                <li>
-                  <button class="btn button-nav">
-                    Employee Engagement, Viversity & Inclusion
-                  </button>
-                </li>
-              </ul>
-            </main>
-
-            <!--ESG Standards-->
-
-            <header class="text-center text-md-left"><h3>ESG Standards</h3></header>
-            <main class="row">
-              <div class="col-12 col-md-2 text-center text-md-left">
-                <img
-                  class="avatar rounded-circle bg-white"
-                  alt="GRI"
-                  src="../assets/img/frameworks/gri.svg"
-                />
-              </div>
-              <div class="col-12 col-md-10 px-5 text-center text-md-left mt-2">
-                <p>
-                  GRI 401: Employment 2016 401-1 New employee hires and employee
-                  turnover
-                </p>
-              </div>
-            </main>
-
-            <!--Graph and Stats-->
-
-            <div class="row mt-3 graph-and-stats">
-              <!--Graph-->
-              <div class="col-lg-4 col-12 mb-3">
-                <canvas
-                  id="gri-graph"
-                  style="width: 100%; max-width: 400px"
-                ></canvas>
-              </div>
-              <!--Upper Limit-->
-              <div class="col-lg-4 col-sm-12 col-md-6">
-                <table class="table">
-                  <tbody>
-                    <tr>
-                      <td>Upper Limit:</td>
-                      <td>0</td>
-                    </tr>
-                    <tr>
-                      <td>Target:</td>
-                      <td>50</td>
-                    </tr>
-                    <tr>
-                      <td>Industry Benchmark:</td>
-                      <td>0</td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
-              <!--Lower Limit-->
-              <div class="col-lg-4 col-sm-12 col-md-6">
-                <table class="table">
-                  <tbody>
-                    <tr>
-                      <td>Lower Limit:</td>
-                      <td>0</td>
-                    </tr>
-                    <tr>
-                      <td>Current vs Target(%):</td>
-                      <td>-32.00</td>
-                    </tr>
-                    <tr>
-                      <td>Current vs Industry:</td>
-                      <td></td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
-            </div>
-          </section>
-        </div>
-      </div>
+      <!--Button Nav-->
+      <div class="d-flex mt-1 ml-md-5 ml-0 justify-content-center justify-content-md-start ">
+        <ul class="list-unstyled list-inline mb-0">
+            <li class="list-inline-item"><button class="btn btn-sm button-nav btn-block" type="button" id="key-data-btn">Overview</button></li>
+            <li class="list-inline-item"><button class="btn btn-sm  button-nav btn-block" type="button" id="materiality-btn">Materiality</button></li>
+            <li class="list-inline-item"><button class="btn btn-sm button-nav btn-block"  type="button"id="managment-btn">Managment</button></li>
+        </ul>
+    </div>
+    <!--Key Data-->
+      @@include('../pages/metrics/_key-data.html')
     </div>
     @@include('./_scripts.html', { "path": "..", "path_common": "../.." })
     @@include('./_scripts-d3.html', { "path": "..", "path_common": "../.." })
