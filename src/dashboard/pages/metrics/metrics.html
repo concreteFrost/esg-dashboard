@@ -75,8 +75,52 @@
           </section>
           <!--Graph-->
           <section>
-            <div class="row">
-              <div class="col vertical-text"><h3><i>Employees</i></h3></div>
+            <div class="row ml-4 mt-3">
+              <div class="col"><canvas id="gri-graph" style="width:100%;max-width:300px"></canvas>
+             
+              </div>
+              <div class="col">
+                <table class="table">
+                  <tbody>
+                    <tr>            
+                      <td>Upper Limit:</td>
+                      <td>0</td>     
+                    </tr>
+                    <tr>            
+                      <td>Target:</td>
+                      <td>50</td>     
+                    </tr>
+                    <tr>            
+                      <td>Industry Benchmark:</td>
+                      <td>0</td>     
+                    </tr>
+                  </tbody>
+                </table>
+                 
+              
+              </div>
+              <div class="col">
+                <table class="table">
+                  <tbody>
+                    <tr>            
+                      <td>Lower Limit:</td>
+                      <td>0</td>     
+                    </tr>
+                    <tr>            
+                      <td>Current vs Target(%):</td>
+                      <td>-32.00</td>     
+                    </tr>
+                    <tr>            
+                      <td>Current vs Industry:</td>
+                      <td></td>     
+                    </tr>
+                  </tbody>
+                </table>
+                 
+              
+              </div>
+              </div>
+           
             </div>
           </section>
         </div>
@@ -84,10 +128,8 @@
     </div>
     @@include('./_scripts.html', { "path": "..", "path_common": "../.." })
     @@include('./_scripts-d3.html', { "path": "..", "path_common": "../.." })
-    <!-- Data for Treemap -->
-    <script src="/dashboard/assets/js/treemap-home.min.js"></script>
-    <!-- Datatables -->
-    <script src="/dashboard/assets/js/disclosure.min.js"></script>
-    <script src="/dashboard/assets/js/charts.min.js"></script>
+
+    <!-- <script src="/dashboard/assets/js/disclosure.min.js"></script> -->
+    <script src="/dashboard/assets/js/graphs.min.js"></script>
   </body>
 </html>
