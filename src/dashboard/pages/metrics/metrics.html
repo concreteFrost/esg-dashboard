@@ -20,20 +20,18 @@
       @@include('./_light-head.html', { "path": ".." })
 
       <!--Button Nav-->
-      <div class="d-flex mt-1 ml-md-5 ml-0 justify-content-center justify-content-md-start ">
-        <ul class="list-unstyled list-inline mb-0">
-            <li class="list-inline-item"><button class="btn btn-sm button-nav btn-block" type="button" id="key-data-btn">Overview</button></li>
-            <li class="list-inline-item"><button class="btn btn-sm  button-nav btn-block" type="button" id="materiality-btn">Materiality</button></li>
-            <li class="list-inline-item"><button class="btn btn-sm button-nav btn-block"  type="button"id="managment-btn">Managment</button></li>
-        </ul>
-    </div>
+      @@include('../pages/metrics/_button-nav.html')
     <!--Key Data-->
       @@include('../pages/metrics/_key-data.html')
+      @@include('../pages/metrics/_materiality.html')
     </div>
     @@include('./_scripts.html', { "path": "..", "path_common": "../.." })
     @@include('./_scripts-d3.html', { "path": "..", "path_common": "../.." })
 
     <!-- <script src="/dashboard/assets/js/disclosure.min.js"></script> -->
+
     <script src="/dashboard/assets/js/graphs.min.js"></script>
+
+    <script src="/dashboard/assets/js/button-nav-metrics.min.js"></script>
   </body>
 </html>

@@ -5,7 +5,6 @@
   border-radius: 5px;
   padding: 10px;
   box-shadow: 10px 10px 5px ;
-
 }
 
 .esg-categories-list ul {
@@ -31,8 +30,13 @@
   color: rgb(0, 0, 0);
 }
 
-.metrics-card p {
-  font-weight: 600;
+.metrics-card td {
+  font-weight: 500;
+}
+
+.metrics-card thead th{
+  font-weight: bolder;
+  font-size:1rem;
 }
 
 .metrics-card table {
@@ -49,7 +53,7 @@
 
 @media screen and (max-width: 768px) {
   .metrics-card h3 {
-    font-size: 0.8rem;
+    font-size: 0.9rem;
   }
 
   .metrics-card h4 {
