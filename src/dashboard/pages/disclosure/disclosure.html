@@ -30,12 +30,14 @@
       "path": ".."
     })  
    <!--Button Nav-->
+   <div class="container-fluid w-100">
    @@include('../pages/disclosure/_button-nav.html')
    <!--ESG Graph-->
     @@include('../pages/disclosure/_esg-graph.html')
     @@include('../pages/disclosure/_standart-reporting-progress.html')
     <!--Metrics-->
     @@include('../pages/disclosure/_metrics-table.html')
+  </div>
    </div>
       <footer class="footer pt-0">
         @@include('./_footer.html')
@@ -56,6 +58,6 @@
   <!-- Datatables -->
   <script src="/dashboard/assets/js/disclosure.min.js"></script>
   <!--Button Nav-->
-  <script src="/dashboard/assets/js/button-nav-disclosure.min.js"></script>
+  <script type="module" src="/dashboard/assets/js/button-nav-disclosure.min.js"></script>
 </body>
 </html>
