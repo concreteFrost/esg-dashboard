@@ -585,7 +585,7 @@ gulp.task('bundle', function() {
   return gulp
     .src([
       paths.src.front.assets,
-      '!src/front/assets/js/**/*.js',
+      '!src/front/assets/js/automated/*.js',
       paths.src.front.assets + '.min.js',
     ])
     .pipe(gulp.dest(paths.dist.front.assets));
