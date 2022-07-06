@@ -36,6 +36,11 @@
   color: rgb(0, 0, 0);
 }
 
+.metrics-card p {
+  font-size: 0.8rem;
+  font-weight:normal;
+}
+
 @media screen and (max-width: 768px) {
   .metrics-card h3 {
     font-size: 1rem;
@@ -46,9 +51,7 @@
     font-weight: bold;
   }
 
-  .metrics-card p {
-    font-size: 0.9rem;
-  }
+
 
   .metrics-card button {
     font-size: 0.8rem;
@@ -75,9 +78,9 @@
   .metrics-card h3 {
     font-size: 0.8rem;
   }
-  .metrics-card h4,.metrics-card h5 {
-    font-size: 0.7rem;
-    font-weight: bold;
+
+  .metrics-card h5, .metrics-card h4 {
+    font-size: 0.8rem;
   }
 
   .metrics-card p {
@@ -88,14 +91,5 @@
 
 }
 
-@media screen and (max-width: 588px) {
-  .metrics-card h3 {
-    font-size: 0.6rem;
-  }
-  .metrics-card h4,.metrics-card h5 {
-    font-size: 0.5rem;
-    font-weight: bold;
-  }
-}
 
 
