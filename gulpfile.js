@@ -22,6 +22,8 @@ const wait = require('gulp-wait');
 const sourcemaps = require('gulp-sourcemaps');
 const fileinclude = require('gulp-file-include');
 const javascriptObfuscator = require('gulp-javascript-obfuscator');
+const rollup = require('gulp-rollup')
+
 
 // Define paths
 const paths = {
@@ -106,6 +108,9 @@ const paths = {
     vendor: './.temp/vendor',
   },
 };
+
+
+
 
 // Compile Dashboard HTML
 gulp.task('html-dashboard', function () {
@@ -571,6 +576,16 @@ gulp.task('copy-front:dist:assets', function () {
     .src([
       paths.src.front.assets,
       '!src/front/assets/js/*.js',
+      paths.src.front.assets + '.min.js',
+    ])
+    .pipe(gulp.dest(paths.dist.front.assets));
+});
+
+gulp.task('bundle', function() {
+  return gulp
+    .src([
+      paths.src.front.assets,
+      '!src/front/assets/js/**/*.js',
       paths.src.front.assets + '.min.js',
     ])
     .pipe(gulp.dest(paths.dist.front.assets));

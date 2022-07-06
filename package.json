@@ -67,6 +67,7 @@
     "dropzone": "^5.7.6",
     "eonasdan-bootstrap-datetimepicker": "^4.17.49",
     "fullcalendar": "3.10.2",
+    "gulp-rollup": "^2.17.0",
     "headroom.js": "0.10.4",
     "install": "^0.13.0",
     "jarallax": "1.12.7",
