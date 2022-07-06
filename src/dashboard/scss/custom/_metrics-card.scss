@@ -7,6 +7,12 @@
   box-shadow: 10px 10px 5px ;
 }
 
+.business-unit-graph{
+
+  transform: translateY(15%);
+}
+
+
 .esg-categories-list ul {
   margin-left: 0;
 }
@@ -30,43 +36,22 @@
   color: rgb(0, 0, 0);
 }
 
-.metrics-card td {
-  font-weight: 500;
-}
-
-.metrics-card thead th{
-  font-weight: bolder;
-  font-size:1rem;
-}
-
-.metrics-card table {
-  font-weight: bold;
-}
-
-.vertical-text {
-  position: relative;
-  transform-origin: bottom left;
-  top: 110px;
-  left: 50px;
-  transform: rotate(-90deg) translateY(50%);
-}
-
 @media screen and (max-width: 768px) {
   .metrics-card h3 {
-    font-size: 0.9rem;
+    font-size: 1rem;
   }
 
-  .metrics-card h4 {
-    font-size: 0.8rem;
+  .metrics-card h4,.metrics-card h5 {
+    font-size: 0.9rem;
     font-weight: bold;
   }
 
   .metrics-card p {
-    font-size: 0.8rem;
+    font-size: 0.9rem;
   }
 
   .metrics-card button {
-    font-size: 0.7rem;
+    font-size: 0.8rem;
     padding: 7px;
   }
 
@@ -79,19 +64,24 @@
     text-align: center;
     margin-top: 5px;
   }
+
+  .business-unit-graph{
+
+    transform: translateY(0%);
+  }
 }
 
 @media screen and (max-width: 581px) {
   .metrics-card h3 {
-    font-size: 0.7rem;
+    font-size: 0.8rem;
   }
-  .metrics-card h4 {
-    font-size: 0.6rem;
+  .metrics-card h4,.metrics-card h5 {
+    font-size: 0.7rem;
     font-weight: bold;
   }
 
   .metrics-card p {
-    font-size: 0.6rem;
+    font-size: 0.7rem;
     font-weight: bold;
   }
 
@@ -102,7 +92,7 @@
   .metrics-card h3 {
     font-size: 0.6rem;
   }
-  .metrics-card h4 {
+  .metrics-card h4,.metrics-card h5 {
     font-size: 0.5rem;
     font-weight: bold;
   }
