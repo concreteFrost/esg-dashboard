@@ -25,16 +25,17 @@
     @@include('./_light-head.html', { "path": ".." })
     <!-- Header -->
 
-    @@include('./_light-head.html', { "path": ".." })
     <!-- Page content -->
-    <div class="container-fluid mt--6">
-      <div class="row">
+    <div class="container-fluid">
+      @@include('../pages/risk-overview/_button-nav.html')
+      <div class="row" id="risk-overview">
         <!-- Risk Analysis Chart -->
         @@include('../pages/risk-overview/_analysis.html')
         <!-- Risk Comparison Chart -->
         @@include('../pages/risk-overview/_comparison.html')
         <!-- Carbon Performance Chart -->
-        @@include('../pages/risk-overview/_performance.html')
+        @@include('../pages/risk-overview/_raw-score.html')
+
       </div>
       <!-- Risk Items Table -->
       @@include('../pages/risk-overview/_risk-items-table.html')
@@ -53,5 +54,8 @@
     "path_common": "../.."
   })
 </body>
-
+<script
+type="module"
+src="/dashboard/assets/js/button-nav-risks.min.js"
+></script>
 </html>
