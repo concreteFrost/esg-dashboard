@@ -1,50 +1,35 @@
 <!DOCTYPE html>
 <html>
-  @@include('./_head.html', {
-    "title": "Profile - esg:one",
-    "path": "..",
-    "path_common": "../.."
-  })
-<body class="bg-white">
-  <!-- Preloader -->
-  @@include('./_preloader.html', {
-    "path": ".."
-  })
-  <!-- Tracking Code -->
-  @@include('./_tracking-body.html')
-  <!-- Navbar -->
-  @@include('./_nav-side.html', {
-    "path": "..",
-    "path_common": "../.."
-  })
-  <!-- Main content -->
-  <div class="main-content profile-page" id="panel">
-    <!-- Topnav -->
-   
-        @@include('./_nav-top.html', {
-          "path": ".."
-        })
+  @@include('./_head.html', { "title": "Profile - esg:one", "path": "..",
+  "path_common": "../.." })
+  <body class="bg-white">
+    <!-- Preloader -->
+    @@include('./_preloader.html', { "path": ".." })
+    <!-- Tracking Code -->
+    @@include('./_tracking-body.html')
+    <!-- Navbar -->
+    @@include('./_nav-side.html', { "path": "..", "path_common": "../.." })
+    <!-- Main content -->
+    <div class="main-content profile-page" id="panel">
+      <!-- Topnav -->
 
-    <!-- Header -->
-    @@include('../pages/account/profile-partials/_header.html')
-    <!-- Page content -->
-    <div class="container-fluid mt-2">
-      <div class="row">
-           <!--Edit Profile-->
-        @@include('../pages/account/profile-partials/_edit-profile.html')
-        @@include('../pages/account/profile-partials/_profile-card.html')
-     
+      @@include('./_nav-top.html', { "path": ".." })
+
+      <!-- Header -->
+      @@include('../pages/account/profile-partials/_header.html')
+      <!-- Page content -->
+      <div class="container-fluid mt-2">
+        <div class="row">
+          <!--Edit Profile-->
+          @@include('../pages/account/profile-partials/_profile-card.html')
+          @@include('../pages/account/profile-partials/_edit-profile.html')
+        </div>
+        <!-- Footer -->
+        <footer class="footer bg-transparent pt-0">
+          @@include('./_footer.html')
+        </footer>
       </div>
-      <!-- Footer -->
-      <footer class="footer bg-transparent pt-0">
-        @@include('./_footer.html')
-      </footer>
     </div>
-  </div>
-  @@include('./_scripts.html', {
-    "path": "..",
-    "path_common": "../.."
-  })
-</body>
-
+    @@include('./_scripts.html', { "path": "..", "path_common": "../.." })
+  </body>
 </html>
