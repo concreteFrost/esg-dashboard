@@ -64,8 +64,8 @@ if($('[data-toggle="widget-calendar"]')[0]) {
             
             {
                 title: 'Marketing event',
-                start: '2018-12-10',
-                end: '2018-12-10',
+                start: '2022-07-07',
+                end: '2022-07-07',
                 className: 'bg-purple'
             },
             
