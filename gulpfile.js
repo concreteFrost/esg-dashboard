@@ -22,7 +22,7 @@ const wait = require('gulp-wait');
 const sourcemaps = require('gulp-sourcemaps');
 const fileinclude = require('gulp-file-include');
 const javascriptObfuscator = require('gulp-javascript-obfuscator');
-const rollup = require('gulp-rollup')
+
 
 
 // Define paths
@@ -140,6 +140,18 @@ gulp.task('html-base', function () {
     .pipe(browserSync.stream());
 });
 
+gulp.task('html-add', function () {
+  return gulp
+    .src([paths.src.html])
+    .pipe(
+      fileinclude({
+        prefix: '@@',
+        basepath: paths.src.front +"/home/*",
+      })
+    )
+    .pipe(gulp.dest(paths.temp.base))
+    .pipe(browserSync.stream());
+});
 // Compile Frontend SCSS
 gulp.task('scss-front', function () {
   return gulp

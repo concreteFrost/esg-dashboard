@@ -1,63 +1,44 @@
 <!DOCTYPE html>
 <html>
-  @@include('./_head.html', {
-    "title": "Disclosure Reporting - FSI Bank - esg:one",
-    "canonical": "https://app.esg-one.co/dashboard/company/disclosure-reporting",
-    "path": "..",
-    "path_common": "../.."
-  })
-<body>
-  <!-- Preloader -->
-  @@include('./_preloader.html', {
-    "path": ".."
-  })
-  <!-- Tracking Code -->
-  @@include('./_tracking-body.html')
-  <!-- Navbar -->
-  @@include('./_nav-side.html', {
-    "path": "..",
-    "path_common": "../.."
-  })
-  <!-- Main content -->
-  <div class="main-content" id="panel">
-    <!-- Topnav -->
-    
-    @@include('./_nav-top.html', {
-      "path": ".."
-    })  
+  @@include('./_head.html', { "title": "Disclosure Reporting - FSI Bank -esg:one", 
+  "canonical": "https://app.esg-one.co/dashboard/company/disclosure-reporting", "path": "..",
+  "path_common": "../.." })
+  <body>
+    <!-- Preloader -->
+    @@include('./_preloader.html', { "path": ".." })
+    <!-- Tracking Code -->
+    @@include('./_tracking-body.html')
+    <!-- Navbar -->
+    @@include('./_nav-side.html', { "path": "..", "path_common": "../.." })
+    <!-- Main content -->
+    <div class="main-content" id="panel">
+      <!-- Topnav -->
 
-    @@include('./_light-head.html', {
-      "path": ".."
-    })  
-   <!--Button Nav-->
-   <div class="container-fluid w-100">
-   @@include('../pages/disclosure/_button-nav.html')
-   <!--ESG Graph-->
-    @@include('../pages/disclosure/_esg-graph.html')
-    @@include('../pages/disclosure/_standart-reporting-progress.html')
-    <!--Metrics-->
-    @@include('../pages/disclosure/_metrics-table.html')
-  </div>
-   </div>
-      <footer class="footer pt-0">
-        @@include('./_footer.html')
-      </footer>
+      @@include('./_nav-top.html', { "path": ".." })
+      @@include('./_light-head.html', { "path": ".." })
+      <!--Button Nav-->
+      <div class="container-fluid w-100">
+        @@include('../pages/disclosure/_button-nav.html')
+        <!--ESG Graph-->
+        @@include('../pages/disclosure/_esg-graph.html')
+        @@include('../pages/disclosure/_standart-reporting-progress.html')
+        <!--Metrics-->
+        @@include('../pages/disclosure/_metrics-table.html')
+      </div>
+      <footer class="footer pt-0">@@include('./_footer.html')</footer>
     </div>
-  </div>
-  @@include('./_scripts.html', {
-    "path": "..",
-    "path_common": "../.."
-  })
-  @@include('./_scripts-d3.html', {
-    "path": "..",
-    "path_common": "../.."
-  })
-  <!-- Data for Treemap -->
-  <script src="/dashboard/assets/js/treemap-home.min.js"></script>
 
-  <!-- Datatables -->
-  <script src="/dashboard/assets/js/disclosure.min.js"></script>
-  <!--Button Nav-->
-  <script type="module" src="/dashboard/assets/js/button-nav-disclosure.min.js"></script>
-</body>
+    @@include('./_scripts.html', { "path": "..", "path_common": "../.." })
+    @@include('./_scripts-d3.html', { "path": "..", "path_common": "../.." })
+    <!-- Data for Treemap -->
+    <script src="/dashboard/assets/js/treemap-home.min.js"></script>
+
+    <!-- Datatables -->
+    <script src="/dashboard/assets/js/disclosure.min.js"></script>
+    <!--Button Nav-->
+    <script
+      type="module"
+      src="/dashboard/assets/js/button-nav-disclosure.min.js"
+    ></script>
+  </body>
 </html>

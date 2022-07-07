@@ -20,6 +20,7 @@
       @@include('./_light-head.html', { "path": ".." })
 
       <!--Button Nav-->
+      <div class="container-fluid">
       @@include('../pages/metrics/_button-nav.html')
     <!--Key Data-->
       @@include('../pages/metrics/_key-data.html')
@@ -28,8 +29,8 @@
     </div>
     @@include('./_scripts.html', { "path": "..", "path_common": "../.." })
     @@include('./_scripts-d3.html', { "path": "..", "path_common": "../.." })
-
-    <!-- <script src="/dashboard/assets/js/disclosure.min.js"></script> -->
+    <footer class="footer pt-0">@@include('./_footer.html')</footer>
+  </div>
 
     <script src="/dashboard/assets/js/graphs.min.js"></script>
    
