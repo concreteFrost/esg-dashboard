@@ -21,32 +21,11 @@
   <!-- Main content -->
   <div class="main-content" id="panel">
     <!-- Topnav -->
-    <nav class="navbar navbar-top navbar-expand navbar-dark bg-esg-five border-bottom">
-    @@include('./_nav-top.html', {
-      "path": ".."
-    })
-    </nav>
     <!-- Header -->
-    <div class="header bg-esg-five pb-6">
-      <div class="container-fluid">
-        <div class="header-body">
-          <div class="row align-items-center py-4">
-            <div class="col-lg-6 col-7">
-              <h6 class="h2 text-white d-inline-block mb-0">FSI Bank</h6>
-              <nav aria-label="breadcrumb" class="d-none d-md-inline-block ml-md-4">
-                <ol class="breadcrumb breadcrumb-links breadcrumb-dark">
-                  <li class="breadcrumb-item"><a href="/dashboard/home"><i class="fas fa-home"></i></a></li>
-                  <li class="breadcrumb-item"><a href="/dashboard/frameworks/">Frameworks</a></li>
-                  <li class="breadcrumb-item active" aria-current="page">SASB</li>
-                </ol>
-              </nav>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+    @@include('./_nav-top.html', { "path": ".." })
+    @@include('./_light-head.html', { "path": ".." })
     <!-- Page content -->
-    <div class="container-fluid mt--6">
+    <div class="container-fluid mt-2">
       <div class="row">
         <!-- Overall Status -->
         <div class="col-xl-3 col-md-6">
