@@ -21,12 +21,12 @@
 
       <!--Button Nav-->
       <div class="container-fluid">
-      @@include('../pages/metrics/_button-nav.html')
+      @@include('../pages/company/metrics/_button-nav.html')
     <!--Key Data-->
-      @@include('../pages/metrics/_key-data.html')
-      @@include('../pages/metrics/_materiality.html')
-      @@include('../pages/metrics/_managment.html')
-      @@include('../pages/metrics/_breakdown.html')
+      @@include('../pages/company/metrics/_key-data.html')
+      @@include('../pages/company/metrics/_materiality.html')
+      @@include('../pages/company/metrics/_managment.html')
+      @@include('../pages/company/metrics/_breakdown.html')
     </div>
     @@include('./_scripts.html', { "path": "..", "path_common": "../.." })
     @@include('./_scripts-d3.html', { "path": "..", "path_common": "../.." })
@@ -34,7 +34,7 @@
   </div>
 
     <script src="/dashboard/assets/js/graphs.min.js"></script>
-   
+    <script src="/dashboard/assets/js/nav-side-active.min.js"></script>
     <script type="module" src="/dashboard/assets/js/button-nav-metrics.min.js"></script>
   
   </body>

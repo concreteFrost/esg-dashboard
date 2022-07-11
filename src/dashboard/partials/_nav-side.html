@@ -56,10 +56,33 @@
             <div class="collapse" id="company">
               <ul class="nav nav-sm flex-column">
                 <li>
-                  <a class="nav-link" href="@@path/company/disclosure.html">
+                  <a
+                    class="nav-link"
+                    href="#disclosure"
+                    data-toggle="collapse"
+                    data-target="#metrics"
+                    role="button"
+                    aria-expanded="false"
+                  >
                     <span class="sidenav-mini-icon"> D </span>
                     <span class="sidenav-normal"> Disclosure Reporting </span>
                   </a>
+                  <div class="collapse" id="metrics">
+                    <ul class="list-unstyled">
+                      <li>
+                        <a class="nav-link" href="@@path/company/disclosure.html">
+                          <span class="sidenav-mini-icon"> -d </span>
+                          <span class="sidenav-normal"> -disclosure </span>
+                        </a>
+                      </li>
+                      <li>
+                        <a class="nav-link" href="@@path/company/metrics.html">
+                          <span class="sidenav-mini-icon"> -m </span>
+                          <span class="sidenav-normal"> -metrics </span>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
                 </li>
                 <li>
                   <a class="nav-link" href="@@path/company/risk-overview.html">
