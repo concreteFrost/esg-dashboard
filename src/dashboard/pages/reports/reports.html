@@ -28,6 +28,12 @@
               <div class="row">
                 <div class="col"><h2>Regional Breakdown</h2></div>
               </div>
+              <div class="row">
+                <ul class="list-inline ml-3">
+                    <li class="list-inline-item"><button class="btn btn-sm btn-primary" onclick="$('#printableArea').printThis()">Print</button></li>
+                    <li class="list-inline-item"><button class="btn btn-sm btn-primary">PDF</button></li>
+                </ul>
+              </div>
               <div class="row bg-secondary border-top border-bottom">
                 <div class="col">
                   <h3>Percentage of new hires that identify as women</h3>
@@ -38,28 +44,48 @@
           </section>
           <!--Card Body-->
           <section>
-            <div class="card-body">
-            <div class="row">
-                <div class="col"><h3 class="text-center">Regional Perfomance</h3>
-                    <div>
-                        <canvas
-                          id="regional-performance-bar"
-                          style="
-                            width: 100%;
-                            
-                            max-width: 450px;
-                            margin: auto;
-                            display: block;
-                          "
-                        ></canvas>
-                      </div>
+            <div class="card-body" id="printableArea">
+              <div class="row">
+                <div class="col">
+                  <h3 class="text-center">Regional Perfomance</h3>
+                  <div>
+                    <canvas
+                      id="regional-performance-bar"
+                      style="
+                        width: 100%;
+                        max-width: 800px;
+                        max-height: 250px;
+                        
+                      "
+                    ></canvas>
+                  </div>
                 </div>
-                <div class="col"></div>
+                <div class="col">
+                    <canvas
+                      id="regional-performance-pie"
+                      style="
+                        width: 100%;
+  
+                        max-width: 450px;
+                        margin: auto;
+                        display: block;
+                      "
+                    ></canvas>
+                  </div>
+              </div>
+              <div class="row justify-content-center">
+                <div class="col">
+                    <canvas
+                      id="regional-performance-esg"
+                      style="
+                        width: 100%;
+                        max-height: 200px;
+                        max-width: 1200px;
+                      "
+                    ></canvas>
+                  </div>
+              </div>
             </div>
-            <div class="row">
-                <div class="col"></div>
-            </div>
-        </div>
           </section>
         </div>
       </div>
@@ -67,12 +93,9 @@
       @@include('./_scripts-d3.html', { "path": "..", "path_common": "../.." })
       <footer class="footer pt-0">@@include('./_footer.html')</footer>
     </div>
-
+    <script src="/dashboard/assets/js/automated/printThis.min.js"></script>
+    <script src="/dashboard/assets/js/print-regional-breakdown.min.js"></script>
     <script src="/dashboard/assets/js/reports-graphs.min.js"></script>
     <script src="/dashboard/assets/js/nav-side-active.min.js"></script>
-    <script
-      type="module"
-      src="/dashboard/assets/js/button-nav-metrics.min.js"
-    ></script>
   </body>
 </html>
