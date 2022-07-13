@@ -50,7 +50,6 @@
             >Edit</a
           >
           <button
-
             class="btn btn-sm btn-neutral d-none d-md-inline-block float-right"
             type="button"
             id="dropdownMenuButton"
@@ -58,11 +57,19 @@
             aria-haspopup="true"
             aria-expanded="false"
             id="customise-widgets"
-            >Customise Widgets</button
           >
+            Customise Widgets
+          </button>
+
+          <button
+          class="btn btn-sm btn-neutral  float-right"
+          type="button"
+        >
+          Manage Cards
+        </button>
 
           <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-            <div class="px-5"  id="checklist-container">
+            <div class="px-5" id="checklist-container">
               <div class="form-check form-switch">
                 <input
                   class="form-check-input"
@@ -70,9 +77,7 @@
                   id="cards-check"
                   checked
                 />
-                <label class="form-check-label" for="cards-check"
-                  >Cards</label
-                >
+                <label class="form-check-label" for="cards-check">Cards</label>
               </div>
               <div class="form-check form-switch">
                 <input
@@ -125,9 +130,7 @@
                   id="todo-check"
                   checked
                 />
-                <label class="form-check-label" for="todo-check"
-                  >ToDo</label
-                >
+                <label class="form-check-label" for="todo-check">ToDo</label>
               </div>
               <div class="form-check form-switch">
                 <input
@@ -143,6 +146,8 @@
             </div>
           </div>
         </div>
+      </div>
+
       </div>
       <!-- Card Grid -->
       @@include('./_cards.html')
