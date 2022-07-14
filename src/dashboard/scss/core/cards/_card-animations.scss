@@ -8,3 +8,12 @@
         @include transition($transition-base);
     }
 }
+
+.card-move{
+
+    .card-body{
+        background-color: rgb(226, 226, 226);
+        border-radius: 5px;
+    }
+}
+
