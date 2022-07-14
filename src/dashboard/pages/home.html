@@ -18,11 +18,17 @@
       <!-- Page content -->
       <div class="container-fluid mt--6 ">
         <!--Tree & Progress-->
-       @@include("../partials/tree_and_progress/_container.html")
+        <div class="row" id="widgets-grid">
+       @@include("../partials/tree_and_progress/_treemap.html")
+       @@include("../partials/tree_and_progress/_progress.html")
         <!--Risk & Company Locations -->
-        @@include('../partials/table/_container.html')    
+        @@include('../partials/table/_risks-table.html')    
+        @@include('../partials/table/_country-listing.html')  
+        @@include('../partials/todo_and_tasks/_team-tasks.html')
         <!--Todo and Team Tasks-->
-        @@include('../partials/todo_and_tasks/_container.html')
+        @@include('../partials/todo_and_tasks/_todo.html')
+
+      </div>
         <!-- Footer -->
         <footer class="footer pt-0">@@include('./_footer.html')</footer>
       </div>
@@ -33,6 +39,7 @@
     <!-- Data for Treemap -->
     <script src="/dashboard/assets/js/customize-widgets.min.js"></script>
     <script src="/dashboard/assets/js/components/cards/manage-cards.min.js"></script>
+    <script src="/dashboard/assets/js/manage-widgets.min.js"></script>
     <script src="/dashboard/assets/js/treemap-home.min.js"></script>
   </body>
 </html>
