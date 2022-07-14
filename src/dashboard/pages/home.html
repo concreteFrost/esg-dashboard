@@ -16,7 +16,7 @@
       <!-- Header -->
       @@include('./_dashboard-head.html') 
       <!-- Page content -->
-      <div class="container-fluid mt--6">
+      <div class="container-fluid mt--6 ">
         <!--Tree & Progress-->
        @@include("../partials/tree_and_progress/_container.html")
         <!--Risk & Company Locations -->
@@ -29,8 +29,10 @@
     </div>
     @@include('./_scripts.html', { "path": ".", "path_common": ".." })
     @@include('./_scripts-d3.html', { "path": ".", "path_common": ".." })
+ 
     <!-- Data for Treemap -->
     <script src="/dashboard/assets/js/customize-widgets.min.js"></script>
+    <script src="/dashboard/assets/js/components/cards/manage-cards.min.js"></script>
     <script src="/dashboard/assets/js/treemap-home.min.js"></script>
   </body>
 </html>

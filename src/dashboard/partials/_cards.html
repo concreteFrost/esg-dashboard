@@ -1,150 +1,214 @@
-<div class="row" id="card-grid">
-  <!--card-->
-  <div class="col-xl-3 col-md-6">
-    <div class="card card-stats">
-      <!--GHG Emissions-->
+<div id="card-grid">
+  <div class="row mb-1">
+    <div class="col">
+      <button
+        class="btn btn-sm btn-neutral float-right"
+        type="button"
+        data-toggle="modal"
+        data-target="#manageCardsModal"
+        id="manage-cards-btn"
+      >
+        Manage Cards
+      </button>
+    </div>
+  </div>
+  <!--Modal-->
+  <div
+    class="modal fade"
+    id="manageCardsModal"
+    tabindex="-1"
+    role="dialog"
+    aria-labelledby="exampleModalLabel"
+    aria-hidden="true"
+  >
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header mb--4">
+          <h5 class="modal-title" id="exampleModalLabel">Manage Cards</h5>
+          <button
+            type="button"
+            class="close"
+            data-dismiss="modal"
+            aria-label="Close"
+          >
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body py-2 ">
+          <div class="row border-top ">
+            <div class="col">  
+              <ul class="list-unstyled" id="sortable-1">
+                <li>GHG Emissions</li>
+                <li>GREEN FINANCE</li>
+                <li>MANAGMENT</li>
+                <li>CARBON-RISK</li>
+              </ul>
+            </div>
+            <div class="col">  
+              <ul class="list-unstyled" id="sortable-2">
+                <li>GHG Emissions</li>
+                <li>GREEN FINANCE</li>
+                <li>MANAGMENT</li>
+                <li>CARBON-RISK</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
 
-      <div class="card-body">
-        <!--close button-->
-        <div class="row">
-          <div class="col position-absolute top-0">
-            <button class="btn btn-sm btn-light float-right mt-1 py-0">
-              x
-            </button>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col">
-            <h5 class="card-title text-uppercase text-muted mb-0">
-              GHG Emissions
-            </h5>
-            <h6 class="text-muted">Scopes 1, 2, 3 (location)</h6>
-            <div class="card-numbers">197,504 (tCO2e)</div>
-          </div>
-          <div class="col-auto">
-            <div
-              class="icon icon-shape bg-esg-two text-white rounded-circle shadow"
-            >
-              <i class="ni ni-delivery-fast"></i>
+  <div class="row">
+    <!--card-->
+    <div class="col-xl-3 col-md-6">
+      <div class="card card-stats">
+        <!--GHG Emissions-->
+
+        <div class="card-body">
+          <!--close button-->
+          <div class="row">
+            <div class="col position-absolute top-0">
+              <button class="btn btn-sm btn-light float-right mt-1 py-0">
+                x
+              </button>
             </div>
           </div>
+          <div class="row">
+            <div class="col">
+              <h5 class="card-title text-uppercase text-muted mb-0">
+                GHG Emissions
+              </h5>
+              <h6 class="text-muted">Scopes 1, 2, 3 (location)</h6>
+              <div class="card-numbers">197,504 (tCO2e)</div>
+            </div>
+            <div class="col-auto">
+              <div
+                class="icon icon-shape bg-esg-two text-white rounded-circle shadow"
+              >
+                <i class="ni ni-delivery-fast"></i>
+              </div>
+            </div>
+          </div>
+          <p class="mt-3 mb-0 text-sm">
+            <span class="text-nowrap text-success"
+              ><i class="fa fa-arrow-up"></i> 3% above target</span
+            >
+          </p>
         </div>
-        <p class="mt-3 mb-0 text-sm">
-          <span class="text-nowrap text-success"
-            ><i class="fa fa-arrow-up"></i> 3% above target</span
-          >
-        </p>
       </div>
     </div>
-  </div>
-  <!--card-->
-  <div class="col-xl-3 col-md-6">
-    <div class="card card-stats">
-      <!-- Card body -->
-      <div class="card-body">
-        <!--close button-->
-        <div class="row">
-          <div class="col position-absolute top-0">
-            <button class="btn btn-sm btn-light float-right mt-1 py-0">
-              x
-            </button>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col">
-            <h5 class="card-title text-uppercase text-muted mb-0">
-              Green Finance
-            </h5>
-            <h6 class="text-muted">Provided in 2020</h6>
-            <div class="card-numbers">34 billion (GBP)</div>
-          </div>
-          <div class="col-auto">
-            <div
-              class="icon icon-shape bg-esg-three text-white rounded-circle shadow"
-            >
-              <i class="ni ni-money-coins"></i>
+    <!--card-->
+    <div class="col-xl-3 col-md-6">
+      <div class="card card-stats">
+        <!-- Card body -->
+        <div class="card-body">
+          <!--close button-->
+          <div class="row">
+            <div class="col position-absolute top-0">
+              <button class="btn btn-sm btn-light float-right mt-1 py-0">
+                x
+              </button>
             </div>
           </div>
+          <div class="row">
+            <div class="col">
+              <h5 class="card-title text-uppercase text-muted mb-0">
+                Green Finance
+              </h5>
+              <h6 class="text-muted">Provided in 2020</h6>
+              <div class="card-numbers">34 billion (GBP)</div>
+            </div>
+            <div class="col-auto">
+              <div
+                class="icon icon-shape bg-esg-three text-white rounded-circle shadow"
+              >
+                <i class="ni ni-money-coins"></i>
+              </div>
+            </div>
+          </div>
+          <p class="mt-3 mb-0 text-sm">
+            <span class="text-nowrap text-success"
+              ><i class="fa fa-arrow-up"></i> 5% above target</span
+            >
+          </p>
         </div>
-        <p class="mt-3 mb-0 text-sm">
-          <span class="text-nowrap text-success"
-            ><i class="fa fa-arrow-up"></i> 5% above target</span
-          >
-        </p>
       </div>
     </div>
-  </div>
-  <!--card-->
-  <div class="col-xl-3 col-md-6">
-    <div class="card card-stats">
-      <!-- Card body -->
-      <div class="card-body">
-        <!--close button-->
-        <div class="row">
-          <div class="col position-absolute top-0">
-            <button class="btn btn-sm btn-light float-right mt-1 py-0">
-              x
-            </button>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col">
-            <h5 class="card-title text-uppercase text-muted mb-0">
-              Management
-            </h5>
-            <h6 class="text-muted">Woman</h6>
-            <div class="card-numbers">26%</div>
-          </div>
-          <div class="col-auto">
-            <div
-              class="icon icon-shape bg-esg-four text-white rounded-circle shadow"
-            >
-              <i class="ni ni-badge"></i>
+    <!--card-->
+    <div class="col-xl-3 col-md-6">
+      <div class="card card-stats">
+        <!-- Card body -->
+        <div class="card-body">
+          <!--close button-->
+          <div class="row">
+            <div class="col position-absolute top-0">
+              <button class="btn btn-sm btn-light float-right mt-1 py-0">
+                x
+              </button>
             </div>
           </div>
+          <div class="row">
+            <div class="col">
+              <h5 class="card-title text-uppercase text-muted mb-0">
+                Management
+              </h5>
+              <h6 class="text-muted">Woman</h6>
+              <div class="card-numbers">26%</div>
+            </div>
+            <div class="col-auto">
+              <div
+                class="icon icon-shape bg-esg-four text-white rounded-circle shadow"
+              >
+                <i class="ni ni-badge"></i>
+              </div>
+            </div>
+          </div>
+          <p class="mt-3 mb-0 text-sm">
+            <span class="text-nowrap text-danger"
+              ><i class="fa fa-arrow-down"></i> 10% below target</span
+            >
+          </p>
         </div>
-        <p class="mt-3 mb-0 text-sm">
-          <span class="text-nowrap text-danger"
-            ><i class="fa fa-arrow-down"></i> 10% below target</span
-          >
-        </p>
       </div>
     </div>
-  </div>
-  <!--card-->
-  <div class="col-xl-3 col-md-6">
-    <div class="card card-stats">
-      <!-- Card body -->
-      <div class="card-body">
-        <!--close button-->
-        <div class="row">
-          <div class="col position-absolute top-0">
-            <button class="btn btn-sm btn-light float-right mt-1 py-0">
-              x
-            </button>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col">
-            <h5 class="card-title text-uppercase text-muted mb-0">
-              Carbon-risk
-            </h5>
-            <h6 class="text-muted">Credit Exposure (%)</h6>
-            <div class="card-numbers">30.69%</div>
-          </div>
-          <div class="col-auto">
-            <div
-              class="icon icon-shape bg-esg-five text-white rounded-circle shadow"
-            >
-              <i class="ni ni-world"></i>
+    <!--card-->
+    <div class="col-xl-3 col-md-6">
+      <div class="card card-stats">
+        <!-- Card body -->
+        <div class="card-body">
+          <!--close button-->
+          <div class="row">
+            <div class="col position-absolute top-0">
+              <button class="btn btn-sm btn-light float-right mt-1 py-0">
+                x
+              </button>
             </div>
           </div>
+          <div class="row">
+            <div class="col">
+              <h5 class="card-title text-uppercase text-muted mb-0">
+                Carbon-risk
+              </h5>
+              <h6 class="text-muted">Credit Exposure (%)</h6>
+              <div class="card-numbers">30.69%</div>
+            </div>
+            <div class="col-auto">
+              <div
+                class="icon icon-shape bg-esg-five text-white rounded-circle shadow"
+              >
+                <i class="ni ni-world"></i>
+              </div>
+            </div>
+          </div>
+          <p class="mt-3 mb-0 text-sm">
+            <span class="text-nowrap text-danger"
+              ><i class="fa fa-arrow-down"></i> 5% below target</span
+            >
+          </p>
         </div>
-        <p class="mt-3 mb-0 text-sm">
-          <span class="text-nowrap text-danger"
-            ><i class="fa fa-arrow-down"></i> 5% below target</span
-          >
-        </p>
       </div>
     </div>
   </div>

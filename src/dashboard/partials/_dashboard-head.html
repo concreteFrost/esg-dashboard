@@ -50,7 +50,7 @@
             >Edit</a
           >
           <button
-            class="btn btn-sm btn-neutral d-none d-md-inline-block float-right"
+            class="btn btn-sm btn-neutral d-none d-md-inline-block float-right mr-0 mt-2"
             type="button"
             id="dropdownMenuButton"
             data-toggle="dropdown"
@@ -61,13 +61,8 @@
             Customise Widgets
           </button>
 
-          <button
-          class="btn btn-sm btn-neutral  float-right"
-          type="button"
-        >
-          Manage Cards
-        </button>
 
+          <!--Custom widgets dropdown-->
           <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
             <div class="px-5" id="checklist-container">
               <div class="form-check form-switch">
@@ -147,10 +142,8 @@
           </div>
         </div>
       </div>
-
-      </div>
-      <!-- Card Grid -->
-      @@include('./_cards.html')
     </div>
+    <!-- Card Grid -->
+    @@include('./_cards.html')
   </div>
 </div>
