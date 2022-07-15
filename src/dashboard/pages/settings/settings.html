@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  @@include('./_head.html', { "title": "Disclosure Reporting - FSI Bank-esg:one", 
+  "canonical":"https://app.esg-one.co/dashboard/company/disclosure-reporting", "path": "..",
+  "path_common": "../.." })
+  <body>
+    <!-- Preloader -->
+    @@include('./_preloader.html', { "path": ".." })
+    <!-- Tracking Code -->
+    @@include('./_tracking-body.html')
+    <!-- Navbar -->
+    @@include('./_nav-side.html', { "path": "..", "path_common": "../.." })
+    <!-- Main content -->
+    <div class="main-content" id="panel">
+      <!-- Topnav -->
+
+      @@include('./_nav-top.html', { "path": ".." })
+      @@include('./_light-head.html', { "path": ".." })
+      <!--Button Nav-->
+
+      <div class="card">
+        <!--Card Header-->
+        <section>
+          <div class="card-header pb-0">
+            <div class="row">
+              <div class="col"><h3>Settings</h3></div>
+            </div>
+          </div>
+        </section>
+        <!--Card Body-->
+        <section class="container-fluid">
+          <div class="card-body">
+            <div class="row">
+              <table class="table">
+                <tr>
+                  <td>Enable tooltips</td>
+                  <td>
+                    <input
+                      type="checkbox"
+                      class="settings-checkbox"
+                      name="tooltips"
+                      id="tooltips-check"
+                    />
+                  </td>
+                </tr>
+              </table>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <footer class="footer pt-0">@@include('./_footer.html')</footer>
+    </div>
+
+    @@include('./_scripts.html', { "path": "..", "path_common": "../.." })
+    @@include('./_scripts-d3.html', { "path": "..", "path_common": "../.." })
+    <script src="/dashboard/assets/js/nav-side-active.min.js"></script>
+    <!-- Data for Treemap -->
+    <script src="/dashboard/assets/js/settings.min.js"></script>
+  </body>
+</html>

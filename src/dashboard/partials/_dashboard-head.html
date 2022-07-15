@@ -49,18 +49,25 @@
             data-toggle="dropdown"
             >Edit</a
           >
-          <button
-            class="btn btn-sm btn-neutral d-none d-md-inline-block float-right mr-0 mt-2"
-            type="button"
-            id="dropdownMenuButton"
-            data-toggle="dropdown"
-            aria-haspopup="true"
-            aria-expanded="false"
-            id="customise-widgets"
+          
+            <button
+              class="btn btn-sm btn-neutral d-none d-md-inline-block float-right mr-0 mt-2"
+              type="button"
+              id="dropdownMenuButton"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+              id="customise-widgets"
+            >
+            <span
+            data-toggle="tooltip"
+            data-placement="top"
+            title="Add/Remove widgets from the dashboard"
           >
-            Customise Widgets
-          </button>
-
+              Customise Widgets
+            </span>
+            </button>
+      
 
           <!--Custom widgets dropdown-->
           <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
@@ -144,7 +151,6 @@
       </div>
     </div>
     <!-- Card Grid -->
-    @@include('./_manage-widgets.html')
-    @@include('./_cards.html')
+    @@include('./_manage-widgets.html') @@include('./_cards.html')
   </div>
 </div>
