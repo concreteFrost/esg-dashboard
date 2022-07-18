@@ -1,100 +1,109 @@
 #viz,
 #random {
-    position: relative;
+  position: relative;
 }
 
 .node {
-    cursor: pointer;
-    border: solid 3px #fff;
-    overflow: hidden;
-    position: absolute;
-    text-indent: 2px;
+  cursor: pointer;
+  border: solid 3px #fff;
+  overflow: hidden;
+  position: absolute;
+  text-indent: 2px;
 }
 
 .node-label {
-    font-size: 8pt;
-    padding: 4px;
-    padding-bottom: 0;
-    line-height: 1em;
-    white-space: pre;
-    color: #f2f2f2;
+  font-size: 8pt;
+  padding: 4px;
+  padding-bottom: 0;
+  line-height: 1em;
+  white-space: pre;
+  color: #f2f2f2;
 }
 
 .node-value {
-    padding-left: 4px;
-    font-weight: bold;
-    font-size: 8pt;
-    margin-top: 1px;
-    color: #f2f2f2;
+  padding-left: 4px;
+  font-weight: bold;
+  font-size: 8pt;
+  margin-top: 1px;
+  color: #f2f2f2;
 }
 
 .legend {
-    fill: #0c4e9d;
+  fill: #0c4e9d;
 }
 
 .legend-item {
-    fill: #434343;
+  fill: #434343;
 }
 
 //
 // Drill Down
 //
 text {
-    pointer-events: none;
+  pointer-events: none;
 }
 
 .grandparent text {
-    font-weight: normal;
-    fill: #f2f2f2;
+  font-weight: normal;
+  fill: #f2f2f2;
 }
 
 #domainDrillDown .grandparent text:hover {
-    fill: #fff;
+  fill: #fff;
 }
 
 rect {
-    fill: none;
-    stroke: #fff;
-    stroke-width: 5px;
+  fill: none;
+  stroke: #fff;
+  stroke-width: 5px;
 }
 
 rect.parent,
 .grandparent rect {
-    // stroke-width: 2px;
-    stroke-width: 0;
+  // stroke-width: 2px;
+  stroke-width: 0;
 }
 
 // For the disclosure page with dark background.
 #disclosure rect.parent,
 #disclosure .grandparent rect {
-    stroke-width: 0;
+  stroke-width: 0;
 }
 
 .grandparent rect {
-    fill: #0c4e9d;
+  fill: #0c4e9d;
 }
 
 .grandparent:hover rect {
-    fill: #1864ad;
+  fill: #1864ad;
 }
 
 .children rect.parent,
 .grandparent rect {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .children rect.parent {
-    fill: #0c4e9d;
-    fill-opacity: 0.95;
+  fill: #0c4e9d;
+  fill-opacity: 0.95;
 }
 
 .children:hover rect.child {
-    fill: #1864ad;
+  fill: #1864ad;
 }
 
 //
 // Dashboard Treemap
 //
 p#chart {
-    margin: 0;
+  margin: 0;
+}
+
+.treemap-container {
+
+
+  svg{
+
+    width: 100%;
+  }
 }
