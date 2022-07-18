@@ -31,7 +31,7 @@
         <section class="container-fluid">
           <div class="card-body">
             <div class="row">
-              <table class="table">
+              <table class="table table-borderless" id="settings">
                 <tr>
                   <td>Enable tooltips</td>
                   <td>
@@ -40,7 +40,25 @@
                       class="settings-checkbox"
                       name="tooltips"
                       id="tooltips-check"
+
                     />
+                  </td>
+                </tr>
+                <tr>
+                  <td>Enable notifications</td>
+                  <td>
+                    <input
+                      type="checkbox"
+                      class="notifications-checkbox"
+                      name="tooltips"
+                      id="notifications-check"
+                      
+                    />
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <button type="reset" class="btn btn-secondary" id="reset-settings-btn">Reset</button>
                   </td>
                 </tr>
               </table>
