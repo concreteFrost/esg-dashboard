@@ -67,13 +67,22 @@
 }
 
 .card-move * {
-  background-color: rgb(233, 233, 233);
+  animation: flash  2s infinite;
   border-radius: 5px;
   border: 0px;
 
   
     .table .thead-light th {
-        background-color: rgb(233, 233, 233);
+      animation: flash  2s infinite;
+   
+    }
+
+    @keyframes flash {
+      0% {background-color: rgb(255, 255, 255);}
+      50% {background-color: rgb(223, 233, 235);}
+      100% {background-color: rgb(255, 255, 255);}
     }
   
 }
+
+
