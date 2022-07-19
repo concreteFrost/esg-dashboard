@@ -101,9 +101,16 @@ p#chart {
 
 .treemap-container {
 
-
-  svg{
-
+  rect{
+    background-color: black;
+    color: green;
+    width: 150%;
+    overflow-x: hidden;
+  }
+  svg {
+    margin-right: auto;
+    margin-left: auto;
     width: 100%;
+    overflow-x: scroll;
   }
 }
