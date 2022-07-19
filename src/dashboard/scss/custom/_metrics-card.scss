@@ -46,36 +46,32 @@
   }
 }
 
-.esg-categories-list{
-
-   ul {
+.esg-categories-list {
+  ul {
     margin-left: 0;
   }
-  
-   li {
+
+  li {
     display: inline;
     list-style: none;
   }
-  
-   button {
+
+  button {
     border-radius: 5px;
     font-size: 0.8rem;
   }
   @media screen and (max-width: 768px) {
-     li {
+    li {
       display: block;
     }
-  
-     button {
+
+    button {
       width: 100%;
       text-align: center;
       margin-top: 5px;
     }
-  
   }
 }
-
-
 
 .graph-and-stats canvas {
   margin-left: auto;
@@ -85,5 +81,3 @@
   padding: 10px;
   box-shadow: 10px 10px 5px;
 }
-
-
