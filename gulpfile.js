@@ -22,8 +22,7 @@ const wait = require('gulp-wait');
 const sourcemaps = require('gulp-sourcemaps');
 const fileinclude = require('gulp-file-include');
 const javascriptObfuscator = require('gulp-javascript-obfuscator');
-
-
+const connect = require('gulp-connect-php');
 
 // Define paths
 const paths = {
@@ -109,8 +108,16 @@ const paths = {
   },
 };
 
+//Connect php
 
 
+gulp.task('connect-sync', function () {
+  connect.server({}, function () {
+    browserSync({
+      proxy: '192.168.0.12:3000',
+    });
+  });
+});
 
 // Compile Dashboard HTML
 gulp.task('html-dashboard', function () {
@@ -146,7 +153,7 @@ gulp.task('html-add', function () {
     .pipe(
       fileinclude({
         prefix: '@@',
-        basepath: paths.src.front +"/home/*",
+        basepath: paths.src.front + '/home/*',
       })
     )
     .pipe(gulp.dest(paths.temp.base))
@@ -207,7 +214,6 @@ gulp.task('html-front', function () {
     .pipe(gulp.dest(paths.temp.front.html))
     .pipe(browserSync.stream());
 });
-
 
 gulp.task('html', gulp.series('html-front', 'html-dashboard', 'html-base'));
 
@@ -590,7 +596,7 @@ gulp.task('copy-front:dist:assets', function () {
     .pipe(gulp.dest(paths.dist.front.assets));
 });
 
-gulp.task('bundle', function() {
+gulp.task('bundle', function () {
   return gulp
     .src([
       paths.src.front.assets,
