@@ -2746,10 +2746,10 @@ gulp-cli@^2.2.0:
     v8flags "^3.2.0"
     yargs "^7.1.0"
 
-gulp-connect-php@^1.0.3:
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/gulp-connect-php/-/gulp-connect-php-1.0.3.tgz#0b15e21ee9d70265edd0f12e2b36e2210d278e45"
-  integrity sha512-onGNLvTdR5hgUn3DVIwfHwi5nWR8Bm8CdxKliJpg0t2sQJ6dDvMktowGQ0nl97L2C7on7zr2fQ93AoR6DWa/VQ==
+gulp-connect-php@0.0.5:
+  version "0.0.5"
+  resolved "https://registry.yarnpkg.com/gulp-connect-php/-/gulp-connect-php-0.0.5.tgz#92971cfc49f1b1236d1c4a19ec62ddb52cf4642b"
+  integrity sha512-JU1Nko2+EKRYLauHNAmYVVl5WlerfBRBhIss6jSQMmwWS7vg9ymtAQ/lrOiCwp0gaL7++99EV1k+eRjc9wQucQ==
   dependencies:
     bin-version-check "^2.1.0"
     opn "^1.0.0"
