@@ -108,23 +108,6 @@ const paths = {
   },
 };
 
-//Connect php
-gulp.task('connect-sync', function() {
-  connect.server({}, function (){
-    browserSync({
-        server: {
-            baseDir: ".",
-            index: '/dashboard/assets/php/sendEmail.php'
-        },
-     // proxy: '127.0.0.1:8000'
-    });
-  });
-
-  gulp.watch( paths.src.dashboard.assets +"/**/*.php").on('change', function () {
-    browserSync.reload();
-  });
-});
-
 
 // Compile Dashboard HTML
 gulp.task('html-dashboard', function () {

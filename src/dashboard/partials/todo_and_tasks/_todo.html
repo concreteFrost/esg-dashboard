@@ -1,159 +1,233 @@
-
-<div class="col-xl-6 movable-cards" id="todo"  data-toggle="tooltip"
-data-placement="top"
-title="ToDo list" >
-    <div class="card">
-      <!-- Card header -->
-      <div class="card-header">
-        <!-- Title -->
-        <h5 class="h3 mb-0">Todo List</h5>
-      </div>
-      <!-- Card body -->
-      <div class="card-body p-0">
-        <!-- List group -->
-        <ul
-          class="list-group list-group-flush mb-3"
-          data-toggle="checklist"
+<div
+  class="col-xl-6 movable-cards"
+  id="todo"
+  data-toggle="tooltip"
+  data-placement="top"
+  title="ToDo list"
+>
+  <div class="card">
+    <!-- Card header -->
+    <div class="card-header">
+      <!-- Title -->
+      <h5 class="h3 mb-0">Todo List</h5>
+    </div>
+    <!-- Card body -->
+    <div class="card-body p-0  ">
+      <!-- List group -->
+      <ul
+        class="list-group list-group-flush mb-3 overflow-scroll"
+        data-toggle="checklist"
+        id="todo-list"
+      >
+     
+        <li
+          class="checklist-entry list-group-item flex-column align-items-start py-4 px-4"
         >
-          <li
-            class="checklist-entry list-group-item flex-column align-items-start py-4 px-4"
-          >
-            <div class="checklist-item checklist-item-esg-three">
-              <div class="checklist-info">
-                <h5 class="checklist-title mb-0">
-                  Prepare new Risk Report for Germany
-                </h5>
-                <small>SASB</small>
-              </div>
-              <div>
-                <div
-                  class="custom-control custom-checkbox custom-checkbox-esg-three"
-                >
-                  <input
-                    class="custom-control-input"
-                    id="chk-todo-task-2"
-                    type="checkbox"
-                  />
-                  <label
-                    class="custom-control-label"
-                    for="chk-todo-task-2"
-                  ></label>
-                </div>
+          <div class="checklist-item checklist-item-esg-three">
+            <div class="checklist-info">
+              <h5 class="checklist-title mb-0">
+                Prepare new Risk Report for Germany
+              </h5>
+              <small>SASB</small>
+            </div>
+            <div>
+              <div
+                class="custom-control custom-checkbox custom-checkbox-esg-three"
+              >
+                <input
+                  class="custom-control-input"
+                  id="chk-todo-task-9"
+                  type="checkbox"
+                />
+                <label
+                  class="custom-control-label"
+                  for="chk-todo-task-9"
+                ></label>
               </div>
             </div>
-          </li>
-          <li
-            class="checklist-entry list-group-item flex-column align-items-start py-4 px-4"
-          >
-            <div class="checklist-item checklist-item-esg-five">
-              <div class="checklist-info">
-                <h5 class="checklist-title mb-0">
-                  Complete Risk Assessment #17
-                </h5>
-                <small>GRI</small>
-              </div>
-              <div>
-                <div
-                  class="custom-control custom-checkbox custom-checkbox-esg-five"
-                >
-                  <input
-                    class="custom-control-input"
-                    id="chk-todo-task-3"
-                    type="checkbox"
-                  />
-                  <label
-                    class="custom-control-label"
-                    for="chk-todo-task-3"
-                  ></label>
-                </div>
+          </div>
+        </li>
+        <li
+          class="checklist-entry list-group-item flex-column align-items-start py-4 px-4"
+        >
+          <div class="checklist-item checklist-item-esg-five">
+            <div class="checklist-info">
+              <h5 class="checklist-title mb-0">Complete Risk Assessment #17</h5>
+              <small>GRI</small>
+            </div>
+            <div>
+              <div
+                class="custom-control custom-checkbox custom-checkbox-esg-five"
+              >
+                <input
+                  class="custom-control-input"
+                  id="chk-todo-task-3"
+                  type="checkbox"
+                />
+                <label
+                  class="custom-control-label"
+                  for="chk-todo-task-3"
+                ></label>
               </div>
             </div>
-          </li>
-          <li
-            class="checklist-entry list-group-item flex-column align-items-start py-4 px-4"
-          >
-            <div class="checklist-item checklist-item-esg-five">
-              <div class="checklist-info">
-                <h5 class="checklist-title mb-0">
-                  Upload Water Usage docs for Risk #19
-                </h5>
-                <small>GRI</small>
-              </div>
-              <div>
-                <div
-                  class="custom-control custom-checkbox custom-checkbox-esg-five"
-                >
-                  <input
-                    class="custom-control-input"
-                    id="chk-todo-task-1"
-                    type="checkbox"
-                    checked
-                  />
-                  <label
-                    class="custom-control-label"
-                    for="chk-todo-task-1"
-                  ></label>
-                </div>
+          </div>
+        </li>
+        <li
+          class="checklist-entry list-group-item flex-column align-items-start py-4 px-4"
+        >
+          <div class="checklist-item checklist-item-esg-five">
+            <div class="checklist-info">
+              <h5 class="checklist-title mb-0">
+                Upload Water Usage docs for Risk #19
+              </h5>
+              <small>GRI</small>
+            </div>
+            <div>
+              <div
+                class="custom-control custom-checkbox custom-checkbox-esg-five"
+              >
+                <input
+                  class="custom-control-input"
+                  id="chk-todo-task-1"
+                  type="checkbox"
+                  checked
+                />
+                <label
+                  class="custom-control-label"
+                  for="chk-todo-task-1"
+                ></label>
               </div>
             </div>
-          </li>
-          <li
-            class="checklist-entry list-group-item flex-column align-items-start py-4 px-4"
-          >
-            <div class="checklist-item checklist-item-esg-three">
-              <div class="checklist-info">
-                <h5 class="checklist-title mb-0">
-                  Upload Anti Competitive reports for 2020
-                </h5>
-                <small>SASB</small>
-              </div>
-              <div>
-                <div
-                  class="custom-control custom-checkbox custom-checkbox-esg-three"
-                >
-                  <input
-                    class="custom-control-input"
-                    id="chk-todo-task-4"
-                    type="checkbox"
-                    checked
-                  />
-                  <label
-                    class="custom-control-label"
-                    for="chk-todo-task-4"
-                  ></label>
-                </div>
+          </div>
+        </li>
+        <li
+          class="checklist-entry list-group-item flex-column align-items-start py-4 px-4"
+        >
+          <div class="checklist-item checklist-item-esg-three">
+            <div class="checklist-info">
+              <h5 class="checklist-title mb-0">
+                Upload Anti Competitive reports for 2020
+              </h5>
+              <small>SASB</small>
+            </div>
+            <div>
+              <div
+                class="custom-control custom-checkbox custom-checkbox-esg-three"
+              >
+                <input
+                  class="custom-control-input"
+                  id="chk-todo-task-4"
+                  type="checkbox"
+                  checked
+                />
+                <label
+                  class="custom-control-label"
+                  for="chk-todo-task-4"
+                ></label>
               </div>
             </div>
-          </li>
-          <li
-            class="checklist-entry list-group-item flex-column align-items-start py-4 px-4"
-          >
-            <div class="checklist-item checklist-item-esg-esg-three">
-              <div class="checklist-info">
-                <h5 class="checklist-title mb-0">
-                  Create Risk Report for GHG Emissions
-                </h5>
-                <small>SASB</small>
-              </div>
-              <div>
-                <div
-                  class="custom-control custom-checkbox custom-checkbox-esg-three"
-                >
-                  <input
-                    class="custom-control-input"
-                    id="chk-todo-task-5"
-                    type="checkbox"
-                    checked
-                  />
-                  <label
-                    class="custom-control-label"
-                    for="chk-todo-task-5"
-                  ></label>
-                </div>
+          </div>
+        </li>
+        <li
+          class="checklist-entry list-group-item flex-column align-items-start py-4 px-4"
+        >
+          <div class="checklist-item checklist-item-esg-esg-three">
+            <div class="checklist-info">
+              <h5 class="checklist-title mb-0">
+                Create Risk Report for GHG Emissions
+              </h5>
+              <small>SASB</small>
+            </div>
+            <div>
+              <div
+                class="custom-control custom-checkbox custom-checkbox-esg-three"
+              >
+                <input
+                  class="custom-control-input"
+                  id="chk-todo-task-5"
+                  type="checkbox"
+                  checked
+                />
+                <label
+                  class="custom-control-label"
+                  for="chk-todo-task-5"
+                ></label>
               </div>
             </div>
-          </li>
-        </ul>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <div class="card-footer">
+      <button
+        class="btn btn-primary"
+        data-toggle="modal"
+        data-target="#todoModal"
+      >
+        Add Task
+      </button>
+    </div>
+  </div>
+</div>
+
+<!--Modal add task-->
+<div
+  class="modal fade"
+  id="todoModal"
+  tabindex="-1"
+  role="dialog"
+  aria-labelledby="todoModalLabel"
+  aria-hidden="true"
+>
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="todoModalLabel">Add Task</h5>
+        <button
+          type="button"
+          class="close"
+          data-dismiss="modal"
+          aria-label="Close"
+        >
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <h4>Task Title</h4>
+        <div class="form-group">
+          <textarea
+            class="form-control rounded-0"
+            id="todoText"
+            rows="3"
+            maxlength="100"
+            style="resize: none"
+          ></textarea>
+        </div>
+
+        <div class="dropdown">
+          <h4>Framework</h4>
+          <select name="Frameworks" id="frameworks-val" class="form-select">
+            <option value="GRI">GRI</option>
+            <option value="SASB">SASB</option>
+            <option value="EU Taxonomy">EU Taxonomy</option>
+            <option value="PRI">PRI</option>
+            <option value="CDP">CDP</option>
+          </select>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">
+          Close
+        </button>
+        <button
+          type="button"
+          class="btn btn-primary"
+          id="submit-todo-btn"
+          data-dismiss="modal"
+        >
+          Save changes
+        </button>
       </div>
     </div>
   </div>
+</div>
