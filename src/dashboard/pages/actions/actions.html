@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  @@include('./_head.html', { "title": "Disclosure Reporting - FSI Bank -esg:one", "canonical":
+  "https://app.esg-one.co/dashboard/company/disclosure-reporting", "path": "..",
+  "path_common": "../.." })
+  <body>
+    <!-- Preloader -->
+    @@include('./_preloader.html', { "path": ".." })
+    <!-- Tracking Code -->
+    @@include('./_tracking-body.html')
+    <!-- Navbar -->
+    @@include('./_nav-side.html', { "path": "..", "path_common": "../.." })
+    <!-- Main content -->
+    <div class="main-content" id="panel">
+      <!-- Topnav -->
+      @@include('./_nav-top.html', { "path": ".." })
+      @@include('./_light-head.html', { "path": ".." })
+      <div class="container-fluid">
+        @@include('../pages/actions/_button-nav.html')
+        @@include('../pages/actions/_calendar.html')
+        @@include("../partials/todo_and_tasks/_todo.html")
+      </div>
+      <footer class="footer pt-0">@@include('./_footer.html')</footer>
+    </div>
+
+    @@include('./_scripts.html', { "path": "..", "path_common": "../.." })
+    @@include('./_scripts-d3.html', { "path": "..", "path_common": "../.." })
+    <script src="/dashboard/assets/js/nav-side-active.min.js"></script>
+
+    <script
+      type="module"
+      src="/dashboard/assets/js/button-nav-actions.min.js"
+    ></script>
+    <script src="/dashboard/assets/js/todo-list.min.js"></script>
+  </body>
+</html>

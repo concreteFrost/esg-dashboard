@@ -216,18 +216,38 @@
           <li class="nav-item">
             <a
               class="nav-link"
-              href="@@path/account/calendar.html"
+              href="#"
               id="calendar-nav"
+              role="button"
+              aria-expanded="false"
+              data-target="#actions"
+              data-toggle="collapse"
             >
               <i class="ni ni-calendar-grid-58 text-esg-four"></i>
-              <span class="nav-link-text">Calendar</span>
+              <span class="nav-link-text">Actions</span>
             </a>
+            <div class="collapse" id="actions">
+              <ul class="list-unstyled">
+                <li>
+                  <a class="nav-link" href="@@path/actions/actions.html#calendar">
+                    <span class="sidenav-mini-icon"> -c </span>
+                    <span class="sidenav-normal"> -calendar </span>
+                  </a>
+                </li>
+                <li>
+                  <a class="nav-link" href="@@path/actions/actions.html#todo">
+                    <span class="sidenav-mini-icon"> -t </span>
+                    <span class="sidenav-normal"> -todo </span>
+                  </a>
+                </li>
+              </ul>
+            </div>
           </li>
           <li class="nav-item">
             <a
               class="nav-link"
               href="@@path/settings/settings.html"
-              id="calendar-nav"
+              id="settings-nav"
             >
               <i class="fa fa-wrench text-esg-four"></i>
               <span class="nav-link-text">Settings</span>
