@@ -108,7 +108,6 @@ const paths = {
   },
 };
 
-
 // Compile Dashboard HTML
 gulp.task('html-dashboard', function () {
   return gulp
@@ -710,3 +709,5 @@ gulp.task(
 
 // Default
 gulp.task('default', gulp.series('serve'));
+
+
