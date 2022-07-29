@@ -9,7 +9,7 @@ if ($_REQUEST) {
     $response_array['status'] = 'success'; 
 
     if(mail("ilia.m.composer@gmail.com", "My Subject:", $email, $message)){
-        echo json_encode($response_array);
+        echo 'done';
     }
     else{
         echo json_encode($response_array);
