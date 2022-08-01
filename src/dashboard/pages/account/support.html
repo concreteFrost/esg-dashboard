@@ -30,55 +30,69 @@
         <!--Card Body-->
         <section class="container-fluid">
           <div class="card-body">
-            <form class="mx-5" name="support" method="POST" data-netlify="true" onsubmit="submit" >
+            <form
+              class="mx-5"
+              name="support"
+              method="POST"
+              data-netlify="true"
+              onsubmit="submit"
+              data-netlify-honeypot="bot-field"
+              id="support-form"
+            >
+              <input class="d-none" name="bot-field" />
               <!--Name and Email-->
-              <div class="row">
+              <div class="form-row">
                 <!--Name-->
-              <div class="col-12 col-md-4">
-                <label for="name">Your Name:</label>
-                <input type="text" name="name" id="name" class="form-control"  />
+                <div class="form-group col-12 col-md-4">
+                  <label for="name">Your Name:</label>
+                  <input
+                    type="text"
+                    name="name"
+                    id="name"
+                    class="form-control"
+                  />
+                </div>
+                <!--Email-->
+                <div class="form-group col-12 col-md-4">
+                  <label for="email">Your Email:</label>
+                  <input
+                    type="email"
+                    name="email"
+                    id="email"
+                    class="form-control"
+                  />
+                </div>
+                <div class="form-group col-12 col-md-4">
+                  <label for="subject">Subject:</label>
+                  <input
+                    type="text"
+                    name="subject"
+                    id="subject"
+                    class="form-control"
+                  />
+                </div>
               </div>
-              <!--Email-->
-              <div class="col-12 col-md-4" >
-                <label for="email">Your Email:</label>
-                <input
-                  type="email"
-                  name="email"
-                  id="email"
-                  class="form-control"
-                />
-              </div>
-              <div class="col-12 col-md-4" >
-                <label for="subject">Subject:</label>
-                <input
-                  type="text"
-                  name="subject"
-                  id="subject"
-                  class="form-control"
-                />
-              </div>
-            </div>
-            <!--Message-->
-              <div class="row mt-2">
+              <!--Message-->
+              <div class="form-row mt-2">
                 <div class="col">
-                <label for="message">Message:</label>
-                <textarea
-                  name="message"
-                  id="message"
-                  cols="30"
-                  rows="10"
-                  class="form-control"
-                ></textarea>
-              </div>
+                  <label for="message">Message:</label>
+                  <textarea
+                    name="message"
+                    id="message"
+                    cols="30"
+                    rows="10"
+                    class="form-control"
+                  ></textarea>
+                </div>
               </div>
               <!--Send Button-->
-              <div class="row mt-2">
+              <div class="form-row mt-2">
                 <div class="col">
-              <button type="submit" class="btn btn-primary" id="submit-btn">
-                Send
-              </button>
-            </div>
-            </div>
+                  <button type="submit" class="btn btn-primary" id="submit-btn">
+                    Send
+                  </button>
+                </div>
+              </div>
             </form>
           </div>
         </section>
@@ -90,7 +104,6 @@
     @@include('./_scripts.html', { "path": "..", "path_common": "../.." })
     @@include('./_scripts-d3.html', { "path": "..", "path_common": "../.." })
     <script src="/dashboard/assets/js/nav-side-active.min.js"></script>
-    <!-- Data for Treemap -->
-    <!-- <script src="/dashboard/assets/js/sendEmail.min.js"></script> -->
+    <script src="/dashboard/assets/js/support-submit.min.js"></script>
   </body>
 </html>
