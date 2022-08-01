@@ -31,12 +31,15 @@
         <section class="container-fluid">
           <div class="card-body">
             <form class="mx-5" name="support" method="POST" data-netlify="true" onsubmit="submit" >
+              <!--Name and Email-->
               <div class="row">
-              <div class="col">
+                <!--Name-->
+              <div class="col-12 col-md-4">
                 <label for="name">Your Name:</label>
                 <input type="text" name="name" id="name" class="form-control"  />
               </div>
-              <div class="col">
+              <!--Email-->
+              <div class="col-12 col-md-4" >
                 <label for="email">Your Email:</label>
                 <input
                   type="email"
@@ -45,7 +48,17 @@
                   class="form-control"
                 />
               </div>
+              <div class="col-12 col-md-4" >
+                <label for="subject">Subject:</label>
+                <input
+                  type="text"
+                  name="subject"
+                  id="subject"
+                  class="form-control"
+                />
+              </div>
             </div>
+            <!--Message-->
               <div class="row mt-2">
                 <div class="col">
                 <label for="message">Message:</label>
@@ -58,6 +71,7 @@
                 ></textarea>
               </div>
               </div>
+              <!--Send Button-->
               <div class="row mt-2">
                 <div class="col">
               <button type="submit" class="btn btn-primary" id="submit-btn">
