@@ -1,28 +1,19 @@
+<h4 id="kpis-title">COMPANY KPIs</h4>
 <div class="d-flex flex-row mb-2">
-  <!--Swap Cards-->
-    <button
-      class="btn btn-sm btn-neutral"
-      type="button"
-      id="swap-cards-btn"
-      data-toggle="tooltip"
-      data-placement="top"
-      title="Enable widgets swap"
-    >
-      Swap Widgets
-    </button>
-    <!--Manage Cards-->
-    <span data-toggle="tooltip"
+  <!--Manage Cards-->
+  <span
+    data-toggle="tooltip"
     data-placement="top"
-    title="Choose the cards you want to be displayed">
+    title="Choose the company ESG metrics you want to be displayed"
+  >
     <button
-      class="btn btn-sm btn-neutral mr-2 ml-0 "
+      class="btn btn-sm btn-neutral mr-2 ml-0"
       type="button"
       data-toggle="modal"
       data-target="#manageCardsModal"
       id="manage-cards-btn"
-      
     >
-      Manage Cards
+      Manage Company KPIs
     </button>
   </span>
 </div>
@@ -65,15 +56,23 @@
           </div>
         </div>
       </div>
-      <div class="modal-footer">
-        <button
-          type="button"
-          class="btn btn-primary"
-          data-dismiss="modal"
-          id="save-cards-btn"
-        >
-          Save changes
-        </button>
+      <div class="p-5">
+        <div class="row">
+          <div class="col">
+            <label for="carousel-animation">Enable card sliding</label>
+            <input type="checkbox" name="carousel-animation" id="carousel-animation">
+          </div>
+          <div class="col">
+            <button
+              type="button"
+              class="btn btn-primary float-right"
+              data-dismiss="modal"
+              id="save-cards-btn"
+            >
+              Save changes
+            </button>
+          </div>
+        </div>
       </div>
     </div>
   </div>

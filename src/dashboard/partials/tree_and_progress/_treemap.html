@@ -1,28 +1,34 @@
-<div class="col-xl-6 movable-cards" id="_treemap" data-toggle="tooltip" data-placement="top" title="The treemap identifies ESG Readiness in each area">
-    <div class="card"  >
-      <div class="card-header bg-transparent">
-        <div class="row align-items-center">
-          <div class="col">
-            <h6 class="text-uppercase text-muted ls-1 mb-1">
-              Performance
-            </h6>
-            <h5 class="h3 mb-0">ESG Readiness</h5>
-          </div>
-          <div class="col text-right">
-            <!-- <a href="/dashboard/company/esg-readiness.html" class="btn btn-sm btn-primary">View Detail</a> -->
-            <a
-              href="/dashboard/company/disclosure.html#esg-graph"
-              class="btn btn-sm btn-primary"
-              >Disclosure Report</a
-            >
-          </div>
+<div
+  class="col-xl-6 movable-cards"
+  id="_treemap"
+  data-toggle="tooltip"
+  data-placement="top"
+  title="ESG Capability represents the % of policies and processes in place vs. % of policies and processes the company has specified as required. The size of the boxes represents the number of processes and policies identified. Click on each box to see how the company is performing within sub-categories. "
+>
+  <div class="card">
+    <div class="card-header bg-transparent">
+      <div class="row align-items-center">
+        <div class="col">
+          <h5 class="h3 mb-0">ESG Capabilities</h5>
+        </div>
+        <div class="col text-right">
+          <!-- <a href="/dashboard/company/esg-readiness.html" class="btn btn-sm btn-primary">View Detail</a> -->
+          <a
+            href="/dashboard/company/disclosure.html#esg-graph"
+            class="btn btn-sm btn-primary"
+            data-toggle="tooltip"
+            data-placement="top"
+            title="Explore the assessment in more detail including gaps "
+            >Capability Assessment </a
+          >
         </div>
       </div>
-      <div id="card" class="card-body p-0" >
-        <p id="chart"></p>
-        <div class="treemap-container">
+    </div>
+    <div id="card" class="card-body p-0">
+      <p id="chart"></p>
+      <div class="treemap-container">
         <div id="domainDrillDown"></div>
-      </div>
       </div>
     </div>
   </div>
+</div>

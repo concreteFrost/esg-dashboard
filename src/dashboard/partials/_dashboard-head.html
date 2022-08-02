@@ -8,10 +8,11 @@
         <div class="col">
           <button
             href="#"
-            class="btn btn-sm btn-neutral d-inline-block d-md-none float-right"
+            class="btn btn-sm btn-neutral d-inline-block d-md-none float-right mr-0 mt-2"
             data-toggle="dropdown"
-            >Edit</button
           >
+            Edit
+          </button>
 
           <button
             class="btn btn-sm btn-neutral d-none d-md-inline-block float-right mr-0 mt-2"
@@ -31,6 +32,18 @@
             </span>
           </button>
 
+          <!--Swap Cards-->
+          <button
+            class="btn btn-sm btn-neutral d-inline-block float-right mr-md-2 mr-0 mt-2"
+            type="button"
+            id="swap-cards-btn"
+            data-toggle="tooltip"
+            data-placement="top"
+            title="Customise the placement of widgets on your dashboard by dragging them into positon "
+          >
+            Swap Widgets
+          </button>
+
           <!--Custom widgets dropdown-->
           <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
             <div class="px-5" id="checklist-container">
@@ -41,7 +54,9 @@
                   id="cards-check"
                   checked
                 />
-                <label class="form-check-label" for="cards-check">Cards</label>
+                <label class="form-check-label" for="cards-check"
+                  >Company KPIs
+                </label>
               </div>
               <div class="form-check form-switch">
                 <input
@@ -113,6 +128,7 @@
       </div>
     </div>
     <!-- Card Grid -->
+
     @@include('./_manage-widgets.html')
     <!-- @@include('./_cards.html') -->
     @@include("../partials/cards/container.html")
