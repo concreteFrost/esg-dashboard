@@ -18,24 +18,23 @@
 
       @@include('./_nav-top.html', { "path": ".." })
       @@include('./_light-head.html', { "path": ".." })
-
-      <!--Button Nav-->
       <div class="container-fluid">
+
       @@include('../pages/company/metrics/_button-nav.html')
-    <!--Key Data-->
-      @@include('../pages/company/metrics/_key-data.html')
-      @@include('../pages/company/metrics/_materiality.html')
-      @@include('../pages/company/metrics/_managment.html')
-      @@include('../pages/company/metrics/_breakdown.html')
+      @@include('../pages/company/metrics/_overview.html')
+      @@include('../pages/company/metrics/metrics/table/_metrics-table.html')
+      @@include('../pages/company/metrics/tree_and_progress/_container.html')
+      <!-- @@include('../pages/company/metrics/_breakdown.html') -->
     </div>
     @@include('./_scripts.html', { "path": "..", "path_common": "../.." })
     @@include('./_scripts-d3.html', { "path": "..", "path_common": "../.." })
     <footer class="footer pt-0">@@include('./_footer.html')</footer>
   </div>
 
-    <script src="/dashboard/assets/js/graphs.min.js"></script>
+ 
     <script src="/dashboard/assets/js/nav-side-active.min.js"></script>
     <script type="module" src="/dashboard/assets/js/button-nav-metrics.min.js"></script>
-  
+    <script src="/dashboard/assets/js/treemap-home.min.js"></script>
+    <script src="/dashboard/assets/js/disclosure.min.js"></script>
   </body>
 </html>
