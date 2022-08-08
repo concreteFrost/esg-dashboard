@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  @@include('./_head.html', { "title": "Disclosure Reporting - FSI Bank-esg:one", "canonical":
+  "https://app.esg-one.co/dashboard/company/disclosure-reporting", "path": "..",
+  "path_common": "../.." })
+  <body>
+    <!-- Preloader -->
+    @@include('./_preloader.html', { "path": ".." })
+    <!-- Tracking Code -->
+    @@include('./_tracking-body.html')
+    <!-- Navbar -->
+    @@include('./_nav-side.html', { "path": "..", "path_common": "../.." })
+    <!-- Main content -->
+    <div class="main-content" id="panel">
+      <!-- Topnav -->
+
+      @@include('./_nav-top.html', { "path": ".." })
+      @@include('./_light-head.html', { "path": ".." })
+      <!--Button Nav-->
+      <div class="container-fluid">
+        @@include('../pages/company/esg-managment/_button-nav.html')
+        <!--Overview-->
+        <!-- @@include('../pages/company/disclosure/_overview.html') -->
+        <div class="row" id="overview">
+          @@include('../pages/company/esg-managment/_total-practices.html')
+          @@include('../pages/company/esg-managment/_key-risks.html')
+        </div>
+        @@include('../pages/company/esg-managment/tree_and_progress/_container.html')
+      </div>
+      <footer class="footer pt-0">@@include('./_footer.html')</footer>
+    </div>
+
+    @@include('./_scripts.html', { "path": "..", "path_common": "../.." })
+    @@include('./_scripts-d3.html', { "path": "..", "path_common": "../.." })
+    <script src="/dashboard/assets/js/nav-side-active.min.js"></script>
+    <!-- Data for Treemap -->
+    <script src="/dashboard/assets/js/treemap-home.min.js"></script>
+    <script src="/dashboard/assets/js/components/charts/chart-total-practices.min.js"></script>
+    <script
+      type="module"
+      src="/dashboard/assets/js/button-nav-disclosure.min.js"
+    ></script>
+  </body>
+</html>
