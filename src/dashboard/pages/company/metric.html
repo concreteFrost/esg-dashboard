@@ -20,10 +20,11 @@
       @@include('./_light-head.html', { "path": ".." })
       <div class="container-fluid">
 
-      @@include('../pages/company/metrics/_button-nav.html')
-      @@include('../pages/company/metrics/_overview.html')
-      @@include('../pages/company/metrics/metrics/table/_metrics-table.html')
-      @@include('../pages/company/metrics/tree_and_progress/_container.html')
+      @@include('../pages/company/metrics/metrics/_button-nav.html')
+      @@include('../pages/company/metrics/metrics/overview.html')
+      @@include('../pages/company/metrics/metrics/_management.html')
+      @@include('../pages/company/metrics/metrics/_materiality.html')
+      @@include('../pages/company/metrics/metrics/_breakdown.html')
     </div>
     @@include('./_scripts.html', { "path": "..", "path_common": "../.." })
     @@include('./_scripts-d3.html', { "path": "..", "path_common": "../.." })
@@ -33,8 +34,6 @@
  
     <script src="/dashboard/assets/js/nav-side-active.min.js"></script>
     <script type="module" src="/dashboard/assets/js/button-nav-metrics.min.js"></script>
-    <script src="/dashboard/assets/js/treemap-home.min.js"></script>
-    <script src="/dashboard/assets/js/data-tables/disclosure.min.js"></script>
-    <script src="/dashboard/assets/js/data-tables/disclosure-gaps.min.js"></script>
+    <script src="/dashboard/assets/js/graphs.min.js"></script>
   </body>
 </html>
