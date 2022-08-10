@@ -1,0 +1,77 @@
+<li class="expandable">
+    <a
+      class="nav-link"
+      href="#"
+      data-toggle="collapse"
+      data-target="#metrics-nav"
+      role="button"
+      aria-expanded="false"
+    >
+      <span class="sidenav-mini-icon"> M </span>
+      <span class="sidenav-normal"> Metrics </span>
+    </a>
+
+    <div class="collapse" id="metrics-nav">
+      <ul class="list-unstyled">
+        <li>
+          <a
+            class="nav-link"
+            href="/dashboard/company/metrics.html#overview"
+          >
+            <span class="sidenav-mini-icon"> -o </span>
+            <span class="sidenav-normal"> -overview </span>
+          </a>
+        </li>
+        <li>
+          <a
+            class="nav-link"
+            href="/dashboard/company/metrics.html#metrics"
+          >
+            <span class="sidenav-mini-icon"> -m </span>
+            <span class="sidenav-normal"> -metrics </span>
+          </a>
+        </li>
+        <li>
+          <a
+            class="nav-link"
+            href="/dashboard/company/metrics.html#gaps"
+          >
+            <span class="sidenav-mini-icon"> -g </span>
+            <span class="sidenav-normal"> -gaps </span>
+          </a>
+          <div class="collapse" id="metrics-nav"></div>
+        </li>
+
+    
+      </ul>
+    </div>
+  </li>
+
+  <div class="modal fade" id="metric-modal" tabindex="-1" role="dialog" aria-labelledby="metric-label" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="metric-label">Metric List</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <ul class="list-unstyled">
+            <li>
+              <a href="/dashboard/company/metric.html#overview"><h4>Metric A</h4></a>
+              <a href="/dashboard/company/metric.html#overview"><h4>Metric B</h4></a>
+              <a href="/dashboard/company/metric.html#overview"><h4>Metric C</h4></a>
+              <a href="/dashboard/company/metric.html#overview"><h4>Metric D</h4></a>
+              <a href="/dashboard/company/metric.html#overview"><h4>Metric E</h4></a>
+              <a href="/dashboard/company/metric.html#overview"><h4>Metric F</h4></a>
+              <a href="/dashboard/company/metric.html#overview"><h4>Metric G</h4></a>
+            </li>
+          </ul>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
