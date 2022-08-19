@@ -1,103 +1,133 @@
-<div class="col-xl-6 movable-cards " id="locations"  data-toggle="tooltip"
-data-placement="top"
-title="Company locations">
-    <!-- Vector map -->
-    <div class="card widget-calendar">
-      <!-- Card header -->
-      <div class="card-header">
-        <div class="row align-items-center">
-          <div class="col-8">
-            <!-- Title -->
-            <h5 class="h3 mb-0">Company Locations</h5>
-          </div>
-          <div class="col-4 text-right">
-            <a href="#!" class="btn btn-sm btn-neutral">View All</a>
-          </div>
+<div
+  class="col movable-cards"
+  id="locations"
+  data-toggle="tooltip"
+  data-placement="top"
+  title="Company locations"
+>
+  <!-- Vector map -->
+  <div class="card widget-calendar">
+    <!-- Card header -->
+    <div class="card-header">
+      <div class="row align-items-center">
+        <div class="col-8">
+          <!-- Title -->
+          <h5 class="h3 mb-0">Company Locations</h5>
+        </div>
+        <div class="col-4 text-right">
+          <a href="/dashboard/company/locations.html" class="btn btn-sm btn-neutral" id="view-all">View All</a>
+          <a href="/dashboard/company/locations.html" class="btn btn-sm btn-neutral d-none" id="vector-map-manage-btn" data-toggle="modal" data-target="#locationsModalCenter">Manage</a>
         </div>
       </div>
-      <!-- Card body -->
-      <div class="card-body">
-        <!-- Vector map -->
-        <div
-          class="vector-map vector-map-sm"
-          data-toggle="vectormap"
-          data-map="world_mill"
-        ></div>
-        <!-- List group -->
-        <ul class="list-group list-group-flush list my--3">
-          <li class="list-group-item px-0">
-            <div class="row align-items-center">
-              <div class="col-auto">
-                <!-- Country flag -->
-                <img
-                  class="flags"
-                  src="./assets/img/icons/flags/US.png"
-                  alt="United States"
-                />
-              </div>
-              <div class="col">
-                <small>Country</small>
-                <h5 class="mb-0">United States</h5>
-              </div>
-              <div class="col">
-                <small>Branches</small>
-                <h5 class="mb-0">200</h5>
-              </div>
-              <div class="col">
-                <small>Perform. vs Mean</small>
-                <h5 class="mb-0 text-danger">23%</h5>
-              </div>
+    </div>
+    <!-- Card body -->
+    <div class="card-body">
+      <!-- Vector map -->
+      <div
+        class="vector-map vector-map-sm"
+        id="world-map"
+        
+      ></div>
+      <!-- List group -->
+      <ul class="list-group list-group-flush list my--3" id="locations-list">
+        <li class="list-group-item px-0">
+          <div class="row align-items-center">
+            <div class="col-auto">
+              <!-- Country flag -->
+              <img
+                class="flags"
+                src="/dashboard/assets/img/icons/flags/US.png"
+                alt="United States"
+              />
             </div>
-          </li>
-          <li class="list-group-item px-0">
-            <div class="row align-items-center">
-              <div class="col-auto">
-                <!-- Country flag -->
-                <img
-                  class="flags"
-                  src="./assets/img/icons/flags/IN.png"
-                  alt="India"
-                />
-              </div>
-              <div class="col">
-                <small>Country</small>
-                <h5 class="mb-0">India</h5>
-              </div>
-              <div class="col">
-                <small>Branches</small>
-                <h5 class="mb-0">150</h5>
-              </div>
-              <div class="col">
-                <small>Perform. vs Mean</small>
-                <h5 class="mb-0 text-success">18%</h5>
-              </div>
+            <div class="col">
+              <small>Country</small>
+              <h5 class="mb-0">United States</h5>
             </div>
-          </li>
-          <li class="list-group-item px-0">
-            <div class="row align-items-center">
-              <div class="col-auto">
-                <!-- Country flag -->
-                <img
-                  class="flags"
-                  src="./assets/img/icons/flags/GB.png"
-                  alt="United Kingdom"
-                />
-              </div>
-              <div class="col">
-                <small>Country</small>
-                <h5 class="mb-0">United Kingdom</h5>
-              </div>
-              <div class="col">
-                <small>Branches</small>
-                <h5 class="mb-0">1,600</h5>
-              </div>
-              <div class="col">
-                <small>Perform. vs Mean</small>
-                <h5 class="mb-0 text-success">3%</h5>
-              </div>
+            <div class="col">
+              <small>Branches</small>
+              <h5 class="mb-0">200</h5>
             </div>
-          </li>
-        </ul>
+            <div class="col">
+              <small>Perform. vs Mean</small>
+              <h5 class="mb-0 text-danger">23%</h5>
+            </div>
+          </div>
+        </li>
+        <li class="list-group-item px-0">
+          <div class="row align-items-center">
+            <div class="col-auto">
+              <!-- Country flag -->
+              <img
+                class="flags"
+                src="/dashboard/assets/img/icons/flags/IN.png"
+                alt="India"
+              />
+            </div>
+            <div class="col">
+              <small>Country</small>
+              <h5 class="mb-0">India</h5>
+            </div>
+            <div class="col">
+              <small>Branches</small>
+              <h5 class="mb-0">150</h5>
+            </div>
+            <div class="col">
+              <small>Perform. vs Mean</small>
+              <h5 class="mb-0 text-success">18%</h5>
+            </div>
+          </div>
+        </li>
+        <li class="list-group-item px-0">
+          <div class="row align-items-center">
+            <div class="col-auto">
+              <!-- Country flag -->
+              <img
+                class="flags"
+                src="/dashboard/assets/img/icons/flags/GB.png"
+                alt="United Kingdom"
+              />
+            </div>
+            <div class="col">
+              <small>Country</small>
+              <h5 class="mb-0">United Kingdom</h5>
+            </div>
+            <div class="col">
+              <small>Branches</small>
+              <h5 class="mb-0">1,600</h5>
+            </div>
+            <div class="col">
+              <small>Perform. vs Mean</small>
+              <h5 class="mb-0 text-success">3%</h5>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="locationsModalCenter" tabindex="-1" role="dialog" aria-labelledby="locationsModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="locationsModalTitle">Add New Location</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <label for="new-location">Location:</label>
+        <select class="form-select" id="new-location" name="new-location">
+        </select>
+        <label for="branches">Number of Branches:</label><br>
+        <input type="number" name="branches" id="branches" min="1">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary" id="save-new-location-btn">Save changes</button>
       </div>
     </div>
   </div>
+</div>
