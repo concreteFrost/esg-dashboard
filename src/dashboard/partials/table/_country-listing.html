@@ -1,12 +1,12 @@
 <div
-  class="col movable-cards"
+  class="col-xl-6 movable-cards"
   id="locations"
   data-toggle="tooltip"
   data-placement="top"
   title="Company locations"
 >
   <!-- Vector map -->
-  <div class="card widget-calendar">
+  <div class="card widget-calendar" >
     <!-- Card header -->
     <div class="card-header">
       <div class="row align-items-center">
@@ -16,7 +16,7 @@
         </div>
         <div class="col-4 text-right">
           <a href="/dashboard/company/locations.html" class="btn btn-sm btn-neutral" id="view-all">View All</a>
-          <a href="/dashboard/company/locations.html" class="btn btn-sm btn-neutral d-none" id="vector-map-manage-btn" data-toggle="modal" data-target="#locationsModalCenter">Manage</a>
+          <a href="/dashboard/company/locations.html" class="btn btn-sm btn-primary d-none" id="manage-locations-btn" data-toggle="modal" data-target="#locationsModalCenter">Manage</a>
         </div>
       </div>
     </div>
@@ -26,82 +26,11 @@
       <div
         class="vector-map vector-map-sm"
         id="world-map"
-        
       ></div>
       <!-- List group -->
+      <h5 id="no-locations">No Locations to show...</h5>
       <ul class="list-group list-group-flush list my--3" id="locations-list">
-        <li class="list-group-item px-0">
-          <div class="row align-items-center">
-            <div class="col-auto">
-              <!-- Country flag -->
-              <img
-                class="flags"
-                src="/dashboard/assets/img/icons/flags/US.png"
-                alt="United States"
-              />
-            </div>
-            <div class="col">
-              <small>Country</small>
-              <h5 class="mb-0">United States</h5>
-            </div>
-            <div class="col">
-              <small>Branches</small>
-              <h5 class="mb-0">200</h5>
-            </div>
-            <div class="col">
-              <small>Perform. vs Mean</small>
-              <h5 class="mb-0 text-danger">23%</h5>
-            </div>
-          </div>
-        </li>
-        <li class="list-group-item px-0">
-          <div class="row align-items-center">
-            <div class="col-auto">
-              <!-- Country flag -->
-              <img
-                class="flags"
-                src="/dashboard/assets/img/icons/flags/IN.png"
-                alt="India"
-              />
-            </div>
-            <div class="col">
-              <small>Country</small>
-              <h5 class="mb-0">India</h5>
-            </div>
-            <div class="col">
-              <small>Branches</small>
-              <h5 class="mb-0">150</h5>
-            </div>
-            <div class="col">
-              <small>Perform. vs Mean</small>
-              <h5 class="mb-0 text-success">18%</h5>
-            </div>
-          </div>
-        </li>
-        <li class="list-group-item px-0">
-          <div class="row align-items-center">
-            <div class="col-auto">
-              <!-- Country flag -->
-              <img
-                class="flags"
-                src="/dashboard/assets/img/icons/flags/GB.png"
-                alt="United Kingdom"
-              />
-            </div>
-            <div class="col">
-              <small>Country</small>
-              <h5 class="mb-0">United Kingdom</h5>
-            </div>
-            <div class="col">
-              <small>Branches</small>
-              <h5 class="mb-0">1,600</h5>
-            </div>
-            <div class="col">
-              <small>Perform. vs Mean</small>
-              <h5 class="mb-0 text-success">3%</h5>
-            </div>
-          </div>
-        </li>
+       
       </ul>
     </div>
   </div>
@@ -126,7 +55,8 @@
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary" id="save-new-location-btn">Save changes</button>
+        <button type="button" class="btn btn-primary" id="save-new-location-btn">Add</button>
+        <button type="button" class="btn btn-primary" id="save-loaction-changes-btn">Save Changes</button>
       </div>
     </div>
   </div>
