@@ -7,25 +7,30 @@
         <h6 class="text-uppercase text-muted ls-1 mb-1">Analysis</h6>
         <h3 class="mb-0">Disclosure Metrics</h3>
       </div>
-
+      <div class="table-responsive">
       <table
         id="disclosure-datatable"
         class="table align-items-center"
       >
         <thead class="thead-light">
           <tr>
-            <th>Standard</th>
-            <th>Metric(s)</th>
-            <th>Raw Score</th>
-            <th>Unit</th>
-            <th>Trend</th>
-            <th>Risk Score</th>
+            <th>No</th>
+            <th>Name</th>
+            <th>Metric Category</th>
+            <th>Owner</th>
+            <th>Metric Type</th>
+            <th>Company</th>
+            <th>Office</th>
+            <th>Business Unit</th>
+            <th>Metric Importance</th>
+            <th>Executive Owner</th>
           </tr>
         </thead>
-        <tbody class="list">
-          @@include('../pages/company/metrics/table/_metrics-table-item.html')
+        <tbody class="list" id="metric-table-body">
+
         </tbody>
       </table>
+    </div>
     </div>
   </div>
 </div>

@@ -5,9 +5,9 @@
       <div class="card-header pb-0">
         <div class="row">
           <div class="col-9 pr-0">
-            <h3 class="metric-title"></h3>
+            <h3 class="metric-company"></h3>
           </div>
-          <div class="col-3"><h3 class="text-right">Head Office</h3></div>
+          <div class="col-3"><h3 class="text-right metric-office"><!--Head office !--></h3></div>
         </div>
       </div>
     </section>
@@ -15,16 +15,16 @@
     <section class="container-fluid">
       <div class="row">
         <h2 class="col mt-1 raw-score"></h2>
-        <h2 class="col mt-1 text-right">HR</h2>
+        <h2 class="col mt-1 text-right"><!--HR--></h2>
       </div>
       <div class="row">
-        <div class="col unit"><h3></h3></div>
+        <div class="col"><h3>Raw Score</h3></div>
         <div class="col"><h3>Vs.2021</h3></div>
         <div class="col"><h3>Vs.Target</h3></div>
       </div>
 
       <div class="row justify-content-center">
-        <div class="col"><p>205</p></div>
+        <div class="col" id="current-value"><p><!--Current Value--></p></div>
         <div class="col">
           <p>3% <i class="fa fa-arrow-up text-success"></i></p>
         </div>
@@ -42,13 +42,13 @@
       >
         <ul class="esg-categories-list pl-0">
           <li>
-            <button class="btn btn-sm button-nav mr-2">Social</button>
+            <button class="btn btn-sm button-nav mr-2" id="social-btn">Social</button>
           </li>
           <li>
-            <button class="btn btn-sm button-nav mr-2">Human Capital</button>
+            <button class="btn btn-sm button-nav mr-2 " id="environmental-btn">Environmental</button>
           </li>
           <li>
-            <button class="btn btn-sm button-nav mr-2">
+            <button class="btn btn-sm button-nav mr-2" id="employee-btn">
               Employee Engagement, Diversity & Inclusion
             </button>
           </li>
@@ -67,9 +67,9 @@
           />
         </div>
         <div class="col-12 col-md-10 px-5 text-center text-md-left mt-2">
-          <p>
-            GRI 401: Employment 2016 401-1 New employee hires and employee
-            turnover
+          <p id="metric-name">
+            <!-- GRI 401: Employment 2016 401-1 New employee hires and employee
+            turnover -->
           </p>
         </div>
       </main>
@@ -87,19 +87,19 @@
             <tbody>
               <tr>
                 <td>Upper Limit:</td>
-                <td>0</td>
+                <td class="metric-upper-limit-value"></td>
               </tr>
               <tr>
-                <td>Industry Benchmark:</td>
-                <td>0</td>
+                <td >Industry Benchmark:</td>
+                <td class="metric-benchmark-value"></td>
               </tr>
               <tr>
                 <td>Target:</td>
-                <td>50</td>
+                <td class="metric-target-value"></td>
               </tr>
               <tr>
                 <td class="text-primary">Current:</td>
-                <td>37</td>
+                <td class="metric-current-value"></td>
               </tr>
             </tbody>
           </table>
@@ -110,7 +110,7 @@
             <tbody>
               <tr>
                 <td>Lower Limit:</td>
-                <td>0</td>
+                <td class="metric-lover-limit-value"></td>
               </tr>
               <tr>
                 <td>Current vs Target(%):</td>
