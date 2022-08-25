@@ -19,12 +19,7 @@
       @@include('./_nav-top.html', { "path": ".." })
       @@include('./_light-head.html', { "path": ".." })
       <div class="container-fluid">
-
-      @@include('../pages/company/metric/_button-nav.html')
-      @@include('../pages/company/metric/_overview.html')
-      @@include('../pages/company/metric/_management.html')
-      @@include('../pages/company/metric/_materiality.html')
-      @@include('../pages/company/metric/_breakdown.html')
+        @@include('../pages/company/individual-risk/_overview.html')
     </div>
     @@include('./_scripts.html', { "path": "..", "path_common": "../.." })
     @@include('./_scripts-d3.html', { "path": "..", "path_common": "../.." })
@@ -35,8 +30,6 @@
    
     
     <script src="/dashboard/assets/js/nav-side-active.min.js"></script>
-    <script type="module" src="/dashboard/assets/js/button-nav-metrics.min.js"></script>
-    <script src="/dashboard/assets/js/graphs.min.js"></script>
-    <script src="/dashboard/assets/js/api/metric-api.min.js"></script>
+    <script src="/dashboard/assets/js/api/individual-risk-api.min.js"></script>
   </body>
 </html>
