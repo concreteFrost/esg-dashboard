@@ -5,9 +5,9 @@
   "path_common": "../.." })
   <body>
     <!-- Preloader -->
-    <!-- @@include('./_preloader.html', {
+    @@include('./_preloader.html', {
     "path": ".."
-  }) -->
+  })
     <!-- Tracking Code -->
     @@include('./_tracking-body.html')
     <!-- Navbar -->
@@ -30,13 +30,12 @@
     @@include('./_scripts-d3.html', { "path": "..", "path_common": "../.." })
     <footer class="footer pt-0">@@include('./_footer.html')</footer>
   </div>
-
- 
-   
-    
+  <script src="/dashboard/assets/js/nav-actions/individual-metric-on-load.min.js"></script>
     <script src="/dashboard/assets/js/nav-side-active.min.js"></script>
+  
     <script type="module" src="/dashboard/assets/js/button-nav-metrics.min.js"></script>
     <script src="/dashboard/assets/js/graphs.min.js"></script>
     <script src="/dashboard/assets/js/api/metric-api.min.js"></script>
+
   </body>
 </html>

@@ -100,17 +100,13 @@ p#chart {
 }
 
 .treemap-container {
+
   rect{
-    background-color: black;
-    color: green;
-    width: 500%;
-    overflow-x: hidden;
+    width: 250%;
+ 
   }
   svg {
-    margin-right: auto;
-    margin-left: auto;
     width: 100%;
- 
   }
 }
 

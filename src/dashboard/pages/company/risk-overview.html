@@ -37,8 +37,11 @@
         @@include('../pages/company/risk-overview/_raw-score.html')
 
       </div>
+
+      <!--Risk Controls-->
+      @@include('../pages/company/risk-overview/_controls.html')
       <!-- Risk Items Table -->
-      @@include('../pages/company/risk-overview/_risk-items-table.html')
+      @@include('../partials/table/_risks-table.html')
       <!-- Footer -->
       <footer class="footer pt-0">
         @@include('./_footer.html')
@@ -60,4 +63,5 @@ type="module"
 src="/dashboard/assets/js/button-nav-risks.min.js"
 ></script>
 <script src="/dashboard/assets/js/api/risk-list-api.min.js"></script>
+<script src="/dashboard/assets/js/api/controls-list-api.min.js"></script>
 </html>

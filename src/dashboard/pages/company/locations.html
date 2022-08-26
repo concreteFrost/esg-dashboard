@@ -1,56 +1,38 @@
 <!DOCTYPE html>
 <html>
-@@include('./_head.html', {
-  "title": "Risk Overview - FSI Bank - esg:one",
-  "canonical": "https://app.esg-one.co/dashboard/company/risk-overview",
-  "path": "..",
-  "path_common": "../.."
-})
-<body>
-  <!-- Preloader -->
-  @@include('./_preloader.html', {
-    "path": ".."
-  })
+  @@include('./_head.html', { "title": "Risk Overview - FSI Bank - esg:one",
+  "canonical": "https://app.esg-one.co/dashboard/company/risk-overview", "path":
+  "..", "path_common": "../.." })
+  <body>
+    <!-- Preloader -->
+    @@include('./_preloader.html', { "path": ".." })
+    @@include('./_tracking-body.html')
+    <!-- Sidenav -->
+    @@include('./_nav-side.html', { "path": "..", "path_common": "../.." })
+    <!-- Main content -->
+    <div class="main-content" id="panel">
+      <!-- Topnav -->
+      @@include('./_nav-top.html', { "path": ".." })
+      @@include('./_light-head.html', { "path": ".." })
+      <!-- Header -->
 
-  @@include('./_tracking-body.html')
-  <!-- Sidenav -->
-  @@include('./_nav-side.html', {
-      "path": "..",
-      "path_common": "../.."
-  })
-  <!-- Main content -->
-  <div class="main-content" id="panel">
-    <!-- Topnav -->
-    @@include('./_nav-top.html', { "path": ".." })
-    @@include('./_light-head.html', { "path": ".." })
-    <!-- Header -->
+      <!-- Page content -->
+      <div class="container-fluid">
+        @@include('../partials/table/_country-listing.html')
 
-    <!-- Page content -->
-    <div class="container-fluid">
-      @@include('../partials/table/_country-listing.html')
-     
-      <!-- Footer -->
-      <footer class="footer pt-0">
-        @@include('./_footer.html')
-      </footer>
+        <!-- Footer -->
+        <footer class="footer pt-0">@@include('./_footer.html')</footer>
+      </div>
     </div>
-  </div>
-  @@include('./_scripts.html', {
-    "path": "..",
-    "path_common": "../.."
-  })
-  @@include('./_scripts-d3.html', {
-    "path": "..",
-    "path_common": "../.."
-  })
-</body>
-<script src="/dashboard/assets/js/nav-side-active.min.js"></script>
-<script src="/dashboard/assets/js/vector-map-on-load.min.js"></script>
-<script src="/dashboard/assets/js/api/country-list.min.js"></script>
-<script src="/dashboard/assets/js/vector-map.min.js"></script>
+    @@include('./_scripts.html', { "path": "..", "path_common": "../.." })
+    @@include('./_scripts-d3.html', { "path": "..", "path_common": "../.." })
+  </body>
+  <script src="/dashboard/assets/js/nav-side-active.min.js"></script>
 
-<script
-type="module"
-src="/dashboard/assets/js/button-nav-risks.min.js"
-></script>
+  <script src="/dashboard/assets/js/api/locations-api.min.js"></script>
+
+  <script
+    type="module"
+    src="/dashboard/assets/js/button-nav-risks.min.js"
+  ></script>
 </html>

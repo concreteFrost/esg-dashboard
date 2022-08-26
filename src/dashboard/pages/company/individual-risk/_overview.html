@@ -1,10 +1,13 @@
-<div class="card metrics-card">
+<div class="card metrics-card" >
   <!-- Card header -->
-  <div class="card-header">
-    <h3 class="mb-0">Overview</h3>
+  <div class="card-header"><div class="row">
+    <div class="col"><h3 class="mb-0">Overview</h3></div> 
+   <div class="col"><button class="float-right btn btn-primary btn-sm" onclick="$('#printable').printThis()">Print</button></div>
+  </div>
+   
   </div>
   <!-- Card Body-->
-  <div class="card-body">
+  <div class="card-body" id="printable">
   
       <div class="row">
         <div class="col"><h3 id="risk-name"></h3></div>

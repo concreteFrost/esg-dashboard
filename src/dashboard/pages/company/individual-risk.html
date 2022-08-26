@@ -20,16 +20,15 @@
       @@include('./_light-head.html', { "path": ".." })
       <div class="container-fluid">
         @@include('../pages/company/individual-risk/_overview.html')
+      </div>
+      @@include('./_scripts.html', { "path": "..", "path_common": "../.." })
+      @@include('./_scripts-d3.html', { "path": "..", "path_common": "../.." })
+      <footer class="footer pt-0">@@include('./_footer.html')</footer>
     </div>
-    @@include('./_scripts.html', { "path": "..", "path_common": "../.." })
-    @@include('./_scripts-d3.html', { "path": "..", "path_common": "../.." })
-    <footer class="footer pt-0">@@include('./_footer.html')</footer>
-  </div>
 
- 
-   
-    
+    <script src="/dashboard/assets/js/nav-actions/individual-risk-on-load.min.js"></script>
     <script src="/dashboard/assets/js/nav-side-active.min.js"></script>
+
     <script src="/dashboard/assets/js/api/individual-risk-api.min.js"></script>
   </body>
 </html>
