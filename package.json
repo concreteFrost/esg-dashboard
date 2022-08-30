@@ -99,5 +99,6 @@
   "scripts": {
     "preversion": "echo \"Creating new version $npm_package_version...\"",
     "postversion": "git push --follow-tags"
-  }
+  },
+  "proxy":"https://europe.grc1.com/iGRC"
 }
