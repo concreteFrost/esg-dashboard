@@ -12,6 +12,10 @@
     }
   }
 
+  span{
+    font-weight: 500;
+  }
+
   @media screen and (max-width: 768px) {
     h3 {
       font-size: 1rem;
@@ -81,3 +85,4 @@
   padding: 10px;
   box-shadow: 10px 10px 5px;
 }
+
