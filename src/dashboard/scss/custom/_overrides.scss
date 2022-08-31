@@ -25,6 +25,29 @@
   min-height: 570px;
 }
 
+//Data Tables search form and buttons
+
+.dataTables_filter{
+  position: absolute;
+  right: 0px;
+  top: 93px;
+
+  @media screen and (max-width:610px) {
+    top: 0;
+    right: 0;
+    position: relative;
+  }
+
+}
+
+.dt-buttons.btn-group.flex-wrap{
+  margin-bottom: 10px;
+  @media screen and (max-width:610px) {
+    display: none;
+  }
+
+}
+
 //Buttons on nav
 
 .button-nav {
