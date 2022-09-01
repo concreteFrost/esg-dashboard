@@ -6,12 +6,30 @@
   title="Risks table"
 >
   <div class="card card-large">
-    <div class="card-header ">
+    <div class="card-header">
       <div class="row align-items-center">
         <div class="col">
           <h3 class="mb-0">Risks</h3>
         </div>
-        <div class="col"><a type="button" class="btn btn-primary btn-sm float-right" href="/dashboard/company/risk-overview.html#risk-overview" id="risks-view-all">View All</a></div>
+
+        <div class="col">
+          <a
+            type="button"
+            class="btn btn-primary btn-sm float-right"
+            href="/dashboard/company/risk-overview.html#risks"
+            id="risks-view-all"
+            >View All</a
+          >
+          <button
+            type="button"
+            class="d-none btn btn-primary btn-sm float-right"
+            id="add-risk-btn"
+            data-toggle="modal"
+            data-target="#riskModal"
+          >
+            Add Risk
+          </button>
+        </div>
       </div>
     </div>
     <!-- Risk table -->
@@ -43,6 +61,8 @@
     </div>
   </div>
 </div>
+
+
 
 <!--Hardcoded data-->
 <!-- <th scope="row">

@@ -5,7 +5,17 @@
 
       <div class="card-header mb-2">
         <h6 class="text-uppercase text-muted ls-1 mb-1">Analysis</h6>
-        <h3 class="mb-0">Disclosure Metrics</h3>
+        <div class="row">
+          <div class="col"> <h3 class="mb-0">Disclosure Metrics</h3></div>
+          <div class="col">  <button
+            class="float-right btn btn-primary btn-sm"
+            data-toggle="modal"
+            data-target="#metricModal"
+          >
+            New Metric
+          </button></div>
+        </div>
+       
       </div>
       <div class="table-responsive">
         <table id="metrics-datatable" class="table align-items-center">
@@ -21,7 +31,7 @@
               <th>Business Unit</th>
               <th>Metric Importance</th>
               <th>Executive Owner</th>
-              <th>Delete</th>
+              <th>Edit</th>
             </tr>
           </thead>
           <tbody class="list" id="metric-table-body"></tbody>
@@ -30,3 +40,73 @@
     </div>
   </div>
 </div>
+
+<!--Modal-->
+<div
+  class="modal fade"
+  id="metricModal"
+  tabindex="-1"
+  role="dialog"
+  aria-labelledby="metricModalLabel"
+  aria-hidden="true"
+>
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="metricModalLabel">Add new metric</h5>
+        <button
+          type="button"
+          class="close"
+          data-dismiss="modal"
+          aria-label="Close"
+        >
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+      New metric info will be placed here
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">
+          Close
+        </button>
+        <button type="button" class="btn btn-primary" id="add-new-metric-btn">Add</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div
+  class="modal fade"
+  id="editMetricModal"
+  tabindex="-1"
+  role="dialog"
+  aria-labelledby="editMetricModalLabel"
+  aria-hidden="true"
+>
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="editMetricModalLabel">Add new metric</h5>
+        <button
+          type="button"
+          class="close"
+          data-dismiss="modal"
+          aria-label="Close"
+        >
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+      New metric info will be placed here
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">
+          Close
+        </button>
+        <button type="button" class="btn btn-primary" id="add-new-metric-btn">Add</button>
+      </div>
+    </div>
+  </div>
+</div>
+

@@ -27,6 +27,10 @@
 
 //Data Tables search form and buttons
 
+.dataTables_length .form-control {
+  margin: 0;
+}
+
 .dataTables_filter{
   position: absolute;
   right: 0px;

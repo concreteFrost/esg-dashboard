@@ -1,31 +1,46 @@
 <div class="col" id="controls">
-    <div class="card card-large">
-      <div class="card-header bg-transparent">
-    <h3>Controls</h3>
-      </div>
-      <div class="card-body">
-        <div class="table-responsive">
-          <table class="table align-items-center table-flush" id="controls-datatable">
-            <thead class="thead-light">
-              <tr>
-                <th>No.</th>
-                <th>Name</th>
-                <th>Office</th>
-                <!-- <th>Type</th> -->
-                <th>Owner</th>
-                <th>Business Unit</th>
-                <th>Category</th>
-                <!-- <th>Importance</th> -->
-                <th>Required By Regulator</th>
-                <!-- <th>Effectiveness</th> -->
-                <th>Last Review Data</th>
-                <th>Next Review Date</th>
-                <th>Delete</th>
-              </tr>
-            </thead>
-            <tbody class="list" id="controls-table-body"></tbody>
-          </table>
+  <div class="card card-large">
+    <div class="card-header bg-transparent">
+      <div class="row">
+        <div class="col"><h3>Controls</h3></div>
+        <div class="col">
+          <button
+            class="float-right btn btn-primary btn-sm"
+            data-toggle="modal"
+            data-target="#controlModal"
+          >
+            Add Control
+          </button>
         </div>
       </div>
     </div>
+    <div class="card-body">
+      <div class="table-responsive">
+        <table
+          class="table align-items-center table-flush"
+          id="controls-datatable"
+        >
+          <thead class="thead-light">
+            <tr>
+              <th>No.</th>
+              <th>Name</th>
+              <th>Office</th>
+              <!-- <th>Type</th> -->
+              <th>Owner</th>
+              <th>Business Unit</th>
+              <th>Category</th>
+              <!-- <th>Importance</th> -->
+              <th>Required By Regulator</th>
+              <!-- <th>Effectiveness</th> -->
+              <th>Last Review Data</th>
+              <th>Next Review Date</th>
+              <th>Edit</th>
+            </tr>
+          </thead>
+          <tbody class="list" id="controls-table-body"></tbody>
+        </table>
+      </div>
+    </div>
   </div>
+</div>
+
