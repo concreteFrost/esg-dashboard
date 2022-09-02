@@ -3,7 +3,10 @@ id="_treemap"
   class="col movable-cards"
   data-toggle="tooltip"
   data-placement="top"
-  title="ESG Capability represents the % of policies and processes in place vs. % of policies and processes the company has specified as required. The size of the boxes represents the number of processes and policies identified. Click on each box to see how the company is performing within sub-categories. "
+  title="The percentage displayed represents the % of
+  assessment questions for which there is no data.
+  The size of the box represented the total number
+  of assessment questions in each category"
 >
   <div class="card card-large">
     <div class="card-header bg-transparent">
@@ -19,7 +22,9 @@ id="_treemap"
     <div id="card" class="card-body p-0">
       <p id="chart"></p>
       <div class="treemap-container">
-        <div id="domainDrillDown"></div>
+        <div id="domainDrillDown"  data-toggle="tooltip"
+        data-placement="top"
+        title='Click to return to the previous view of the graph'></div>
       </div>
     </div>
   </div>
