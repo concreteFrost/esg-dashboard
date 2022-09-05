@@ -16,9 +16,10 @@
       <!-- Header -->
       @@include('./_dashboard-head.html')
       <!-- Page content -->
-      <div class="container-fluid mt--6">
+    <div class="container-fluid mt-2">
         <!--Tree & Progress-->
         <div class="row" id="widgets-grid">
+          @@include("../partials/cards/kpis/container.html")
           @@include("../partials/tree_and_progress/_treemap.html")
           @@include("../partials/tree_and_progress/_progress.html")
           <!--Risk & Company Locations -->
