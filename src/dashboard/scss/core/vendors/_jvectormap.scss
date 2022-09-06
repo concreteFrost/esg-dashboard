@@ -5,6 +5,12 @@
 .vector-map {
     position: relative;
     height: 600px;
+
+    //center map in the middle
+    svg{
+       display: block;
+       margin: auto;
+    }
 }
 
 // Size variations
@@ -18,6 +24,7 @@
 .jvectormap-container {
     width: 100%;
     height: 100%;
+    
 }
 
 .jvectormap-zoomin,

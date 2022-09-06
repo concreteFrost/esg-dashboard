@@ -1,0 +1,662 @@
+﻿{
+    "Sheet1": [
+        {
+            "ESG": "Access over ownership",
+            "Description": "Activities that provide temporary access to goods with or without monetary transactions. From an impact perspective these models can help reduce impact through reducing production and optimising efficient asset use. Zip car and tool libraries are examples",
+            "Taxonomy / Tags": "Industry organisations and initiatives "
+        },
+        {
+            "ESG": "Active ownership",
+            "Description": "Actively engaging with\nthe managers and boards of directors of\ninvestee companies on business strategy\nand execution, including specific sustainability\nissues and policies. It is seen as a means of\nreducing investment risk, enhancing longterm shareowner value, or both.",
+            "Taxonomy / Tags": "Impact Investing"
+        },
+        {
+            "ESG": "ASHRAE",
+            "Description": "The American Society of Heating, Refrigerating and Air-Conditioning Engineers is an American professional association seeking to advance heating, ventilation, air conditioning and refrigeration systems design and construction. ASHRAE has more than 57,000 members in more than 132 countries worldwide.",
+            "Taxonomy / Tags": "Business models and innnovation"
+        },
+        {
+            "ESG": "Asian Corporate Governance Association\n(ACGA)",
+            "Description": "An independent, non-profit\nmembership organisation dedicated\nto working with investors, companies\nand regulators in the implementation\nof effective corporate governance\npractices throughout Asia. See more\nat the ACGA website",
+            "Taxonomy / Tags": "Thematic investing"
+        },
+        {
+            "ESG": "BCorp",
+            "Description": "Certified B Corps are a new kind of business that balances purpose and profit. They are legally required to consider the impact of their decisions on their workers, customers, suppliers, community, and the environment. This is a community of leaders, driving a global movement of people using businesses as a force for good.",
+            "Taxonomy / Tags": "Screened investments"
+        },
+        {
+            "ESG": "Benchmarkinng",
+            "Description": "The practice of measuring a specific metric and comparing that against other similar entities. Benchmarking can be done against other companies, business units, products, assets, etc. It is also possible to benchmark against best practice",
+            "Taxonomy / Tags": "Governance and Active Ownership"
+        },
+        {
+            "ESG": "Best in class / Positive Screening ",
+            "Description": "Selecting issuers that perform better on ESG dimensions than their peers within a particular industry, sector or region.",
+            "Taxonomy / Tags": "Integration"
+        },
+        {
+            "ESG": "Best-in-class",
+            "Description": "Assets or investments that are the best performers amongst their peer group in terms of environmental, social, and/or governance factors. ",
+            "Taxonomy / Tags": "Social "
+        },
+        {
+            "ESG": "Best-in-class investment",
+            "Description": "A comparative\ninvestment style that involves investing\nonly in companies that lead their peer\ngroups in respect of sustainability\nperformance.",
+            "Taxonomy / Tags": "Environmental"
+        },
+        {
+            "ESG": "Biodiversity",
+            "Description": "Biodiversity is the biological variety and variability of life on Earth. Biodiversity is a measure of variation at the genetic, species, and ecosystem level.",
+            "Taxonomy / Tags": "Carbon"
+        },
+        {
+            "ESG": "Biofuel",
+            "Description": "Biofuel is a fuel produced from organic matter or waste through contemporary processes that is used as an alternative to fossil fuels. Biofuels may be developed from waste products or virgin products such as corn oil. Environmental and land use impacts vary depending on the source and technique used. "
+        },
+        {
+            "ESG": "Biomimicry",
+            "Description": "Biomimicry is the practice of emulating models or systems that occur in nature to solve complex human problems."
+        },
+        {
+            "ESG": "Board of directors",
+            "Description": "Appointed by\nshareholders to represent and protect\ntheir interests in decision-making and\nensure the development and execution\nof a successful value-creating strategy."
+        },
+        {
+            "ESG": "BREAM",
+            "Description": "BREEAM is a sustainability validation & certification system for assets, mainly buildings."
+        },
+        {
+            "ESG": "Carbon Footprint",
+            "Description": "A measure of the total greenhouse gas emissions produced by an individual, group, or company.. It  is usually expressed in tonnes of carbon dioxide."
+        },
+        {
+            "ESG": "Carbon Offset",
+            "Description": "Carbon offsets are reductions in CO2 or other GHG made to compensate for emissions made elsewhere; they're measured in tonnes of carbon dioxide-equivalent (CO2e). Carbon offsets may be allocated to a range of projects including Nature-Based-Solutions (i.e. reforestation), new technology (Carbon Capture) or towards the purchase of carbon credits. The latter is not seen as being particularly additive and companies are encouraged to avoid this approach to offsetting"
+        },
+        {
+            "ESG": "Carbon Pricing",
+            "Description": "The cost of emitting CO2 into the atmosphere, either in the form of a fee per tonne of CO2 emitted, or an incentive that’s offered for emitting less. Putting an economic cost on emissions is widely considered the most efficient way to encourage polluters to reduce what they release into the atmosphere."
+        },
+        {
+            "ESG": "Carbon Sequestration",
+            "Description": "Carbon sequestration is a proposed way to slow the accumulation of greenhouse gases, mitigate global warming, and avoid climate change through long-term storage of CO2 and other forms of carbon."
+        },
+        {
+            "ESG": "Carbon Tracker",
+            "Description": "An initiative working\nto align capital markets with climate\nchange objectives. See more at the\nCarbon Tracker website"
+        },
+        {
+            "ESG": "Article 6 Fund",
+            "Description": "\"Article 6\" strategies either integrate environmental, social and governance (ESG) considerations into the investment decision making process, or explain why sustainability risk is not relevant, but do not meet the additional criteria of Article 8 or Article 9 strategies."
+        },
+        {
+            "ESG": "Category 8 Fund / Article 8  Fund",
+            "Description": "An Article 8 Fund under SFDR is defined as \"a Fund which promotes, among other characteristics, environmental or social characteristics, or a combination of those characteristics, provided that the companies in which the investments are made follow good governance practices.\" "
+        },
+        {
+            "ESG": "Category 9 Fund / Article 9  Fund",
+            "Description": "“Article 9” strategies have a sustainable investment objective."
+        },
+        {
+            "ESG": "CDP",
+            "Description": "CDP, formerly known as the Carbon Disclosure Project, is an organization which supports companies and cities to disclose the environmental impact of major corporations. It aims to make environmental reporting and risk management a business norm, and drive disclosure, insight and action towards a sustainable economy."
+        },
+        {
+            "ESG": "CDP (formerly the Carbon Disclosure\nProject)",
+            "Description": "A global not-for-profit organisation,\nfounded in 2000 that provides the world’s\nonly global natural capital disclosure\nsystem. See more at the CDP website"
+        },
+        {
+            "ESG": "Circuilytics",
+            "Description": "Circulytics is a reportinng framework and assessment that aims supports a company’s transition towards the circular economy, regardless of industry, complexity, and size. It was created by the Ellen MacArthur Foundation"
+        },
+        {
+            "ESG": "Circular economy",
+            "Description": "An economic system designed to produce no waste or pollution via the efficient reuse of all system components. It is designed with regeneration in mind."
+        },
+        {
+            "ESG": "Clean Technology",
+            "Description": "A range of products, services and processes that reduce the use of natural resources, cut or eliminate emissions and waste. "
+        },
+        {
+            "ESG": "Climate Disclosure Standards Board\n(CDSB)",
+            "Description": "An international consortium\nof business and environmental NGOs,\nset up to promote greater alignment\nbetween natural and financial capital\nthrough disclosure standards, research\nand advocacy. See more at the CDSB website"
+        },
+        {
+            "ESG": "Climate risk",
+            "Description": "The investment risk resulting\nfrom a failure to keep global temperature\nrises to below 2°C above pre-industrial\nlevels. As per the TCFD, climate risks are often broken down into physical risks annd transition risks. "
+        },
+        {
+            "ESG": "Climate Risk Factor",
+            "Description": "Climate risk factors are factors that drive climate instability and include CO2 and green house gas emissions and  the variety of economic activities and drivers that lead to such emissions"
+        },
+        {
+            "ESG": "Cluster munitions and anti-personnel\nmines (APMs)",
+            "Description": "Cluster munitions are\nweapons designed to disperse multiple\nexplosive sub-munitions. Anti-personnel\nmines are explosive devices designed\nto harm or kill civilians. Schroders fully\nsupports the international conventions on\ncluster munitions and APMs. Consistent\nwith this support, and in line with our\ncommitment to responsible investment,\nwe will not knowingly hold any security\nthat derives revenue from or provides\nfunding for either."
+        },
+        {
+            "ESG": "Community investing",
+            "Description": "Investments made\ndirectly into low-income or disadvantaged\ncommunities, small businesses or community\nservices (for example child care, affordable\nhousing and healthcare)."
+        },
+        {
+            "ESG": "Corporate governance",
+            "Description": "The system of\nrules, practices and processes by which\na company is directed and controlled,\ndesigned to ensure management acts\nin the best interests of its shareholders.\nCorporate governance covers a wide\nscope including board independence, accountability\nremuneration, interaction with sharelholders and risk practices, to capital\nallocation and accounting practices. Best practice and regulatory concerns vary from country to country."
+        },
+        {
+            "ESG": "Council of Institutional Investors",
+            "Description": "An organisation of asset managers\nand asset owners promoting effective\nUS corporate governance practice.\nSee more at the Council of Institutional\nInvestors website"
+        },
+        {
+            "ESG": "CRREM",
+            "Description": "The Carbon Risk Real Estate Monitor is a research and innovation project that defines science-based decarbonization pathways for the commercial and residential real estate sectors in order to manage transition risks and align with Paris targets."
+        },
+        {
+            "ESG": "CSI",
+            "Description": "Corporate Social Innovation refers to the practices of communities embedding sustainability into their core strategy and using it to drive product and service innovation that responds to market and social and environmental needs"
+        },
+        {
+            "ESG": "CSR",
+            "Description": "Corporate social responsibility is a type of international private business self-regulation that aims to contribute to societal goals of a philanthropic, activist, or charitable nature by engaging in or supporting volunteering or ethically-oriented practices."
+        },
+        {
+            "ESG": "Diivestment",
+            "Description": "The act of dissociating or selling assets and securities due to behavior not aligned with ESG values, or as a way to display strong commitment to ESG and responsible investing practices. Most prominenet in the fossil fuel and extractive industries but relevant across industries with high carbon intensity.  n many regions, local legislation\ndrives divestment guidelines, which can\ninfluence the extent to which public funds\ncan or cannot invest in certain regions.\nDivestment is also sometimes known as\ndivestiture."
+        },
+        {
+            "ESG": "Double Materiality",
+            "Description": "The concept of ‘double-materiality’ was first formally proposed by the European\nCommission (European Commission, 2019) in Guidelines on Non-financial Reporting:\nSupplement on Reporting Climate-related Information published in June 2019. It\nencourages a company to judge materiality from two perspectives “the extent necessary for an understanding of the company’s development,\nperformance and position” and “in the broad sense of affecting the value of the company”;\n2) environmental and social impact of the company’s activities on a broad range of\nstakeholders. The concept also implies the need to assess the interconnectivity of the two. "
+        },
+        {
+            "ESG": "Economically targeted investing",
+            "Description": "Investments that seek to promote economic\ndevelopment in local communities and\norganisations, in addition to competitive\nfinancial returns. The investments may\nbe targeted at job creation, generating\nsmall business loans, improvement in the\naffordable housing stock or enhancing\ninfrastructure."
+        },
+        {
+            "ESG": "Emissions Factors",
+            "Description": "An emission factor is a coefficient which allows to convert activity data into GHG emissions. It is the average emission rate of a given source, relative to units of activity or process/processes.[1]\n\nFor example: the natural gas emits 0.244 kg CO2eq / kWh ICV (European mean) with 5% uncertainty.",
+            "undefined": "UK"
+        },
+        {
+            "ESG": "CO2eq",
+            "Description": "A human activity emits different kind of greenhouse gas (GHG) (see below). Their Global Warming Potential (GWP), a physical characteristic of a GHG, represents their impact on the greenhouse effect, and allows to convert 1 kg of GHG into X kg of CO2 equivalent, noted CO2eq. Thus, emissions of different gases can be compared."
+        },
+        {
+            "ESG": "EMS",
+            "Description": "An environmental management system is a tool that focuses on training personnel and monitoring and reporting environmental performance and impact to internal and external stakeholders with the goal of improving compliance and reducing waste."
+        },
+        {
+            "ESG": "ENERGY STAR",
+            "Description": "ENERGY STAR is a program run by the U.S. Environmental Protection Agency and U.S. Department of Energy that promotes energy efficiency. The program provides information on the energy consumption of products and devices using different standardized methods. To be eligible for ENERGY STAR certification, a building must earn an ENERGY STAR score of 75 or higher, indicating that it performs better than at least 75% of similar buildings nationwide."
+        },
+        {
+            "ESG": "Engagement",
+            "Description": "The practice of seeking to influence the behaviour of a company in which a shareholder is invested. This includes through direct corporate engagement (i.e., communicating with senior management and/or boards of companies). An engagement may take\nplace via face-to-face meetings with executive\nor non-executive board members as well\nas with other managers. More formal\nrequests may be submitted in writing. Engagement is an integral part of active ownership."
+        },
+        {
+            "ESG": "Environmental Factors",
+            "Description": "The \"E\" in ESG, environmental factors include things like climate impact and environmental challenges and opportunities, such as energy use, waste production & management, climate change, pollution, etc."
+        },
+        {
+            "ESG": "Environmental funds",
+            "Description": "Funds that  are primarily exposed to sustainable\nenvironmental themes such as clean\nenergy, water and waste, or invest in\ncompanies with positive environmental\nmanagement."
+        },
+        {
+            "ESG": "Environmental, social, governance (ESG) factors",
+            "Description": "Environmental, social and governance (ESG) refers to the three central factors commonly used when assessing the sustainability of a business’s activities or an investment."
+        },
+        {
+            "ESG": "ESG analysis",
+            "Description": "The examination of a\ncompany’s environmental, social and\ngovernance performance, which could\nbe designed and used in any of the\napproaches described here."
+        },
+        {
+            "ESG": "ESG Fund",
+            "Description": "Portfolios that explicitly apply environmental, social, and governance criteria in the decision-making process when selecting investments. ESG strategies vary. "
+        },
+        {
+            "ESG": "ESG Integration",
+            "Description": "Explicitly including environmental, social, and governance factors during the investment process, specifically with the goal of long-term performance growth and risk mitigation."
+        },
+        {
+            "ESG": "ESG Integration",
+            "Description": "The systematic and explicit inclusion of ESG factors into traditional financial analysis."
+        },
+        {
+            "ESG": "ESG integration",
+            "Description": "An investment approach\nin which a range of sustainability and\nESG-related risks and opportunities are\nconsidered in addition to traditional\nfinancial analysis. In principle, this can\nlead to a more fundamental assessment\nof the environment in which a company\noperates and its performance in managing\ndifferent stakeholders. It should therefore\nprovide a more complete understanding of\nfuture opportunities and risks compared\nto traditional fundamental analysis.\nIn practice, its effectiveness in doing\nso hinges on how that integration is\napproached and implemented."
+        },
+        {
+            "ESG": "ESG Regulation",
+            "Description": "Those regulations that place ESG-related obligations on specific companies within a regulatory jurisdiction. Regulations may be wide reaching (such as the EU's Taxonomy) or specific (such as the UK's gender pay gap reporting)"
+        },
+        {
+            "ESG": "ESG research providers",
+            "Description": "Firms that\nconduct quantitative and qualitative\nanalysis of a company’s ESG performance\nand provide a standardised measure (such\nas a company ESG rating). Approaches\nand results can vary significantly across\nproviders. MSCI and Sustainalytics are\nwidely used ESG research providers."
+        },
+        {
+            "ESG": "Ethical Investinng",
+            "Description": "An investment strategy in which investers allocate capital in line with their ethical principles and exclude companies that they deem to be unethical.  "
+        },
+        {
+            "ESG": "EU Taxonomy",
+            "Description": "The EU Taxonomy is a green classification system that translates the EU’s climate and environmental\nobjectives into criteria for specific economic activities for investment purposes.\nIt recognises as green, or ‘environmentally sustainable’, economic activities that make a substantial\ncontribution to at least one of the EU’s climate and environmental objectives, while at the same time not\nsignificantly harming any of these objectives and meeting minimum social safeguards.\nThe Taxonomy Delegated Acts will establish and maintain clear criteria for activities to define what it\nmeans to make a substantial contribution and what it means to do no significant harm."
+        },
+        {
+            "ESG": "EUI",
+            "Description": "Energy use intensity is a way of expressing a building's energy usage in relation to its size or other characteristics. One calculation for EUI is to divide a building's annual energy usage by its gross square footage."
+        },
+        {
+            "ESG": "European Commission Action Plan on Financing Sustainable Growth",
+            "Description": "Published in March 2018, the Action Plan sets out objectives and key actions to promote a re-orientation of private capital flows towards sustainable investments."
+        },
+        {
+            "ESG": "European Sustainable Investment\nForum (EuroSIF)",
+            "Description": "The leading European\nsustainable and responsible investment\norganisation whose mission is to promote\nsustainability through European financial\nmarkets. Different regions have their own\nlocal SIF e.g. US SIF, UKSIF, SWESIF. See\nmore at the EuroSIF website"
+        },
+        {
+            "ESG": "Exclusions / Negative Screening",
+            "Description": "The exclusion from a fund or portfolio of certain activities or practices based on specific ESG criteria. Excluded activities could be for example tobacco production or nuclear energy, while excluded practices generally refer to violation of international norms such as human rights or labour rights violations. The exclusion of practices is also referred to as Norm-based screening."
+        },
+        {
+            "ESG": "Extra-financial factors (sometimes\nknown as non-financial factors)",
+            "Description": "Factors\nthat are not the usual, financial variables\nconsidered in investment analysis and\nwhose monetary impacts are typically\nhard to quantify. The term can be applied\nto any measure whose unit of measurement\nis not monetary."
+        },
+        {
+            "ESG": "Fairtrade",
+            "Description": "Fair trade is a methodology with the goal of helping ensure that producers in developing countries are provided sustainable and equitable trade relationships."
+        },
+        {
+            "ESG": "Fiduciary duty",
+            "Description": "The legal duty of one\nparty (the fiduciary) to act in the best\ninterests of another (the principle). In\nthe investment chain there are a number\nof these relationships including the duty\nthat boards have to shareholders, the duty\nbetween trustees and beneficiaries and\nthe duty between asset managers and\ntheir clients."
+        },
+        {
+            "ESG": "Fitwel",
+            "Description": "Fitwel is a leading green building certification for new and existing properties of all sizes. Fitwel provides a rank of one to three stars based on a property's performance in 55+ design & operational strategies divided into seven health impact categories."
+        },
+        {
+            "ESG": "Fund ESG ratings score",
+            "Description": "A third party\nrating that attempts to indicate the ESG\ncredentials of a particular fund relative to\nan investment category or peer group,\nbased on an assessment of the ESG\ncredentials of a fund’s underlying holdings.\nTypically combines the ratings ESG\nresearch providers publish with portfolio\nholdings."
+        },
+        {
+            "ESG": "Global Reporting Initiative (GRI)",
+            "Description": "An\ninternational organisation that develops\nand publishes sustainability reporting\nstandards and measures for global\ncompanies. It has become the closest\nthing to a global reporting standard for\nESG measures; it reports that 92% of the\nworld’s largest 250 corporations report on\ntheir sustainability performance. See more\nat the GRI website"
+        },
+        {
+            "ESG": "Governance Factors",
+            "Description": "The \"G\" in ESG, governance factors relate to how a company is run, which includes things like management structure, compensation, internal controls and accountability policies, shareholder rights, and more."
+        },
+        {
+            "ESG": "Green Bond",
+            "Description": "A fixed income instrument in which proceeds are used to fund new and existing projects with environmental benefits such as renewable energy and energy efficiency projects."
+        },
+        {
+            "ESG": "Green investing",
+            "Description": "Investing in companies\nand technologies that are considered to\nbe positive for the environment, such as\ncompanies offering alternative sources\nof energy or those that have demonstrated\na track record of reducing their\nenvironmental impact."
+        },
+        {
+            "ESG": "Greenwashing",
+            "Description": "Falsely communicating the environmental benefits of a product, service or organisation in order to make a company seem more environmentally-friendly than it really is."
+        },
+        {
+            "ESG": "GRESB",
+            "Description": "GRESB is an investor-led and mission-driven initiative to provide ESG data on real asset investments to investors, managers and the wider industry. GRESB Assessments provide a consistent framework to measure ESG performance based on self-reported data that is validated, scored and peer benchmarked. Their approach allows investors to analyze their portfolios for ESG risks, opportunities and impacts and engage with managers on their performance."
+        },
+        {
+            "ESG": "GRI",
+            "Description": "The Global Reporting Initiative is an independent organization that lays out a set of international standards to help business and government entities understand and communicate their impact on issues like climate change and human rights."
+        },
+        {
+            "ESG": "Human Rights",
+            "Description": "Basic rights that belong to all human beings. They include the right to life, liberty, freedom from slavery and torture, and freedom of opinion and expression."
+        },
+        {
+            "ESG": "Impact Investments",
+            "Description": "Impact investments are investments made into companies, organisations, and funds with the intention to generate an intentional and identifiable social and environmental impact alongside a financial return. Examples of impact investments are:\n\nGreen or Social bonds\nCommunity investing\nRenewable Energy infrastructure"
+        },
+        {
+            "ESG": "Independent directors",
+            "Description": "Neither past  nor present employees of the company\nor affiliated with it in any other way. In\nsome jurisdictions those who serve on\nboards for a set period of time are no\nlonger considered independent, even if\nthey began their tenure in that category"
+        },
+        {
+            "ESG": "Integrated reporting",
+            "Description": "Company reporting\nthat communicates the relationship\nbetween a company’s strategy and its\nfinancial, governance and sustainability\nperformance."
+        },
+        {
+            "ESG": "International Corporate Governance\nNetwork (ICGN)",
+            "Description": "An investor-led organisation\nof governance professionals, ICGN’s mission\nis to inspire and promote effective standards\nof corporate governance to advance\nefficient markets and economies worldwide. See more at the ICGN website"
+        },
+        {
+            "ESG": "International Integrated Reporting\nCouncil (IIRC)",
+            "Description": "A global coalition\nof regulators, investors, companies,\nstandard-setters, the accounting profession\nand non-governmental organisations (NGOs)\nthat helps businesses and investors adopt\nintegrated reporting. See more at the\nIIRC website"
+        },
+        {
+            "ESG": "Investment Stewardship",
+            "Description": "Investment stewardship involves engaging public companies as a way to advocate for corporate governance policies and practices that promote long-term stakeholder value creation."
+        },
+        {
+            "ESG": "IPCC",
+            "Description": "The International Panel on Climate Change is a body created by the United Nations with the intention of providing scientific assessments on climate change, its impact, and future risks, as well as suggestions for mitigating impact and disruptions."
+        },
+        {
+            "ESG": "Lead director/senior independent\ndirector",
+            "Description": "Acts as an independent\nleader among directors and provides\nan independent point of view to the\nchairperson.. The lead director can also\nact as chairperson if the chairperson is\nconflicted or unavailable, and can be an\neffective conduit for shareholder concerns."
+        },
+        {
+            "ESG": "LEED",
+            "Description": "Leadership in Energy and Environmental Design is a worldwide green building certification program. It is applicable to all building types and phases."
+        },
+        {
+            "ESG": "Low carbon funds",
+            "Description": "Funds that invest\nin companies with a low carbon strategy\nor low carbon emissions."
+        },
+        {
+            "ESG": "Materiality",
+            "Description": "Materiality is a measure of the importance of specific topics and information during the investment process. The more significant a topic is, the more material it is, and vice versa."
+        },
+        {
+            "ESG": "Mission-related investing",
+            "Description": "Investments\nmade to further the philanthropic goals,\nmission and values of an organisation that\nare expected to deliver financial as well\nas social or environmental returns."
+        },
+        {
+            "ESG": "Modern Slavery",
+            "Description": "Although no standard definition exists, modern slavery can broadly be thought of as the exploitation of people who are coerced into an activity by someone who “controls” them, often with violence. It can take many forms including forced or bonded labour, early or forced marriage or human and organ trafficking."
+        },
+        {
+            "ESG": "MSCI",
+            "Description": "MSCI Inc. is an American finance company headquartered in New York City and serving as a global provider of equity, fixed income, hedge fund stock market indexes, multi-asset portfolio analysis tools and ESG products. It publishes the MSCI BRIC, MSCI World and MSCI EAFE Indexes. It publishes a range of sustainability related products including ratings, indices and research."
+        },
+        {
+            "ESG": "Nature Based Solutions",
+            "Description": "The term Nature-based solutions (NBS) refers to the sustainable management and use of natural features and processes to tackle socio-environmental challenges. These challenges include issues such as climate change, water security, water pollution, food security, human health, biodiversity loss, and disaster risk management."
+        },
+        {
+            "ESG": "Negative/exclusionary/ethical\nscreening",
+            "Description": "An investment approach that\nincorporates an investor’s moral principles\nby excluding companies involved in certain\nactivities or industries (e.g. alcohol, gambling\nand adult entertainment)."
+        },
+        {
+            "ESG": "Net Zero",
+            "Description": "Net zero refers to buildings with zero net energy consumption, meaning the amount of energy used at the property is equal to the amount of renewable energy created on-site."
+        },
+        {
+            "ESG": "NFRD",
+            "Description": "Directive 2014/95/EUDirective 2014/95/EU – also called the Non-Financial Reporting Directive (NFRD) – lays down the rules on disclosure of non-financial and diversity information by certain large companies. This directive amends the Accounting Directive 2013/34/EU"
+        },
+        {
+            "ESG": "CSRD",
+            "Description": "On April 21st 2021, the European Commission launched their proposal for a Corporate Sustainability Reporting Directive (CSRD), which will amend the existing reporting requirements included in the NFRD. In particular, the new proposal:\n\nRequires the audit of reported information (limited level of assurance);\nIntroduces more detailed reporting requirements (see the table below), and a requirement to report according to mandatory EU Sustainability Reporting Standards; and\nRequires companies to digitally ‘tag’ the reported information, so it is machine-readable and feeds into the European single access point envisaged in the capital markets union action plan.\nIn addition, the Corporate Sustainability Reporting Directive (CSRD) will mandate over 50,000 companies in Europe to conduct a double materiality assessment. But where to start?"
+        },
+        {
+            "ESG": "Non-executive board members",
+            "Description": "Sit on the board but do not form part\nof the management team."
+        },
+        {
+            "ESG": "Norms-based investing",
+            "Description": "Investing that\nexcludes companies (or government debt)\nfrom a portfolio on account of any failure\nby the issuer to meet internationally\naccepted norms such as the UN Global\nCompact, the Kyoto Protocol or the UN\nDeclaration of Human Rights etc."
+        },
+        {
+            "ESG": "Organisation for Economic Co-operation\nand Development (OECD) Principles\nof Corporate Governance",
+            "Description": "A regularly\nreviewed set of principles that set down\nthe guidelines on how to create a sound\ncorporate governance system. Principles\ninclude transparency, accountability,\nboard oversight, and respect for the\nrights of shareholders and the role\nof key stakeholders."
+        },
+        {
+            "ESG": "OSHA",
+            "Description": "The Occupational Safety and Health Administration was created to ensure safe and healthful working conditions for working men and women by setting and enforcing standards and by providing training, outreach, education and assistance.",
+            "undefined": "some may choose to eliminate certain industries entirely (negative screening) and/or to over-allocate to industries that meet the individuals ethical principles (positive screening)."
+        },
+        {
+            "ESG": "Paris Agreement",
+            "Description": "An international agreement signed in December 2015 with the objective of combatting climate change and accelerating the investments needed for a sustainable low carbon future."
+        },
+        {
+            "ESG": "Peer to peer",
+            "Description": "Business models which incorporate elements of peer to peer transactions. Where there is an asset involved, these models can have an impact on lowering production levels through encouraging more efficient use"
+        },
+        {
+            "ESG": "Physical Risks",
+            "Description": "Physical risks are outcomes from disruptive events like extreme weather that have a direct impact on society and the economy."
+        },
+        {
+            "ESG": "Positive screening",
+            "Description": "An investment\nstrategy that aims to select companies\nthat demonstrate leading sustainability\npractices and are better positioned to\nbenefit from, and build resilience to,\nlong-term societal and economic trends."
+        },
+        {
+            "ESG": "Principles for Responsible Investment\n(PRI)",
+            "Description": "An investor initiative in partnership\nwith the UN Environmental Programme\nFinance Initiative and the UN Global\nCompact. Founded in 2006, the PRI has\nbecome the leading network for investors\ndemonstrating their commitment to\nresponsible ownership and long-term,\nsustainable returns. See more at the\nUN PRI website"
+        },
+        {
+            "ESG": "Proxy Voting",
+            "Description": "A proxy vote is a ballot cast by one person or firm on behalf of a shareholder of a corporation who may not be able or have the desire to attend a shareholder meeting, or who otherwise desires not to vote on an issue. Shareholders vote on issues such as electing directors to the board, mergers & acquisitions, board remuneration and capital measures. Shareholder can approve but also vote against management proposals. Exercising voting rights via proxy voting is an integral part of active stewardship."
+        },
+        {
+            "ESG": "RECs",
+            "Description": "Renewable Energy Certificates (also known as green tags, renewable energy credits, renewable electricity certificates, or tradable renewable certificates) are non-tangible energy commodities in the U.S. that represent proof of 1 megawatt-hour of electricity being generated from an eligible renewable energy source and used in a shared system of power lines."
+        },
+        {
+            "ESG": "Refinitiv",
+            "Description": "Refinitiv is an American-British global provider of financial market data and infrastructure. It is a major provider of ESG data to the financial industry"
+        },
+        {
+            "ESG": "Renewable energy",
+            "Description": "Energy collected from\nresources that are naturally replenished\nsuch as sunlight, wind, water and\ngeothermal heat."
+        },
+        {
+            "ESG": "Renewable Energy ",
+            "Description": "Energy attained from perpetual, unending sources, such as collection of energy with solar panels or wind turbines."
+        },
+        {
+            "ESG": "Renewable Energy ",
+            "Description": "Energy collected from resources that are naturally replenished such as sunlight, wind, water and geothermal heat."
+        },
+        {
+            "ESG": "Rent not buy",
+            "Description": "A business model encouraging rental in sectors and areas where rental was previously not widespread (i.e. fashion). These models purport to have a positive impact on the environment by lowering production requirements through efficient asset use. "
+        },
+        {
+            "ESG": "Resilience",
+            "Description": "Resilience is a measure of how well a building is prepared for potentially disruptive events and changing conditions, such as earthquake-proofing or features designed to combat negative effects from long-term risks like climate change."
+        },
+        {
+            "ESG": "Responsible investment (RI)",
+            "Description": "An umbrella term describing the formal integration of ethical, social, and/or sustainability considerations into investment decisions."
+        },
+        {
+            "ESG": "ROI",
+            "Description": "Return on investment is a ratio between the net profit gained and the cost of an investment. Used to evaluate the efficiency of an investment or compare the efficiency of a group of investments."
+        },
+        {
+            "ESG": "SASB",
+            "Description": "The Sustainability Accounting Standards Board is a non-profit organization founded to develop sustainability accounting standards."
+        },
+        {
+            "ESG": "SBTI",
+            "Description": "The Science Based Targets initiative was established in 2015 [3] to help companies to set emission reduction targets in line with climate science[4] and Paris Agreement goals.[5] It is funded by IKEA Foundation, Amazon, Bezos Earth Fund, We Mean Business coalition, Rockefeller Brothers Fund and UPS Foundation.[6] In October 2021 SBTi developed and launched world's first net zero standard, providing framework and tools for companies to set science-based net zero targets and limit global temperature rise above pre-industrial levels to 1.5 °C."
+        },
+        {
+            "ESG": "Scope 1 ",
+            "Description": "Scope I emissions are greenhouse gas emissions that your company is directly responsible for, such as emissions from on-site burning of fossil fuels or emissions from fleet vehicles."
+        },
+        {
+            "ESG": "Scope 2",
+            "Description": "Scope II emissions are greenhouse gas emissions from sources that your company owns or controls, such as the generation of electricity, heat, or steam purchased from a utility provider."
+        },
+        {
+            "ESG": "Scope 3",
+            "Description": "Scope III emissions are greenhouse gas emissions from sources your company doesn't own or control but are related to your operations, such as employee commuting or contracted solid waste and wastewater disposal."
+        },
+        {
+            "ESG": "Screening",
+            "Description": "An investment approach used to filter companies based on pre-defined criteria before investment. As an investor, you can use a negative screen (in which you deliberately exclude certain companies because of their involvement in undesirable activities or sectors) or a positive screen (in which you select companies based on their sustainability practices). In the jargon, this can also be a “best-in-class investment” – where you only invest in companies that lead their peer groups in terms of sustainability practices and performance."
+        },
+        {
+            "ESG": "SDG Alignment ",
+            "Description": "Aligning business strategies and operations with the 17 Sustainable Development Goals created by the United Nations Global Compact."
+        },
+        {
+            "ESG": "SEC Climate & ESG Task Force",
+            "Description": "The U.S. Securities and Exchange Commission (SEC) recently announced the formation of a Climate and ESG Task Force within their Division of Enforcement. This new task force will work to develop initiatives that will proactively identify ESG-related misconduct."
+        },
+        {
+            "ESG": "SFDR",
+            "Description": "The Sustainable Finance Disclosure Regulations introduced various disclosure-related requirements for financial market participants and financial advisors at entity, service, and product level."
+        },
+        {
+            "ESG": "Shareblocking",
+            "Description": "A practice whereby\nrestrictions are placed on the trading\nof shares which are to be voted upon\nprior to an annual general meeting."
+        },
+        {
+            "ESG": "Shareholder activism (or advocacy)",
+            "Description": "A public form of engagement whereby\ninvestors use their shareholdings to\nengender change at a company. This can\nbe done through submitting shareholder\nresolutions or a public media campaign\nagainst a company. Shareholder activism\ntends to be a more confrontational\napproach to promoting change."
+        },
+        {
+            "ESG": "Sin stocks (or vice stocks)",
+            "Description": "Stocks of\ncompanies either directly or indirectly\nassociated with activities considered to\nbe unethical or immoral, such as tobacco,\nalcohol, gambling and adult entertainment."
+        },
+        {
+            "ESG": "Social Factors",
+            "Description": "The \"S\" in ESG, social factors relate to how a company treats employees and the community, and includes things like employee engagement programs, human rights policies, health and wellbeing initiatives, and employee and consumer protection."
+        },
+        {
+            "ESG": "Social impact bonds",
+            "Description": "Investments\ndesigned to improve the social outcomes\nof publicly funded services. Providers are\ntypically charities that are often pioneering\na new approach to a specific social problem.\nThe investment is used to fund the working\ncapital needs of the project."
+        },
+        {
+            "ESG": "Social Risks",
+            "Description": "Social risks are related to actions a business takes that affect the surrounding community, such as labor and human rights issues or violations and corruption."
+        },
+        {
+            "ESG": "SRI",
+            "Description": "Socially responsible investing involves investments considered socially responsible through the nature of the business conducted, which includes factors like socially conscious investing, human rights policies, and emphasis on positive social impacts. This is considered the oldest and most\nestablished term relating to sustainable\ninvesting, and is grounded in more\nethically and values-focused approaches\nto investment."
+        },
+        {
+            "ESG": "SROI",
+            "Description": "Social return on investment is a method for measuring non-financial value, particularly focusing around ESG factors. It measures how effectively an organization uses resources to create sustainable value"
+        },
+        {
+            "ESG": "Stakeholder",
+            "Description": "A group with an interest in a company that can affect or be affected by business performance. Historically defined as groups like investors, employees, and customers, but the definition has also expanded to include local and global communities, governments, and more."
+        },
+        {
+            "ESG": "Stewardship",
+            "Description": "A purposeful dialogue\nbetween shareholders and boards with\nthe aim of ensuring a company’s long-term\nstrategy and day-to-day management is\neffective and aligned with shareholders’\ninterest. Good stewardship should\nhelp protect and increase the value\nof investments."
+        },
+        {
+            "ESG": "Stewardship codes",
+            "Description": "A set of standards\nthat help set expectations for asset\nmanagers and asset owners on oversight\nand engagement with investee companies.\nThese codes are established by local\nregulators on a country by country basis."
+        },
+        {
+            "ESG": "Stranded Asset",
+            "Description": "An asset that once produced value or profit, but no longer does due to changes such as technological advancements, market shifts, societal habits, and more."
+        },
+        {
+            "ESG": "Stranded assets",
+            "Description": "Assets that suffer from\nunanticipated or premature write-downs\nand are unable to operate to the end of\ntheir economic lives due to changes in the\nmarket and regulatory environment. Most\nfocus on regulation relating to climate\nchange, but could include other changes\nthat cause assets to become uneconomic.",
+            "undefined": "direct emissions\nfrom owned or controlled sources\nȂ Scope 2 emissions",
+            "Taxonomy / Tags": "indirect emissions\nfrom the generation of purchased energy\nȂ Scope 3 emissions",
+            "Links to other records": "all indirect emissions\n(not included in scope 2) that occur in the\nvalue chain of the reporting company,\nincluding both upstream and\ndownstream emissions"
+        },
+        {
+            "ESG": "Sustainability",
+            "Description": "Describes the features\nwhich ensure companies, industries or\nmarkets can operate within their means\nand maintain stability over the long\nterm. Although sometimes interpreted\nthrough more of an environmental lens,\nit is applicable across the spectrum of\nESG issues and requires societies’ and\nstakeholders’ expectations are met."
+        },
+        {
+            "ESG": "Sustainability Accounting Standards\nBoard (SASB)",
+            "Description": "A US non-profit organisation\nstarted in 2011 to establish sustainability\nstandards for companies traded on US\nexchanges. See more at the SASB website"
+        },
+        {
+            "ESG": "Sustainability risks",
+            "Description": "Risks to the value of an asset occasioned by environmental, social, and/or governance issues. For example, the price of an equity declining due to fines levelled against the issuer for environmental damages."
+        },
+        {
+            "ESG": "Sustainable and Responsible Investing",
+            "Description": "SRI funds seek to build a portfolio with an above average ESG quality; in practice most often use a combination of a positive and a negative screening."
+        },
+        {
+            "ESG": "Sustainable investment",
+            "Description": "An investment approach that considers environmental, social and/or governance (ESG) factors in portfolio selection and management."
+        },
+        {
+            "ESG": "Sustainalytics"
+        },
+        {
+            "ESG": "Task Force on Climate-related Financial\nDisclosures (TCFD)",
+            "Description": "The Task Force on Climate-related Financial Disclosures was developed to provide recommendations for more effective climate-related disclosures that promote more informed investment, credit, and insurance underwriting decisions, which in turn would enable stakeholders to understand better the concentrations of carbon-related assets in the financial sector and the financial system’s exposures to climate-related risks.”"
+        },
+        {
+            "ESG": "Thematic Investing",
+            "Description": "Investing in companies that can be classified under a particular investment theme such as renewable energy, waste and water management, education or healthcare innovation."
+        },
+        {
+            "ESG": "Transition  ",
+            "Description": "The recognition that we need to move to an economy that is more sustainable and specifically that is able to reduce global warming to avoid the most significant impacts. Transition is a blanket term and the exact pathways to transition are not agreed upon. "
+        },
+        {
+            "ESG": "Transition Risks",
+            "Description": "In the context of climate change, transition risk is the risk inherent in changing strategies, policies or investments for a company as society and industry work to reduce its reliance on carbon and impact on the climate.\n\nWhen it comes to shifting focus to address climate, transition risks might include:\nChanged land-use policies or water conservation practices impacting the agricultural sector\nThe costs the energy industry faces in developing low-carbon technologies\nA reduction in the value of investments in carbon-heavy industries\nThe requirements of additional regulation and reporting"
+        },
+        {
+            "ESG": "Triple Bottom Line",
+            "Description": "Triple bottom line is an accounting framework with three main components: social, environmental, and financial. Companies incorporating this framework believe that, instead of a single bottom line, there are three: people, planet, profit."
+        },
+        {
+            "ESG": "Shared Value Framework",
+            "Description": "Michael\nPorter has more recently popularised a\nShared Value framework that has similar\nelements and emphasises the importance\nof expanding the value created for\nshareholders to all stakeholders."
+        },
+        {
+            "ESG": "UK Sustainable Investment and Finance\nAssociation (UKSIF)",
+            "Description": "The membership\nnetwork for sustainable and responsible\nfinancial services in the UK. See more at\nthe UKSIF website"
+        },
+        {
+            "ESG": "ULI",
+            "Description": "The Urban Land Institute is a nonprofit research and education organization whose mission is to provide leadership in the responsible use of land and in creating and sustaining thriving communities worldwide."
+        },
+        {
+            "ESG": "ULI Greenprint",
+            "Description": "Urban Land Institute's Greenprint Center for Building Performance is a worldwide alliance of the foremost real estate owners, investors and financial institutions committed to improving the environmental performance of the global real estate industry, with a particular emphasis on reducing energy consumption and carbon emissions. Their goal is to reduce greenhouse gas emissions by 50% by 2030 through measurement, benchmarking, knowledge sharing, and best practice implementation."
+        },
+        {
+            "ESG": "UN Development Programme",
+            "Description": "The UN’s\nglobal development network partnering\nwith people at all levels of society to help\nbuild nations that can withstand crisis,\nand drive and sustain the kind of growth\nthat improves quality of life for everyone.\nSee more at the UN Development\nProgramme website"
+        },
+        {
+            "ESG": "UN Global Compact Principles",
+            "Description": "Ten corporate sustainability principles\nfor long-term success covering the areas\nof human rights, labour, the environment\nand anti-corruption. See more at the\nUN Global Compact’s website"
+        },
+        {
+            "ESG": "UN Sustainable Development Goals",
+            "Description": "A set of 17 goals adopted by world\nleaders in September 2015, aimed at\nending poverty, preserving the planet and\nensuring prosperity for all. See more at the\nUN Sustainable Development Goals website"
+        },
+        {
+            "ESG": "UNGC",
+            "Description": "The United Nations Global Compact is a non-binding United Nations pact to encourage businesses worldwide to adopt sustainable and socially responsible policies, and to report on their implementation."
+        },
+        {
+            "ESG": "United Nations Principles for Responsible Investment (UN PRI)",
+            "Description": "An organisation that promotes responsible investment through a set of six investment principles that offer actions for integrating responsible investment into investment decisions."
+        },
+        {
+            "ESG": "UNPRI",
+            "Description": "The United Nations Principles for Responsible Investment is an international network of investors working together to implement its six aspirational principles, often referenced as \"the Principles\"."
+        },
+        {
+            "ESG": "USGBC",
+            "Description": "The U.S. Green Building Council is a community of real estate leaders, governments, developers, contractors, architects, and engineers that are committed to creating a sustainable, prosperous future through LEED, an ESG program for green buildings and communities worldwide."
+        },
+        {
+            "ESG": "Values-based investing",
+            "Description": "Investing\nthat prioritises investors’ sustainability\nobjectives, rather than maximising\nreturns in isolation."
+        },
+        {
+            "ESG": "Voting rights",
+            "Description": "Equity investors typically\nenjoy rights to vote at annual and\nextraordinary general meetings (AGMs\nand EGMs). The resolutions on which\nshareholders vote will vary according\nto individual countries’ legal frameworks.\nThey may include voting on an individual\ndirector’s appointment, remuneration or\nmergers and acquisitions."
+        },
+        {
+            "ESG": "Water funds",
+            "Description": "Funds that invest in companies\nproviding technology, products and services\nrelating to the water value chain, such\nas water distribution, management,\ntreatment and analysis or irrigation."
+        },
+        {
+            "ESG": "WELL",
+            "Description": "The International WELL Building Institute is a leading tool for advancing health and well-being in buildings globally."
+        },
+        {
+            "ESG": "Zero Waste",
+            "Description": "A set of principles that focus on preventing the generation of waste by redesigning products, rethinking how products are used, and reusing products with the goal that no waste is sent to landfills."
+        }
+    ]
+}

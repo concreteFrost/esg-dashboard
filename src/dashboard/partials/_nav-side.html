@@ -78,12 +78,8 @@
                   </a>
                 </li> -->
 
-                
                 <li>
-                  <a
-                    class="nav-link"
-                    href="/dashboard/company/regulators.html"
-                  >
+                  <a class="nav-link" href="/dashboard/company/regulators.html">
                     <span class="sidenav-mini-icon"> -R </span>
                     <span class="sidenav-normal"> Regulators</span>
                   </a>
@@ -100,6 +96,9 @@
           <!--Actions-->
           @@include('nav-side/_actions.html', { "path": ".", "path_common": ".."
           })
+          <!--Glossary-->
+          @@include('nav-side/_glossary.html', { "path": ".", "path_common": ".."
+        })
           <!--Settings-->
           @@include('nav-side/_settings.html', { "path": ".", "path_common":
           ".." })
@@ -107,4 +106,9 @@
       </div>
     </div>
   </div>
+  <!--Glossary Modal-->
+@@include('nav-side/_glossary-modal.html', { "path": ".", "path_common": ".."
+})
 </nav>
+
+
