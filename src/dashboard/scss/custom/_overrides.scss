@@ -1,6 +1,15 @@
 //
 // Bespoke Overrides for ESG.
 //
+
+//vectormap tip
+.jvectormap-tip{
+  position: absolute;
+  background-color: white;
+  padding: 5px;
+  font-weight: bold;
+  border-radius: 5px;
+}
 .profile-icon-shape {
   padding: 0;
   text-align: center;

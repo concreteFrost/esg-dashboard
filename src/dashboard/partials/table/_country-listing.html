@@ -1,9 +1,6 @@
-<div
-  class="col-xl-6 movable-cards"
-  id="locations"
->
+<div class="col-6 movable-cards" id="locations">
   <!-- Vector map -->
-  <div class="card card-large widget-calendar" >
+  <div class="card card-large widget-calendar">
     <!-- Card header -->
     <div class="card-header">
       <div class="row align-items-center">
@@ -12,49 +9,102 @@
           <h5 class="h3 mb-0">Company Locations</h5>
         </div>
         <div class="col-4 text-right">
-          <a href="/dashboard/company/locations.html" class="btn btn-sm btn-primary" id="locations-view-all">View All</a>
-          <a href="/dashboard/company/locations.html" class="btn btn-sm btn-primary d-none" id="manage-locations-btn" data-toggle="modal" data-target="#locationsModalCenter">Manage</a>
+          <a
+            href="/dashboard/company/locations.html"
+            class="btn btn-sm btn-primary"
+            id="locations-view-all"
+            >View All</a
+          >
+          <a
+            href="/dashboard/company/locations.html"
+            class="btn btn-sm btn-primary d-none"
+            id="manage-locations-btn"
+            data-toggle="modal"
+            data-target="#locationsModalCenter"
+            >Manage</a
+          >
         </div>
       </div>
     </div>
     <!-- Card body -->
     <div class="card-body">
       <!-- Vector map -->
-      <div
-        class="vector-map vector-map-sm"
-        id="world-map"
-        
-      ></div>
+      <div class="vector-map vector-map-sm" id="world-map"></div>
       <!-- List group -->
-      <h5 id="no-locations">No Locations to show...</h5>
-      <ul class="list-group list-group-flush list my--3" id="locations-list">
-       
-      </ul>
+
+      <div class="table-responsive">
+        <table class="d-none table table-stripped" id="locations-list">
+          <thead>
+            <tr>
+              <th>Flag</th>
+              <th>Country</th>
+              <th>Office</th>
+              <th>Currency</th>
+              <th>Is Active</th>
+              <th>Edit</th>
+            </tr>
+          </thead>
+          <tbody id="country-table-body"></tbody>
+        </table>
+        <h3 id="no-locations">No Locations to show...</h3>
+      </div>
     </div>
   </div>
 </div>
 
 <!-- Modal -->
-<div class="modal fade" id="locationsModalCenter" tabindex="-1" role="dialog" aria-labelledby="locationsModalCenterTitle" aria-hidden="true">
+<div
+  class="modal fade"
+  id="locationsModalCenter"
+  tabindex="-1"
+  role="dialog"
+  aria-labelledby="locationsModalCenterTitle"
+  aria-hidden="true"
+>
   <div class="modal-dialog modal-dialog-centered" role="document">
     <div class="modal-content">
       <div class="modal-header">
         <h5 class="modal-title" id="locationsModalTitle">Add New Location</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+        <button
+          type="button"
+          class="close"
+          data-dismiss="modal"
+          aria-label="Close"
+        >
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
       <div class="modal-body">
         <label for="new-location">Location:</label>
-        <select class="form-select" id="new-location" name="new-location">
-        </select>
-        <label for="branches">Number of Branches:</label><br>
-        <input type="number" name="branches" id="branches" min="1">
+        <select
+          class="form-select"
+          id="new-location"
+          name="new-location"
+        ></select>
+        <div class="form-check mt-2">
+        
+          <input class="form-check-input" type="checkbox" name="isActive" id="isActive" />
+          <label class="form-check-label" for="isActive">Is Active</label><br />
+        </div>
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary" id="save-new-location-btn">Add</button>
-        <button type="button" class="btn btn-primary" id="save-loaction-changes-btn">Save Changes</button>
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">
+          Close
+        </button>
+        <button
+          type="button"
+          class="btn btn-primary"
+          id="save-new-location-btn"
+        >
+          Add
+        </button>
+        <button
+          type="button"
+          class="btn btn-primary"
+          id="save-loaction-changes-btn"
+        >
+          Save Changes
+        </button>
       </div>
     </div>
   </div>
