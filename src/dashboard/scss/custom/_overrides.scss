@@ -109,6 +109,11 @@
   overflow-y: scroll;
 }
 
+.locations-homepage{
+  height: 100px !important;
+  overflow: scroll;
+}
+
 @media screen and(max-width: 768px) {
   .copyright {
     font-size: 0.7rem;
