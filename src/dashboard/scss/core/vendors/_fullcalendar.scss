@@ -3,7 +3,9 @@
 //
 
 .fc-header-toolbar {
-    display: none;
+    height: 45px !important;
+    border-bottom: 1px solid rgb(196, 196, 196);
+    border-top: 1px solid rgb(196, 196, 196);
 }
 
 .fc-scroller {

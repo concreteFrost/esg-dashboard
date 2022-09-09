@@ -59,6 +59,17 @@
   }
 }
 
+//Calendar
+.deleteEvent{
+  z-index: 5000;
+  position: absolute;
+  right: 0;
+  top:0;
+  background-color: white;
+  padding: 2px;
+  border-top-right-radius: 3px;
+}
+
 //Buttons on nav
 
 .button-nav {
