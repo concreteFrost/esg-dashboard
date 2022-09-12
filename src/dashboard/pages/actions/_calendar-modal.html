@@ -1,0 +1,130 @@
+<div
+  class="modal fade"
+  id="new-event"
+  tabindex="-1"
+  role="dialog"
+  aria-labelledby="new-event-label"
+  aria-hidden="true"
+>
+  <div
+    class="modal-dialog modal-dialog-centered modal-secondary"
+    role="document"
+  >
+    <div class="modal-content">
+      <!-- Modal body -->
+      <div class="modal-body">
+        <form class="new-event--form">
+          <!--Title-->
+          <div class="form-group">
+            <label class="form-control-label">Event title:</label>
+            <input
+              type="text"
+              class="form-control form-control-alternative new-event--title"
+              placeholder="Event Title"
+            />
+          </div>
+          <!--Description-->
+          <div class="form-group">
+            <label class="form-control-label">Description:</label>
+          <textarea class="form-control form-control-alternative new-event--desc" name="new-event-desc" id="new-event-desc" cols="30" rows="10"></textarea>
+          <!--Time-->
+
+          <div class="row">
+            <div class="col">
+              <label class="form-control-label">Start Time:</label>
+              <input
+                type="time"
+                class="form-control form-control-alternative new-event--start-time"
+                placeholder="Event Title"
+                id="start-time"
+              />
+            </div>
+            <div class="col">
+              <label class="form-control-label">End Time:</label>
+              <input
+                type="time"
+                class="form-control form-control-alternative new-event--end-time"
+                placeholder="Event Title"
+              />
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col">
+              <label class="form-control-label">End Day:</label>
+              <input
+                type="date"
+                class="form-control form-control-alternative new-event--end-day"
+                placeholder="Event Title"
+              />
+            </div>
+          </div>
+
+          <!--Event Color Button-->
+          <div class="form-group new-event--stickers mb-0">
+            <label class="form-control-label d-block mb-3">Status color</label>
+            <div
+              class="btn-group btn-group-toggle btn-group-colors event-tag"
+              data-toggle="buttons"
+            >
+              <label class="btn bg-info active"
+                ><input
+                  type="radio"
+                  name="event-tag"
+                  value="bg-info"
+                  autocomplete="off"
+                  checked
+              /></label>
+              <label class="btn bg-warning"
+                ><input
+                  type="radio"
+                  name="event-tag"
+                  value="bg-warning"
+                  autocomplete="off"
+              /></label>
+              <label class="btn bg-danger"
+                ><input
+                  type="radio"
+                  name="event-tag"
+                  value="bg-danger"
+                  autocomplete="off"
+              /></label>
+              <label class="btn bg-success"
+                ><input
+                  type="radio"
+                  name="event-tag"
+                  value="bg-success"
+                  autocomplete="off"
+              /></label>
+              <label class="btn bg-default"
+                ><input
+                  type="radio"
+                  name="event-tag"
+                  value="bg-default"
+                  autocomplete="off"
+              /></label>
+              <label class="btn bg-primary"
+                ><input
+                  type="radio"
+                  name="event-tag"
+                  value="bg-primary"
+                  autocomplete="off"
+              /></label>
+            </div>
+          </div>
+          <input type="hidden" class="new-event--start" />
+          <input type="hidden" class="new-event--end" />
+        </form>
+      </div>
+      <!-- Modal footer -->
+      <div class="modal-footer">
+        <button type="submit" class="btn btn-primary new-event--add">
+          Add event
+        </button>
+        <button type="button" class="btn btn-link ml-auto" data-dismiss="modal">
+          Close
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
