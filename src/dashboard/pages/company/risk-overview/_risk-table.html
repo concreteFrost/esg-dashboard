@@ -1,0 +1,67 @@
+<div
+class="col-xl-6 movable-cards"
+id="risks"
+data-toggle="tooltip"
+data-placement="top"
+title="Assessed ESG risks across the entity"
+>
+<div class="card card-large">
+  <div class="card-header">
+    <div class="row align-items-center">
+      <div class="col">
+        <h3 class="mb-0">Risks</h3>
+      </div>
+
+      <div class="col">
+        <a
+          type="button"
+          class="btn btn-primary btn-sm float-right"
+          href="/dashboard/company/risk-overview.html#risks"
+          id="risks-view-all"
+          >View All</a
+        >
+        <button
+          type="button"
+          class="d-none btn btn-primary btn-sm float-right"
+          id="add-risk-btn"
+          data-toggle="modal"
+          data-target="#riskModal"
+        >
+          Add Risk
+        </button>
+      </div>
+    </div>
+  </div>
+  <!-- Risk table -->
+  <div class="card-body">
+    <div class="table-responsive">
+      <table class="table align-items-center table-flush" id="risk-datatable">
+        <thead class="thead-light">
+          <tr>
+            <th>No.</th>
+            <th>Name</th>
+            <th>Type</th>
+            <th>Risk Owner</th>
+            <th>Office</th>
+            <th>Category</th>
+            <th>Pre-Mitigation</th>
+            <th>Current Risk Score</th>
+            <th>Target Risk Score</th>
+            <th>Current Risk Trend</th>
+            <th>Proximity</th>
+            <th>Linked Items</th>
+            <th>Last Review Date</th>
+            <th>Next Review Date</th>
+            <th>Delete</th>
+          </tr>
+        </thead>
+        <tbody class="list " id="risk-table-body">
+        
+        </tbody>
+      </table> 
+    
+    </div>
+    <div class="api-loader"></div>
+  </div>
+</div>
+</div>

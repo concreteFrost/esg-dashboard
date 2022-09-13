@@ -1,73 +1,52 @@
 <!DOCTYPE html>
 <html>
-@@include('./_head.html', {
-  "title": "Risk Overview - FSI Bank - esg:one",
-  "canonical": "https://app.esg-one.co/dashboard/company/risk-overview",
-  "path": "..",
-  "path_common": "../.."
-})
-<body>
-  <!-- Preloader -->
-  @@include('./_preloader.html', {
-    "path": ".."
-  })
+  @@include('./_head.html', { "title": "Risk Overview - FSI Bank - esg:one",
+  "canonical": "https://app.esg-one.co/dashboard/company/risk-overview", "path":
+  "..", "path_common": "../.." })
+  <body>
+    <!-- Preloader -->
+    @@include('./_preloader.html', { "path": ".." })
+    @@include('./_tracking-body.html')
+    <!-- Sidenav -->
+    @@include('./_nav-side.html', { "path": "..", "path_common": "../.." })
+    <!-- Main content -->
+    <div class="main-content" id="panel">
+      <!-- Topnav -->
+      @@include('./_nav-top.html', { "path": ".." })
+      @@include('./_light-head.html', { "path": ".." })
+      <!-- Header -->
 
-  @@include('./_tracking-body.html')
-  <!-- Sidenav -->
-  @@include('./_nav-side.html', {
-      "path": "..",
-      "path_common": "../.."
-  })
-  <!-- Main content -->
-  <div class="main-content" id="panel">
-    <!-- Topnav -->
-    @@include('./_nav-top.html', { "path": ".." })
-    @@include('./_light-head.html', { "path": ".." })
-    <!-- Header -->
+      <!-- Page content -->
+      <div class="container-fluid">
+        @@include('../pages/company/risk-overview/_button-nav.html')
+        <!--Risk Summary-->
+        @@include('../pages/company/risk-overview/_summary.html')
+        @@include('../pages/company/risk-overview/_overview.html')
 
-    <!-- Page content -->
-    <div class="container-fluid">
-      @@include('../pages/company/risk-overview/_button-nav.html')
-      <div class="row" id="risk-overview">
-        <!-- Risk Analysis Chart -->
-        @@include('../pages/company/risk-overview/_analysis.html')
-        <!-- Risk Comparison Chart -->
-        @@include('../pages/company/risk-overview/_comparison.html')
-        <!-- Carbon Performance Chart -->
-        @@include('../pages/company/risk-overview/_raw-score.html')
-
+        <!--Risk Controls-->
+        @@include('../pages/company/risk-overview/_controls.html')
+        @@include('../pages/company/risk-overview/modals/_modal-control.html')
+        <!-- Risk Items Table -->
+        @@include('../pages/company/risk-overview/modals/_modal-risk.html')
+        <!-- Footer -->
+        <footer class="footer pt-0">@@include('./_footer.html')</footer>
       </div>
-
-      <!--Risk Controls-->
-      @@include('../pages/company/risk-overview/_controls.html')
-      @@include('../pages/company/risk-overview/modals/_modal-control.html')
-      <!-- Risk Items Table -->
-      @@include('../partials/table/_risks-table.html')
-      @@include('../pages/company/risk-overview/modals/_modal-risk.html')
-      <!-- Footer -->
-      <footer class="footer pt-0">
-        @@include('./_footer.html')
-      </footer>
     </div>
-  </div>
-  @@include('./_scripts.html', {
-    "path": "..",
-    "path_common": "../.."
-  })
-  @@include('./_scripts-d3.html', {
-    "path": "..",
-    "path_common": "../.."
-  })
-</body>
-<script src="/dashboard/assets/js/nav-side-active.min.js"></script>
-<script
-type="module"
-src="/dashboard/assets/js/button-nav-risks.min.js"
-></script>
+    @@include('./_scripts.html', { "path": "..", "path_common": "../.." })
+    @@include('./_scripts-d3.html', { "path": "..", "path_common": "../.." })
+  </body>
+  <script src="/dashboard/assets/js/nav-side-active.min.js"></script>
+  <script
+    type="module"
+    src="/dashboard/assets/js/button-nav-risks.min.js"
+  ></script>
 
+  <script src="/dashboard/assets/js/api/getToken.min.js"></script>
+  <script src="/dashboard/assets/js/api/risk-list-api.min.js"></script>
+  <script src="/dashboard/assets/js/api/controls-list-api.min.js"></script>
+  <script src="/dashboard/assets/js/api/controls-create-api.min.js"></script>
 
-<script src="/dashboard/assets/js/api/getToken.min.js" ></script>
-<script src="/dashboard/assets/js/api/risk-list-api.min.js"></script>
-<script src="/dashboard/assets/js/api/controls-list-api.min.js"></script>
-<script src="/dashboard/assets/js/api/controls-create-api.min.js"></script>
+  <!--Charts-->
+  <script src="/dashboard/assets/js/charts/chart-risk-comparison.min.js"></script>
+  <script src="/dashboard/assets/js/charts/chart-risk-concentration.min.js"></script>
 </html>
