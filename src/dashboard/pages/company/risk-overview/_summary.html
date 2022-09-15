@@ -42,9 +42,9 @@
           <h3>Alerts</h3>
           <ul class="list-group list-group-flush">
             <li class="list-group-item"><p>Risk A</p></li>
-            <li class="list-group-item"><p>Risk A</p></li>
-            <li class="list-group-item"><p>Risk A</p></li>
-            <li class="list-group-item"><p>Risk A</p></li>
+            <li class="list-group-item"><p>Risk B</p></li>
+            <li class="list-group-item"><p>Risk C</p></li>
+            <li class="list-group-item"><p>Risk D</p></li>
           </ul>
         </div>
         <!--Risk Summary-->
@@ -52,92 +52,13 @@
           <h3>Risk Summary</h3>
           @@include('../pages/company/risk-overview/cards/_template.html')
         </div>
-
+        <!--Chart-->
         <div class="col ">
           <div class="chart">
             <canvas id="chart-risk-comparison" class="chart-canvas"></canvas>
           </div>
         </div>
-        <div class="col">
-          <div class="form-check">
-            <input
-              class="form-check-input"
-              type="checkbox"
-              value=""
-              id="flexCheckDefault"
-              checked
-            />
-            <label class="form-check-label" for="flexCheckDefault"> E </label>
-          </div>
-          <div class="form-check">
-            <input
-              class="form-check-input"
-              type="checkbox"
-              value=""
-              id="flexCheckChecked"
-              checked
-            />
-            <label class="form-check-label" for="flexCheckChecked"> S </label>
-          </div>
-          <div class="form-check">
-            <input
-              class="form-check-input"
-              type="checkbox"
-              value=""
-              id="flexCheckDefault"
-              checked
-            />
-            <label class="form-check-label" for="flexCheckDefault"> G </label>
-          </div>
-          <div class="form-check">
-            <input
-              class="form-check-input"
-              type="checkbox"
-              value=""
-              id="flexCheckChecked"
-              checked
-            />
-            <label class="form-check-label" for="flexCheckChecked">
-              Show targets
-            </label>
-          </div>
-          <div class="form-check">
-            <input
-              class="form-check-input"
-              type="checkbox"
-              value=""
-              id="flexCheckDefault"
-              checked
-            />
-            <label class="form-check-label" for="flexCheckDefault">
-              Number of risks
-            </label>
-          </div>
-          <div class="form-check">
-            <input
-              class="form-check-input"
-              type="checkbox"
-              value=""
-              id="flexCheckChecked"
-              checked
-            />
-            <label class="form-check-label" for="flexCheckChecked">
-              Score of risks
-            </label>
-          </div>
-          <div class="form-check">
-            <input
-              class="form-check-input"
-              type="checkbox"
-              value=""
-              id="flexCheckChecked"
-              checked
-            />
-            <label class="form-check-label" for="flexCheckChecked">
-              Financial exposure
-            </label>
-          </div>
-        </div>
+
       </div>
     </div>
   </div>
