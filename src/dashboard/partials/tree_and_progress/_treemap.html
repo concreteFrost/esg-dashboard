@@ -1,17 +1,16 @@
 <!--Treemap-->
-<div
-  class="col-xl-6 movable-cards"
-  id="_treemap"
- 
->
+<div class="col-xl-6 movable-cards" id="_treemap">
   <div class="card card-large">
     <div class="card-header bg-transparent">
-      <div class="row align-items-center"  data-toggle="tooltip"
-      data-placement="top"
-      title="The percentages represent the % of metrics for
+      <div
+        class="row align-items-center"
+        data-toggle="tooltip"
+        data-placement="top"
+        title="The percentages represent the % of metrics for
       which the company has reported data and the size
       of the boxes represent the relative number of data
-      points for each category. ">
+      points for each category. "
+      >
         <div class="col">
           <h5 class="h3 mb-0">ESG Management</h5>
         </div>
@@ -23,23 +22,29 @@
             data-toggle="tooltip"
             data-placement="top"
             title="Explore the assessment in more detail including gaps "
-            >Gap Analysis </a
-          >
+            >Gap Analysis
+          </a>
         </div>
         <div class="row">
-          <div class="col"><button class="btn btn-secondary btn-sm" id="expand-treemap-btn">Resize</button></div>
+          <div class="col">
+            <button class="btn btn-secondary btn-sm" id="expand-treemap-btn">
+              Resize
+            </button>
+          </div>
         </div>
       </div>
     </div>
-    <div id="card" class="card-body p-0">
-      <p id="chart"></p>
-      <div class="treemap-container">
-        <div id="domainDrillDown"  data-toggle="tooltip"
-        data-placement="top"
-        title='Click to return to the previous view of the graph'></div>
-
+    <div class="card-body p-0">
+      
+      <div>
+        <div
+          id="domainDrillDown"
+          data-toggle="tooltip"
+          data-placement="top"
+          title="Click to return to the previous view of the graph"
+          style="height: 500px;"
+        ></div>
       </div>
-
     </div>
   </div>
 </div>

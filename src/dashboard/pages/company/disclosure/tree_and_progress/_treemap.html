@@ -1,5 +1,5 @@
 <div
-id="_treemap"
+  id="_treemap"
   class="col-xl-6"
   data-toggle="tooltip"
   data-placement="top"
@@ -16,14 +16,24 @@ id="_treemap"
           <h5 class="h3 mb-0">Disclosure Gaps</h5>
         </div>
         <div class="row">
-          <div class="col"><button class="btn btn-secondary btn-sm" id="expand-treemap-btn">resize</button></div>
+          <div class="col">
+            <button class="btn btn-secondary btn-sm" id="expand-treemap-btn">
+              resize
+            </button>
+          </div>
         </div>
       </div>
     </div>
     <div id="card" class="card-body p-0">
       <p id="chart"></p>
       <div class="treemap-container">
-        <div id="domainDrillDown"></div>
+        <div
+          id="domainDrillDown"
+          data-toggle="tooltip"
+          data-placement="top"
+          title="Click to return to the previous view of the graph"
+          style="height: 500px"
+        ></div>
       </div>
     </div>
   </div>
