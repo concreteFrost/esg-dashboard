@@ -40,25 +40,58 @@
         <!--Alerts-->
         <div class="col">
           <h3>Alerts</h3>
-          <ul class="list-group list-group-flush">
-            <li class="list-group-item"><p>Risk A</p></li>
-            <li class="list-group-item"><p>Risk B</p></li>
-            <li class="list-group-item"><p>Risk C</p></li>
-            <li class="list-group-item"><p>Risk D</p></li>
+          <ul class="list-group list-group-flush" id="risks-list">
+            <li class="list-group-item">
+              <button
+                class="btn btn-secondary w-100"
+                data-risk-numbers='{"number_red": "2","percentage_red": "21","number_blue": "6","percentage_blue": "80","trends_1": "1","trends_2": "3","trends_3": "9"}'
+                onClick="getData(this)"
+              >
+                Risk A
+              </button>
+            </li>
+            <li class="list-group-item">
+              <button
+                class="btn btn-secondary w-100"
+                data-risk-numbers='{"number_red": "3","percentage_red": "5","number_blue": "4","percentage_blue": "25","trends_1": "4","trends_2": "2","trends_3": "5"}'
+                onClick="getData(this)"
+              >
+                Risk B
+              </button>
+            </li>
+            <li class="list-group-item">
+              <button
+                class="btn btn-secondary w-100"
+                data-risk-numbers='{"number_red": "2","percentage_red": "67","number_blue": "4","percentage_blue": "50","trends_1": "12","trends_2": "1","trends_3": "4"}'
+                onClick="getData(this)"
+              >
+                Risk C
+              </button>
+            </li>
+            <li class="list-group-item">
+              <button
+                class="btn btn-secondary w-100"
+                data-risk-numbers='{"number_red": "2", "percentage_red": "21","number_blue": "6","percentage_blue": "80","trends_1": "2","trends_2": "4","trends_3": "12"}'
+                onClick="getData(this)"
+              >
+                Risk D
+              </button>
+            </li>
           </ul>
         </div>
         <!--Risk Summary-->
-        <div class="col border-right">
+        <div class="col">
           <h3>Risk Summary</h3>
           @@include('../pages/company/risk-overview/cards/_template.html')
         </div>
         <!--Chart-->
-        <div class="col ">
+      </div>
+      <div class="row">
+        <div class="col">
           <div class="chart">
             <canvas id="chart-risk-comparison" class="chart-canvas"></canvas>
           </div>
         </div>
-
       </div>
     </div>
   </div>
