@@ -6,12 +6,14 @@
       "name": "Environment",
       "shortName": "Environment",
       "metric": "%",
+      "size" : 20,
       "value": 39,
       "children": [
         {
           "name": "GHG Emissions",
           "shortName": "GHG Emissions",
           "metric": "%",
+          "size" : 20,
           "value": 45,
           "children": []
         },
@@ -20,6 +22,7 @@
           "shortName": "Air Quality",
           "metric": "%",
           "value": 23,
+          "size" : 20,
           "children": []
         },
         {
@@ -27,6 +30,7 @@
           "shortName": "Energy Management",
           "metric": "%",
           "value": 19,
+          "size" : 20,
           "children": []
         },
         {
@@ -34,6 +38,7 @@
           "shortName": "Water & Wastewater Management",
           "metric": "%",
           "value": 54,
+          "size" : 20,
           "children": []
         },
         {
@@ -41,6 +46,7 @@
           "shortName": "Waste & Hazardous Materials Management",
           "metric": "%",
           "value": 63,
+          "size" : 20,
           "children": []
         },
         {
@@ -48,6 +54,7 @@
           "shortName": "Biodiversity",
           "metric": "%",
           "value": 22,
+          "size" : 20,
           "children": []
         },
         {
@@ -62,6 +69,7 @@
           "shortName": "Real Estate",
           "metric": "%",
           "value": 25,
+          "size" : 20,
           "children": []
         }
       ]
@@ -77,18 +85,21 @@
           "shortName": "Social Capital",
           "metric": "%",
           "value": 44,
+          "size" : 20,
           "children": [
             {
               "name": "Human Rights and Community Relations",
               "shortName": "Human Rights and Community Relations",
               "metric": "%",
               "value": 45,
+              "size" : 20,
               "children": [
                 {
                   "name": "Human Rights",
                   "shortName": "Human Rights",
                   "metric": "%",
                   "value": 35,
+                  "size" : 20,
                   "children": []
                 },
                 {
@@ -96,6 +107,7 @@
                   "shortName": "Community Relations",
                   "metric": "%",
                   "value": 42,
+                  "size" : 20,
                   "children": []
                 },
                 {
@@ -103,6 +115,7 @@
                   "shortName": "Lobbying and political contributions",
                   "metric": "%",
                   "value": 67,
+                  "size" : 20,
                   "children": []
                 },
                 {
@@ -110,6 +123,7 @@
                   "shortName": "Stakeholder engagement",
                   "metric": "%",
                   "value": 37,
+                  "size" : 20,
                   "children": []
                 }
               ]
@@ -119,12 +133,14 @@
               "shortName": "Data and Privacy",
               "metric": "%",
               "value": 47,
+              "size" : 20,
               "children": [
                 {
                   "name": "Customer Privacy",
                   "shortName": "Customer Privacy",
                   "metric": "%",
                   "value": 61,
+                  "size" : 20,
                   "children": []
                 },
                 {
@@ -132,6 +148,7 @@
                   "shortName": "Data Security",
                   "metric": "%",
                   "value": 33,
+                  "size" : 20,
                   "children": []
                 }
               ]
@@ -141,12 +158,14 @@
               "shortName": "Product impact",
               "metric": "%",
               "value": 16,
+              "size" : 20,
               "children": [
                 {
                   "name": "Access & Affordability",
                   "shortName": "Access & Affordability",
                   "metric": "%",
                   "value": 11,
+                  "size" : 20,
                   "children": []
                 },
                 {
@@ -154,6 +173,7 @@
                   "shortName": "Product Quality & Safety",
                   "metric": "%",
                   "value": 26,
+                  "size" : 20,
                   "children": []
                 },
                 {
@@ -161,6 +181,7 @@
                   "shortName": "Customer Welfare",
                   "metric": "%",
                   "value": 10,
+                  "size" : 20,
                   "children": []
                 }
               ]
@@ -170,6 +191,7 @@
               "shortName": "Selling Practices & Product Labelling",
               "metric": "%",
               "value": 67,
+              "size" : 20,
               "children": []
             }
           ]
@@ -179,18 +201,21 @@
           "shortName": "Human Capital",
           "metric": "%",
           "value": 49,
+          "size" : 20,
           "children": [
             {
               "name": "Labor Practices",
               "shortName": "Labor Practices",
               "metric": "%",
               "value": 50,
+              "size" : 20,
               "children": [
                 {
                   "name": "Freedom of Association and Collective Bargaining",
                   "shortName": "Freedom of Association and Collective Bargaining",
                   "metric": "%",
                   "value": 54,
+                  "size" : 20,
                   "children": []
                 },
                 {
@@ -198,6 +223,7 @@
                   "shortName": "Labor/Management Relations",
                   "metric": "%",
                   "value": 46,
+                  "size" : 20,
                   "children": []
                 }
               ]
@@ -207,6 +233,7 @@
               "shortName": "Employee Health & Safety",
               "metric": "%",
               "value": 49,
+              "size" : 20,
               "children": []
             },
             {
@@ -214,6 +241,7 @@
               "shortName": "Employee Engagement, Diversity & Inclusion ",
               "metric": "%",
               "value": 72,
+              "size" : 20,
               "children": []
             },
             {
@@ -221,6 +249,7 @@
               "shortName": "Benefits",
               "metric": "%",
               "value": 15,
+              "size" : 20,
               "children": []
             },
             {
@@ -228,6 +257,7 @@
               "shortName": "Employment and job creation",
               "metric": "%",
               "value": 42,
+              "size" : 20,
               "children": []
             },
             {
@@ -235,6 +265,7 @@
               "shortName": "Training, Education & Workforce Development",
               "metric": "%",
               "value": 67,
+              "size" : 20,
               "children": []
             }
           ]
@@ -246,24 +277,28 @@
       "shortName": "Governance",
       "metric": "%",
       "value": 51,
+      "size" : 20,
       "children": [
         {
           "name": "Leadership & Governance",
           "shortName": "Leadership & Governance",
           "metric": "%",
           "value": 41,
+          "size" : 20,
           "children": [
             {
               "name": "Business Ethics",
               "shortName": "Business Ethics",
               "metric": "%",
               "value": 38,
+              "size" : 20,
               "children": [
                 {
                   "name": "Ethics and integrity",
                   "shortName": "Ethics and integrity",
                   "metric": "%",
                   "value": 45,
+                  "size" : 20,
                   "children": []
                 },
                 {
@@ -271,6 +306,7 @@
                   "shortName": "Anti-corruption",
                   "metric": "%",
                   "value": 31,
+                  "size" : 20,
                   "children": []
                 }
               ]
@@ -280,6 +316,7 @@
               "shortName": "Reporting Practice",
               "metric": "%",
               "value": 26,
+              "size" : 20,
               "children": []
             },
             {
@@ -287,6 +324,7 @@
               "shortName": "Competitive Behaviour",
               "metric": "%",
               "value": 42,
+              "size" : 20,
               "children": []
             },
             {
@@ -294,12 +332,14 @@
               "shortName": "Management of the Legal & Regulatory Environment",
               "metric": "%",
               "value": 78,
+              "size" : 20,
               "children": [
                 {
                   "name": "Socioeconomic Compliance",
                   "shortName": "Socioeconomic Compliance",
                   "metric": "%",
                   "value": 78,
+                  "size" : 20,
                   "children": []
                 }
               ]
@@ -309,12 +349,14 @@
               "shortName": "Remuneration and incentives",
               "metric": "%",
               "value": 70,
+              "size" : 20,
               "children": [
                 {
                   "name": "Policies designed to incentivize responsible behavior",
                   "shortName": "Policies designed to incentivize responsible behavior",
                   "metric": "%",
                   "value": 82,
+                  "size" : 20,
                   "children": []
                 },
                 {
@@ -322,6 +364,7 @@
                   "shortName": "Employee incentives & Risk Taking",
                   "metric": "%",
                   "value": 57,
+                  "size" : 20,
                   "children": []
                 }
               ]
@@ -331,6 +374,7 @@
               "shortName": "Critical Incident Risk Management",
               "metric": "%",
               "value": 57,
+              "size" : 20,
               "children": []
             },
             {
@@ -338,12 +382,14 @@
               "shortName": "Systemic Risk Management",
               "metric": "%",
               "value": 44,
+              "size" : 20,
               "children": [
                 {
                   "name": "Incorporation of Environmental, Social, and Governance Factors",
                   "shortName": "Incorporation of ESG Factors",
                   "metric": "%",
                   "value": 44,
+                  "size" : 20,
                   "children": []
                 }
               ]
@@ -353,6 +399,7 @@
               "shortName": "Tax",
               "metric": "%",
               "value": 12,
+              "size" : 20,
               "children": []
             }
           ]
@@ -362,12 +409,14 @@
           "shortName": "Business Model & Innovation",
           "metric": "%",
           "value": 60,
+          "size" : 20,
           "children": [
             {
               "name": "Product Design & Lifecycle Management",
               "shortName": "Product Design & Lifecycle Management",
               "metric": "%",
               "value": 71,
+              "size" : 20,
               "children": []
             },
             {
@@ -375,12 +424,14 @@
               "shortName": "Economic impact",
               "metric": "%",
               "value": 49,
+              "size" : 20,
               "children": [
                 {
                   "name": "Market Presence",
                   "shortName": "Market Presence",
                   "metric": "%",
                   "value": 35,
+                  "size" : 20,
                   "children": []
                 },
                 {
@@ -388,6 +439,7 @@
                   "shortName": "Indirect Economic Impacts",
                   "metric": "%",
                   "value": 71,
+                  "size" : 20,
                   "children": []
                 },
                 {
@@ -395,6 +447,7 @@
                   "shortName": "Economic performance",
                   "metric": "%",
                   "value": 43,
+                  "size" : 20,
                   "children": []
                 }
               ]
@@ -404,6 +457,7 @@
               "shortName": "Business model resilience",
               "metric": "%",
               "value": 58,
+              "size" : 20,
               "children": []
             },
             {
@@ -411,12 +465,14 @@
               "shortName": "Supply Chain Management",
               "metric": "%",
               "value": 51,
+              "size" : 20,
               "children": [
                 {
                   "name": "Child Labor",
                   "shortName": "Child Labor",
                   "metric": "%",
                   "value": 12,
+                  "size" : 20,
                   "children": []
                 },
                 {
@@ -424,6 +480,7 @@
                   "shortName": "Forced or Compulsory Labor",
                   "metric": "%",
                   "value": 61,
+                  "size" : 20,
                   "children": []
                 },
                 {
@@ -431,6 +488,7 @@
                   "shortName": "Security Practices",
                   "metric": "%",
                   "value": 32,
+                  "size" : 20,
                   "children": []
                 },
                 {
@@ -438,6 +496,7 @@
                   "shortName": "Human Rights Assessment",
                   "metric": "%",
                   "value": 71,
+                  "size" : 20,
                   "children": []
                 },
                 {
@@ -445,6 +504,7 @@
                   "shortName": "Supplier Social Assessment",
                   "metric": "%",
                   "value": 77,
+                  "size" : 20,
                   "children": []
                 }
               ]
@@ -454,6 +514,7 @@
               "shortName": "Materials Sourcing & Efficiency",
               "metric": "%",
               "value": 62,
+              "size" : 20,
               "children": []
             },
             {
@@ -461,6 +522,7 @@
               "shortName": "Physical Impacts of Climate Change",
               "metric": "%",
               "value": 70,
+              "size" : 20,
               "children": []
             }
           ]
