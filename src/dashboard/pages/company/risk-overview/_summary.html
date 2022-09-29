@@ -1,11 +1,21 @@
-<div class="col" id="risk-summary">
-  <div class="card">
+<div class="col " id="risk-summary">
+  <div class="row">
+  <div class="card card-large col">
     <div class="card-header bg-transparent border-bottom-0">
       <div class="row mb-0 mt-0">
-        <div class="col"><h3>Risk Summary</h3></div>
+        <div class="col">
+          <h3>Risk Summary</h3>
+          <a
+            href="/dashboard/company/risk-overview.html#risk-summary"
+            class="btn btn-primary btn-sm zoomed-out-btn"
+            id="risk-view-all"
+            >View All</a
+          >
+        </div>
       </div>
     </div>
-    <div class="card-body">
+    <div class="card-body zoom-out-summary mt-0" id="summary-body">
+      <!--Total Score Table-->
       <div class="row border-bottom">
         <!--Risk Summary-->
         <div class="col">
@@ -36,52 +46,29 @@
           </div>
         </div>
       </div>
-      <div class="row border-bottom mt-5 mb-5">
+      
+      <div class="row mt-3">
         <!--Alerts-->
         <div class="col">
           <h3>Alerts</h3>
           <ul class="list-group list-group-flush" id="risks-list">
             <li class="list-group-item">
-              <button
-                class="btn btn-secondary w-100"
-                data-risk-numbers='{"number_red": "2","percentage_red": "21","number_blue": "6","percentage_blue": "80","trends_1": "1","trends_2": "3","trends_3": "9"}'
-                onClick="getData(this)"
-              >
-                Risk A
-              </button>
+              <a class="btn btn-secondary w-100"> Risk A </a>
             </li>
             <li class="list-group-item">
-              <button
-                class="btn btn-secondary w-100"
-                data-risk-numbers='{"number_red": "3","percentage_red": "5","number_blue": "4","percentage_blue": "25","trends_1": "4","trends_2": "2","trends_3": "5"}'
-                onClick="getData(this)"
-              >
-                Risk B
-              </button>
+              <a class="btn btn-secondary w-100"> Risk B </a>
             </li>
             <li class="list-group-item">
-              <button
-                class="btn btn-secondary w-100"
-                data-risk-numbers='{"number_red": "2","percentage_red": "67","number_blue": "4","percentage_blue": "50","trends_1": "12","trends_2": "1","trends_3": "4"}'
-                onClick="getData(this)"
-              >
-                Risk C
-              </button>
+              <a class="btn btn-secondary w-100"> Risk C </a>
             </li>
             <li class="list-group-item">
-              <button
-                class="btn btn-secondary w-100"
-                data-risk-numbers='{"number_red": "2", "percentage_red": "21","number_blue": "6","percentage_blue": "80","trends_1": "2","trends_2": "4","trends_3": "12"}'
-                onClick="getData(this)"
-              >
-                Risk D
-              </button>
+              <a class="btn btn-secondary w-100"> Risk D </a>
             </li>
           </ul>
         </div>
         <!--Risk Summary-->
         <div class="col">
-          <h3>Risk Summary</h3>
+          <h3 class="pb-3">Risk Summary</h3>
           @@include('../pages/company/risk-overview/cards/_template.html')
         </div>
         <!--Chart-->
@@ -90,8 +77,4 @@
   </div>
   @@include('../pages/company/risk-overview/chart/_risk-chart-comparison.html')
 </div>
-
-
-
-
-
+</div>
