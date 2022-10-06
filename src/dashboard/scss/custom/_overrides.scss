@@ -4,6 +4,18 @@
 
 //small text on top
 
+.table-striped>tbody>tr:nth-child(odd)>td, 
+.table-striped>tbody>tr:nth-child(odd)>th {
+    background-color: rgb(240, 244, 250); /* Choose your own color here */
+    border: 0;
+}
+
+.table-striped>tbody>tr:nth-child(even)>td, 
+.table-striped>tbody>tr:nth-child(even)>th {
+    
+    border: 0;
+}
+
 .small-top{
   margin-bottom: 5px;
   position: absolute;
@@ -42,12 +54,16 @@
 //Cards
 .card-large {
   min-height: 570px;
+  box-shadow: 5px 5px 5px rgb(221, 221, 221);
 }
 
+
 .card {
+  
   p {
     font-size: 0.8rem;
     font-weight: normal;
+    
   }
   .card-header {
     color: rgb(0, 0, 0);
