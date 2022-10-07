@@ -1,0 +1,9 @@
+.active-section{
+    animation: changeColor 1s;
+    background-color: #bbe4fc;
+}
+
+@keyframes changeColor {
+    from {background-color: rgb(255, 255, 255);}
+    to {background-color: #bbe4fc;}
+  }
