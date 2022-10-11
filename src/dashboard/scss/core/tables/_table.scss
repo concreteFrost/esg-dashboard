@@ -4,6 +4,19 @@
 
 // General styles
 
+
+.table-striped>tbody>tr:nth-child(odd)>td, 
+.table-striped>tbody>tr:nth-child(odd)>th {
+    background-color: rgb(243, 246, 252); /* Choose your own color here */
+    border: 0;
+}
+
+.table-striped>tbody>tr:nth-child(even)>td, 
+.table-striped>tbody>tr:nth-child(even)>th {
+    
+    border: 0;
+}
+
 .table {
     thead th {
         padding-top: $table-head-spacer-y;

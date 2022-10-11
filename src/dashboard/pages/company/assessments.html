@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
   @@include('./_head.html', { "title": "assessments - FSI Bank - esg:one",
-  "canonical": "https://app.esg-one.co/dashboard/company/assessments", "path": "..",
-  "path_common": "../.." })
+  "canonical": "https://app.esg-one.co/dashboard/company/assessments", "path":
+  "..", "path_common": "../.." })
   <body>
     <!-- Preloader -->
     <!-- @@include('./_preloader.html', {
@@ -20,16 +20,14 @@
       @@include('./_light-head.html', { "path": ".." })
       <div class="container-fluid mt-2">
         @@include('../pages/company/assessments/_container.html')
-    
+      </div>
+      @@include('./_scripts.html', { "path": "..", "path_common": "../.." })
+      @@include('./_scripts-d3.html', { "path": "..", "path_common": "../.." })
+      <footer class="footer pt-0">@@include('./_footer.html')</footer>
     </div>
-    @@include('./_scripts.html', { "path": "..", "path_common": "../.." })
-    @@include('./_scripts-d3.html', { "path": "..", "path_common": "../.." })
-    <footer class="footer pt-0">@@include('./_footer.html')</footer>
-  </div>
 
- 
     <script src="/dashboard/assets/js/nav-side-active.min.js"></script>
-    <script src="/dashboard/assets/js/api/getToken.min.js" ></script>
-    <script src="/dashboard/assets/js/api/assessments-api.min.js" ></script>
+    <script src="/dashboard/assets/js/api/getToken.min.js"></script>
+    <script src="/dashboard/assets/js/api/assessments-api.min.js"></script>
   </body>
 </html>

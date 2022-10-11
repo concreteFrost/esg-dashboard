@@ -16,20 +16,18 @@
       <!-- Header -->
       @@include('./_dashboard-head.html')
       <!-- Page content -->
-    <div class="container-fluid mt-2">
+      <div class="container-fluid mt-2">
         <!--Tree & Progress-->
         <div class="row" id="widgets-grid">
           @@include("../partials/cards/kpis/container.html")
           @@include("../partials/tree_and_progress/_treemap.html")
           @@include("../partials/tree_and_progress/_progress.html")
-          <!--Risk & Company Locations -->
-          @@include('../pages/company/risk-overview/_summary.html')
-          @@include('../partials/table/_country-listing.html')
+          @@include('../pages/company/risk-overview/summary/_risk-summary.html')
+          @@include('../partials/_country-listing.html')
           @@include('../pages/actions/_todo.html')
           @@include('../pages/actions/_team-tasks.html')
         </div>
 
-        
         <!-- Footer -->
         <footer class="footer pt-0">@@include('./_footer.html')</footer>
       </div>
@@ -48,6 +46,5 @@
     <script src="/dashboard/assets/js/api/getToken.min.js"></script>
     <script src="/dashboard/assets/js/api/risk-list-api.min.js"></script>
     <script src="/dashboard/assets/js/api/locations-api.min.js"></script>
-
   </body>
 </html>

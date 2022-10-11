@@ -4,16 +4,12 @@
 
 //small text on top
 
-.table-striped>tbody>tr:nth-child(odd)>td, 
-.table-striped>tbody>tr:nth-child(odd)>th {
-    background-color: rgb(240, 244, 250); /* Choose your own color here */
-    border: 0;
+.calendar .fc-toolbar{
+  background-color: #f6fafb;
 }
 
-.table-striped>tbody>tr:nth-child(even)>td, 
-.table-striped>tbody>tr:nth-child(even)>th {
-    
-    border: 0;
+.list-no-borders{
+  border: 0;
 }
 
 .small-top{
@@ -150,6 +146,7 @@
 
 .chart-canvas{
   padding: 5px;
+  
 }
 
 
