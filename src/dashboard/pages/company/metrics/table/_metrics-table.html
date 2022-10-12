@@ -6,23 +6,18 @@
       <div class="card-header mb-2">
         <h6 class="text-uppercase text-muted ls-1 mb-1">Analysis</h6>
         <div class="row">
-          <div class="col"><h3 class="mb-0">Disclosure Metrics</h3></div>
           <div class="col">
-            <button
-              class="float-right btn btn-primary btn-sm"
-              data-toggle="modal"
-              data-target="#metricModal"
-            >
+            <h3 class="mb-0">Disclosure Metrics</h3>
+          </div>
+          <div class="col">
+            <button class="float-right btn btn-primary btn-sm" data-toggle="modal" data-target="#metricModal">
               New Metric
             </button>
           </div>
         </div>
       </div>
       <div class="table-responsive">
-        <table
-          id="metrics-datatable"
-          class="table table-striped align-items-center"
-        >
+        <table id="metrics-datatable" class="table table-striped align-items-center">
           <thead class="thead-light">
             <tr>
               <th>Metric Code</th>
@@ -42,24 +37,13 @@
 </div>
 
 <!--Modal-->
-<div
-  class="modal fade"
-  id="metricModal"
-  tabindex="-1"
-  role="dialog"
-  aria-labelledby="metricModalLabel"
-  aria-hidden="true"
->
+<div class="modal fade" id="metricModal" tabindex="-1" role="dialog" aria-labelledby="metricModalLabel"
+  aria-hidden="true">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
         <h5 class="modal-title" id="metricModalLabel">Add new metric</h5>
-        <button
-          type="button"
-          class="close"
-          data-dismiss="modal"
-          aria-label="Close"
-        >
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
@@ -76,302 +60,3 @@
   </div>
 </div>
 
-<div
-  class="modal fade w-100"
-  id="editMetricModal"
-  tabindex="-1"
-  role="dialog"
-  aria-labelledby="editMetricModalLabel"
-  aria-hidden="true"
->
-  <div class="modal-dialog modal-xl" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="editMetricModalLabel">Add new metric</h5>
-        <button
-          type="button"
-          class="close"
-          data-dismiss="modal"
-          aria-label="Close"
-        >
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        <form>
-          <div class="row">
-            <!--Is Active-->
-            <div class="col d-flex">
-              <label for="update-metric-is-active">is Active</label>
-              <div class="form-check ml-2">
-                <input
-                  type="checkbox"
-                  class="form-check-input"
-                  name="update-metric-is-active"
-                  id="update-metric-is-active"
-                />
-              </div>
-            </div>
-          </div>
-          <div class="row mt-2">
-            <!--Company Name-->
-            <div class="col">
-              <label for="update-metric-company">Company Name</label>
-              <input
-                type="text"
-                class="form-control"
-                name="update-metric-company"
-                id="update-metric-company"
-              />
-            </div>
-            <!--Name-->
-            <div class="col">
-              <label for="update-metric-name">Metric Name</label>
-              <input
-                type="text"
-                class="form-control"
-                name="update-metric-name"
-                id="update-metric-name"
-              />
-            </div>
-          </div>
-          <div class="row mt-2">
-            <!--Description-->
-            <div class="col">
-              <label for="update-metric-description">Metric Description</label>
-              <input
-                type="text"
-                class="form-control"
-                name="update-metric-description"
-                id="update-metric-description"
-              />
-            </div>
-          </div>
-          <div class="row mt-2">
-            <!--Type-->
-            <div class="col">
-              <label for="update-metric-type" class="form-label">Type</label>
-              <select
-                class="form-select"
-                name="update-metric-type"
-                id="update-metric-type"
-              >
-                <option value="Benchmark">Benchmark</option>
-                <option value="Environmental">Environmental</option>
-                <option value="Governance">Governance</option>
-                <option value="Social">Social</option>
-              </select>
-            </div>
-            <!--Office-->
-            <div class="col">
-              <label for="update-metric-office" class="form-label"
-                >Office</label
-              >
-              <select
-                class="form-select"
-                name="update-metric-office"
-                id="update-metric-office"
-              >
-                <option value="China">China</option>
-                <option value="Head office">Head office</option>
-                <option value="India">India</option>
-                <option value="UK">UK</option>
-                <option value="US">US</option>
-              </select>
-            </div>
-            <!--Business Unit-->
-            <div class="col">
-              <label for="update-metric-unit" class="form-label"
-                >Business Unit</label
-              >
-              <select
-                class="form-select"
-                name="update-metric-unit"
-                id="update-metric-unit"
-              >
-                <option value="Finance">Finance</option>
-                <option value="HR">HR</option>
-                <option value="IT">IT</option>
-                <option value="Legal">Legal</option>
-                <option value="Production">Production</option>
-                <option value="Site Operations">Site Operations</option>
-              </select>
-            </div>
-            <!--Category-->
-            <div class="col">
-              <label for="update-metric-category" class="form-label"
-                >Category</label
-              >
-              <select
-                class="form-select"
-                name="update-metric-category"
-                id="update-metric-category"
-              >
-                <option value="Business Model & Innovation">
-                  Business Model & Innovation
-                </option>
-                <option value="Environment">Environment</option>
-                <option value="Human Capital">Human Capital</option>
-                <option value="Leadership and Governance">
-                  Leadership and Governance
-                </option>
-                <option value="Social Capital">Social Capital</option>
-                <option value="Supply Chain">Supply Chain</option>
-              </select>
-            </div>
-            <!--Importance-->
-            <div class="col">
-              <label for="update-metric-importance" class="form-label"
-                >Importance</label
-              >
-              <select
-                class="form-select"
-                name="update-metric-importance"
-                id="update-metric-importance"
-              >
-                <option value="Important to investors">
-                  Important to investors
-                </option>
-                <option value="Required by Law">Required by Law</option>
-                <option value="Required by regulator">Required by regulator</option>
-                <option value="Critical to Operation">
-                  Critical to Operation
-                </option>
-                <option value="Important to Operation">Important to Operation</option>
-                <option value="General Control">General Control</option>
-                <option value="Key Performance Indicator">Key Performance Indicator</option>
-                <option value="Key">Key</option>
-                <option value="Non-Key">Non-Key</option>
-              </select>
-            </div>
-            <!--Limit Type-->
-            <div class="col">
-              <div class="dropdown">
-                <button
-                  class="btn btn-secondary dropdown-toggle"
-                  type="button"
-                  id="update-metric-limit-type"
-                  data-toggle="dropdown"
-                  aria-haspopup="true"
-                  aria-expanded="false"
-                >
-                  Limit Type
-                </button>
-                <div
-                  class="dropdown-menu"
-                  aria-labelledby="update-metric-limit-type"
-                ></div>
-              </div>
-            </div>
-          </div>
-          <div class="row mt-2">
-            <!--Current Value-->
-            <div class="form-group">
-              <label for="update-metric-current-value">Current Value</label>
-              <input
-                type="number"
-                name="update-metric-current-value"
-                id="update-metric-current-value"
-              />
-            </div>
-            <!--Upper Value-->
-            <div class="form-group">
-              <label for="update-metric-upper-limit">Upper Limit</label>
-              <input
-                type="number"
-                name="update-metric-upper-limit"
-                id="update-metric-upper-limit"
-              />
-            </div>
-            <!--Lower Value-->
-            <div class="form-group">
-              <label for="update-metric-lower-limit">Lower Limit</label>
-              <input
-                type="number"
-                name="update-metric-lower-limit"
-                id="update-metric-lower-limit"
-              />
-            </div>
-            <!--Target Value-->
-            <div class="form-group">
-              <label for="update-metric-target">Target Limit</label>
-              <input
-                type="number"
-                name="update-metric-target"
-                id="update-metric-target"
-              />
-            </div>
-            <!--Industry Benchmark-->
-            <div class="form-group">
-              <label for="update-industry-benchmark">Industry Benchmark</label>
-              <input
-                type="number"
-                name="update-industry-benchmark"
-                id="update-industry-benchmark"
-              />
-            </div>
-          </div>
-
-          <div class="row mt-2">
-            <div class="col">
-              <label for="update-metric-last-review-data"
-                >Last Review Date</label
-              >
-              <input
-                type="date"
-                name="update-metric-last-review-data"
-                id="update-metric-last-review-data"
-              />
-            </div>
-
-            <div class="col">
-              <label for="update-metric-next-review-data"
-                >Next Review Date</label
-              >
-              <input
-                type="date"
-                name="update-metric-next-review-data"
-                id="update-metric-next-review-data"
-              />
-            </div>
-          </div>
-        </form>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">
-          Close
-        </button>
-        <button type="button" class="btn btn-primary" id="add-new-metric-btn">
-          Add
-        </button>
-      </div>
-    </div>
-  </div>
-</div>
-
-<!-- {
-  "IsActive": "true",
-  "Company": "ESG Demo Company",
-  "Office": "Head Office",
-  "BusinessUnit": "HR",
-  "Type": "Social",
-  "Name": "Percentages of women in senior management roles",
-  "Description": "string",
-  "Importance": "string",
-  "Category": "Human Capital",
-  "Subcategory": "string",
-  "OwnerEmail": "steve@esg-one.co",
-  "ExecutiveOwnerEmail": "steve@esg-one.co",
-  "LimitType": "%",
-  "CurrentValue": 0,
-  "UpperLimitValue": 0,
-  "LowerLimitValue": 0,
-  "TargetValue": 0,
-  "IndustryBenchmark": 0,
-  "LastReviewDate": "2022-10-11T13:30:24.142Z",
-  "NextReviewDate": "2022-10-11T13:30:24.142Z",
-  "CreateIncidentIfBreached": true,
-  "ReportToEmail": [
-    "string"
-  ]
-} -->
