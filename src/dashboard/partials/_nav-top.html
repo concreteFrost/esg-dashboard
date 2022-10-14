@@ -174,7 +174,7 @@
             <span>Support</span>
           </a>
           <div class="dropdown-divider"></div>
-          <a href="/login.html" class="dropdown-item">
+          <a href="#" class="dropdown-item" data-toggle="modal" data-target="#logoutModal">
             <i class="ni ni-user-run"></i>
             <span>Logout</span>
           </a>
@@ -184,3 +184,18 @@
   </div>
 </div>
 </nav>
+
+<!--Are you sure you want to log out modal-->
+<div class="modal" tabindex="-1" role="dialog" id="logoutModal">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-body">
+       <h3>Are you sure you want to log out?</h3>
+      </div>
+      <div class="modal-footer">
+        <a type="button" class="btn btn-primary" href="/login.html">Yes</a>
+        <a type="button" class="btn btn-secondary" data-dismiss="modal">No</a>
+      </div>
+    </div>
+  </div>
+</div>
