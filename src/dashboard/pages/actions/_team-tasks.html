@@ -5,42 +5,47 @@
   data-placement="top"
   title="Data requests and other actions outstanding"
 >
-  <div class="card card-large">
+  <div class="card card-large ">
     <!-- Card header -->
     <div class="card-header border-0">
       <div class="row mb-0">
-        <div class="col"> <h3 >Team Tasks</h3></div>
-        <div class="col"><button class="btn btn-sm btn-primary float-right">Add Task</button></div>
+        <div class="col"><h3>Team Tasks</h3></div>
+        <div class="col">
+          <button
+            class="btn btn-sm btn-primary float-right"
+            data-toggle="modal"
+            data-target="#tasksModal"
+          >
+            Add Task
+          </button>
+        </div>
       </div>
-     
     </div>
     <!-- Translucent table -->
-    <div
-      class="table-responsive mb-1"
-      data-toggle="list"
-      data-list-values='["name", "type", "status", "completion"]'
+    <div class="card-body p-0 team-tasks">
+      <div
+      class="table-responsive"
     >
-      <table class="table align-items-center table-striped">
-        <thead class="thead-light">
+      <table class="table align-items-center table-striped " id="tasks-table" >
+        <thead class="thead-light ">
           <tr>
-            <th scope="col" class="sort" data-sort="name">Task</th>
-            <th scope="col" class="sort" data-sort="type">Type</th>
+            <th scope="col" >Task</th>
+            <th scope="col" >Type</th>
             <th scope="col">Team</th>
-            <th scope="col" class="sort" data-sort="status">Status</th>
-            <th scope="col" class="sort" data-sort="completion">Completion</th>
+            <th scope="col" >Status</th>
+            <th scope="col" >Completion</th>
           </tr>
         </thead>
-        <tbody class="list thome">
+        <tbody class="list thome" id="tasks-table-body">
           <tr>
             <th scope="row" class="name">German <br />employment data</th>
             <td class="type">Data Request</td>
             <td>
               <div class="avatar-group">
-                <a
-                  href="#"
+                <a 
                   class="avatar avatar-sm rounded-circle"
                   data-toggle="tooltip"
-                  data-original-title="Tammy Frey"
+                  title="Tammy Frey"
                 >
                   <img
                     alt="Image placeholder"
@@ -48,10 +53,10 @@
                   />
                 </a>
                 <a
-                  href="#"
+                  
                   class="avatar avatar-sm rounded-circle"
                   data-toggle="tooltip"
-                  data-original-title="Steve Hamm"
+                  title="Steve Hamm"
                 >
                   <img
                     alt="Image placeholder"
@@ -92,10 +97,10 @@
             <td>
               <div class="avatar-group">
                 <a
-                  href="#"
+                  
                   class="avatar avatar-sm rounded-circle"
                   data-toggle="tooltip"
-                  data-original-title="James Patterson"
+                  title="James Patterson"
                 >
                   <img
                     alt="Image placeholder"
@@ -103,10 +108,10 @@
                   />
                 </a>
                 <a
-                  href="#"
+                  
                   class="avatar avatar-sm rounded-circle"
                   data-toggle="tooltip"
-                  data-original-title="Lisa Hendricks"
+                  title="Lisa Hendricks"
                 >
                   <img
                     alt="Image placeholder"
@@ -114,10 +119,10 @@
                   />
                 </a>
                 <a
-                  href="#"
+                  
                   class="avatar avatar-sm rounded-circle"
                   data-toggle="tooltip"
-                  data-original-title="Tammy Frey"
+                  title="Tammy Frey"
                 >
                   <img
                     alt="Image placeholder"
@@ -156,10 +161,10 @@
             <td>
               <div class="avatar-group">
                 <a
-                  href="#"
+                  
                   class="avatar avatar-sm rounded-circle"
                   data-toggle="tooltip"
-                  data-original-title="Tammy Frey"
+                  title="Tammy Frey"
                 >
                   <img
                     alt="Image placeholder"
@@ -167,10 +172,10 @@
                   />
                 </a>
                 <a
-                  href="#"
+                  
                   class="avatar avatar-sm rounded-circle"
                   data-toggle="tooltip"
-                  data-original-title="Steve Hamm"
+                  title="Steve Hamm"
                 >
                   <img
                     alt="Image placeholder"
@@ -209,10 +214,10 @@
             <td>
               <div class="avatar-group">
                 <a
-                  href="#"
+                  
                   class="avatar avatar-sm rounded-circle"
                   data-toggle="tooltip"
-                  data-original-title="Lisa Hendricks"
+                  title="Lisa Hendricks"
                 >
                   <img
                     alt="Image placeholder"
@@ -220,10 +225,10 @@
                   />
                 </a>
                 <a
-                  href="#"
+                  
                   class="avatar avatar-sm rounded-circle"
                   data-toggle="tooltip"
-                  data-original-title="Steve Hamm"
+                  title="Steve Hamm"
                 >
                   <img
                     alt="Image placeholder"
@@ -262,10 +267,10 @@
             <td>
               <div class="avatar-group">
                 <a
-                  href="#"
+                  
                   class="avatar avatar-sm rounded-circle"
                   data-toggle="tooltip"
-                  data-original-title="James Patterson"
+                  title="James Patterson"
                 >
                   <img
                     alt="Image placeholder"
@@ -273,24 +278,24 @@
                   />
                 </a>
                 <a
-                  href="#"
+                  
                   class="avatar avatar-sm rounded-circle"
                   data-toggle="tooltip"
-                  data-original-title="Lisa Hendricks"
+                  title="Lisa Hendricks"
                 >
                   <img
                     alt="Image placeholder"
                     src="/dashboard/assets/img/theme/team-2.jpg"
                   />
                 </a>
-                <!-- <a href="#" class="avatar avatar-sm rounded-circle" data-toggle="tooltip" data-original-title="Tammy Frey">
+                <!-- <a  class="avatar avatar-sm rounded-circle" data-toggle="tooltip" title="Tammy Frey">
                   <img alt="Image placeholder" src="/dashboard/assets/img/theme/team-3.jpg">
                 </a> -->
                 <a
-                  href="#"
+                  
                   class="avatar avatar-sm rounded-circle"
                   data-toggle="tooltip"
-                  data-original-title="Steve Hamm"
+                  title="Steve Hamm"
                 >
                   <img
                     alt="Image placeholder"
@@ -329,10 +334,10 @@
             <td>
               <div class="avatar-group">
                 <a
-                  href="#"
+                  
                   class="avatar avatar-sm rounded-circle"
                   data-toggle="tooltip"
-                  data-original-title="Tammy Frey"
+                  title="Tammy Frey"
                 >
                   <img
                     alt="Image placeholder"
@@ -340,10 +345,10 @@
                   />
                 </a>
                 <a
-                  href="#"
+                  
                   class="avatar avatar-sm rounded-circle"
                   data-toggle="tooltip"
-                  data-original-title="Steve Hamm"
+                  title="Steve Hamm"
                 >
                   <img
                     alt="Image placeholder"
@@ -378,6 +383,113 @@
           </tr>
         </tbody>
       </table>
+    </div>
+    </div>
+ 
+  </div>
+</div>
+
+<!-- Modal -->
+<div
+  class="modal fade"
+  id="tasksModal"
+  tabindex="-1"
+  role="dialog"
+  aria-labelledby="tasksModalLabel"
+  aria-hidden="true"
+>
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="tasksModalLabel">Add Task</h5>
+        <button
+          type="button"
+          class="close"
+          data-dismiss="modal"
+          aria-label="Close"
+        >
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="form-group">
+            <label for="taskName">Task</label>
+            <input type="text" class="form-control" id="taskName" required/>
+          </div>
+          <div class="form-group">
+            <label for="taskType">Type</label>
+            <select name="taskType" id="taskType" class="form-control">
+              <option value="Data Request">Data Request</option>
+              <option value="Action">Action</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label class="form-check-label">Team</label>
+            <ul class="list-inline team-checkbox" id="team-check-list" >
+              <li class="list-inline-item">
+                <input type="checkbox" name="team-check" data-value="/dashboard/assets/img/profile/steve.jpg" data-title="Steve Hamm"/>
+                <label
+                  ><img
+                    src="/dashboard/assets/img/profile/steve.jpg"
+                    class="avatar avatar-sm rounded-circle"
+                    data-toggle="tooltip"
+                    title="Steve hamm"
+                    
+                /></label>
+              </li>
+              <li class="list-inline-item" >
+                <input type="checkbox" name="team-check" data-value="/dashboard/assets/img/theme/team-1.jpg" data-title="James Patterson"/>
+                <label
+                  ><img
+                    src="/dashboard/assets/img/theme/team-1.jpg"
+                    class="avatar avatar-sm rounded-circle"
+                    data-toggle="tooltip"
+                    title="James Patterson"
+                    
+                /></label>
+              </li>
+              <li class="list-inline-item">
+                <input type="checkbox" name="team-check" data-value="/dashboard/assets/img/theme/team-2.jpg" data-title="Lisa Hendricks" />
+                <label 
+                  ><img
+                    src="/dashboard/assets/img/theme/team-2.jpg"
+                    class="avatar avatar-sm rounded-circle"
+                    data-toggle="tooltip"
+                    title="Lisa Hendricks"
+                  
+                /></label>
+              </li>
+              <li class="list-inline-item">
+                <input type="checkbox" name="team-check" data-value="/dashboard/assets/img/theme/team-3.jpg" data-title="Tammy Frey"/>
+                <label 
+                  ><img
+                    src="/dashboard/assets/img/theme/team-3.jpg"
+                    class="avatar avatar-sm rounded-circle"
+                    data-toggle="tooltip"
+                    title="Tammy Frey"
+                    
+                /></label>
+              </li>
+            </ul>
+          </div>
+          <div class="form-group">
+            <label for="taskStatus">Status</label>
+            <select name="taskStatus" id="taskStatus" class="form-control">
+              <option value="on schedule" data-status-color="bg-info">on schedule</option>
+              <option value="pending" data-status-color="bg-warning">pending</option>
+              <option value="delayed" data-status-color="bg-danger">delayed</option>
+              <option value="completed" data-status-color="bg-success">completed</option>
+            </select>
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">
+          Close
+        </button>
+        <button type="button" class="btn btn-primary" id="add-new-task-btn">Add</button>
+      </div>
     </div>
   </div>
 </div>

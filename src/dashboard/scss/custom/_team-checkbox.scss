@@ -1,0 +1,28 @@
+.team-tasks{
+  height: 50px;
+  overflow: scroll;
+  
+}
+
+.team-checkbox input[type="checkbox"]:after {
+    position: absolute;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 400;
+    content: "\f111";
+    font-size: 18px;
+    color: #478bfb;
+    right: -5px;
+    top: -5px;
+  }
+.team-checkbox input[type="checkbox"]:checked:after {
+    font-weight: 900;
+    content: "\f058";
+    color: #478bfb;
+  }
+
+.team-checkbox input[type="checkbox"] {
+    -webkit-appearance: none;
+    position: relative;
+    width: 100%;
+    cursor: pointer;
+  }
