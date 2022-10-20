@@ -2,8 +2,33 @@
 // Bespoke Overrides for ESG.
 //
 
-//small text on top
+//scroll bar
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
 
+}
+
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px rgb(118, 163, 184); 
+
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(173, 219, 228); 
+
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(49, 142, 248); 
+}
+
+//small text on top
 .calendar .fc-toolbar{
   background-color: #f6fafb;
 }
@@ -51,6 +76,10 @@
 .card-large {
   min-height: 570px;
   box-shadow: 5px 5px 5px rgb(221, 221, 221);
+}
+
+.card-stats{
+  border: 1px solid rgb(230, 227, 227);
 }
 
 
@@ -211,7 +240,7 @@
 
 .locations-homepage {
   height: 100px !important;
-  overflow: scroll;
+  overflow-y: scroll;
 }
 
 @media screen and(max-width: 768px) {

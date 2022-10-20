@@ -22,7 +22,7 @@
       </div>
     </div>
     <!-- Translucent table -->
-    <div class="card-body p-0 team-tasks">
+    <div class="card-body p-0 overflow-scroll">
       <div
       class="table-responsive"
     >
@@ -34,6 +34,7 @@
             <th scope="col">Team</th>
             <th scope="col" >Status</th>
             <th scope="col" >Completion</th>
+            <th scope="col" >Delete Task</th>
           </tr>
         </thead>
         <tbody class="list thome" id="tasks-table-body">
@@ -87,6 +88,9 @@
                   </div>
                 </div>
               </div>
+            </td>
+            <td>
+              <button class="btn btn-danger btn-sm" onclick="DeleteTask(this)">Delete</button>
             </td>
           </tr>
           <tr>
@@ -154,6 +158,9 @@
                 </div>
               </div>
             </td>
+            <td>
+              <button class="btn btn-danger btn-sm" onclick="DeleteTask(this)">Delete</button>
+            </td>
           </tr>
           <tr>
             <th scope="row" class="name">SBTI target <br />overhaul</th>
@@ -207,6 +214,9 @@
                 </div>
               </div>
             </td>
+            <td>
+              <button class="btn btn-danger btn-sm" onclick="DeleteTask(this)">Delete</button>
+            </td>
           </tr>
           <tr>
             <th scope="row" class="name">Review country <br />targets</th>
@@ -259,6 +269,9 @@
                   </div>
                 </div>
               </div>
+            </td>
+            <td>
+              <button class="btn btn-danger btn-sm" onclick="DeleteTask(this)">Delete</button>
             </td>
           </tr>
           <tr>
@@ -327,6 +340,9 @@
                 </div>
               </div>
             </td>
+            <td>
+              <button class="btn btn-danger btn-sm" onclick="DeleteTask(this)">Delete</button>
+            </td>
           </tr>
           <tr>
             <th scope="row" class="name">Finalise SASB <br />report</th>
@@ -380,9 +396,15 @@
                 </div>
               </div>
             </td>
+            <td>
+              <button class="btn btn-danger btn-sm" onclick="DeleteTask(this)">Delete</button>
+            </td>
           </tr>
         </tbody>
       </table>
+      <div id="empty-tasks-message" class="text-center mt-5">
+        <h3>No tasks to show...</h3>
+      </div>
     </div>
     </div>
  

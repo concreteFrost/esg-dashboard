@@ -18,6 +18,13 @@
   }
 }
 
+.locations-table .dataTables_filter{
+  position: relative;
+
+  top:63px;
+  
+}
+
 .dataTables_wrapper {
   @media screen and (max-width: 611px) {
     select,
