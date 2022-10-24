@@ -1,93 +1,195 @@
 <!DOCTYPE html>
 <html>
-  @@include('./_head.html', { "title": "Metrics - FSI Bank - esg:one",
-  "canonical": "https://app.esg-one.co/dashboard/reports/reports", "path": "..",
-  "path_common": "../.." })
-  <body>
-    <!-- Preloader -->
-    <!-- @@include('./_preloader.html', {
+@@include('./_head.html', { "title": "Metrics - FSI Bank - esg:one",
+"canonical": "https://app.esg-one.co/dashboard/reports/reports", "path": "..",
+"path_common": "../.." })
+
+<body>
+  <!-- Preloader -->
+  <!-- @@include('./_preloader.html', {
     "path": ".."
   }) -->
-    <!-- Tracking Code -->
-    @@include('./_tracking-body.html')
-    <!-- Navbar -->
-    @@include('./_nav-side.html', { "path": "..", "path_common": "../.." })
-    <!-- Main content -->
-    <div class="main-content" id="panel">
-      <!-- Topnav -->
+  <!-- Tracking Code -->
+  @@include('./_tracking-body.html')
+  <!-- Navbar -->
+  @@include('./_nav-side.html', { "path": "..", "path_common": "../.." })
+  <!-- Main content -->
+  <div class="main-content" id="panel">
+    <!-- Topnav -->
 
-      @@include('./_nav-top.html', { "path": ".." })
-      @@include('./_light-head.html', { "path": ".." })
+    @@include('./_nav-top.html', { "path": ".." })
+    @@include('./_light-head.html', { "path": ".." })
 
-      <!--Button Nav-->
-      <div class="container-fluid mt-2">
-        <div class="card card-large">
-          <!--Card Header-->
-          <section>
-            <div class="card-header border-bottom-0">
-              <div class="row">
-                <div class="col"><h2>Regional Breakdown</h2></div>
-                <div class="col">
-                  <button
-                    class="btn btn-sm btn-primary float-right"
-                    id="print-performance-btn"
-                  >
-                    Print
-                  </button>
-                </div>
+    <!--Button Nav-->
+    <div class="container-fluid mt-2">
+      <div class="card card-large">
+        <!--Card Header-->
+        <section>
+          <div class="card-header border-bottom-0">
+            <div class="row">
+              <div class="col">
+                <h2>Analytics</h2>
+              </div>
+              <div class="col">
+                <button class="btn btn-sm btn-primary float-right" id="print-performance-btn">
+                  Print
+                </button>
               </div>
             </div>
-          </section>
-          <!--Card Body-->
+          </div>
+        </section>
+        <!--Card Body-->
+
+        <div class="card-body" id="printableArea">
+          <!--Selectable Data-->
           <section>
-            <div class="card-body" id="printableArea">
-              <div class="row bg-secondary border-top border-bottom mb-4">
-                <div class="col-9">
-                  <h3>Percentage of new hires that identify as women</h3>
-                </div>
-                <div class="col-3">
-                  <h3 class="text-right">Human Capital</h3>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col">
-                  <h3 class="text-center">Regional Perfomance</h3>
-                  <div>
-                    <canvas
-                      id="regional-performance-bar"
-                      style="width: 100%; max-width: 800px; max-height: 250px"
-                    ></canvas>
-                  </div>
-                </div>
-                <div class="col">
-                  <canvas
-                    id="regional-performance-pie"
-                    style="max-width: 450px; margin: auto; display: block"
-                  ></canvas>
-                </div>
-              </div>
-              <div class="row border-top bg-secondary">
-                <div class="col">
-                  <canvas
-                    id="regional-performance-esg"
-                    style="width: 100%; max-height: 200px; max-width: 1200px"
-                  ></canvas>
-                </div>
-              </div>
+          <div class="row">
+
+            <!--Countries-->
+            <div class="col">
+              <label for="chartCountries">Countries</label>
+              <select name="chartCountries" id="chartCountries" class="form-control">
+                <option value="uk">UK</option>
+                <option value="united states">United States</option>
+                <option value="india">India</option>
+                <option value="china">China</option>
+              </select>
             </div>
-          </section>
+            <!--Business Unit-->
+            <div class="col">
+              <label for="chartUnit">Business Unit</label>
+              <select name="chartUnit" id="chartUnit" class="form-control">
+                <option value="finance">Finance</option>
+                <option value="hr">HR</option>
+                <option value="it">IT</option>
+                <option value="legal">Legal</option>
+                <option value="production">Production</option>
+                <option value="site operations">Site Operations</option>
+              </select>
+            </div>
+            <!--Office-->
+            <div class="col">
+              <label for="chartOffice">Office</label>
+              <select name="chartOffice" id="chartOffice" class="form-control">
+                <option value="china">China</option>
+                <option value="head office">Head Office</option>
+                <option value="india">India</option>
+                <option value="uk">UK</option>
+                <option value="us">US</option>
+              </select>
+            </div>
+            <!--Company-->
+            <div class="col">
+              <label for="chartCompany">Company</label>
+              <select name="chartCompany" id="chartCompany" class="form-control">
+                <option value="esg demo company">ESG</option>
+              </select>
+            </div>
+          </div>
+          <div class="row">
+            <!--Value Chain-->
+            <div class="col">
+              <label for="chartValueChain">Value Chain</label>
+              <select name="chartValueChain" id="chartValueChain" class="form-control">
+                <option value="all">All</option>
+              </select>
+            </div>
+            <!--Years-->
+            <div class="col">
+              <label for="chartYears">Years</label>
+              <select name="chartYears" id="chartYears" class="form-control">
+                <option value="2018">2018</option>
+                <option value="2019">2019</option>
+                <option value="2020">2020</option>
+                <option value="2021">2021</option>
+                <option value="2022">2022</option>
+              </select>
+            </div>
+            <!--Standard-->
+            <div class="col">
+              <label for="chartStandard">Standard</label>
+              <select name="chartStandard" id="chartStandard" class="form-control">
+                <option value="all">All</option>
+              </select>
+            </div>
+            <!--Disclosed-->
+            <div class="col">
+              <label for="chartDisclosed">Disclosed</label>
+              <select name="chartDisclosed" id="chartDisclosed" class="form-control">
+                <option value="all">All</option>
+              </select>
+            </div>
+          </div>
+          <div class="row">
+            <!--Importance-->
+            <div class="col">
+              <label for="chartImportance">Importance</label>
+              <select name="chartImportance" id="chartImportance" class="form-control">
+                <option value="all">All</option>
+                <option value="important to investors">Important to investors</option>
+                <option value="required by law">Required by law</option>
+                <option value="required by regulator">Required by regulator</option>
+                <option value="critical to operation">Critical to operation</option>
+                <option value="important to operation">Important to operation</option>
+                <option value="general control">General control</option>
+                <option value="key performance indicator">Key performance indicator</option>
+                <option value="key">Key</option>
+                <option value="non-key">Non-key</option>
+              </select>
+            </div>
+            <!--Target Variance-->
+            <div class="col">
+              <label for="chartTarget">Target Variance</label>
+              <select name="chartTarget" id="chartTarget" class="form-control">
+                <option value="all">All</option>
+              </select>
+            </div>
+            <!--Materiality-->
+            <div class="col">
+              <label for="chartMateriality">Materiality</label>
+              <select name="chartMateriality" id="chartMateriality" class="form-control">
+                <option value="all">All</option>
+              </select>
+            </div>
+            <!--Benchmark-->
+            <div class="col">
+              <label for="chartBenchmark">Benchmark Variance</label>
+              <select name="chartBenchmark" id="chartBenchmark" class="form-control">
+                <option value="all">All</option>
+              </select>
+            </div>
+          </div>
+        </section>
+
+          <!--Chart Type-->
+          <div class="row mt-2">
+            <div class="col-2">
+              <label for="chartType">Chart</label>
+              <select name="chartType" id="chartType" class="form-control">
+                <option value="line">Line</option>
+                <option value="bar">Bar</option>
+                <option value="radar">Radar</option>
+                <option value="polarArea">Polar Area</option>
+                <option value="doughnut">Doughnut</option>
+              </select>
+            </div>
+          </div>
+          <!--Chart-->
+          <div class="row mt-3">
+            <div class="col">
+              <h3>Total Metrics Over Time</h3>
+              <canvas id="regional-performance-bar" style="width: 100%; max-width: 1400px; max-height: 500px"></canvas>
+            </div>
+          </div>
         </div>
+        @@include('./_scripts.html', { "path": "..", "path_common": "../.." })
+        @@include('./_scripts-d3.html', { "path": "..", "path_common": "../.." })
+        <footer class="footer pt-0">@@include('./_footer.html')</footer>
       </div>
-      @@include('./_scripts.html', { "path": "..", "path_common": "../.." })
-      @@include('./_scripts-d3.html', { "path": "..", "path_common": "../.." })
-      <footer class="footer pt-0">@@include('./_footer.html')</footer>
-    </div>
-    <script src="/dashboard/assets/js/automated/printThis.min.js"></script>
-    <script
-      type="module"
-      src="/dashboard/assets/js/print-regional-breakdown.min.js"
-    ></script>
-    <script src="/dashboard/assets/js/charts/chart-reports.min.js"></script>
-    <script src="/dashboard/assets/js/nav-side-active.min.js"></script>
-  </body>
+      <script src="/dashboard/assets/js/automated/printThis.min.js"></script>
+      <script type="module" src="/dashboard/assets/js/print-regional-breakdown.min.js"></script>
+      <script src="/dashboard/assets/js/charts/chart-reports.min.js"></script>
+      <script src="/dashboard/assets/js/nav-side-active.min.js"></script>
+</body>
+
 </html>

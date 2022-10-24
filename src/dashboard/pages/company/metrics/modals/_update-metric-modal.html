@@ -37,85 +37,90 @@
           </div>
           <div class="row mt-2">
             <!--Company Name-->
-            <label for="update-metric-company" class="form-label">Company Name</label>
-            <select class="form-select" name="update-metric-company" id="update-metric-company">
-              <option value="ESG Demo Company">ESG Demo Company</option>
-
-            </select>
+            <div class="col"> <label for="update-metric-company" class="form-label">Company Name</label>
+              <select class="form-control" name="update-metric-company" id="update-metric-company">
+                <option value="ESG Demo Company">ESG Demo Company</option>
+              </select>
+            </div>
 
             <!--Type-->
-
-            <label for="update-metric-type" class="form-label">Type</label>
-            <select class="form-select" name="update-metric-type" id="update-metric-type">
-              <option value="Benchmark">Benchmark</option>
-              <option value="Environmental">Environmental</option>
-              <option value="Governance">Governance</option>
-              <option value="Social">Social</option>
-            </select>
-
-            <!--Office-->
-
-            <label for="update-metric-office" class="form-label">Office</label>
-            <select class="form-select" name="update-metric-office" id="update-metric-office">
-              <option value="China">China</option>
-              <option value="Head office">Head office</option>
-              <option value="India">India</option>
-              <option value="UK">UK</option>
-              <option value="US">US</option>
-            </select>
-
-            <!--Business Unit-->
-
-            <label for="update-metric-unit" class="form-label">Business Unit</label>
-            <select class="form-select" name="update-metric-unit" id="update-metric-unit">
-              <option value="Finance">Finance</option>
-              <option value="HR">HR</option>
-              <option value="IT">IT</option>
-              <option value="Legal">Legal</option>
-              <option value="Production">Production</option>
-              <option value="Site Operations">Site Operations</option>
-            </select>
+            <div class="col">
+              <label for="update-metric-type" class="form-label">Type</label>
+              <select class="form-control" name="update-metric-type" id="update-metric-type">
+                <option value="Benchmark">Benchmark</option>
+                <option value="Environmental">Environmental</option>
+                <option value="Governance">Governance</option>
+                <option value="Social">Social</option>
+              </select>
             </div>
+            <!--Office-->
+            <div class="col">
+              <label for="update-metric-office" class="form-label">Office</label>
+              <select class="form-control" name="update-metric-office" id="update-metric-office">
+                <option value="China">China</option>
+                <option value="Head office">Head office</option>
+                <option value="India">India</option>
+                <option value="UK">UK</option>
+                <option value="US">US</option>
+              </select>
+            </div>
+          </div>
+          <div class="row mt-2">
+
+            <div class="col">
+              <label for="update-metric-unit" class="form-label">Business Unit</label>
+              <select class="form-control" name="update-metric-unit" id="update-metric-unit">
+                <option value="Finance">Finance</option>
+                <option value="HR">HR</option>
+                <option value="IT">IT</option>
+                <option value="Legal">Legal</option>
+                <option value="Production">Production</option>
+                <option value="Site Operations">Site Operations</option>
+              </select>
+            </div>
+
             <!--Category-->
 
-            <div class="row mt-2">
-            <label for="update-metric-category" class="form-label">Category</label>
-            <select class="form-select" name="update-metric-category" id="update-metric-category">
-              <option value="Business Model & Innovation">
-                Business Model & Innovation
-              </option>
-              <option value="Environment">Environment</option>
-              <option value="Human Capital">Human Capital</option>
-              <option value="Leadership and Governance">
-                Leadership and Governance
-              </option>
-              <option value="Social Capital">Social Capital</option>
-              <option value="Supply Chain">Supply Chain</option>
-            </select>
-
+            <div class="col">
+              <label for="update-metric-category" class="form-label">Category</label>
+              <select class="form-control" name="update-metric-category" id="update-metric-category">
+                <option value="Business Model & Innovation">
+                  Business Model & Innovation
+                </option>
+                <option value="Environment">Environment</option>
+                <option value="Human Capital">Human Capital</option>
+                <option value="Leadership and Governance">
+                  Leadership and Governance
+                </option>
+                <option value="Social Capital">Social Capital</option>
+                <option value="Supply Chain">Supply Chain</option>
+              </select>
+            </div>
             <!--Importance-->
+            <div class="col">
+              <label for="update-metric-importance" class="form-label">Importance</label>
+              <select class="form-control" name="update-metric-importance" id="update-metric-importance">
+                <option value="Important to investors">
+                  Important to investors
+                </option>
+                <option value="Required by Law">Required by Law</option>
+                <option value="Required by regulator">Required by regulator</option>
+                <option value="Critical to Operation">
+                  Critical to Operation
+                </option>
+                <option value="Important to Operation">Important to Operation</option>
+                <option value="General Control">General Control</option>
+                <option value="Key Performance Indicator">Key Performance Indicator</option>
+                <option value="Key">Key</option>
+                <option value="Non-Key">Non-Key</option>
+              </select>
+            </div>
 
-            <label for="update-metric-importance" class="form-label">Importance</label>
-            <select class="form-select" name="update-metric-importance" id="update-metric-importance">
-              <option value="Important to investors">
-                Important to investors
-              </option>
-              <option value="Required by Law">Required by Law</option>
-              <option value="Required by regulator">Required by regulator</option>
-              <option value="Critical to Operation">
-                Critical to Operation
-              </option>
-              <option value="Important to Operation">Important to Operation</option>
-              <option value="General Control">General Control</option>
-              <option value="Key Performance Indicator">Key Performance Indicator</option>
-              <option value="Key">Key</option>
-              <option value="Non-Key">Non-Key</option>
-            </select>
+          </div>
+          <!--Limit Type-->
 
-            <!--Limit Type-->
-
-            <!-- <label for="update-metric-limit" class="form-label">Limit Type</label>
-            <select class="form-select" name="update-metric-limit" id="update-metric-limit">
+          <!-- <label for="update-metric-limit" class="form-label">Limit Type</label>
+            <select class="form-control" name="update-metric-limit" id="update-metric-limit">
               <option value="%">
                 %
               </option>
@@ -126,44 +131,48 @@
             </select> -->
 
 
-          </div>
           <div class="row mt-2">
             <!--Current Value-->
-            <div class="form-group">
+            <div class="col">
               <label for="update-metric-current-value">Current Value</label>
-              <input type="number" name="update-metric-current-value" id="update-metric-current-value" />
+              <input type="number" name="update-metric-current-value" id="update-metric-current-value"
+                class="form-control" />
             </div>
             <!--Upper Value-->
-            <div class="form-group">
+            <div class="col">
               <label for="update-metric-upper-limit">Upper Limit</label>
-              <input type="number" name="update-metric-upper-limit" id="update-metric-upper-limit" />
+              <input type="number" name="update-metric-upper-limit" id="update-metric-upper-limit"
+                class="form-control" />
             </div>
             <!--Lower Value-->
-            <div class="form-group">
+            <div class="col">
               <label for="update-metric-lower-limit">Lower Limit</label>
-              <input type="number" name="update-metric-lower-limit" id="update-metric-lower-limit" />
+              <input type="number" name="update-metric-lower-limit" id="update-metric-lower-limit"
+                class="form-control" />
             </div>
             <!--Target Value-->
-            <div class="form-group">
+            <div class="col">
               <label for="update-metric-target">Target Limit</label>
-              <input type="number" name="update-metric-target" id="update-metric-target" />
+              <input type="number" name="update-metric-target" id="update-metric-target" class="form-control" />
             </div>
             <!--Industry Benchmark-->
-            <div class="form-group">
+            <div class="col">
               <label for="update-industry-benchmark">Industry Benchmark</label>
-              <input type="number" name="update-industry-benchmark" id="update-industry-benchmark" />
+              <input type="number" name="update-industry-benchmark" id="update-industry-benchmark"
+                class="form-control" />
             </div>
           </div>
 
           <div class="row mt-2">
+            <!--Last Review Date-->
             <div class="col">
               <label for="update-metric-last-review-data">Last Review Date</label>
-              <input type="date" name="update-metric-last-review-data" id="update-metric-last-review-data" />
+              <input type="date" name="update-metric-last-review-data" id="update-metric-last-review-data" class="form-control" />
             </div>
-
+            <!--Next Review Date-->
             <div class="col">
               <label for="update-metric-next-review-data">Next Review Date</label>
-              <input type="date" name="update-metric-next-review-data" id="update-metric-next-review-data" />
+              <input type="date" name="update-metric-next-review-data" id="update-metric-next-review-data" class="form-control" />
             </div>
           </div>
         </form>
