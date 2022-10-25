@@ -19,11 +19,10 @@
       <!-- Page content -->
       <div class="container-fluid">
         @@include('../pages/company/risk-overview/_button-nav.html')
-        <!--Risk Summary-->
-        @@include('../pages/company/risk-overview/_summary.html')
-        @@include('../pages/company/risk-overview/_overview.html')
 
-        <!--Risk Controls-->
+        @@include('../pages/company/risk-overview/_overview.html')
+        @@include('../pages/analytics/components/_risks-analytics.html')
+        @@include('../pages/company/risk-overview/_registry.html')
         @@include('../pages/company/risk-overview/_controls.html')
         @@include('../pages/company/risk-overview/modals/_modal-control.html')
         <!-- Risk Items Table -->
@@ -52,4 +51,5 @@
   <!--Charts-->
   <script src="/dashboard/assets/js/charts/chart-risk-comparison.min.js"></script>
   <script src="/dashboard/assets/js/charts/chart-risk-concentration.min.js"></script>
+  <script src="/dashboard/assets/js/charts/analytics/chart-analytics-risks.min.js"></script>
 </html>

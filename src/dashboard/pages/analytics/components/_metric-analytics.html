@@ -1,0 +1,154 @@
+<div class="card card-large" id="analytics-metrics">
+    <!--Card Header-->
+    <section>
+      <div class="card-header border-bottom-0">
+        <div class="row">
+          <div class="col">
+            <h2>Analytics</h2>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Card Body-->
+
+    <div class="card-body" id="printableArea">
+      <!--Selectable Data-->
+      <section>
+      <div class="row">
+
+        <!--Countries-->
+        <div class="col">
+          <label for="metrics-countries-select">Countries</label>
+          <select name="metrics-countries-select" id="metrics-countries-select" class="form-control">
+            <option value="uk">UK</option>
+            <option value="united states">United States</option>
+            <option value="india">India</option>
+            <option value="china">China</option>
+          </select>
+        </div>
+        <!--Business Unit-->
+        <div class="col">
+          <label for="metrics-unit-select">Business Unit</label>
+          <select name="metrics-unit-select" id="metrics-unit-select" class="form-control">
+            <option value="finance">Finance</option>
+            <option value="hr">HR</option>
+            <option value="it">IT</option>
+            <option value="legal">Legal</option>
+            <option value="production">Production</option>
+            <option value="site operations">Site Operations</option>
+          </select>
+        </div>
+        <!--Office-->
+        <div class="col">
+          <label for="metrics-office-select">Office</label>
+          <select name="metrics-office-select" id="metrics-office-select" class="form-control">
+            <option value="china">China</option>
+            <option value="head office">Head Office</option>
+            <option value="india">India</option>
+            <option value="uk">UK</option>
+            <option value="us">US</option>
+          </select>
+        </div>
+        <!--Company-->
+        <div class="col">
+          <label for="metrics-company-select">Company</label>
+          <select name="metrics-company-select" id="metrics-company-select" class="form-control">
+            <option value="esg demo company">ESG</option>
+          </select>
+        </div>
+      </div>
+      <div class="row">
+        <!--Value Chain-->
+        <div class="col">
+          <label for="metrics-value-select">Value Chain</label>
+          <select name="metrics-value-select" id="metrics-value-select" class="form-control">
+            <option value="all">All</option>
+          </select>
+        </div>
+        <!--Years-->
+        <div class="col">
+          <label for="metrics-years-select">Years</label>
+          <select name="metrics-years-select" id="metrics-years-select" class="form-control">
+            <option value="2018">2018</option>
+            <option value="2019">2019</option>
+            <option value="2020">2020</option>
+            <option value="2021">2021</option>
+            <option value="2022">2022</option>
+          </select>
+        </div>
+        <!--Standard-->
+        <div class="col">
+          <label for="metrics-standard-select">Standard</label>
+          <select name="metrics-standard-select" id="metrics-standard-select" class="form-control">
+            <option value="all">All</option>
+          </select>
+        </div>
+        <!--Disclosed-->
+        <div class="col">
+          <label for="metrics-disclosed-select">Disclosed</label>
+          <select name="metrics-disclosed-select" id="metrics-disclosed-select" class="form-control">
+            <option value="all">All</option>
+          </select>
+        </div>
+      </div>
+      <div class="row">
+        <!--Importance-->
+        <div class="col">
+          <label for="metrics-importance-select">Importance</label>
+          <select name="metrics-importance-select" id="metrics-importance-select" class="form-control">
+            <option value="all">All</option>
+            <option value="important to investors">Important to investors</option>
+            <option value="required by law">Required by law</option>
+            <option value="required by regulator">Required by regulator</option>
+            <option value="critical to operation">Critical to operation</option>
+            <option value="important to operation">Important to operation</option>
+            <option value="general control">General control</option>
+            <option value="key performance indicator">Key performance indicator</option>
+            <option value="key">Key</option>
+            <option value="non-key">Non-key</option>
+          </select>
+        </div>
+        <!--Target Variance-->
+        <div class="col">
+          <label for="metrics-target-select">Target Variance</label>
+          <select name="metrics-target-select" id="metrics-target-select" class="form-control">
+            <option value="all">All</option>
+          </select>
+        </div>
+        <!--Materiality-->
+        <div class="col">
+          <label for="metrics-materiality-select">Materiality</label>
+          <select name="metrics-materiality-select" id="metrics-materiality-select" class="form-control">
+            <option value="all">All</option>
+          </select>
+        </div>
+        <!--Benchmark-->
+        <div class="col">
+          <label for="metrics-benchmark-select">Benchmark Variance</label>
+          <select name="metrics-benchmark-select" id="metrics-benchmark-select" class="form-control">
+            <option value="all">All</option>
+          </select>
+        </div>
+      </div>
+    </section>
+      <!--Chart Type-->
+      <div class="row mt-2">
+        <div class="col-2">
+          <label for="metrics-chart-type-select">Chart</label>
+          <select name="metrics-chart-type-select" id="metrics-chart-type-select" class="form-control">
+            <option value="line">Line</option>
+            <option value="bar">Bar</option>
+            <option value="doughnut">Doughnut</option>
+          </select>
+        </div>
+      </div>
+      <!--Chart-->
+      <div class="row mt-3">
+        <div class="col">
+          <h3>Total Metrics Over Time</h3>
+          <canvas id="analytics-metrics-chart" style="width: 100%; max-width: 1400px; max-height: 500px"></canvas>
+        </div>
+      </div>
+    </div>
+
+  </div>

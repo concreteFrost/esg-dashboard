@@ -1,0 +1,150 @@
+<div class="card card-large" id="analytics-risks">
+    <!--Card Header-->
+    <section>
+      <div class="card-header border-bottom-0">
+        <div class="row">
+          <div class="col">
+            <h2>Analytics</h2>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Card Body-->
+
+    <div class="card-body">
+      <!--Selectable Data-->
+      <section>
+      <div class="row">
+        <!--Countries-->
+        <div class="col">
+          <label for="risks-countries-select">Countries</label>
+          <select name="risks-countries-select" id="risks-countries-select" class="form-control">
+            <option value="uk">UK</option>
+            <option value="united states">United States</option>
+            <option value="india">India</option>
+            <option value="china">China</option>
+          </select>
+        </div>
+        <!--Business Unit-->
+        <div class="col">
+          <label for="risks-unit-select">Business Unit</label>
+          <select name="risks-unit-select" id="risks-unit-select" class="form-control">
+            <option value="finance">Finance</option>
+            <option value="hr">HR</option>
+            <option value="it">IT</option>
+            <option value="legal">Legal</option>
+            <option value="production">Production</option>
+            <option value="site operations">Site Operations</option>
+          </select>
+        </div>
+        <!--Office-->
+        <div class="col">
+          <label for="risks-office-select">Office</label>
+          <select name="risks-office-select" id="risks-office-select" class="form-control">
+            <option value="china">China</option>
+            <option value="head office">Head Office</option>
+            <option value="india">India</option>
+            <option value="uk">UK</option>
+            <option value="us">US</option>
+          </select>
+        </div>
+        <!--Company-->
+        <div class="col">
+          <label for="risks-company-select">Company</label>
+          <select name="risks-company-select" id="risks-company-select" class="form-control">
+            <option value="esg demo company">ESG</option>
+          </select>
+        </div>
+      </div>
+      <div class="row">
+        <!--Value Chain-->
+        <div class="col">
+          <label for="risks-value-select">Value Chain</label>
+          <select name="risks-value-select" id="risks-value-select" class="form-control">
+            <option value="all">All</option>
+          </select>
+        </div>
+        <!--Years-->
+        <div class="col">
+          <label for="risks-years-select">Years</label>
+          <select name="risks-years-select" id="risks-years-select" class="form-control">
+            <option value="2018">2018</option>
+            <option value="2019">2019</option>
+            <option value="2020">2020</option>
+            <option value="2021">2021</option>
+            <option value="2022">2022</option>
+          </select>
+        </div>
+        <!--Score-->
+        <div class="col">
+          <label for="risks-score-select">Risk Score</label>
+          <select name="risks-score-select" id="risks-score-select" class="form-control">
+            <option value="all">All</option>
+          </select>
+        </div>
+        <!--Category-->
+        <div class="col">
+          <label for="risks-category-select">Category</label>
+          <select name="risks-category-select" id="risks-category-select" class="form-control">
+            <option value="all">All</option>
+          </select>
+        </div>
+      </div>
+      <div class="row">
+        <!--Sub-category-->
+        <div class="col">
+          <label for="risks-sub-category-select">Sub-Category</label>
+          <select name="risks-sub-category-select" id="risks-sub-category-select" class="form-control">
+            <option value="all">All</option>
+          </select>
+        </div>
+        <!--Exposure-->
+        <div class="col">
+          <label for="risks-exposure-select">Exposure</label>
+          <select name="risks-exposure-select" id="risks-exposure-select" class="form-control">
+            <option value="all">All</option>
+          </select>
+        </div>
+        <!--Impact-->
+        <div class="col">
+          <label for="risks-impact-select">Impact Type</label>
+          <select name="risks-impact-select" id="risks-impact-select" class="form-control">
+            <option value="all">All</option>
+          </select>
+        </div>
+        <!--Esg-->
+        <div class="col">
+          <label for="risks-esg-select">ESG Type</label>
+          <select name="risks-esg-select" id="risks-esg-select" class="form-control">
+            <option value="all">All</option>
+          </select>
+        </div>
+        <!--Controlled-->
+        <div class="col">
+            <label for="risks-controlled-select">Controlled</label>
+            <select name="risks-controlled-select" id="risks-controlled-select" class="form-control">
+              <option value="all">All</option>
+            </select>
+          </div>
+      </div>
+    </section>
+      <!--Chart Type-->
+      <div class="row mt-2">
+        <div class="col-2">
+          <label for="risks-chart-type-select">Chart</label>
+          <select name="risks-chart-type-select" id="risks-chart-type-select" class="form-control">
+            <option value="line">Line</option>
+            <option value="bar">Bar</option>
+            <option value="doughnut">Doughnut</option>
+          </select>
+        </div>
+      </div>
+      <!--Chart-->
+      <div class="row mt-3">
+        <div class="col">
+          <h3>Total Risks Score Over Time</h3>
+          <canvas id="analytics-risks-chart" style="width: 100%; max-width: 1400px; max-height: 500px"></canvas>
+        </div>
+      </div>
+    </div>
+  </div>
