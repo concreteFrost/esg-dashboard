@@ -1,27 +1,52 @@
 
-<div class="card card-large">
+<div class="card card-large" id="individual-risk-overview">
   <!-- Card header -->
   <div class="card-header">
     <div class="row">
       <div class="col"><h3 class="mb-0">Risk Overview</h3></div>
-      <div class="col">
-        <button
-          class="float-right btn btn-primary btn-sm"
-          onclick="$('#printable').printThis()"
-        >
-          Print
-        </button>
-      </div>
+    
     </div>
   </div>
   <!-- Card Body-->
-  <div class="card-body" id="printable">
+  <div class="card-body" >
     <!--Spinner-->
     <div class="api-loader"></div>
     <!--Risk Title and Office-->
     <div class="row">
-      <div class="col"><h4 id="risk-name"></h4></div>
-      <div class="col text-right"><h3 id="risk-office"></h3></div>
+      <div class="col"><h4 class="risk-name"></h4></div>
+        <div class="col text-right"><h3 class="risk-office"></h3></div>
+    </div>
+    <!--Table-->
+    <div class="row">
+      <div class="col">
+        <div class="table-responsive">
+          <table class="table">
+            <thead>
+              <tr>
+                <th>RISK SCORE</th>
+                <th>TARGET</th>
+                <th>FINAL FINANCIAL EXPOSURE</th>
+                <th>WITHIN APPETITE</th>
+                <th>PROXIMITY</th>
+                <th>BUSINESS TREND</th>
+                <th>RISK PRIORITY</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td id="individual-risk-score" class="text-danger"></td>
+                <td id="individual-risk-target" class="text-danger"></td>
+                <td id="individual-risk-exposure"></td>
+                <td id="individual-risk-appetite" class="text-danger"></td>
+                <td id="individual-risk-proximity" class="text-danger"></td>
+                <td id="individual-risk-business-trend" class="text-danger"></td>
+                <td id="individual-risk-priority">1</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        
+      </div>
     </div>
 
     <!--Description-->
@@ -52,45 +77,9 @@
     <div class="row">
       <div class="col">
         <h4>Consequence:</h4>
-        <p id="risk-consequence"></p>
+        <p class="risk-consequence"></p>
       </div>
     </div>
-    <!--Table-->
-    <div class="table-responsive">
-      <table class="table">
-        <tr class="text-center">
-          <th colspan="3" class="bg-secondary">Current Score:</th>
-        </tr>
-        <tr>
-          <td>Impact: <span id="current-impact-score"></span></td>
-          <td>Likelihood: <span id="current-likelihood-score"></span></td>
-          <td>Target: <span id="current-score"></span></td>
-        </tr>
-      </table>
-
-      <table class="table">
-        <tr class="text-center">
-          <th colspan="3" class="bg-secondary">Target Score:</th>
-        </tr>
-        <tr>
-          <td>Impact: <span id="target-impact-score"></span></td>
-          <td>Likelihood: <span id="target-likelihood-score"></span></td>
-          <td>Target: <span id="target-target-score"></span></td>
-        </tr>
-      </table>
-
-      <table class="table">
-        <tr class="text-center">
-          <th colspan="3" class="bg-secondary">Previous Score:</th>
-        </tr>
-        <tr>
-          <td>Impact: <span id="previous-impact-score"></span></td>
-          <td>Likelihood: <span id="previous-likelihood-score"></span></td>
-          <td>Target: <span id="previous-target-score"></span></td>
-        </tr>
-      </table>
-    </div>
-
     <!--Owner-->
     <div class="row">
       <div class="col">

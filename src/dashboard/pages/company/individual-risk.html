@@ -19,8 +19,11 @@
       @@include('./_nav-top.html', { "path": ".." })
       @@include('./_light-head.html', { "path": ".." })
       <div class="container-fluid mt-2">
+        @@include('../pages/company/individual-risk/_button-nav.html')
         @@include('../pages/company/individual-risk/_overview.html')
-        
+        @@include('../pages/company/individual-risk/_scoring.html')
+        @@include('../pages/company/individual-risk/_impacts.html')
+        @@include('../pages/company/individual-risk/_planning.html')    
       </div>
       @@include('./_scripts.html', { "path": "..", "path_common": "../.." })
       @@include('./_scripts-d3.html', { "path": "..", "path_common": "../.." })
@@ -28,6 +31,7 @@
     </div>
 
     <script src="/dashboard/assets/js/nav-actions/individual-risk-on-load.min.js"></script>
+    <script type="module" src="/dashboard/assets/js/button-nav-individual-risk.min.js"></script>
     <script src="/dashboard/assets/js/nav-side-active.min.js"></script>
     <script src="/dashboard/assets/js/api/getToken.min.js"></script>
     <script src="/dashboard/assets/js/api/individual-risk-api.min.js"></script>

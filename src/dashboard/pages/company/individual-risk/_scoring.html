@@ -1,0 +1,103 @@
+<div class="card card-large" id="individual-risk-scoring">
+  <!-- Card header -->
+  <div class="card-header">
+    <div class="row">
+      <div class="col">
+        <h3 class="mb-0">Risk Overview</h3>
+      </div>
+    </div>
+  </div>
+  <!-- Card Body-->
+  <div class="card-body" id="printable">
+    <!--Spinner-->
+    <div class="api-loader"></div>
+    <!--Risk Title and Office-->
+    <section>
+      <div class="row">
+        <div class="col">
+          <h4 class="risk-name"></h4>
+        </div>
+        <div class="col text-right">
+          <h3 class="risk-office"></h3>
+        </div>
+      </div>
+    </section>
+    <!--Scoring Tittle and Table-->
+    <section>
+      <!--Scoring Title-->
+      <div class="row border-top border-bottom bg-secondary">
+        <div class="col">
+          <h3>SCORING</h3>
+        </div>
+      </div>
+      <!--Scoring Table-->
+      <div class="row mt-2">
+        <div class="col">
+          <h3>PRE-METIGATION SCORE</h3>
+          <h2 id="scoring-pre-metigation-calc">5 X 4 = 20</h2>
+        </div>
+        <div class="col">
+          <h3>CURRENT SCORE</h3>
+          <h2 id="scoring-current-score-calc">5 X 4 = 20</h2>
+        </div>
+        <div class="col">
+          <h3>TARGET SCORE</h3>
+          <h2 id="scoring-target-score-calc">3 X 4 = 12</h2>
+        </div>
+        <div class="col">
+          <h3>TARGET VARIANCE</h3>
+          <h2>12</h2>
+        </div>
+        <div class="col">
+          <h3>APPETITE</h3>
+          <p id="scoring-appetite"></p>
+        </div>
+      </div>
+    </section>
+    <!--Scoring Rationale and Appetite-->
+    <section>
+      <div class="row mt-2">
+        <div class="col">
+          <h3>SCORING RATIONALE</h3>
+          <p>-------------</p>
+        </div>
+        <div class="col">
+          <h3>SCORING APPETITE</h3>
+          <p>-------------</p>
+        </div>
+      </div>
+    </section>
+    <!--Financial Exposure-->
+    <section>
+      <!--Scoring Title-->
+      <div class="row border-top border-bottom bg-secondary mt-2">
+        <div class="col">
+          <h3>FINANCIAL EXPOSURE</h3>
+        </div>
+      </div>
+      <!--Scoring Table-->
+      <div class="row mt-2">
+        <div class="col">
+          <h3>FULL EXPOSURE</h3>
+          <p>£1.000.000</p>
+        </div>
+        <div class="col">
+          <h3>%STILL EXPOSES</h3>
+          <p>%70</p>
+        </div>
+        <div class="col">
+          <h3>NET EXPOSURE</h3>
+          <p>£700.000</p>
+        </div>
+        <div class="col">
+          <h3>PROBABILITY OF LOSS</h3>
+          <p>50%</p>
+        </div>
+        <div class="col">
+          <h3>FINAL EXPOSURE</h3>
+          <p>£350.000</p>
+        </div>
+      </div>
+    </section>
+  </div>
+</div>
