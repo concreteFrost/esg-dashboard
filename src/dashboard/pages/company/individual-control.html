@@ -19,13 +19,17 @@
       @@include('./_nav-top.html', { "path": ".." })
       @@include('./_light-head.html', { "path": ".." })
       <div class="container-fluid mt-2">
-        @@include('../pages/company/individual-control/_container.html')
+        @@include('../pages/company/individual-control/_button-nav.html')
+        @@include('../pages/company/individual-control/_overview.html')
+        @@include('../pages/company/individual-control/_testing-and-effectiveness.html')
+        @@include('../pages/company/individual-control/_implementation.html')       
       </div>
       @@include('./_scripts.html', { "path": "..", "path_common": "../.." })
       @@include('./_scripts-d3.html', { "path": "..", "path_common": "../.." })
       <footer class="footer pt-0">@@include('./_footer.html')</footer>
     </div>
 
+    <script type="module" src="/dashboard/assets/js/button-nav-individual-control.min.js"></script>
     <script src="/dashboard/assets/js/nav-actions/individual-control-on-load.min.js"></script>
     <script src="/dashboard/assets/js/nav-side-active.min.js"></script>
     <script src="/dashboard/assets/js/api/getToken.min.js"></script>
