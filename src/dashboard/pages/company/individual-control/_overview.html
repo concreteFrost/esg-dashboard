@@ -16,7 +16,7 @@
     <!--Linked Risks-->
     <div class="row">
       <div class="col">
-        <h3>Linked Risks: <span id="control-linked-risks"></span></h3>
+        <h4>Linked Risks: <span id="control-linked-risks"></span></h4>
       </div>
     </div>
     <!--Table-->
@@ -36,12 +36,21 @@
             </thead>
             <tbody>
               <tr>
-                <td id="control-effectiveness"></td>
-                <td id="control-importance"></td>
-                <td id="control-last-audit-reference"></td>
-                <td id="control-cost-of-control">-</td>
-                <td id="control-savings">-</td>
-                <td id="control-implementation-status">-</td>
+                <td>
+                  <span id="control-effectiveness" class="text-success"></span>
+                </td>
+                <td>
+                  <span id="control-importance" class="text-danger"></span>
+                </td>
+                <td>
+                  <span
+                    id="control-last-audit-reference"
+                    class="text-success"
+                  ></span>
+                </td>
+                <td><span id="control-cost-of-control"></span></td>
+                <td><span id="control-savings"></span></td>
+                <td><span id="control-implementation-status"></span></td>
               </tr>
             </tbody>
           </table>
@@ -56,8 +65,6 @@
     </div>
     <!--Category and Subcategory-->
     <div class="row">
-
-
       <div class="col">
         <h5>Category: <span id="control-category"></span></h5>
       </div>
@@ -81,7 +88,7 @@
       </div>
     </div>
     <!--Owner Name-->
-    <div class="row">
+    <div class="row mt-5">
       <div class="col">
         <h5>Owner Name: <span class="control-owner-name"></span></h5>
       </div>

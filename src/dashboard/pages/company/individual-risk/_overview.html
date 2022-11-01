@@ -1,20 +1,18 @@
-
 <div class="card card-large" id="individual-risk-overview">
   <!-- Card header -->
   <div class="card-header">
     <div class="row">
       <div class="col"><h3 class="mb-0">Risk Overview</h3></div>
-    
     </div>
   </div>
   <!-- Card Body-->
-  <div class="card-body" >
+  <div class="card-body">
     <!--Spinner-->
     <div class="api-loader"></div>
     <!--Risk Title and Office-->
     <div class="row">
       <div class="col"><h4 class="risk-name"></h4></div>
-        <div class="col text-right"><h3 class="risk-office"></h3></div>
+      <div class="col text-right"><h3 class="risk-office"></h3></div>
     </div>
     <!--Table-->
     <div class="row">
@@ -34,31 +32,43 @@
             </thead>
             <tbody>
               <tr>
-                <td id="individual-risk-score" class="text-danger"></td>
-                <td id="individual-risk-target" class="text-danger"></td>
-                <td id="individual-risk-exposure"></td>
-                <td id="individual-risk-appetite" class="text-danger"></td>
-                <td id="individual-risk-proximity" class="text-danger"></td>
-                <td id="individual-risk-business-trend" class="text-danger"></td>
-                <td id="individual-risk-priority">1</td>
+                <td>
+                  <h3 id="individual-risk-score" class="text-danger"></h3>
+                </td>
+                <td>
+                  <h3 id="individual-risk-target" class="text-danger"></h3>
+                </td>
+                <td><h3 id="individual-risk-exposure"></h3></td>
+                <td>
+                  <h3 id="individual-risk-appetite" class="text-danger"></h3>
+                </td>
+                <td>
+                  <h3 id="individual-risk-proximity" class="text-danger"></h3>
+                </td>
+                <td>
+                  <h3
+                    id="individual-risk-business-trend"
+                    class="text-danger"
+                  ></h3>
+                </td>
+                <td><h3 id="individual-risk-priority">1</h3></td>
               </tr>
             </tbody>
           </table>
         </div>
-        
       </div>
     </div>
 
     <!--Description-->
     <div class="row">
       <div class="col">
-        <h5>Description: <br><span id="risk-description"></span></h5>
+        <h5>Description: <br /><span id="risk-description"></span></h5>
       </div>
     </div>
     <!--Business Unit-->
     <div class="row">
       <div class="col">
-         <h5>Business unit: <span id="risk-business-unit"></span></h5>
+        <h5>Business unit: <span id="risk-business-unit"></span></h5>
       </div>
     </div>
     <!--Risk Category,Subcategory and Proximity-->
