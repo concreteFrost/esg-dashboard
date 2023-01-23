@@ -1,0 +1,194 @@
+[
+ {
+  "Disclosure Question \/ Metric": "Does your entity include foreseeable risk factors in its disclosure?",
+  "Current Data": "Yes",
+  "Category": "Business Model and Innovation",
+  "SubCategory": "Reporting Practice",
+  "Other Standard Links": "OECD",
+  "Owner": "Mark Lemos",
+  "Executive Owner": "Richard Samuel",
+  "Reporting Level": "Group"
+ },
+ {
+  "Disclosure Question \/ Metric": "Does the entity use any stakeholder feedback mechanisms to evaluate its management approach to Local Communities?",
+  "Current Data": "No",
+  "Category": "Social Capital",
+  "SubCategory": "Human Rights and Community Relations",
+  "Other Standard Links": "GRI, GRI 103 2016, OECD",
+  "Owner": "Tom Albreu",
+  "Executive Owner": "Richard Samuel",
+  "Reporting Level": "Group"
+ },
+ {
+  "Disclosure Question \/ Metric": "Has your entity had an occurance of the bribery of public officials to ignore or avoid regulations or controls?",
+  "Current Data": "Yes",
+  "Category": "Leadership and Governance",
+  "SubCategory": "Anti-corruption",
+  "Other Standard Links": "OECD",
+  "Owner": "N'dichu Kante",
+  "Executive Owner": "Richard Samuel",
+  "Reporting Level": "Group"
+ },
+ {
+  "Disclosure Question \/ Metric": "Does your entity for the human rights impacts it causes or contributes to seek to constul and engage impacted or potentially impacted trade unions?",
+  "Current Data": "No Data",
+  "Category": "Human Capital",
+  "SubCategory": "Human Rights and Community Relations",
+  "Other Standard Links": "OECD",
+  "Owner": "Marge Williams",
+  "Executive Owner": "Richard Samuel",
+  "Reporting Level": "Group"
+ },
+ {
+  "Disclosure Question \/ Metric": "Has your entity had an instance where wage discrimination for equal work or work of equal value was involved within its operations?",
+  "Current Data": "No",
+  "Category": "Human Capital",
+  "SubCategory": "Employee Engagement, Diversity & Inclusion",
+  "Other Standard Links": "OECD",
+  "Owner": "Wangari N'golo",
+  "Executive Owner": "Richard Samuel",
+  "Reporting Level": "Group"
+ },
+ {
+  "Disclosure Question \/ Metric": "Has your entity identified the gender-specific trends and patterns in actual or potential adverse impacts that have been overlooked in the due diligence process? If yes, please provide more details in the Findings.",
+  "Current Data": "No",
+  "Category": "Human Capital",
+  "SubCategory": "Employee Engagement, Diversity & Inclusion",
+  "Other Standard Links": "OECD",
+  "Owner": "Tina Simpson",
+  "Executive Owner": "Richard Samuel",
+  "Reporting Level": "Group"
+ },
+ {
+  "Disclosure Question \/ Metric": "Are policies that address specific salient human rights issues communicated by top management?",
+  "Current Data": "Yes",
+  "Category": "Social Capital",
+  "SubCategory": "Human Rights and Community Relations",
+  "Other Standard Links": "UN Guiding Principles",
+  "Owner": "Tina Simpson",
+  "Executive Owner": "Richard Samuel",
+  "Reporting Level": "Group"
+ },
+ {
+  "Disclosure Question \/ Metric": "Does your entity refrain from entering into or carrying out anti-competitive agreements among competitors, including agreements to fix prices?",
+  "Current Data": "Yes",
+  "Category": "Leadership and Governance",
+  "SubCategory": "Anti-corruption",
+  "Other Standard Links": "OECD",
+  "Owner": "Tina Simpson",
+  "Executive Owner": "Richard Samuel",
+  "Reporting Level": "Group"
+ },
+ {
+  "Disclosure Question \/ Metric": "Does your entity have a policy commitment to respect human rights? If yes, please provide more details in the Findings.",
+  "Current Data": "Yes",
+  "Findings": "Human rights due diligence is an important part of our approach to respecting human rights, assisting us to identify, prevent and mitigate adverse human rights impacts, supporting our dialogue with stakeholders about our potential human rights impacts and identifying opportunities to better respect human rights. The HRPS and Our Requirements standards outline our approach to due diligence. We require human rights impact assessments to be conducted at least every two years (and reviewed whenever there are changes that may affect the impact profile). ",
+  "Category": "Human Capital",
+  "SubCategory": "Human Rights and Community Relations",
+  "Other Standard Links": "OECD",
+  "Owner": "Tina Simpson",
+  "Executive Owner": "Richard Samuel",
+  "Reporting Level": "Group"
+ },
+ {
+  "Disclosure Question \/ Metric": "Does the enttiy provide any training or capacity-building the company provides to help staff engage appropriately and productively with different stakeholders on human rights? If yes, please provide details in Findings.",
+  "Current Data": "Yes",
+  "Findings": "We believe respecting human rights and contributing to the positive realisation of rights is important to the sustainable operation of our business. We recognise we have the potential to directly impact, contribute to or be linked to human rights impacts on people through our operated assets, closed and legacy sites, value chain activities and relationships with business partners. These include rights related to workplace health and safety, labour rights, activities of security providers, land access and use, water and sanitation, Indigenous peoples’ culture, identity, traditions and customs, and communities near our operated assets – including resettlement and consultation and consent processes. Respecting human rights is important to our ability to contribute meaningfully and provide ongoing social value to our stakeholders.",
+  "Category": "Social Capital",
+  "SubCategory": "Human Rights and Community Relations",
+  "Other Standard Links": "UN Guiding Principles",
+  "Owner": "Mark Lemos",
+  "Executive Owner": "Richard Samuel",
+  "Reporting Level": "Group"
+ },
+ {
+  "Disclosure Question \/ Metric": "Does your entity where relevant to commercial objectives, develop ties with local universitites and public research institutions?",
+  "Current Data": "No",
+  "Category": "Human Capital",
+  "SubCategory": "Training, Education & Workforce Development",
+  "Other Standard Links": "OECD",
+  "Owner": "Tom Albreu",
+  "Executive Owner": "Richard Samuel",
+  "Reporting Level": "Group"
+ },
+ {
+  "Disclosure Question \/ Metric": "Does your entity include information about whether each board member is regarded as independent by the board in its disclosure?",
+  "Current Data": "No",
+  "Category": "Leadership and Governance",
+  "SubCategory": "Reporting Practice",
+  "Other Standard Links": "OECD",
+  "Owner": "N'dichu Kante",
+  "Executive Owner": "Richard Samuel",
+  "Reporting Level": "Group"
+ },
+ {
+  "Disclosure Question \/ Metric": "Does your entity, for human rights impacts, consult and engage impacted and potentially impacted workers to gather information on adverse impacts and risks?",
+  "Current Data": "No data",
+  "Category": "Social Capital",
+  "SubCategory": "Human Rights and Community Relations",
+  "Other Standard Links": "OECD",
+  "Owner": "Marge Williams",
+  "Executive Owner": "Richard Samuel",
+  "Reporting Level": "Group"
+ },
+ {
+  "Disclosure Question \/ Metric": "Are all relevant channel(s) for raising complaints about human rights accessible to their intended audiences? If yes, please provide evidence in details",
+  "Current Data": "No data",
+  "Category": "Social Capital",
+  "SubCategory": "Human Rights and Community Relations",
+  "Other Standard Links": "UN Guiding Principles",
+  "Owner": "Wangari N'golo",
+  "Executive Owner": "Richard Samuel",
+  "Reporting Level": "Group"
+ },
+ {
+  "Disclosure Question \/ Metric": "Has the entity made any changes to the means through which it can receive concerns or complaints in relation to human rights in this reporting period?  If yes, please provide details in Findings",
+  "Current Data": "No data",
+  "Category": "Social Capital",
+  "SubCategory": "Human Rights and Community Relations",
+  "Other Standard Links": "UN Guiding Principles",
+  "Owner": "Tom Albreu",
+  "Executive Owner": "Richard Samuel",
+  "Reporting Level": "Group"
+ },
+ {
+  "Disclosure Question \/ Metric": "Were any significant actual and potential negative social impacts identified in the supply chain? If yes, please provide details in Findings.",
+  "Current Data": "No data",
+  "Category": "Supply Chain",
+  "SubCategory": "Supplier Social Assessment",
+  "Other Standard Links": "GRI, GRI 414 2016, OECD",
+  "Owner": "Tom Albreu",
+  "Executive Owner": "Richard Samuel",
+  "Reporting Level": "Group"
+ },
+ {
+  "Disclosure Question \/ Metric": "In the case of an environmental impact, what the number of species impacted?",
+  "Current Data": "No data",
+  "Category": "Environment",
+  "SubCategory": "Biodiversity",
+  "Other Standard Links": "OECD",
+  "Owner": "Tom Albreu",
+  "Executive Owner": "Richard Samuel",
+  "Reporting Level": "Group"
+ },
+ {
+  "Disclosure Question \/ Metric": "In the case of an adverse impact, what was the percentage of identifiable groups of consumers impacted?",
+  "Current Data": "No data",
+  "Category": "Social Capital",
+  "SubCategory": "Customer Welfare",
+  "Other Standard Links": "OECD",
+  "Owner": "Tom Albreu",
+  "Executive Owner": "Richard Samuel",
+  "Reporting Level": "Group"
+ },
+ {
+  "Disclosure Question \/ Metric": "In the case of an occurrence of bribery, what was the size of the profit gained?",
+  "Current Data": "No data",
+  "Category": "Leadership and Governance",
+  "SubCategory": "Anti-corruption",
+  "Other Standard Links": "OECD",
+  "Owner": "Tom Albreu",
+  "Executive Owner": "Richard Samuel",
+  "Reporting Level": "Group"
+ }
+]
