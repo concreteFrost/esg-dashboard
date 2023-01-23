@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-  @@include('./_head.html', { "title": "Disclosure Reporting - FSI Bank-esg:one", "canonical":
+  @@include('./_head.html', { "title": "Supplier View", "canonical":
   "https://app.esg-one.co/dashboard/company/disclosure-reporting", "path": "..",
   "path_common": "../.." })
   <body>
@@ -18,14 +18,13 @@
       @@include('./_light-head.html', { "path": ".." })
       <!--Button Nav-->
       <div class="container-fluid mt-2">
-        @@include('../pages/company/disclosure/_button-nav.html')
+        @@include('../pages/supplier_view/_button-nav.html')
         <!--Overview-->
-        <!-- @@include('../pages/company/disclosure/_overview.html') -->
+        
         <div class="row" id="overview">
-          @@include('../pages/company/disclosure/_status.html')
-          @@include("../pages/company/disclosure/overview/_progress.html")
+       
         </div>
-        @@include('../pages/company/disclosure/tree_and_progress/_container.html')
+    
       </div>
       <footer class="footer pt-0">@@include('./_footer.html')</footer>
     </div>
@@ -33,14 +32,10 @@
     @@include('./_scripts.html', { "path": "..", "path_common": "../.." })
     @@include('./_scripts-d3.html', { "path": "..", "path_common": "../.." })
     <script src="/dashboard/assets/js/nav-side-active.min.js"></script>
-    <!-- Data for Treemap -->
-    <script src="/dashboard/assets/js/treemap-home.min.js"></script>
-    <!-- Datatables -->
-    <script src="/dashboard/assets/js/data-tables/disclosure.min.js"></script>
     <!--Button Nav-->
     <script
       type="module"
-      src="/dashboard/assets/js/button-nav-supplier.min.js"
+      src="/dashboard/assets/js/button-nav-disclosure.min.js"
     ></script>
     <script src="/dashboard/assets/js/manage-widgets.min.js"></script>
   </body>
