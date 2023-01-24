@@ -34,23 +34,24 @@
           </div>
         </div>
       </div>
-
+     
       <div class="row mt-2">
         <!--Map-->
-        <div class="col-4">
+        <div class="col-xl-4 col-12">
           <h3>SUPPLIER MAP</h3>
           <div class="vector-map vector-map-sm" id="world-map"></div>
         </div>
         <!--Chart-->
-        <div class="col-4">
+        <div class="col-xl-4 col-12 ">
           <h3>DATA COLLECTION</h3>
           <canvas
+          class="ml-auto mr-auto"
             id="data-collection-chart"
-            style="width: 100%; max-width: 3500px; max-height: 350px"
+            style="width: 100%; max-width: 350px; max-height: 350px;"
           ></canvas>
         </div>
         <!--Risks-->
-        <div class="col-4">
+        <div class="col-xl-4 col-12">
           <h3>RISKS</h3>
           @@include('../pages/company/risk-overview/cards/_template.html')
         </div>
@@ -122,6 +123,7 @@
           </div>
         </div>
       </div>
+
     </div>
   </div>
 </div>
