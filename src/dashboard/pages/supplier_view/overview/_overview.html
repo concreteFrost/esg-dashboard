@@ -1,0 +1,127 @@
+<div class="col-xl-12 movable-cards" id="overview">
+  <div class="card card-large">
+    <div class="card-body mt-0" id="summary-body">
+      <!--Total Score Table-->
+      <div class="row border-bottom">
+        <div class="col">
+          <div class="table-responsive">
+            <table class="table table-stripped" id="risk-alerts-table">
+              <thead class="thead thead-light">
+                <tr>
+                  <th>TOTAL SUPPLIERS</th>
+                  <th>TOTAL SPEND</th>
+                  <th>FULL DATA(%)</th>
+                  <th>TOTAL RISKS</th>
+                  <th>%TARGETS OFF TRACK</th>
+                  <th>DISCLOSURE</th>
+                  <th>WATCHLIST</th>
+                  <th>CHURN</th>
+                </tr>
+              </thead>
+              <tbody class="tbody">
+                <tr>
+                  <td>100</td>
+                  <td>£1000.000</td>
+                  <td>50%</td>
+                  <td>60</td>
+                  <td>10%</td>
+                  <td>10%</td>
+                  <td>5</td>
+                  <td>10%</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <div class="row mt-2">
+        <!--Map-->
+        <div class="col-4">
+          <h3>SUPPLIER MAP</h3>
+          <div class="vector-map vector-map-sm" id="world-map"></div>
+        </div>
+        <!--Chart-->
+        <div class="col-4">
+          <h3>DATA COLLECTION</h3>
+          <canvas
+            id="data-collection-chart"
+            style="width: 100%; max-width: 3500px; max-height: 350px"
+          ></canvas>
+        </div>
+        <!--Risks-->
+        <div class="col-4">
+          <h3>RISKS</h3>
+          @@include('../pages/company/risk-overview/cards/_template.html')
+        </div>
+      </div>
+      <div class="row mt-2">
+        <div class="col">
+          <h3>SUPPLIER WATCHLIST</h3>
+          <div class="table-responsive">
+            <table class="table table-stripped" id="risk-alerts-table">
+              <thead class="thead thead-light">
+                <tr>
+                  <th>SUPPLIER</th>
+                  <th>TIER</th>
+                  <th>IMPORTANCE</th>
+                  <th>MANAGER</th>
+                  <th>FINANCIAL RISK</th>
+                  <th>ESG RISK</th>
+                  <th>ALERTS</th>
+                </tr>
+              </thead>
+              <tbody class="tbody">
+                <tr>
+                  <td>Supplier B</td>
+                  <td>-</td>
+                  <td>High</td>
+                  <td>John</td>
+                  <td>Med</td>
+                  <td>Med</td>
+                  <td>No GHG Data</td>
+                </tr>
+                <tr>
+                  <td>Supplier C</td>
+                  <td>1</td>
+                  <td>High</td>
+                  <td>John</td>
+                  <td>Med</td>
+                  <td>Med</td>
+                  <td>Refusal to commit to Net Zero</td>
+                </tr>
+                <tr>
+                  <td>Supplier D</td>
+                  <td>-</td>
+                  <td>High</td>
+                  <td>John</td>
+                  <td>Med</td>
+                  <td>Med</td>
+                  <td>No GHG Data</td>
+                </tr>
+                <tr>
+                  <td>Supplier E</td>
+                  <td>-</td>
+                  <td>High</td>
+                  <td>John</td>
+                  <td>Med</td>
+                  <td>Med</td>
+                  <td>No GHG Data</td>
+                </tr>
+                <tr>
+                  <td>Supplier F</td>
+                  <td>-</td>
+                  <td>High</td>
+                  <td>John</td>
+                  <td>Med</td>
+                  <td>Med</td>
+                  <td>No GHG Data</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

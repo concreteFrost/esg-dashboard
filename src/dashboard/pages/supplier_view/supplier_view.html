@@ -21,9 +21,10 @@
         @@include('../pages/supplier_view/_button-nav.html')
         <!--Overview-->
         
-        <div class="row" id="overview">
-       
-        </div>
+      
+        @@include('../pages/supplier_view/overview/_overview.html')
+        @@include('../pages/supplier_view/metrics/_metrics.html')
+   
     
       </div>
       <footer class="footer pt-0">@@include('./_footer.html')</footer>
@@ -35,8 +36,10 @@
     <!--Button Nav-->
     <script
       type="module"
-      src="/dashboard/assets/js/button-nav-disclosure.min.js"
+      src="/dashboard/assets/js/button-nav-supplier.min.js"
     ></script>
-    <script src="/dashboard/assets/js/manage-widgets.min.js"></script>
+    <script src="/dashboard/assets/js/vector-map.min.js"></script>
+    <script src="/dashboard/assets/js/charts/supplier/data-collection-chart.min.js"></script>
+    
   </body>
 </html>
