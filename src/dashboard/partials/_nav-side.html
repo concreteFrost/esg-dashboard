@@ -5,7 +5,7 @@
   <div class="scrollbar-inner">
     <!-- Brand -->
     <div class="sidenav-header d-flex align-items-center">
-      <a class="navbar-brand" href="@@path_common/dashboard/home.html">
+      <a class="navbar-brand" >
         <img
           src="@@path/assets/img/brand/esg_dark.svg"
           height="40"
@@ -53,13 +53,11 @@
               <i class="ni ni-building text-esg-two"></i>
               <span class="nav-link-text">Company Overview</span>
             </a>
+            
             <div class="collapse" id="company">
               <ul class="nav nav-sm flex-column">
                 <!--Metrics-->
                 @@include('nav-side/_metrics.html', { "path": ".",
-                "path_common": ".." })
-                <!--Disclosure-->
-                @@include('nav-side/_disclosure.html', { "path": ".",
                 "path_common": ".." })
                 <!--ESG-->
                 @@include('nav-side/_esg-management.html', { "path": ".",
@@ -83,7 +81,6 @@
                     <span class="sidenav-normal"> Incidents</span>
                   </a>
                 </li>
-
                 <li>
                   <a class="nav-link" href="/dashboard/company/locations.html">
                     <span class="sidenav-mini-icon"> -L </span>
@@ -93,17 +90,8 @@
               </ul>
             </div>
           </li>
-          <li>
-            <a class="nav-link"
-            href="@@path/supplier_view/supplier_view.html#overview"
-           
-            role="button"
-          
-            id="company-nav">
-            <i class="ni ni-spaceship text-esg-two"></i>
-            <span class="nav-link-text">Supplier Overview</span>
-          </a>
-          </li>
+          @@include('nav-side/_supplier.html', { "path": ".", "path_common":
+          ".." })
           <!--Frameworks-->
           @@include('nav-side/_frameworks.html', { "path": ".", "path_common":
           ".." })

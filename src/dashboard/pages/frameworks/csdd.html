@@ -1,299 +1,347 @@
 <!DOCTYPE html>
 <html>
-@@include('./_head.html', {
-"title": "SASB Framework - FSI Bank - esg:one",
-"canonical": "https://app.esg-one.co/dashboard/frameworks/sasb",
-"path": "..",
-"path_common": "../.."
-})
+  @@include('./_head.html', { "title": "CSDD Framework - FSI Bank - esg:one",
+  "canonical": "https://app.esg-one.co/dashboard/frameworks/sasb", "path": "..",
+  "path_common": "../.." })
 
-<body>
-  <!-- Preloader -->
-  @@include('./_preloader.html', {
-  "path": ".."
-  })
-  <!-- Tracking Code -->
-  @@include('./_tracking-body.html')
-  <!-- Sidenav -->
-  @@include('./_nav-side.html', {
-  "path": "..",
-  "path_common": "../.."
-  })
-  <!-- Main content -->
-  <div class="main-content" id="panel">
-    <!-- Topnav -->
-    <!-- Header -->
-    @@include('./_nav-top.html', { "path": ".." })
-    @@include('./_light-head.html', { "path": ".." })
-    <!-- Page content -->
-    <div class="container-fluid mt-2">
-      <!--Cards-->
-      <div class="row">
-        <!-- Overall Status -->
-        <div class="col-xl-3 col-md-6">
-          <div class="card bg-white border-0">
-            <div class="card-body">
-              <div class="row">
-                <div class="col">
-                  <h5 class="card-title text-uppercase mb-2 text-esg-one">Overall Progress</h5>
-                  <div class="row">
-                    <div class="col-2">
-                      <img class="avatar rounded-circle mt-2" alt="SASB" src="../assets/img/frameworks/eu.png">
-                    </div>
-                    <div class="col-10">
-                      <div class="col">
-                        <h5 class="text-default">Partial Information</h5>
-                        <div class="progress progress-xs mb-0">
-                          <div class="progress-bar bg-red" role="progressbar" aria-valuenow="82" aria-valuemin="0"
-                            aria-valuemax="100" style="width: 82%;"></div>
+  <body>
+    <!-- Preloader -->
+    @@include('./_preloader.html', { "path": ".." })
+    <!-- Tracking Code -->
+    @@include('./_tracking-body.html')
+    <!-- Sidenav -->
+    @@include('./_nav-side.html', { "path": "..", "path_common": "../.." })
+    <!-- Main content -->
+    <div class="main-content" id="panel">
+      <!-- Topnav -->
+      <!-- Header -->
+      @@include('./_nav-top.html', { "path": ".." })
+      @@include('./_light-head.html', { "path": ".." })
+      <!-- Page content -->
+      <div class="container-fluid mt-2">
+        <!--Cards-->
+        <div class="row">
+          <!-- Overall Status -->
+          <div class="col-xl-3 col-md-6">
+            <div class="card bg-white border-0">
+              <div class="card-body">
+                <div class="row">
+                  <div class="col">
+                    <h5 class="card-title text-uppercase mb-2 text-esg-one">
+                      Overall Progress
+                    </h5>
+                    <div class="row">
+                      <div class="col-2">
+                        <img
+                          class="avatar rounded-circle mt-2"
+                          alt="SASB"
+                          src="../assets/img/frameworks/eu.png"
+                        />
+                      </div>
+                      <div class="col-10">
+                        <div class="col">
+                          <h5 class="text-default">Partial Information</h5>
+                          <div class="progress progress-xs mb-0">
+                            <div
+                              class="progress-bar bg-red"
+                              role="progressbar"
+                              aria-valuenow="82"
+                              aria-valuemin="0"
+                              aria-valuemax="100"
+                              style="width: 82%"
+                            ></div>
+                          </div>
+                        </div>
+                        <div class="col mt-2">
+                          <h5 class="text-default">Fully Completed</h5>
+                          <div class="progress progress-xs mb-0">
+                            <div
+                              class="progress-bar bg-green"
+                              role="progressbar"
+                              aria-valuenow="18"
+                              aria-valuemin="0"
+                              aria-valuemax="100"
+                              style="width: 18%"
+                            ></div>
+                          </div>
                         </div>
                       </div>
-                      <div class="col mt-2">
-                        <h5 class="text-default">Fully Completed</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Environment Status -->
+          <div class="col-xl-3 col-md-6">
+            <div class="card bg-esg-four border-0">
+              <!-- Card body -->
+              <div class="card-body">
+                <div class="row">
+                  <div class="col">
+                    <h5 class="card-title text-uppercase mb-2 text-white">
+                      Environment
+                    </h5>
+                    <div class="p-0">
+                      <div class="col p-0">
+                        <h5 class="text-white">Partial Information</h5>
                         <div class="progress progress-xs mb-0">
-                          <div class="progress-bar bg-green" role="progressbar" aria-valuenow="18" aria-valuemin="0"
-                            aria-valuemax="100" style="width: 18%;"></div>
+                          <div
+                            class="progress-bar bg-red"
+                            role="progressbar"
+                            aria-valuenow="42"
+                            aria-valuemin="0"
+                            aria-valuemax="100"
+                            style="width: 42%"
+                          ></div>
+                        </div>
+                      </div>
+                      <div class="col p-0 mt-2">
+                        <h5 class="text-white">Fully Completed</h5>
+                        <div class="progress progress-xs mb-0">
+                          <div
+                            class="progress-bar bg-green"
+                            role="progressbar"
+                            aria-valuenow="21"
+                            aria-valuemin="0"
+                            aria-valuemax="100"
+                            style="width: 21%"
+                          ></div>
                         </div>
                       </div>
                     </div>
                   </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- Environment Status -->
-        <div class="col-xl-3 col-md-6">
-          <div class="card bg-esg-four border-0">
-            <!-- Card body -->
-            <div class="card-body">
-              <div class="row">
-                <div class="col">
-                  <h5 class="card-title text-uppercase mb-2 text-white">Environment</h5>
-                  <div class="p-0">
-                    <div class="col p-0">
-                      <h5 class="text-white">Partial Information</h5>
-                      <div class="progress progress-xs mb-0">
-                        <div class="progress-bar bg-red" role="progressbar" aria-valuenow="42" aria-valuemin="0"
-                          aria-valuemax="100" style="width: 42%;"></div>
-                      </div>
+                  <div class="col-auto">
+                    <button
+                      type="button"
+                      class="btn btn-sm btn-neutral mr-0"
+                      data-toggle="dropdown"
+                      aria-haspopup="true"
+                      aria-expanded="false"
+                    >
+                      <i class="fas fa-ellipsis-h"></i>
+                    </button>
+                    <div class="dropdown-menu dropdown-menu-right">
+                      <a class="dropdown-item" href="#">
+                        <i class="ni ni-chart-bar-32"></i>
+                        <span>View Data</span>
+                      </a>
+                      <a class="dropdown-item" href="#">
+                        <i class="ni ni-bell-55"></i>
+                        <span>Create Risk</span>
+                      </a>
+                      <a class="dropdown-item" href="#">
+                        <i class="ni ni-ui-04"></i>
+                        <span>Complete Scorecard</span>
+                      </a>
+                      <a class="dropdown-item" href="#">
+                        <i class="ni ni-cloud-upload-96"></i>
+                        <span>Upload Disclosure</span>
+                      </a>
                     </div>
-                    <div class="col p-0 mt-2">
-                      <h5 class="text-white">Fully Completed</h5>
-                      <div class="progress progress-xs mb-0">
-                        <div class="progress-bar bg-green" role="progressbar" aria-valuenow="21" aria-valuemin="0"
-                          aria-valuemax="100" style="width: 21%;"></div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-auto">
-                  <button type="button" class="btn btn-sm btn-neutral mr-0" data-toggle="dropdown" aria-haspopup="true"
-                    aria-expanded="false">
-                    <i class="fas fa-ellipsis-h"></i>
-                  </button>
-                  <div class="dropdown-menu dropdown-menu-right">
-                    <a class="dropdown-item" href="#">
-                      <i class="ni ni-chart-bar-32"></i>
-                      <span>View Data</span>
-                    </a>
-                    <a class="dropdown-item" href="#">
-                      <i class="ni ni-bell-55"></i>
-                      <span>Create Risk</span>
-                    </a>
-                    <a class="dropdown-item" href="#">
-                      <i class="ni ni-ui-04"></i>
-                      <span>Complete Scorecard</span>
-                    </a>
-                    <a class="dropdown-item" href="#">
-                      <i class="ni ni-cloud-upload-96"></i>
-                      <span>Upload Disclosure</span>
-                    </a>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-        <!-- Social Status -->
-        <div class="col-xl-3 col-md-6">
-          <div class="card bg-esg-three border-0">
-            <!-- Card body -->
-            <div class="card-body">
-              <div class="row">
-                <div class="col">
-                  <h5 class="card-title text-uppercase mb-2 text-white">Social</h5>
-                  <div class="p-0">
-                    <div class="col p-0">
-                      <h5 class="text-white">Partial Information</h5>
-                      <div class="progress progress-xs mb-0">
-                        <div class="progress-bar bg-red" role="progressbar" aria-valuenow="23" aria-valuemin="0"
-                          aria-valuemax="100" style="width: 23%;"></div>
+          <!-- Social Status -->
+          <div class="col-xl-3 col-md-6">
+            <div class="card bg-esg-three border-0">
+              <!-- Card body -->
+              <div class="card-body">
+                <div class="row">
+                  <div class="col">
+                    <h5 class="card-title text-uppercase mb-2 text-white">
+                      Social
+                    </h5>
+                    <div class="p-0">
+                      <div class="col p-0">
+                        <h5 class="text-white">Partial Information</h5>
+                        <div class="progress progress-xs mb-0">
+                          <div
+                            class="progress-bar bg-red"
+                            role="progressbar"
+                            aria-valuenow="23"
+                            aria-valuemin="0"
+                            aria-valuemax="100"
+                            style="width: 23%"
+                          ></div>
+                        </div>
                       </div>
-                    </div>
-                    <div class="col p-0 mt-2">
-                      <h5 class="text-white">Fully Completed</h5>
-                      <div class="progress progress-xs mb-0">
-                        <div class="progress-bar bg-green" role="progressbar" aria-valuenow="10" aria-valuemin="0"
-                          aria-valuemax="100" style="width: 10%;"></div>
+                      <div class="col p-0 mt-2">
+                        <h5 class="text-white">Fully Completed</h5>
+                        <div class="progress progress-xs mb-0">
+                          <div
+                            class="progress-bar bg-green"
+                            role="progressbar"
+                            aria-valuenow="10"
+                            aria-valuemin="0"
+                            aria-valuemax="100"
+                            style="width: 10%"
+                          ></div>
+                        </div>
                       </div>
                     </div>
                   </div>
+                  <div class="col-auto">
+                    <button
+                      type="button"
+                      class="btn btn-sm btn-neutral mr-0"
+                      data-toggle="dropdown"
+                      aria-haspopup="true"
+                      aria-expanded="false"
+                    >
+                      <i class="fas fa-ellipsis-h"></i>
+                    </button>
+                    <div class="dropdown-menu dropdown-menu-right">
+                      <a class="dropdown-item" href="#">
+                        <i class="ni ni-chart-bar-32"></i>
+                        <span>View Data</span>
+                      </a>
+                      <a class="dropdown-item" href="#">
+                        <i class="ni ni-bell-55"></i>
+                        <span>Create Risk</span>
+                      </a>
+                      <a class="dropdown-item" href="#">
+                        <i class="ni ni-ui-04"></i>
+                        <span>Complete Scorecard</span>
+                      </a>
+                      <a class="dropdown-item" href="#">
+                        <i class="ni ni-cloud-upload-96"></i>
+                        <span>Upload Disclosure</span>
+                      </a>
+                    </div>
+                  </div>
                 </div>
-                <div class="col-auto">
-                  <button type="button" class="btn btn-sm btn-neutral mr-0" data-toggle="dropdown" aria-haspopup="true"
-                    aria-expanded="false">
-                    <i class="fas fa-ellipsis-h"></i>
-                  </button>
-                  <div class="dropdown-menu dropdown-menu-right">
-                    <a class="dropdown-item" href="#">
-                      <i class="ni ni-chart-bar-32"></i>
-                      <span>View Data</span>
-                    </a>
-                    <a class="dropdown-item" href="#">
-                      <i class="ni ni-bell-55"></i>
-                      <span>Create Risk</span>
-                    </a>
-                    <a class="dropdown-item" href="#">
-                      <i class="ni ni-ui-04"></i>
-                      <span>Complete Scorecard</span>
-                    </a>
-                    <a class="dropdown-item" href="#">
-                      <i class="ni ni-cloud-upload-96"></i>
-                      <span>Upload Disclosure</span>
-                    </a>
+              </div>
+            </div>
+          </div>
+          <!-- Governance Status -->
+          <div class="col-xl-3 col-md-6">
+            <div class="card bg-esg-two border-0">
+              <!-- Card body -->
+              <div class="card-body">
+                <div class="row">
+                  <div class="col">
+                    <h5 class="card-title text-uppercase mb-2 text-white">
+                      Governance
+                    </h5>
+                    <div class="p-0">
+                      <div class="col p-0">
+                        <h5 class="text-white">Partial Information</h5>
+                        <div class="progress progress-xs mb-0">
+                          <div
+                            class="progress-bar bg-red"
+                            role="progressbar"
+                            aria-valuenow="51"
+                            aria-valuemin="0"
+                            aria-valuemax="100"
+                            style="width: 51%"
+                          ></div>
+                        </div>
+                      </div>
+                      <div class="col p-0 mt-2">
+                        <h5 class="text-white">Fully Completed</h5>
+                        <div class="progress progress-xs mb-0">
+                          <div
+                            class="progress-bar bg-green"
+                            role="progressbar"
+                            aria-valuenow="22"
+                            aria-valuemin="0"
+                            aria-valuemax="100"
+                            style="width: 22%"
+                          ></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-auto">
+                    <button
+                      type="button"
+                      class="btn btn-sm btn-neutral mr-0"
+                      data-toggle="dropdown"
+                      aria-haspopup="true"
+                      aria-expanded="false"
+                    >
+                      <i class="fas fa-ellipsis-h"></i>
+                    </button>
+                    <div class="dropdown-menu dropdown-menu-right">
+                      <a class="dropdown-item" href="#">
+                        <i class="ni ni-chart-bar-32"></i>
+                        <span>View Data</span>
+                      </a>
+                      <a class="dropdown-item" href="#">
+                        <i class="ni ni-bell-55"></i>
+                        <span>Create Risk</span>
+                      </a>
+                      <a class="dropdown-item" href="#">
+                        <i class="ni ni-ui-04"></i>
+                        <span>Complete Scorecard</span>
+                      </a>
+                      <a class="dropdown-item" href="#">
+                        <i class="ni ni-cloud-upload-96"></i>
+                        <span>Upload Disclosure</span>
+                      </a>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <!-- Governance Status -->
-        <div class="col-xl-3 col-md-6">
-          <div class="card bg-esg-two border-0">
-            <!-- Card body -->
-            <div class="card-body">
-              <div class="row">
-                <div class="col">
-                  <h5 class="card-title text-uppercase mb-2 text-white">Governance</h5>
-                  <div class="p-0">
-                    <div class="col p-0">
-                      <h5 class="text-white">Partial Information</h5>
-                      <div class="progress progress-xs mb-0">
-                        <div class="progress-bar bg-red" role="progressbar" aria-valuenow="51" aria-valuemin="0"
-                          aria-valuemax="100" style="width: 51%;"></div>
-                      </div>
-                    </div>
-                    <div class="col p-0 mt-2">
-                      <h5 class="text-white">Fully Completed</h5>
-                      <div class="progress progress-xs mb-0">
-                        <div class="progress-bar bg-green" role="progressbar" aria-valuenow="22" aria-valuemin="0"
-                          aria-valuemax="100" style="width: 22%;"></div>
-                      </div>
-                    </div>
+        <!-- Table -->
+        <div class="row">
+          <div class="col">
+            <div class="card card-large">
+              <!-- Card header -->
+              <div class="card-header">
+                <h3 class="mb-0">CSDD Metrics and Disclosures</h3>
+                <div class="row">
+                  <div class="col">
+                    <p class="text-sm mb-0">
+                      The following table contains a detailed view of all the
+                      ESG data for the CSDD Framework.
+                    </p>
+                  </div>
+                  <div class="col">
+                    <button
+                      class="btn btn-sm btn-primary float-right"
+                      id="show-gaps"
+                    >
+                      Show Gaps
+                    </button>
                   </div>
                 </div>
-                <div class="col-auto">
-                  <button type="button" class="btn btn-sm btn-neutral mr-0" data-toggle="dropdown" aria-haspopup="true"
-                    aria-expanded="false">
-                    <i class="fas fa-ellipsis-h"></i>
-                  </button>
-                  <div class="dropdown-menu dropdown-menu-right">
-                    <a class="dropdown-item" href="#">
-                      <i class="ni ni-chart-bar-32"></i>
-                      <span>View Data</span>
-                    </a>
-                    <a class="dropdown-item" href="#">
-                      <i class="ni ni-bell-55"></i>
-                      <span>Create Risk</span>
-                    </a>
-                    <a class="dropdown-item" href="#">
-                      <i class="ni ni-ui-04"></i>
-                      <span>Complete Scorecard</span>
-                    </a>
-                    <a class="dropdown-item" href="#">
-                      <i class="ni ni-cloud-upload-96"></i>
-                      <span>Upload Disclosure</span>
-                    </a>
-                  </div>
+              </div>
+              <div class="card-body">
+                <div class="table-responsive py-4">
+                  <table class="table table-striped" id="csdd-datatable">
+                    <thead>
+                      <tr>
+                        <th>Disclosure Question / Metric</th>
+                        <th>Current Data</th>
+                        <th>Category</th>
+                        <th>Sub-Category</th>
+                        <th>Other Standard Links</th>
+                        <th>Owner</th>
+                        <th>Reporting Level</th>
+                        <th>Executive Owner</th>
+                      </tr>
+                    </thead>
+                    <tbody id="csdd-datatable-body"></tbody>
+                  </table>
                 </div>
               </div>
             </div>
           </div>
         </div>
+        <!-- Footer -->
+        <footer class="footer pt-0">@@include('./_footer.html')</footer>
       </div>
-      <!-- Table -->
-      <div class="row">
-        <div class="col">
-          <div class="card">
-            <!-- Card header -->
-            <div class="card-header">
-
-              <h3 class="mb-0">CSDD Metrics and Disclosures</h3>
-              <div class="row">
-                <div class="col">
-                  <p class="text-sm mb-0">
-                    The following table contains a detailed view of all the ESG data for the CSDD Framework.
-                  </p>
-                </div>
-                <div class="col"> <button class="btn btn-sm btn-primary float-right" id="show-gaps">Show Gaps</button></div>
-              </div>
-            </div>
-            <div class="table-responsive py-4">
-              <table class="table table-striped" id="csdd-datatable">
-                <thead>
-                  <tr>
-                    <th>
-                      Disclosure Question / Metric
-                    </th>
-                    <th>
-                      Current Data
-                    </th>
-                    <th>
-                      Category
-                    </th>
-                    <th>
-                      Sub-Category
-
-                    </th>
-                    <th>
-                      Other Standard Links
-                    </th>
-                    <th>
-                      Owner
-                    </th>
-                    <th>
-                      Reporting Level
-                    </th>
-                    <th>
-                      Executive Owner
-                    </th>
-                  </tr>
-                </thead>
-                <tbody id="csdd-datatable-body">
-
-                </tbody>
-              </table>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- Footer -->
-      <footer class="footer pt-0">
-        @@include('./_footer.html')
-      </footer>
     </div>
-  </div>
-  @@include('./_scripts.html', {
-  "path": "..",
-  "path_common": "../.."
-  })
-  @@include('./_scripts-sasb.html', {
-  "path": "..",
-  "path_common": "../.."
-  })
-  <script src="/dashboard/assets/js/nav-side-active.min.js"></script>
-  <script src="/dashboard/assets/js/frameworks/csdd.min.js"></script>
-</body>
-
+    @@include('./_scripts.html', { "path": "..", "path_common": "../.." })
+    @@include('./_scripts-sasb.html', { "path": "..", "path_common": "../.." })
+    <script src="/dashboard/assets/js/nav-side-active.min.js"></script>
+    <script src="/dashboard/assets/js/frameworks/csdd.min.js"></script>
+  </body>
 </html>

@@ -1,61 +1,120 @@
 <li class="nav-item expandable">
-    <a
-      class="nav-link"
-      href="/dashboard/company/frameworks.html"
-      id="frameworks-nav"
-      data-toggle="collapse"
-      data-target="#frameworks"
-      role="button"
-      aria-expanded="false"
-     
-    >
-      <i class="ni ni-paper-diploma text-esg-three"></i>
-      <span class="nav-link-text">Reporting & Compliance</span>
-    </a>
-    <div class="collapse" id="frameworks">
+  <a
+    class="nav-link"
+    href="#reporting"
+    data-toggle="collapse"
+    role="button"
+    aria-expanded="false"
+    aria-controls="reporting"
+    id="reporting-nav"
+  >
+    <i class="ni ni-paper-diploma text-esg-three"></i>
+    <span class="nav-link-text">Reporting & Compliance</span>
+  </a>
+
+  <div class="collapse" id="reporting">
+    <section>
+      <ul class="nav nav-sm flex-column">
+        <li class="expandable">
+          <a
+            class="nav-link"
+            href="#voluntary-nav"
+            data-toggle="collapse"
+            role="button"
+            aria-expanded="false"
+            aria-controls="voluntary-nav"
+          >
+            <span class="sidenav-mini-icon"> V </span>
+            <span class="sidenav-normal"> Voluntary </span>
+          </a>
+
+          <div class="collapse" id="voluntary-nav">
+            <ul class="list-unstyled">
+              <li>
+                <a class="nav-link" href="/dashboard/frameworks/sasb.html">
+                  <span class="sidenav-mini-icon"> S </span>
+                  <span class="sidenav-normal"> SASB </span>
+                </a>
+              </li>
+              <li>
+                <a class="nav-link" href="/dashboard/frameworks/sasb.html#1">
+                  <span class="sidenav-mini-icon"> G </span>
+                  <span class="sidenav-normal"> GRI </span>
+                </a>
+              </li>
+              <li>
+                <a class="nav-link" href="/dashboard/frameworks/sasb.html#3">
+                  <span class="sidenav-mini-icon"> P </span>
+                  <span class="sidenav-normal"> PRI </span>
+                </a>
+              </li>
+              <li>
+                <a class="nav-link" href="/dashboard/frameworks/sasb.html#4">
+                  <span class="sidenav-mini-icon"> C </span>
+                  <span class="sidenav-normal"> CDP </span>
+                </a>
+              </li>
+              <li>
+                <a class="nav-link" href="/dashboard/frameworks/csdd.html">
+                  <span class="sidenav-mini-icon"> C </span>
+                  <span class="sidenav-normal"> CSDD </span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </li>
+      </ul>
+    </section>
+    <section>
       <ul class="nav nav-sm flex-column">
         <li>
+          <a
+            class="nav-link"
+            data-toggle="collapse"
+            data-target="#regulatory-nav"
+            role="button"
+            aria-expanded="false"
+          >
+            <span class="sidenav-mini-icon"> R </span>
+            <span class="sidenav-normal"> Regulatory </span>
+          </a>
+          <div class="collapse" id="regulatory-nav">
+            <ul class="list-unstyled">
+              <li class="nav-item">
+                <a class="nav-link" href="/dashboard/frameworks/sasb.html#2">
+                  <span class="sidenav-mini-icon"> E </span>
+                  <span class="sidenav-normal"> EU Taxonomy </span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </li>
+      </ul>
+    </section>
+    <section>
+      <ul class="nav nav-sm flex-column">
+        <li>
+          <a
+            class="nav-link"
+            href="/dashboard/frameworks/overview.html#overview"
+          >
+            <span class="sidenav-mini-icon"> O </span>
+            <span class="sidenav-normal"> Overview </span>
+          </a>
+        </li>
+        <li>
+          <a class="nav-link" href="/dashboard/frameworks/overview.html#gaps">
+            <span class="sidenav-mini-icon"> G </span>
+            <span class="sidenav-normal"> Gaps </span>
+          </a>
+        </li>
+        <li>
           <a class="nav-link" href="/dashboard/company/regulators.html">
-            <span class="sidenav-mini-icon"> -R </span>
+            <span class="sidenav-mini-icon"> R </span>
             <span class="sidenav-normal"> Regulators</span>
           </a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="/dashboard/frameworks/sasb.html">
-            <span class="sidenav-mini-icon"> S </span>
-            <span class="sidenav-normal"> SASB </span>
-          </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="/dashboard/frameworks/sasb.html#1">
-            <span class="sidenav-mini-icon"> G </span>
-            <span class="sidenav-normal"> GRI </span>
-          </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="/dashboard/frameworks/sasb.html#2">
-            <span class="sidenav-mini-icon"> E </span>
-            <span class="sidenav-normal"> EU Taxonomy </span>
-          </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="/dashboard/frameworks/sasb.html#3">
-            <span class="sidenav-mini-icon"> P </span>
-            <span class="sidenav-normal"> PRI </span>
-          </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="/dashboard/frameworks/sasb.html#4">
-            <span class="sidenav-mini-icon"> C </span>
-            <span class="sidenav-normal"> CDP </span>
-          </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="/dashboard/frameworks/csdd.html">
-            <span class="sidenav-mini-icon"> C </span>
-            <span class="sidenav-normal"> CSDD </span>
-          </a>
-        </li>
       </ul>
-    </div>
-  </li>
+    </section>
+  </div>
+</li>
