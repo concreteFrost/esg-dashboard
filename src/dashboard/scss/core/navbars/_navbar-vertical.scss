@@ -252,16 +252,20 @@
                         padding-top: $navbar-vertical-nav-link-padding-y / 1.5;
                         padding-bottom: $navbar-vertical-nav-link-padding-y / 1.5;
                         padding-left: 15px;
-                        span.sidenav-normal {
-                            padding-left: 8px;
+                        .sidenav-normal {
+                            padding-left: 40px;
                             transition: all 0.1s ease 0s;
+                            display: inline;
+                           
                         }
 
                         span.sidenav-mini-icon {
+                           
                             width: 34px;
                             text-align: center;
                             transition: all 0.1s ease 0s;
                         }
+                      
                     }
 
                     // Third level
@@ -378,7 +382,7 @@
         }
 
         .nav-item .sidenav-mini-icon {
-            opacity: 0;
+            display: none;
         }
     }
 }
@@ -519,3 +523,5 @@
         }
     }
 }
+
+
