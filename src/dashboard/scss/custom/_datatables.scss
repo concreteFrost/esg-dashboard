@@ -6,17 +6,9 @@
   margin: 0;
 }
 
-.dataTables_filter {
-  position: absolute;
-  right: 0px;
-  top: 93px;
+// .dataTables_filter {
 
-  @media screen and (max-width: 610px) {
-    top: 0;
-    right: 0;
-    position: relative;
-  }
-}
+// }
 
 .locations-table .dataTables_filter{
   position: relative;
