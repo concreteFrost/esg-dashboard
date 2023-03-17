@@ -1,52 +1,55 @@
 <!DOCTYPE html>
 <html>
-  @@include('./_head.html', { "title": "Dashboard - esg:one", "canonical":
-  "https://app.esg-one.co/dashboard/home", "path": ".", "path_common": ".." })
-  <body>
-    <!-- Preloader -->
-    @@include('./_preloader.html', { "path": "." })
-    <!-- Tracking code -->
-    @@include('./_tracking-body.html')
-    <!-- Sidenav -->
-    @@include('./_nav-side.html', { "path": ".", "path_common": ".." })
-    <!-- Main content -->
-    <div class="main-content" id="panel">
-      <!-- Topnav -->
-      @@include('./_nav-top.html', { "path": "." })
-      <!-- Header -->
-      @@include('./_dashboard-head.html')
-      <!-- Page content -->
-      <div class="container-fluid mt-2">
-        <!--Tree & Progress-->
-        <div class="row" id="widgets-grid">
-          @@include("../partials/cards/kpis/container.html")
-          @@include("../partials/tree_and_progress/_treemap.html")
-          @@include("../partials/tree_and_progress/_progress.html")
-          @@include('../pages/company/risk-overview/summary/_risk-summary.html')
-          @@include('../partials/_country-listing.html')
-          @@include('../pages/actions/_todo.html')
-          @@include('../pages/actions/_team-tasks.html')
-        </div>
+@@include('./_head.html', { "title": "Dashboard - esg:one", "canonical":
+"https://app.esg-one.co/dashboard/home", "path": ".", "path_common": ".." })
 
-        <!-- Footer -->
-        <footer class="footer pt-0">@@include('./_footer.html')</footer>
+<body>
+  <!-- Preloader -->
+  @@include('./_preloader.html', { "path": "." })
+  <!-- Tracking code -->
+  @@include('./_tracking-body.html')
+  <!-- Sidenav -->
+  @@include('./_nav-side.html', { "path": ".", "path_common": ".." })
+  <!-- Main content -->
+  <div class="main-content" id="panel">
+    <!-- Topnav -->
+    @@include('./_nav-top.html', { "path": "." })
+    <!-- Header -->
+    @@include('./_dashboard-head.html')
+    <!-- Page content -->
+    <div class="container-fluid mt-2">
+      <!--Tree & Progress-->
+      <div class="row" id="widgets-grid">
+        @@include("../partials/cards/kpis/container.html")
+        @@include("../partials/tree_and_progress/_treemap.html")
+        @@include("../partials/tree_and_progress/_progress.html")
+        @@include('../pages/company/risk-overview/summary/_risk-summary.html')
+        @@include('../partials/_country-listing.html')
+        @@include('../pages/actions/_todo.html')
+        @@include('../pages/actions/_team-tasks.html')
       </div>
+
+      <!-- Footer -->
+      <footer class="footer pt-0">@@include('./_footer.html')</footer>
     </div>
-    @@include('./_scripts.html', { "path": ".", "path_common": ".." })
-    @@include('./_scripts-d3.html', { "path": ".", "path_common": ".." })
+  </div>
+  @@include('./_scripts.html', { "path": ".", "path_common": ".." })
+  @@include('./_scripts-d3.html', { "path": ".", "path_common": ".." })
 
-    <script src="/dashboard/assets/js/customize-widgets.min.js"></script>
-    <script src="/dashboard/assets/js/zoom.min.js"></script>
-    <script src="/dashboard/assets/js/manage-widgets.min.js"></script>
-    <script src="/dashboard/assets/js/treemap/esg-management-treemap.min.js"></script>
-    <script src="/dashboard/assets/js/todo-list.min.js"></script>
-    <script src="/dashboard/assets/js/vector-map.min.js"></script>
-    <script src="/dashboard/assets/js/charts/chart-risk-comparison.min.js"></script>
-    <script src="/dashboard/assets/js/manage-team-tasks.min.js"></script>
-    <!--Api-->
-    <script src="/dashboard/assets/js/api/getToken.min.js"></script>
-    <script src="/dashboard/assets/js/api/risk-list-api.min.js"></script>
-    <script src="/dashboard/assets/js/api/locations-api.min.js"></script>
+  <script src="/dashboard/assets/js/customize-widgets.min.js"></script>
+  <script src="/dashboard/assets/js/api/client-test-api.min.js"></script>
+  <script src="/dashboard/assets/js/zoom.min.js"></script>
+  <script src="/dashboard/assets/js/manage-widgets.min.js"></script>
+  <script src="/dashboard/assets/js/treemap/esg-management-treemap.min.js"></script>
+  <script src="/dashboard/assets/js/todo-list.min.js"></script>
+  <script src="/dashboard/assets/js/vector-map.min.js"></script>
+  <script src="/dashboard/assets/js/charts/chart-risk-comparison.min.js"></script>
+  <script src="/dashboard/assets/js/manage-team-tasks.min.js"></script>
+  <!--Api-->
+  <script src="/dashboard/assets/js/api/getToken.min.js"></script>
+  <script src="/dashboard/assets/js/api/risk-list-api.min.js"></script>
+  <script src="/dashboard/assets/js/api/locations-api.min.js"></script>
 
-  </body>
+</body>
+
 </html>
