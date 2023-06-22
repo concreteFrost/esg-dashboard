@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+@@include('./_head.html', { "title": "Dashboard - esg:one", "canonical":
+"https://app.esg-one.co/dashboard/home", "path": ".", "path_common": ".." })
+
+<body>
+    <!-- Preloader -->
+    @@include('./_preloader.html', { "path": "." })
+    <!-- Tracking code -->
+    @@include('./_tracking-body.html')
+    <!-- Sidenav -->
+    @@include('./_nav-side.html', { "path": ".", "path_common": ".." })
+    <!-- Main content -->
+    <div class="main-content" id="panel">
+        <!-- Topnav -->
+        @@include('./_nav-top.html', { "path": "." })
+        <!-- Header -->
+        @@include('./_dashboard-head.html')
+        <!-- Page content -->
+        <div class="container-fluid mt-2">
+            <!--Tree & Progress-->
+            <div class="row" id="widgets-grid">
+
+
+            </div>
+
+            <!-- Footer -->
+            <footer class="footer pt-0">@@include('./_footer.html')</footer>
+        </div>
+    </div>
+    @@include('./_scripts.html', { "path": ".", "path_common": ".." })
+    @@include('./_scripts-d3.html', { "path": ".", "path_common": ".." })
+
+    <script src="/dashboard/assets/js/api/test-api.min.js"></script>
+</body>
+
+</html>
