@@ -1,0 +1,79 @@
+.kpi-cards-container {
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr 3fr;
+    gap: 10px;
+    grid-template-rows: 1fr;
+
+
+    @media screen and(max-width:1400px) {
+        h5 {
+            font-size: 0.6rem !important;
+        }
+    }
+
+    @media screen and(max-width:1024px) {
+        grid-template-columns: 6fr;
+        overflow-y: auto;
+        max-height: 400px;
+
+        h5 {
+            font-size: 0.9rem !important;
+        }
+    }
+
+
+
+}
+
+.kpi-card-body {
+    padding: 20px;
+    height: 200px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    display: grid;
+    grid-template-rows: 2fr;
+
+    h5 {
+        text-transform: uppercase;
+        color: rgb(151, 151, 151) !important;
+
+    }
+
+}
+
+.kpi-card-section-1 {
+    grid-row: 1/3;
+    display: grid;
+    grid-template-columns: 11fr 1fr;
+
+
+    .kpi-card-title {
+
+        font-weight: 600;
+        font-size: 0.8rem;
+    }
+
+    .kpi-card-icon {
+        display: flex;
+        justify-self: end;
+
+    }
+
+
+}
+
+.kpi-card-section-2 {
+    display: grid;
+    grid-template-columns: 6fr 6fr;
+}
+
+
+
+.kpi-card-info {}
+
+.kpi-card-unit {}
+
+.kpi-card-numbers {}
+
+.kpi-card-target-info {}

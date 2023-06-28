@@ -1,34 +1,26 @@
-<div
-class="col-xl-3 col-md-6 movable-cards "
-id="carbon-risk-card"
-
->
-<div class="card card-stats">
+<div class="movable-cards" id="template-card">
   <!-- Card body -->
-  <div class="card-body">
-    <!--close button-->
+  <div class="kpi-card-body">
+    <!-- Close button -->
+    <div class="kpi-card-section-1">
 
-    <div class="row">
-      <div class="col">
-        <h5 class="card-title text-uppercase text-muted mb-0">
-         Template card
-        </h5>
-        <h6 class="text-muted">Info</h6>
-        <div class="card-numbers">numbers</div>
-      </div>
-      <div class="col-auto">
-        <div
-          class="icon icon-shape bg-esg-five text-white rounded-circle shadow"
-        >
-          <i class="ni ni-world"></i>
-        </div>
+      <h5 class="kpi-card-title" id="kpi-card-name">Template card</h5>
+      <div class="icon icon-shape bg-esg-five text-white rounded-circle shadow kpi-card-icon" id="kpi-card-icon">
+        Icon
       </div>
     </div>
-    <p class="mt-3 mb-0 text-sm">
-      <span class="text-nowrap text-danger"
-        ><i class="fa fa-arrow-down"></i>target info</span
-      >
-    </p>
+    <div class="kpi-card-section-2">
+      <h5 class="kpi-card-info" id="kpi-card-info">Info</h5>
+      <h5 class="kpi-card-unit" id="kpi-card-unit">Unit</h5>
+    </div>
+
+    <h5 class="kpi-card-numbers" id="kpi-card-value">Value</h5>
+    <div class="kpi-card-target-info" id="kpi-card-target-info">
+      <span class="text-nowrap  " id="target-info">
+        <i class="fa fa-arrow-down text-danger"></i>target info
+      </span>
+    </div>
+
   </div>
-</div>
+
 </div>
