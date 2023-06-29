@@ -1,47 +1,49 @@
 <!DOCTYPE html>
 <html>
-  @@include('./_head.html', { "title": "Disclosure Reporting - FSI Bank-esg:one", "canonical":
-  "https://app.esg-one.co/dashboard/company/disclosure-reporting", "path": "..",
-  "path_common": "../.." })
-  <body>
-    <!-- Preloader -->
-    @@include('./_preloader.html', { "path": ".." })
-    <!-- Tracking Code -->
-    @@include('./_tracking-body.html')
-    <!-- Navbar -->
-    @@include('./_nav-side.html', { "path": "..", "path_common": "../.." })
-    <!-- Main content -->
-    <div class="main-content" id="panel">
-      <!-- Topnav -->
+@@include('./_head.html', { "title": "Disclosure Reporting - FSI Bank-esg:one", "canonical":
+"https://app.esg-one.co/dashboard/company/disclosure-reporting", "path": "..",
+"path_common": "../.." })
 
-      @@include('./_nav-top.html', { "path": ".." })
-      @@include('./_light-head.html', { "path": ".." })
-      <!--Button Nav-->
-      <div class="container-fluid mt-2">
-        @@include('../pages/frameworks/_button-nav.html')
-        <!--Overview-->
-        <!-- @@include('../pages/frameworks/_overview.html') -->
-        <div class="row" id="overview">
-          @@include('../pages/frameworks/overview/_status.html')
-          @@include("../pages/frameworks/overview/_progress.html")
-        </div>
-        @@include('../pages/frameworks/gaps/_container.html')
-      </div>
-      <footer class="footer pt-0">@@include('./_footer.html')</footer>
-    </div>
+<body>
+  <!-- Preloader -->
+  @@include('./_preloader.html', { "path": ".." })
+  <!-- Tracking Code -->
+  @@include('./_tracking-body.html')
+  <!-- Navbar -->
+  @@include('./_nav-side.html', { "path": "..", "path_common": "../.." })
+  <!-- Main content -->
+  <div class="main-content" id="panel">
+    <!-- Topnav -->
 
-    @@include('./_scripts.html', { "path": "..", "path_common": "../.." })
-    @@include('./_scripts-d3.html', { "path": "..", "path_common": "../.." })
-    <script src="/dashboard/assets/js/nav-side-active.min.js"></script>
-    <!-- Data for Treemap -->
-    <script src="/dashboard/assets/js/treemap/disclosure-treemap.min.js"></script>
-    <!-- Datatables -->
-    <script src="/dashboard/assets/js/data-tables/disclosure.min.js"></script>
+    @@include('./_nav-top.html', { "path": ".." })
+    @@include('./_light-head.html', { "path": ".." })
     <!--Button Nav-->
-    <script
-      type="module"
-      src="/dashboard/assets/js/button-nav/button-nav-disclosure.min.js"
-    ></script>
-    <script src="/dashboard/assets/js/manage-widgets.min.js"></script>
-  </body>
+    <div class="container-fluid mt-2">
+      @@include('../pages/frameworks/_button-nav.html')
+      <!--Overview-->
+      <!-- @@include('../pages/frameworks/_overview.html') -->
+      <div class="row" id="overview">
+        @@include('../pages/frameworks/overview/_status.html')
+        @@include("../pages/frameworks/overview/_progress.html")
+      </div>
+      @@include('../pages/frameworks/gaps/_container.html')
+    </div>
+    <footer class="footer pt-0">@@include('./_footer.html')</footer>
+  </div>
+
+  @@include('./_scripts.html', { "path": "..", "path_common": "../.." })
+  @@include('./_scripts-d3.html', { "path": "..", "path_common": "../.." })
+  <script src="/dashboard/assets/js/nav-side-active.min.js"></script>
+  <!-- Data for Treemap -->
+  <script src="/dashboard/assets/js/treemap/disclosure-treemap.min.js"></script>
+  <!-- Datatables -->
+  <script src="/dashboard/assets/js/data-tables/disclosure.min.js"></script>
+  <!--Button Nav-->
+  <script type="module" src="/dashboard/assets/js/button-nav/button-nav-disclosure.min.js"></script>
+  <script src="/dashboard/assets/js/manage-widgets.min.js"></script>
+
+  <!--Api-->
+  <script src="/dashboard/assets/js/api/reporting-progress-api-min.js"></script>
+</body>
+
 </html>

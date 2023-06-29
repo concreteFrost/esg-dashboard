@@ -20,9 +20,6 @@
             font-size: 0.9rem !important;
         }
     }
-
-
-
 }
 
 .kpi-card-body {
@@ -37,7 +34,6 @@
     h5 {
         text-transform: uppercase;
         color: rgb(151, 151, 151) !important;
-
     }
 
 }
@@ -59,20 +55,22 @@
         justify-self: end;
 
     }
-
-
 }
 
 .kpi-card-section-2 {
     display: grid;
-    grid-template-columns: 6fr 6fr;
+
 }
 
 
 
-.kpi-card-info {}
+.kpi-card-info {
+    font-size: 0.6rem;
+}
 
-.kpi-card-unit {}
+.kpi-card-unit {
+    font-size: 0.6rem;
+}
 
 .kpi-card-numbers {}
 
