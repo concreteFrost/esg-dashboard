@@ -1,204 +1,35 @@
-<div
-  class="col movable-cards"
-  id="readiness"
-  data-toggle="tooltip"
-  data-placement="top"
-  title="Reporting progress against all selected regulations
-  and standards"
->
+<div class="col movable-cards" id="readiness" data-toggle="tooltip" data-placement="top" title="Reporting progress against all selected regulations
+  and standards">
   <div class="card card-large">
     <div class="card-header">
-      
+
       <h5 class="h3 mb-0">Reporting Progress</h5>
     </div>
     <div class="card-body mb--1 progress-list">
       <!-- List group -->
       <ul class="list-group list-group-flush list my--3" id="readiness-list">
-        <li class="list-group-item px-0">
+        <li class="list-group-item px-0" id="readiness-list-item">
           <div class="row align-items-center">
             <div class="col-auto">
               <!-- Logo -->
-              <a
-                href="/dashboard/frameworks/sasb.html"
-                class="avatar rounded-circle"
-              >
-                <img
-                  alt="SASB"
-                  src="/dashboard/assets/img/frameworks/sasb.svg"
-                />
+              <a href="/dashboard/frameworks/sasb.html" class="avatar rounded-circle">
+                <img alt="SASB" src="/dashboard/assets/img/frameworks/sasb.svg" />
               </a>
             </div>
             <div class="col">
-              <h5>SASB <span class="small text-dark">(18%)</span></h5>
+              <div class="d-flex">
+                <h5 id="readiness-name" class="mr-2">Name</h5>
+                <span class="small text-dark" id="readiness-complete-percents">(18%)</span>
+              </div>
               <div class="progress progress-xs mb-0">
-                <div
-                  class="progress-bar bg-red"
-                  role="progressbar"
-                  aria-valuenow="18"
-                  aria-valuemin="0"
-                  aria-valuemax="100"
-                  style="width: 18%"
-                ></div>
+                <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0"
+                  id="readiness-complete-bar" aria-valuemax="100"></div>
               </div>
             </div>
           </div>
         </li>
-        <li class="list-group-item px-0">
-          <div class="row align-items-center">
-            <div class="col-auto">
-              <!-- Logo -->
-              <a href="#" class="avatar rounded-circle">
-                <img
-                  alt="GRI"
-                  class="bg-white"
-                  src="/dashboard/assets/img/frameworks/gri.svg"
-                />
-              </a>
-            </div>
-            <div class="col">
-              <h5>GRI <span class="small text-dark">(100%)</span></h5>
-              <div class="progress progress-xs mb-0">
-                <div
-                  class="progress-bar bg-green"
-                  role="progressbar"
-                  aria-valuenow="100"
-                  aria-valuemin="0"
-                  aria-valuemax="100"
-                  style="width: 100%"
-                ></div>
-              </div>
-            </div>
-          </div>
-        </li>
-        <li class="list-group-item px-0">
-          <div class="row align-items-center">
-            <div class="col-auto">
-              <!-- Logo -->
-              <a href="#" class="avatar rounded-circle">
-                <img
-                  alt="EU NFRD"
-                  class="bg-white"
-                  src="/dashboard/assets/img/frameworks/eu.png"
-                />
-              </a>
-            </div>
-            <div class="col">
-              <h5>EU NFRD <span class="small text-dark">(72%)</span></h5>
-              <div class="progress progress-xs mb-0">
-                <div
-                  class="progress-bar bg-orange"
-                  role="progressbar"
-                  aria-valuenow="72"
-                  aria-valuemin="0"
-                  aria-valuemax="100"
-                  style="width: 72%"
-                ></div>
-              </div>
-            </div>
-          </div>
-        </li>
-        <li class="list-group-item px-0">
-          <div class="row align-items-center">
-            <div class="col-auto">
-              <!-- Logo -->
-              <a href="#" class="avatar rounded-circle">
-                <img
-                  alt="PRI"
-                  class="bg-white"
-                  src="/dashboard/assets/img/frameworks/pri.svg"
-                />
-              </a>
-            </div>
-            <div class="col">
-              <h5>PRI <span class="small text-dark">(90%)</span></h5>
-              <div class="progress progress-xs mb-0">
-                <div
-                  class="progress-bar bg-teal"
-                  role="progressbar"
-                  aria-valuenow="90"
-                  aria-valuemin="0"
-                  aria-valuemax="100"
-                  style="width: 90%"
-                ></div>
-              </div>
-            </div>
-          </div>
-        </li>
-        <li class="list-group-item px-0">
-          <div class="row align-items-center">
-            <div class="col-auto">
-              <!-- Logo -->
-              <a href="#" class="avatar rounded-circle">
-                <img
-                  alt="CDP"
-                  class="bg-white"
-                  src="/dashboard/assets/img/frameworks/cdp.svg"
-                />
-              </a>
-            </div>
-            <div class="col">
-              <h5>CDP <span class="small text-dark">(100%)</span></h5>
-              <div class="progress progress-xs mb-0">
-                <div
-                  class="progress-bar bg-green"
-                  role="progressbar"
-                  aria-valuenow="100"
-                  aria-valuemin="0"
-                  aria-valuemax="100"
-                  style="width: 100%"
-                ></div>
-              </div>
-            </div>
-          </div>
-        </li>
-        <li class="list-group-item px-0">
-          <div class="row align-items-center">
-            <div class="col-auto">
-              <!-- Logo -->
-              <a href="#" class="avatar rounded-circle">
-                <img
-                  alt="CDP"
-                  class="bg-white"
-                  src="/dashboard/assets/img/frameworks/cdp.svg"
-                />
-              </a>
-            </div>
-            <div class="col">
-              <h5>CDP <span class="small text-dark">(100%)</span></h5>
-              <div class="progress progress-xs mb-0">
-                <div
-                  class="progress-bar bg-green"
-                  role="progressbar"
-                  aria-valuenow="100"
-                  aria-valuemin="0"
-                  aria-valuemax="100"
-                  style="width: 100%"
-                ></div>
-              </div>
-            </div>
-          </div>
-        </li>
+
       </ul>
     </div>
   </div>
 </div>
-
-<!--Insert Before closing div-->
-<!-- <div class="card-large">
-    <div class="card-header bg-transparent">
-      <div class="row align-items-center">
-        <div class="col-8">
-          <h6 class="text-uppercase text-muted ls-1 mb-1">Green Finance</h6>
-          <h5 class="h3 mb-0">Carbon-Risk Exposure</h5>
-        </div>
-        <div class="col text-right">
-          <a href="#" class="btn btn-sm btn-neutral">View Report</a>
-        </div>
-      </div>
-    </div>
-    <div class="card-body">
-      <div class="chart">
-        <canvas id="chart-bars" class="chart-canvas"></canvas>
-      </div>
-    </div>
-  </div> -->
