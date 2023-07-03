@@ -2,12 +2,14 @@
   <h4 id="kpis-title">COMPANY KPIs</h4>
   <div class="d-flex flex-row mb-2">
     <!--Manage Cards-->
-    <span>
-      <button class="btn btn-sm btn-neutral mr-2 ml-0" type="button" data-toggle="modal" data-target="#manageCardsModal"
-        id="manage-cards-btn">
-        Manage Company KPIs
-      </button>
-    </span>
+    <button class="btn btn-sm btn-neutral mr-2 ml-0" type="button" data-toggle="modal" data-target="#manageCardsModal"
+      id="manage-cards-btn">
+      Manage Company KPIs
+    </button>
+    <button class="btn btn-sm btn-neutral mr-2 ml-0" type="button" data-toggle="modal" data-target="#createCardModal"
+      id="show-create-card-modal">
+      Create Card
+    </button>
   </div>
   <div id="cardCarouselControls" class="carousel slide" data-toggle="tooltip" data-placement="top"
     title="Company performance against ESG KPIs">
@@ -29,3 +31,4 @@
 
 <!--Modal-->
 @@include("../partials/cards/modal/cards_modal.html")
+@@include("../partials/cards/modal/create-card-modal.html")

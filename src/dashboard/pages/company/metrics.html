@@ -1,29 +1,30 @@
 <!DOCTYPE html>
 <html>
-  @@include('./_head.html', { "title": "Metrics - FSI Bank - esg:one",
-  "canonical": "https://app.esg-one.co/dashboard/company/metrics", "path": "..",
-  "path_common": "../.." })
-  <body>
-    <!-- Preloader -->
-    <!-- @@include('./_preloader.html', {
+@@include('./_head.html', { "title": "Metrics - FSI Bank - esg:one",
+"canonical": "https://app.esg-one.co/dashboard/company/metrics", "path": "..",
+"path_common": "../.." })
+
+<body>
+  <!-- Preloader -->
+  <!-- @@include('./_preloader.html', {
     "path": ".."
   }) -->
-    <!-- Tracking Code -->
-    @@include('./_tracking-body.html')
-    <!-- Navbar -->
-    @@include('./_nav-side.html', { "path": "..", "path_common": "../.." })
-    <!-- Main content -->
-    <div class="main-content" id="panel">
-      <!-- Topnav -->
+  <!-- Tracking Code -->
+  @@include('./_tracking-body.html')
+  <!-- Navbar -->
+  @@include('./_nav-side.html', { "path": "..", "path_common": "../.." })
+  <!-- Main content -->
+  <div class="main-content" id="panel">
+    <!-- Topnav -->
 
-      @@include('./_nav-top.html', { "path": ".." })
-      @@include('./_light-head.html', { "path": ".." })
-      <div class="container-fluid mt-2">
+    @@include('./_nav-top.html', { "path": ".." })
+    @@include('./_light-head.html', { "path": ".." })
+    <div class="container-fluid mt-2">
 
       @@include('../pages/company/metrics/_button-nav.html')
       @@include('../pages/company/metrics/_overview.html')
       @@include('../pages/company/metrics/table/_metrics-table.html')
-    
+
       @@include('../pages/company/metrics/tree_and_progress/_container.html')
       @@include('../pages/company/metrics/modals/_update-metric-modal.html')
     </div>
@@ -32,14 +33,16 @@
     <footer class="footer pt-0">@@include('./_footer.html')</footer>
   </div>
 
- 
-    <script src="/dashboard/assets/js/nav-side-active.min.js"></script>
-    <script type="module" src="/dashboard/assets/js/button-nav/button-nav-metrics.min.js"></script>
-    <script src="/dashboard/assets/js/treemap/metrics-treemap.min.js"></script>
-    <script src="/dashboard/assets/js/api/getToken.min.js" ></script>
-    <script src="/dashboard/assets/js/api/metric-list-api.min.js"></script>
-    <script src="/dashboard/assets/js/api/metric-create-api.min.js"></script>
-    <script src="/dashboard/assets/js/api/update-metric-api.min.js"></script>
-    <script src="/dashboard/assets/js/upload-metric.min.js"></script>
-  </body>
+
+  <script src="/dashboard/assets/js/nav-side-active.min.js"></script>
+  <script type="module" src="/dashboard/assets/js/button-nav/button-nav-metrics.min.js"></script>
+  <script src="/dashboard/assets/js/treemap/metrics-treemap.min.js"></script>
+  <script src="/dashboard/assets/js/api/getToken.min.js"></script>
+  <script src="/dashboard/assets/js/api/kpis/get-kpis-api.min.js"></script>
+  <script src="/dashboard/assets/js/api/metric-list-api.min.js"></script>
+  <script src="/dashboard/assets/js/api/metric-create-api.min.js"></script>
+  <script src="/dashboard/assets/js/api/update-metric-api.min.js"></script>
+  <script src="/dashboard/assets/js/upload-metric.min.js"></script>
+</body>
+
 </html>
