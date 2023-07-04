@@ -1,29 +1,126 @@
-<div class="modal fade" id="createCardModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-    aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered" role="document">
-        <div class="modal-content">
-            <div class="modal-header mb--4">
-                <h5 class="modal-title" id="exampleModalLabel">Create Card</h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                </button>
+<div
+  class="modal fade"
+  id="createCardModal"
+  tabindex="-1"
+  role="dialog"
+  aria-hidden="true"
+>
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header mb--4">
+        <h5 class="modal-title">Create Cards</h5>
+        <button
+          type="button"
+          class="close"
+          data-dismiss="modal"
+          aria-label="Close"
+        >
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body py-2">
+        <form>
+          <!--KPI Name-->
+          <div class="form-group">
+            <label for="create-kpi-name">Name</label>
+            <input
+              type="text"
+              class="form-control"
+              id="create-kpi-name"
+              aria-describedby="new name"
+              placeholder="Enter new name"
+            />
+          </div>
+          <!--KPI Info-->
+          <div class="form-group">
+            <label for="create-kpi-info">Info</label>
+            <textarea
+              class="form-control"
+              aria-label="new kpi info"
+              id="create-kpi-info"
+              placeholder="KPI info"
+            ></textarea>
+          </div>
+          <!--Value and Target-->
+          <div class="form-row mb-4">
+            <!--Value-->
+            <div class="col">
+              <label for="new-kpi-value">Value</label>
+              <input
+                type="number"
+                class="form-control"
+                name="new-kpi-value"
+                id="new-kpi-value"
+                value="0"
+              />
             </div>
-            <div class="modal-body py-2">
+            <!--Target-->
+            <div class="col">
+              <label for="new-kpi-target">Target</label>
+              <input
+                type="number"
+                class="form-control"
+                name="new-kpi-target"
+                id="new-kpi-target"
+                value="0"
+              />
             </div>
-            <div class="modal-footer">
-                <div class="row">
-                    <div class="col"> <button type="button" class="btn btn-primary" data-dismiss="modal">
-                            Close
-                        </button>
-                    </div>
-                    <div class="col">
-                        <button type="button" class="btn btn-primary" data-dismiss="modal" id="create-card-btn">
-                            Create
-                        </button>
-                    </div>
-                </div>
+          </div>
+          <!--Type and Unit-->
+          <div class="form-row mb-4">
+            <!--Type-->
+            <div class="col">
+              <label for="select-kpi-type">Type</label>
+              <select
+                class="custom-select"
+                name="select-kpi-type"
+                id="select-kpi-type"
+              >
+                <option value="Metric" selected>Metric</option>
+                <option value="Other">Other</option>
+              </select>
+            </div>
+            <!--Unit-->
+            <div class="col">
+              <label for="select-kpi-unit">Unit</label>
+              <select
+                class="custom-select"
+                name="select-kpi-unit"
+                id="select-kpi-unit"
+              >
+                <option value="Metric" selected>Unit 1</option>
+                <option value="Other">Other</option>
+              </select>
+            </div>
+          </div>
+          <!--is Active-->
+          <div class="custom-control custom-checkbox">
+            
+            <input type="checkbox" class="custom-control-input" id="kpi-is-active">
+            <label class="custom-control-label" for="kpi-is-active">Active</label>
+          </div>
+        </form>
+      </div>
 
-            </div>
+      <div class="modal-footer">
+        <div class="row">
+          <div class="col">
+            <button type="button" class="btn btn-primary" data-dismiss="modal">
+              Close
+            </button>
+          </div>
+          <div class="col">
+            <button
+              type="button"
+              class="btn btn-primary"
+              data-dismiss="modal"
+              id="create-card-btn"
+            >
+              Create
+            </button>
+          </div>
         </div>
+      </div>
     </div>
+  </div>
 </div>

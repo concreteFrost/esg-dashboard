@@ -2,26 +2,51 @@
   <h4 id="kpis-title">COMPANY KPIs</h4>
   <div class="d-flex flex-row mb-2">
     <!--Manage Cards-->
-    <button class="btn btn-sm btn-neutral mr-2 ml-0" type="button" data-toggle="modal" data-target="#manageCardsModal"
-      id="manage-cards-btn">
+    <button
+      class="btn btn-sm btn-neutral mr-2 ml-0"
+      type="button"
+      data-toggle="modal"
+      data-target="#manageCardsModal"
+      id="manage-cards-btn"
+    >
       Manage Company KPIs
     </button>
-    <button class="btn btn-sm btn-neutral mr-2 ml-0" type="button" data-toggle="modal" data-target="#createCardModal"
-      id="show-create-card-modal">
+    <button
+      class="btn btn-sm btn-neutral mr-2 ml-0"
+      type="button"
+      data-toggle="modal"
+      data-target="#createCardModal"
+      id="show-create-card-modal"
+    >
       Create Card
     </button>
   </div>
-  <div id="cardCarouselControls" class="carousel slide" data-toggle="tooltip" data-placement="top"
-    title="Company performance against ESG KPIs">
+  <div
+    id="cardCarouselControls"
+    class="carousel slide"
+    data-toggle="tooltip"
+    data-placement="top"
+    title="Company performance against ESG KPIs"
+  >
     <div id="cards-grid">
       <div class="carousel-inner" id="kpis-sort-cards">
         @@include("../partials/cards/kpis/_template-card.html")
       </div>
-      <a class="carousel-control-prev" href="#cardCarouselControls" role="button" data-slide="prev">
+      <a
+        class="carousel-control-prev"
+        href="#cardCarouselControls"
+        role="button"
+        data-slide="prev"
+      >
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
         <span class="sr-only">Previous</span>
       </a>
-      <a class="carousel-control-next" href="#cardCarouselControls" role="button" data-slide="next">
+      <a
+        class="carousel-control-next"
+        href="#cardCarouselControls"
+        role="button"
+        data-slide="next"
+      >
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="sr-only">Next</span>
       </a>
@@ -30,5 +55,5 @@
 </div>
 
 <!--Modal-->
-@@include("../partials/cards/modal/cards_modal.html")
+@@include("../partials/cards/modal/manage-cards-modal.html")
 @@include("../partials/cards/modal/create-card-modal.html")
